@@ -1,0 +1,35 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.30 AM
+Working with confFile: Daughter.conf
+Algorithm starts at: 10.16.2018  11.35.30 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	Valentina
+	Ombretta
+	Marisella
+	Giovanna
+	Nella
+	Serena
+	Milly
+	Antonella
+negIndivs from conf:
+	Dino
+	Luigi
+
+Algorithm ends at: 10.16.2018  11.35.30 AM
+
+Algorithm duration: 0.069 sec
+
+####################Solutions####################:
+Solution: Person
+	 coverage_score: 0.8
+Solution: Thing
+	 coverage_score: 0.8
+Solution: Female
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.30 AM
+Program duration: 0.083 sec

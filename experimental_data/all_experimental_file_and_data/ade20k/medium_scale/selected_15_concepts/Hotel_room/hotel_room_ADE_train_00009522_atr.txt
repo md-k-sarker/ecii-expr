@@ -1,0 +1,12 @@
+Prediction:
+12
+Label:
+7
+001 # 0 # 0 # wall # wall # "" # 0.293496870527
+003 # 0 # 0 # floor, flooring # floor # "carpet" # 0.353782714803
+004 # 0 # 0 # lamp # floor lamp # "off" # 0.0940840169028
+005 # 0 # 0 # sofa, couch, lounge # sofa # "" # 0.527278588122
+006 # 0 # 0 # cabinet # cabinet # "" # 0.393997323647
+007 # 0 # 0 # curtain, drape, drapery, mantle, pall # curtain # "" # 0.362977283712
+008 # 0 # 0 # skirting board # skirting board # "" # 0.203925845147
+013 # 0 # 0 # lamp # table lamp # "on" # 0.393732970027

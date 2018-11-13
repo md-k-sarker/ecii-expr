@@ -1,0 +1,90 @@
+Program started.............
+Program starts at: 09.01.2018  13.19.59 PM
+Working with confFile: straight_owl.config
+Algorithm starts at: 09.01.2018  13.19.59 PM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	hand40
+	hand1
+	hand22
+	hand44
+negIndivs from conf:
+	hand0
+	hand49
+	hand2
+	hand4
+	hand46
+	hand3
+	hand45
+	hand6
+	hand48
+	hand5
+	hand47
+	hand8
+	hand42
+	hand7
+	hand41
+	hand9
+	hand43
+	hand17
+	hand16
+	hand19
+	hand18
+	hand13
+	hand12
+	hand15
+	hand14
+	hand53
+	hand52
+	hand11
+	hand10
+	hand54
+	hand51
+	hand50
+	hand28
+	hand27
+	hand29
+	hand24
+	hand23
+	hand26
+	hand25
+	hand20
+	hand21
+	hand39
+	hand38
+	hand35
+	hand34
+	hand37
+	hand36
+	hand31
+	hand30
+	hand33
+	hand32
+
+Algorithm ends at: 09.01.2018  13.19.59 PM
+
+Algorithm duration: 0.357 sec
+
+####################Solutions####################:
+solution 1: ( ¬ deck)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 2: ∃hasCard.( ¬ card)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 3: ( ¬ deck) ⊓ ∃hasCard.( ¬ card)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+
+Total solutions found: 3
+
+Program finished.
+Program ends at: 09.01.2018  13.19.59 PM
+Program duration: 0.415 sec

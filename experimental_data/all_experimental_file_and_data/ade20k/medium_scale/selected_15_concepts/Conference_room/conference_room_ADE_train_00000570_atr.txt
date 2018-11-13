@@ -1,0 +1,11 @@
+Prediction:
+12
+Label:
+9
+001 # 0 # 0 # wall # wall # "" # 0.302227873293
+003 # 0 # 0 # floor, flooring # floor # "" # 0.48986632169
+004 # 0 # 0 # ceiling # ceiling # "" # 0.176178010471
+005 # 0 # 1 # swivel chair # swivel chair # "" # 0.0795093139482
+015 # 0 # 0 # table # table # "conference table" # 0.48999245551
+017 # 0 # 0 # screen, silver screen, projection screen # projection screen # "" # 0.251986853899
+018 # 0 # 0 # windowpane, window # window # "single hung" # 0.318544526013

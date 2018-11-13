@@ -1,0 +1,11 @@
+Prediction:
+14
+Label:
+14
+001 # 0 # 0 # sky # sky # "" # 0.662761685241
+002 # 0 # 0 # road, route # road # "" # 0.59242933495
+004 # 0 # 0 # signboard, sign # sign # "" # 0.424751718869
+010 # 0 # 0 # central reservation # central reservation # "" # 0.26973026973
+020 # 0 # 0 # fence, fencing # fence # "" # 0.289386401327
+032 # 0 # 0 # tree # tree # "" # 0.248502994012
+033 # 0 # 0 # mountain, mount # mountain # "" # 0.130613126079

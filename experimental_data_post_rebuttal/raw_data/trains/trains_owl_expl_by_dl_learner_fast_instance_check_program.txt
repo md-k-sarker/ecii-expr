@@ -1,0 +1,59 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.29 AM
+Working with confFile: trains_owl.conf
+Algorithm starts at: 10.16.2018  11.35.29 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	east2
+	east3
+	east1
+	east4
+	east5
+negIndivs from conf:
+	west10
+	west8
+	west9
+	west6
+	west7
+
+Algorithm ends at: 10.16.2018  11.35.30 AM
+
+Algorithm duration: 0.092 sec
+
+####################Solutions####################:
+Solution: hasCar some Car
+	 coverage_score: 0.5
+Solution: hasCar some OpenCar
+	 coverage_score: 0.5
+Solution: hasCar some ShortCar
+	 coverage_score: 0.5
+Solution: not (Car)
+	 coverage_score: 0.5
+Solution: not (ClosedCar)
+	 coverage_score: 0.5
+Solution: not (DoubleCar)
+	 coverage_score: 0.5
+Solution: not (JaggedCar)
+	 coverage_score: 0.5
+Solution: not (LongCar)
+	 coverage_score: 0.5
+Solution: not (OpenCar)
+	 coverage_score: 0.5
+Solution: not (Shape)
+	 coverage_score: 0.5
+Solution: not (ShortCar)
+	 coverage_score: 0.5
+Solution: Train
+	 coverage_score: 0.5
+Solution: Thing
+	 coverage_score: 0.5
+Solution: hasCar some ClosedCar
+	 coverage_score: 0.8
+Solution: hasCar some (ClosedCar and ShortCar)
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.30 AM
+Program duration: 0.108 sec

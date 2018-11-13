@@ -1,0 +1,28 @@
+Program started.............
+Program starts at: 10.16.2018  05.52.29 AM
+Working with confFile: bedroom_one_vs_all.conf
+Algorithm starts at: 10.16.2018  05.52.29 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	bedroom_ADE_train_00000192
+	bedroom_ADE_train_00000195
+	bedroom_ADE_train_00000196
+	bedroom_ADE_train_00000193
+	bedroom_ADE_train_00000194
+negIndivs from conf:
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	dining_room_ADE_train_00006845
+	kitchen_ADE_train_00000594

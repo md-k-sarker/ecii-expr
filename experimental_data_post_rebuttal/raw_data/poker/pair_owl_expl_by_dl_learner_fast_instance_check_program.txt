@@ -1,0 +1,254 @@
+Program started.............
+Program starts at: 10.16.2018  11.34.44 AM
+Working with confFile: pair_owl.conf
+Algorithm starts at: 10.16.2018  11.34.44 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	hand39
+	hand38
+	hand19
+	hand18
+	hand29
+	hand13
+	hand24
+	hand35
+	hand23
+	hand26
+	hand48
+	hand25
+	hand36
+	hand47
+	hand41
+	hand22
+	hand9
+	hand21
+	hand43
+	hand40
+negIndivs from conf:
+	hand0
+	hand28
+	hand27
+	hand2
+	hand1
+	hand4
+	hand46
+	hand3
+	hand45
+	hand6
+	hand5
+	hand8
+	hand20
+	hand42
+	hand7
+	hand44
+	hand17
+	hand16
+	hand12
+	hand34
+	hand15
+	hand37
+	hand14
+	hand31
+	hand30
+	hand11
+	hand33
+	hand10
+	hand32
+
+Algorithm ends at: 10.16.2018  11.34.44 AM
+
+Algorithm duration: 0.404 sec
+
+####################Solutions####################:
+Solution: deck and (hasCard some Thing) and (hasCard only card)
+	 coverage_score: 0.40816326530612246
+Solution: deck and (hasCard some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck and (hasCard some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: card or (hasCard some card)
+	 coverage_score: 0.40816326530612246
+Solution: card or (hasCard some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: card or (hasCard only card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasCard some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasCard some deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasCard some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasRank some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasRank some deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasRank some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasSuit some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasSuit some deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasSuit some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (nextRank some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (nextRank some deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (nextRank some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (sameRank some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (sameRank some deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (sameRank some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (sameSuit some card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (sameSuit some deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (sameSuit some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasCard only card)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasCard only deck)
+	 coverage_score: 0.40816326530612246
+Solution: deck or (hasCard only Nothing)
+	 coverage_score: 0.40816326530612246
+Solution: (not (card)) or (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some (card or deck)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some (hasRank some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some (hasSuit some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (card or deck)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (hasRank some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (hasSuit some Thing)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (nextRank only card)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (sameRank only card)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (sameSuit only card)
+	 coverage_score: 0.40816326530612246
+Solution: hasCard min 2 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard min 3 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 1 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 2 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 3 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 4 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 4 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: nextRank max 1 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: nextRank max 1 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: sameRank max 1 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: sameRank max 1 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 1 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 1 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 2 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 2 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 3 (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 3 (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: deck and (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: deck or (not (card))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only (not (deck))
+	 coverage_score: 0.40816326530612246
+Solution: hasCard min 2 card
+	 coverage_score: 0.40816326530612246
+Solution: hasCard min 2 Thing
+	 coverage_score: 0.40816326530612246
+Solution: hasCard min 3 card
+	 coverage_score: 0.40816326530612246
+Solution: hasCard min 3 Thing
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 1 deck
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 2 deck
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 3 deck
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 4 card
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 4 deck
+	 coverage_score: 0.40816326530612246
+Solution: hasCard max 4 Thing
+	 coverage_score: 0.40816326530612246
+Solution: nextRank max 1 card
+	 coverage_score: 0.40816326530612246
+Solution: nextRank max 1 deck
+	 coverage_score: 0.40816326530612246
+Solution: nextRank max 1 Thing
+	 coverage_score: 0.40816326530612246
+Solution: sameRank max 1 card
+	 coverage_score: 0.40816326530612246
+Solution: sameRank max 1 deck
+	 coverage_score: 0.40816326530612246
+Solution: sameRank max 1 Thing
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 1 card
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 1 deck
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 1 Thing
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 2 card
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 2 deck
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 2 Thing
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 3 card
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 3 deck
+	 coverage_score: 0.40816326530612246
+Solution: sameSuit max 3 Thing
+	 coverage_score: 0.40816326530612246
+Solution: card or deck
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some card
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some Thing
+	 coverage_score: 0.40816326530612246
+Solution: hasCard only card
+	 coverage_score: 0.40816326530612246
+Solution: not (card)
+	 coverage_score: 0.40816326530612246
+Solution: deck
+	 coverage_score: 0.40816326530612246
+Solution: Thing
+	 coverage_score: 0.40816326530612246
+Solution: deck
+	 coverage_score: 0.40816326530612246
+Solution: deck
+	 coverage_score: 0.40816326530612246
+Solution: hasCard some (sameRank some Thing)
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.34.44 AM
+Program duration: 0.446 sec

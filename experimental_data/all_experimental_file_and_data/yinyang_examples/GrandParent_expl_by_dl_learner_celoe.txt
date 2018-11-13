@@ -1,0 +1,86 @@
+/******************
+Example taken from yingyang
+GrandParent
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":hasChild",":hasParent",":hasSibling"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:NonnaLina",
+"kb:NonnoLuigi",
+"kb:Carmela",
+"kb:Girolamo",
+"kb:Isidoro"
+}
+lp.negativeExamples = {
+"kb:Giovanna",
+"kb:Marisella",
+"kb:Ombretta",
+"kb:Serena",
+"kb:Valentina",
+"kb:Luca",
+"kb:Luigi",
+"kb:Dino",
+"kb:Maria",
+"kb:Mauro",
+"kb:Nella",
+"kb:Miriam"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 121 ms.
+... initialized component 'reasoner' in 912ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 16ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (29.41%) class expression found after 41ms: Thing
+more accurate (76.47%) class expression found after 109ms: hasChild some Person
+more accurate (88.24%) class expression found after 113ms: hasChild some Male
+more accurate (100.00%) class expression found after 157ms: hasChild some (Male and (hasChild some Person))
+Algorithm terminated successfully (time: 157ms, 61 descriptions tested, 23 nodes in the search tree).
+
+number of retrievals: 111
+retrieval reasoning time: 6ms ( 0ms per retrieval)
+number of instance checks: 9 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 19 (0 multiple)
+subsumption reasoning time: 14ms ( 0ms per subsumption check)
+overall reasoning time: 20ms
+
+solutions:
+1: hasChild some (Male and (hasChild some Person)) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: hasChild some (Male) (pred. acc.: 88.24%, F-measure: 83.33%)
+3: hasChild some Male (pred. acc.: 88.24%, F-measure: 83.33%)
+4: hasChild some (not (Female)) (pred. acc.: 88.24%, F-measure: 83.33%)
+5: Person and (hasChild some Male) (pred. acc.: 88.24%, F-measure: 83.33%)
+6: hasChild some (Male and (not (Female))) (pred. acc.: 88.24%, F-measure: 83.33%)
+7: Person and (hasChild some (not (Female))) (pred. acc.: 88.24%, F-measure: 83.33%)
+8: hasChild some Person (pred. acc.: 76.47%, F-measure: 71.43%)
+9: Thing (pred. acc.: 29.41%, F-measure: 45.45%)
+10: Person (pred. acc.: 29.41%, F-measure: 45.45%)
+

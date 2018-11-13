@@ -1,0 +1,13 @@
+Prediction:
+12
+Label:
+12
+001 # 0 # 0 # wall # wall # "" # 0.325953838907
+005 # 0 # 0 # floor, flooring # floor # "wood" # 0.30887245841
+006 # 0 # 0 # ceiling # ceiling # "" # 0.382919484062
+007 # 0 # 0 # curtain, drape, drapery, mantle, pall # curtain # "translucent" # 0.184220855685
+008 # 0 # 0 # beam # beam # "" # 0.179508196721
+010 # 0 # 0 # cabinet # cabinet # "" # 0.137824561404
+011 # 0 # 0 # bed # bed # "double" # 0.515890192505
+012 # 0 # 1 # chair # chair # "" # 0.286103542234
+021 # 0 # 0 # pillow # pillow # "white" # 0.158543577982

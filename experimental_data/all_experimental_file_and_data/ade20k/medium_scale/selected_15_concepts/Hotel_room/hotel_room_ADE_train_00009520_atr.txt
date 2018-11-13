@@ -1,0 +1,19 @@
+Prediction:
+12
+Label:
+7
+001 # 0 # 0 # wall # wall # "" # 0.317222476016
+002 # 0 # 0 # floor, flooring # floor # "carpet" # 0.470418209737
+003 # 0 # 0 # ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin # trash can # "" # 0.273504273504
+004 # 0 # 1 # radiator # radiator # "" # 0.62291805463
+005 # 0 # 1 # bed # bed # "" # 0.265686417237
+007 # 0 # 0 # table # table # "" # 0.357678540992
+008 # 0 # 0 # tray # tray # "" # 0.249860022396
+009 # 0 # 0 # telephone, phone, telephone set # telephone # "" # 0.427279053584
+010 # 0 # 0 # kettle, boiler # kettle # "" # 0.225822914009
+011 # 0 # 0 # teacup # teacup # "" # 0.0887663680221
+012 # 0 # 0 # ashtray # ashtray # "" # 0.0719365426696
+013 # 0 # 0 # glass, drinking glass # glass # "" # 0.117808904452
+014 # 0 # 0 # creamer # creamer # "" # 0.168087697929
+015 # 0 # 0 # bowl # bowl # "" # 0.112348379399
+016 # 0 # 0 # plate # plate # "" # 0.0789473684211

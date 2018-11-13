@@ -1,0 +1,174 @@
+/******************
+Example taken from yingyang
+GrandMother
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:NonnaLina",
+"kb:Dora"
+}
+lp.negativeExamples = {
+"kb:NonnoLuigi",
+"kb:Gianni",
+"kb:Maria"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+la.maxExecutionTimeInSeconds=600
+la.maxNrOfResults=10000
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 125 ms.
+... initialized component 'reasoner' in 852ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 13ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (40.00%) class expression found after 34ms: Thing
+more accurate (80.00%) class expression found after 77ms: Female
+more accurate (100.00%) class expression found after 216ms: Female and (hasChild some (hasChild some Person))
+Algorithm terminated successfully (time: 216ms, 176 descriptions tested, 108 nodes in the search tree).
+
+number of retrievals: 313
+retrieval reasoning time: 12ms ( 0ms per retrieval)
+number of instance checks: 9 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 101 (0 multiple)
+subsumption reasoning time: 25ms ( 0ms per subsumption check)
+overall reasoning time: 37ms
+
+solutions:
+1: Female and (hasChild some (hasChild some Person)) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+3: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+4: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+5: not (Male) (pred. acc.: 80.00%, F-measure: 80.00%)
+6: hasSibling only Nothing (pred. acc.: 80.00%, F-measure: 80.00%)
+7: hasSibling only Male (pred. acc.: 80.00%, F-measure: 80.00%)
+8: Female and Person (pred. acc.: 80.00%, F-measure: 80.00%)
+9: Person and (not (Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+10: Female and (not (Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+11: hasSibling only (Female and Male) (pred. acc.: 80.00%, F-measure: 80.00%)
+12: Female and (hasChild some Person) (pred. acc.: 80.00%, F-measure: 80.00%)
+13: Female and (hasChild some Female) (pred. acc.: 80.00%, F-measure: 80.00%)
+14: Female and (hasChild some (not (Male))) (pred. acc.: 80.00%, F-measure: 80.00%)
+15: Female and (hasChild some (Female or Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+16: hasParent only Nothing (pred. acc.: 60.00%, F-measure: 66.67%)
+17: hasParent only Male (pred. acc.: 60.00%, F-measure: 66.67%)
+18: hasParent only Female (pred. acc.: 60.00%, F-measure: 66.67%)
+19: Thing (pred. acc.: 40.00%, F-measure: 57.14%)
+20: Person (pred. acc.: 40.00%, F-measure: 57.14%)
+21: hasSibling only Female (pred. acc.: 40.00%, F-measure: 57.14%)
+22: hasChild some Person (pred. acc.: 40.00%, F-measure: 57.14%)
+23: hasChild some Female (pred. acc.: 40.00%, F-measure: 57.14%)
+24: Female or Male (pred. acc.: 40.00%, F-measure: 57.14%)
+25: Person and (hasSibling some Thing) and (hasSibling only Male) (pred. acc.: -100.00%, F-measure: -100.00%)
+26: Female and (hasSibling some Thing) and (hasSibling only Male) (pred. acc.: -100.00%, F-measure: -100.00%)
+
+/******************
+Example taken from yingyang
+GrandMother
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:NonnaLina",
+"kb:Dora"
+}
+lp.negativeExamples = {
+"kb:NonnoLuigi",
+"kb:Gianni",
+"kb:Maria"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+la.maxExecutionTimeInSeconds=600
+la.maxNrOfResults=10000
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 137 ms.
+... initialized component 'reasoner' in 960ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 14ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (40.00%) class expression found after 39ms: Thing
+more accurate (80.00%) class expression found after 90ms: Female
+more accurate (100.00%) class expression found after 242ms: Female and (hasChild some (hasChild some Person))
+Algorithm terminated successfully (time: 242ms, 176 descriptions tested, 108 nodes in the search tree).
+
+number of retrievals: 313
+retrieval reasoning time: 13ms ( 0ms per retrieval)
+number of instance checks: 9 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 101 (0 multiple)
+subsumption reasoning time: 28ms ( 0ms per subsumption check)
+overall reasoning time: 41ms
+
+solutions:
+1: Female and (hasChild some (hasChild some Person)) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+3: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+4: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+5: not (Male) (pred. acc.: 80.00%, F-measure: 80.00%)
+6: hasSibling only Nothing (pred. acc.: 80.00%, F-measure: 80.00%)
+7: hasSibling only Male (pred. acc.: 80.00%, F-measure: 80.00%)
+8: Female and Person (pred. acc.: 80.00%, F-measure: 80.00%)
+9: Person and (not (Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+10: Female and (not (Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+11: hasSibling only (Female and Male) (pred. acc.: 80.00%, F-measure: 80.00%)
+12: Female and (hasChild some Person) (pred. acc.: 80.00%, F-measure: 80.00%)
+13: Female and (hasChild some Female) (pred. acc.: 80.00%, F-measure: 80.00%)
+14: Female and (hasChild some (not (Male))) (pred. acc.: 80.00%, F-measure: 80.00%)
+15: Female and (hasChild some (Female or Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+16: hasParent only Nothing (pred. acc.: 60.00%, F-measure: 66.67%)
+17: hasParent only Male (pred. acc.: 60.00%, F-measure: 66.67%)
+18: hasParent only Female (pred. acc.: 60.00%, F-measure: 66.67%)
+19: Thing (pred. acc.: 40.00%, F-measure: 57.14%)
+20: Person (pred. acc.: 40.00%, F-measure: 57.14%)
+21: hasSibling only Female (pred. acc.: 40.00%, F-measure: 57.14%)
+22: hasChild some Person (pred. acc.: 40.00%, F-measure: 57.14%)
+23: hasChild some Female (pred. acc.: 40.00%, F-measure: 57.14%)
+24: Female or Male (pred. acc.: 40.00%, F-measure: 57.14%)
+25: Person and (hasSibling some Thing) and (hasSibling only Male) (pred. acc.: -100.00%, F-measure: -100.00%)
+26: Female and (hasSibling some Thing) and (hasSibling only Male) (pred. acc.: -100.00%, F-measure: -100.00%)
+

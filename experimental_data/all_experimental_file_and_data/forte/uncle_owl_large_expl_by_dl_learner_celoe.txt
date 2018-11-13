@@ -1,0 +1,162 @@
+/**
+ * See uncle.conf. This is the same learning problem, but loading background
+ * knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+
+/** background knowledge **/
+
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+cli.type = "org.dllearner.cli.CLI"
+cli.performCrossValidation = true
+cli.nrOfFolds = 10
+
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "forte_family.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:art",
+"kb:calvin",
+"kb:carlos",
+"kb:david",
+"kb:eric",
+"kb:fred",
+"kb:frederick",
+"kb:george",
+"kb:harry",
+"kb:jack",
+"kb:james",
+"kb:jonas",
+"kb:karl",
+"kb:leon",
+"kb:mark",
+"kb:melvin",
+"kb:neil",
+"kb:nero",
+"kb:owen",
+"kb:paul",
+"kb:peter",
+"kb:umo",
+"kb:walt"
+}
+lp.negativeExamples = {
+"kb:alfred",
+"kb:alice",
+"kb:angela",
+"kb:ann",
+"kb:beatrice",
+"kb:bob",
+"kb:callie",
+"kb:carl",
+"kb:christy",
+"kb:cornelia",
+"kb:deanna",
+"kb:elisa",
+"kb:f12",
+"kb:f14",
+"kb:f19",
+"kb:f2",
+"kb:f20",
+"kb:f21",
+"kb:f22",
+"kb:f23",
+"kb:f25",
+"kb:f26",
+"kb:f28",
+"kb:f8",
+"kb:fannie",
+"kb:gail",
+"kb:helen",
+"kb:jane",
+"kb:janet",
+"kb:kari",
+"kb:lorrie",
+"kb:m1",
+"kb:m10",
+"kb:m11",
+"kb:m13",
+"kb:m15",
+"kb:m16",
+"kb:m17",
+"kb:m18",
+"kb:m24",
+"kb:m27",
+"kb:m29",
+"kb:m3",
+"kb:m4",
+"kb:m5",
+"kb:m6",
+"kb:m7",
+"kb:m9",
+"kb:maria",
+"kb:martha",
+"kb:nancy",
+"kb:nonnie",
+"kb:oma",
+"kb:paula",
+"kb:prissie",
+"kb:rachel",
+"kb:ray",
+"kb:regina",
+"kb:steve",
+"kb:susan",
+"kb:terri",
+"kb:terry",
+"kb:wendy"
+}
+
+➜  uncle_owl_large.conf 
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 144 ms.
+... initialized component 'reasoner' in 1s 5ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 36ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (26.74%) class expression found after 25ms: Thing
+more accurate (73.26%) class expression found after 74ms: male
+more accurate (88.37%) class expression found after 185ms: male and (married some Thing) and (married only female)
+more accurate (93.02%) class expression found after 3s469ms: male and ((married some female) or (sibling some (parent some Thing)))
+Algorithm terminated successfully (time: 10s 5ms, 47752 descriptions tested, 39019 nodes in the search tree).
+
+number of retrievals: 47828
+retrieval reasoning time: 3s 184ms ( 0ms per retrieval)
+number of instance checks: 6542 (0 multiple)
+instance check reasoning time: 12ms ( 0ms per instance check)
+(complex) subsumption checks: 185 (0 multiple)
+subsumption reasoning time: 64ms ( 0ms per subsumption check)
+overall reasoning time: 3s 260ms
+
+solutions:
+1: (male and (sibling some (parent some Thing))) or (married some female) (pred. acc.: 93.02%, F-measure: 88.46%)
+2: (male and (sibling some (parent some male))) or (married some female) (pred. acc.: 93.02%, F-measure: 88.46%)
+3: (male and (sibling some (parent some female))) or (married some female) (pred. acc.: 93.02%, F-measure: 88.46%)
+4: (male and (sibling some (married some Thing))) or (married some female) (pred. acc.: 93.02%, F-measure: 88.46%)
+5: male and ((married some Thing) or (sibling some (parent some Thing))) (pred. acc.: 93.02%, F-measure: 88.46%)
+6: male and ((married some Thing) or (sibling some (married some Thing))) (pred. acc.: 93.02%, F-measure: 88.46%)
+7: male and ((married some female) or (sibling some (parent some Thing))) (pred. acc.: 93.02%, F-measure: 88.46%)
+8: male and ((married some female) or (sibling some (parent some male))) (pred. acc.: 93.02%, F-measure: 88.46%)
+9: male and ((married some female) or (sibling some (parent some female))) (pred. acc.: 93.02%, F-measure: 88.46%)
+10: male and ((married some female) or (sibling some (married some Thing))) (pred. acc.: 93.02%, F-measure: 88.46%)

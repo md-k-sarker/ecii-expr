@@ -1,0 +1,208 @@
+/**
+ * See pair.conf. This is the same learning problem, but loading 
+ * background knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "pair50.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:hand9",
+"kb:hand13",
+"kb:hand18",
+"kb:hand19",
+"kb:hand21",
+"kb:hand22",
+"kb:hand23",
+"kb:hand24",
+"kb:hand25",
+"kb:hand26",
+"kb:hand29",
+"kb:hand35",
+"kb:hand36",
+"kb:hand38",
+"kb:hand39",
+"kb:hand40",
+"kb:hand41",
+"kb:hand43",
+"kb:hand47",
+"kb:hand48"
+}
+
+lp.negativeExamples = {
+"kb:hand0",
+"kb:hand1",
+"kb:hand2",
+"kb:hand3",
+"kb:hand4",
+"kb:hand5",
+"kb:hand6",
+"kb:hand7",
+"kb:hand8",
+"kb:hand10",
+"kb:hand11",
+"kb:hand12",
+"kb:hand14",
+"kb:hand15",
+"kb:hand16",
+"kb:hand17",
+"kb:hand20",
+"kb:hand27",
+"kb:hand28",
+"kb:hand30",
+"kb:hand31",
+"kb:hand32",
+"kb:hand33",
+"kb:hand34",
+"kb:hand37",
+"kb:hand42",
+"kb:hand44",
+"kb:hand45",
+"kb:hand46"
+}
+
+la.type="celoe"
+la.stopOnFirstDefinition="true"
+la.maxNrOfResults=10000
+la.maxExecutionTimeInSeconds=600
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 165 ms.
+... initialized component 'reasoner' in 1s 220ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 36ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (40.82%) class expression found after 23ms: Thing
+more accurate (100.00%) class expression found after 270ms: hasCard some (sameRank some Thing)
+Algorithm terminated successfully (time: 271ms, 208 descriptions tested, 138 nodes in the search tree).
+
+number of retrievals: 342
+retrieval reasoning time: 60ms ( 0ms per retrieval)
+number of instance checks: 1282 (0 multiple)
+instance check reasoning time: 2ms ( 0ms per instance check)
+(complex) subsumption checks: 135 (0 multiple)
+subsumption reasoning time: 29ms ( 0ms per subsumption check)
+overall reasoning time: 91ms
+
+solutions:
+1: hasCard some (sameRank some Thing) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: deck (pred. acc.: 40.82%, F-measure: 57.97%)
+3: deck (pred. acc.: 40.82%, F-measure: 57.97%)
+4: Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+5: deck (pred. acc.: 40.82%, F-measure: 57.97%)
+6: not (card) (pred. acc.: 40.82%, F-measure: 57.97%)
+7: hasCard only card (pred. acc.: 40.82%, F-measure: 57.97%)
+8: hasCard some Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+9: hasCard some card (pred. acc.: 40.82%, F-measure: 57.97%)
+10: card or deck (pred. acc.: 40.82%, F-measure: 57.97%)
+11: sameSuit max 3 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+12: sameSuit max 3 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+13: sameSuit max 3 card (pred. acc.: 40.82%, F-measure: 57.97%)
+14: sameSuit max 2 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+15: sameSuit max 2 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+16: sameSuit max 2 card (pred. acc.: 40.82%, F-measure: 57.97%)
+17: sameSuit max 1 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+18: sameSuit max 1 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+19: sameSuit max 1 card (pred. acc.: 40.82%, F-measure: 57.97%)
+20: sameRank max 1 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+21: sameRank max 1 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+22: sameRank max 1 card (pred. acc.: 40.82%, F-measure: 57.97%)
+23: nextRank max 1 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+24: nextRank max 1 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+25: nextRank max 1 card (pred. acc.: 40.82%, F-measure: 57.97%)
+26: hasCard max 4 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+27: hasCard max 4 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+28: hasCard max 4 card (pred. acc.: 40.82%, F-measure: 57.97%)
+29: hasCard max 3 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+30: hasCard max 3 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+31: hasCard max 3 card (pred. acc.: 40.82%, F-measure: 57.97%)
+32: hasCard max 2 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+33: hasCard max 2 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+34: hasCard max 2 card (pred. acc.: 40.82%, F-measure: 57.97%)
+35: hasCard max 1 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+36: hasCard max 1 deck (pred. acc.: 40.82%, F-measure: 57.97%)
+37: hasCard max 1 card (pred. acc.: 40.82%, F-measure: 57.97%)
+38: hasCard min 3 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+39: hasCard min 3 card (pred. acc.: 40.82%, F-measure: 57.97%)
+40: hasCard min 2 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+41: hasCard min 2 card (pred. acc.: 40.82%, F-measure: 57.97%)
+42: hasCard only (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+43: hasCard some (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+44: deck or (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+45: deck and (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+46: sameSuit max 3 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+47: sameSuit max 3 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+48: sameSuit max 2 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+49: sameSuit max 2 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+50: sameSuit max 1 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+51: sameSuit max 1 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+52: sameRank max 1 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+53: sameRank max 1 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+54: nextRank max 1 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+55: nextRank max 1 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+56: hasCard max 4 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+57: hasCard max 4 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+58: hasCard max 3 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+59: hasCard max 3 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+60: hasCard max 2 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+61: hasCard max 2 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+62: hasCard max 1 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+63: hasCard max 1 (not (card)) (pred. acc.: 40.82%, F-measure: 57.97%)
+64: hasCard min 3 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+65: hasCard min 2 (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+66: hasCard only (sameSuit only card) (pred. acc.: 40.82%, F-measure: 57.97%)
+67: hasCard only (sameRank only card) (pred. acc.: 40.82%, F-measure: 57.97%)
+68: hasCard only (nextRank only card) (pred. acc.: 40.82%, F-measure: 57.97%)
+69: hasCard only (hasSuit some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+70: hasCard only (hasRank some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+71: hasCard only (card or deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+72: hasCard some (hasSuit some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+73: hasCard some (hasRank some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+74: hasCard some (card or deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+75: (not (card)) or (not (deck)) (pred. acc.: 40.82%, F-measure: 57.97%)
+76: deck or (hasCard only Nothing) (pred. acc.: 40.82%, F-measure: 57.97%)
+77: deck or (hasCard only deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+78: deck or (hasCard only card) (pred. acc.: 40.82%, F-measure: 57.97%)
+79: deck or (sameSuit some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+80: deck or (sameSuit some deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+81: deck or (sameSuit some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+82: deck or (sameRank some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+83: deck or (sameRank some deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+84: deck or (sameRank some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+85: deck or (nextRank some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+86: deck or (nextRank some deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+87: deck or (nextRank some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+88: deck or (hasSuit some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+89: deck or (hasSuit some deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+90: deck or (hasSuit some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+91: deck or (hasRank some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+92: deck or (hasRank some deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+93: deck or (hasRank some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+94: deck or (hasCard some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+95: deck or (hasCard some deck) (pred. acc.: 40.82%, F-measure: 57.97%)
+96: deck or (hasCard some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+97: card or (hasCard only card) (pred. acc.: 40.82%, F-measure: 57.97%)
+98: card or (hasCard some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+99: card or (hasCard some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+100: deck and (hasCard some Thing) (pred. acc.: 40.82%, F-measure: 57.97%)
+101: deck and (hasCard some card) (pred. acc.: 40.82%, F-measure: 57.97%)
+102: deck and (hasCard some Thing) and (hasCard only card) (pred. acc.: 40.82%, F-measure: 57.97%)
+

@@ -1,0 +1,135 @@
+/**
+ * See straight.conf. This is the same learning problem, but loading 
+ * background knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "straight.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":hasCard",":hasRank",":hasSuit",
+":nextRank",":sameSuit",
+":sameRank"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:hand1",
+"kb:hand22",
+"kb:hand40",
+"kb:hand44"
+}
+
+lp.negativeExamples = {
+"kb:hand0",
+"kb:hand2",
+"kb:hand3",
+"kb:hand4",
+"kb:hand5",
+"kb:hand6",
+"kb:hand7",
+"kb:hand8",
+"kb:hand9",
+"kb:hand10",
+"kb:hand11",
+"kb:hand12",
+"kb:hand13",
+"kb:hand14",
+"kb:hand15",
+"kb:hand16",
+"kb:hand17",
+"kb:hand18",
+"kb:hand19",
+"kb:hand20",
+"kb:hand21",
+"kb:hand23",
+"kb:hand24",
+"kb:hand25",
+"kb:hand26",
+"kb:hand27",
+"kb:hand28",
+"kb:hand29",
+"kb:hand30",
+"kb:hand31",
+"kb:hand32",
+"kb:hand33",
+"kb:hand34",
+"kb:hand35",
+"kb:hand36",
+"kb:hand37",
+"kb:hand38",
+"kb:hand39",
+"kb:hand41",
+"kb:hand42",
+"kb:hand43",
+"kb:hand45",
+"kb:hand46",
+"kb:hand47",
+"kb:hand48",
+"kb:hand49",
+"kb:hand50",
+"kb:hand51",
+"kb:hand52",
+"kb:hand53",
+"kb:hand54"
+}
+
+la.type="celoe"
+la.stopOnFirstDefinition="true"
+
+➜  ecii_aaai dl_cli straight_owl.conf 
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 174 ms.
+... initialized component 'reasoner' in 1s 194ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 40ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (7.27%) class expression found after 23ms: Thing
+more accurate (50.91%) class expression found after 229ms: hasCard only (sameRank only deck)
+more accurate (69.09%) class expression found after 313ms: hasCard min 2 (nextRank some card)
+more accurate (94.55%) class expression found after 373ms: hasCard min 2 (nextRank some (nextRank some Thing))
+more accurate (98.18%) class expression found after 660ms: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some Thing))))
+more accurate (100.00%) class expression found after 736ms: hasCard min 2 (nextRank some (nextRank some (nextRank only (nextRank some Thing))))
+Algorithm terminated successfully (time: 737ms, 1109 descriptions tested, 419 nodes in the search tree).
+
+number of retrievals: 1193
+retrieval reasoning time: 372ms ( 0ms per retrieval)
+number of instance checks: 1552 (0 multiple)
+instance check reasoning time: 6ms ( 0ms per instance check)
+(complex) subsumption checks: 98 (0 multiple)
+subsumption reasoning time: 36ms ( 0ms per subsumption check)
+overall reasoning time: 415ms
+
+solutions:
+1: hasCard min 2 (nextRank some (nextRank some (nextRank only (nextRank some Thing)))) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only Nothing)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+3: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only deck)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+4: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some Thing)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+5: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some card)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+6: hasCard min 2 (nextRank some (nextRank some Thing)) (pred. acc.: 94.55%, F-measure: 72.73%)
+7: hasCard min 2 (nextRank some (nextRank some card)) (pred. acc.: 94.55%, F-measure: 72.73%)
+8: hasCard min 2 (nextRank some (nextRank some (not (deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+9: hasCard min 2 (nextRank some (nextRank some (card or deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+10: hasCard min 2 (nextRank some (card and (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)

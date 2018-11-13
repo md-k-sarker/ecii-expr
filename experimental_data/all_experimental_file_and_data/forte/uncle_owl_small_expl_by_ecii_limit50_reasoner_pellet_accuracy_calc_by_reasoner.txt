@@ -1,0 +1,457 @@
+Program started.............
+Program starts at: 09.04.2018  04.15.50 AM
+Working with confFile: uncle_owl_small.config
+Algorithm starts at: 09.04.2018  04.15.50 AM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K4/hornClausesListMaxSize: 50
+K5/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	david
+	eric
+	george
+	calvin
+	fred
+	carlos
+	art
+	frederick
+negIndivs from conf:
+	alice
+	christy
+	bob
+	carl
+	alfred
+	karl
+	angela
+
+Algorithm ends at: 09.04.2018  04.15.51 AM
+
+Algorithm duration: 1.357 sec
+
+####################Solutions####################:
+solution 1: (( ¬ female) ⊔ (male))
+	solution from reasoner: male ⊔ (¬female)
+	 coverage_score: 0.7333333333333333
+	 coverage_score_by_reasoner: 0.8
+	 f_measure: 0.8
+	 f_measure_by_reasoner: 0.8421052631578948
+solution 2: ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: ∃ parent.(male ⊔ (¬female))
+	 coverage_score: 0.7333333333333333
+	 coverage_score_by_reasoner: 0.7333333333333333
+	 f_measure: 0.7142857142857143
+	 f_measure_by_reasoner: 0.7142857142857143
+solution 3: (male)
+	solution from reasoner: male
+	 coverage_score: 0.5333333333333333
+	 coverage_score_by_reasoner: 0.8
+	 f_measure: 0.6956521739130436
+	 f_measure_by_reasoner: 0.8421052631578948
+solution 4: ∃married.(( ¬ male) ⊔ (female))
+	solution from reasoner: ∃ married.(female ⊔ (¬male))
+	 coverage_score: 0.5333333333333333
+	 coverage_score_by_reasoner: 0.6666666666666666
+	 f_measure: 0.631578947368421
+	 f_measure_by_reasoner: 0.7058823529411765
+solution 5: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ married.(female ⊔ (¬male)))
+	 coverage_score: 0.5333333333333333
+	 f_measure: 0.631578947368421
+solution 6: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ parent.(male ⊔ (¬female)))
+	 coverage_score: 0.4666666666666667
+	 f_measure: 0.5555555555555556
+solution 7: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female)))
+	 coverage_score: 0.4666666666666667
+	 f_measure: 0.5555555555555556
+solution 8: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female))))
+	 coverage_score: 0.4666666666666667
+	 f_measure: 0.5555555555555556
+solution 9: ∃parent.( ¬ female)
+	solution from reasoner: ∃ parent.(¬female)
+	 coverage_score: 0.4
+	 f_measure: 0.0
+solution 10: ∃married.(female)
+	solution from reasoner: ∃ married.female
+	 coverage_score: 0.4
+	 f_measure: 0.5714285714285714
+solution 11: (male) ⊓ ∃married.(female)
+	solution from reasoner: male ⊓ (∃ married.female)
+	 coverage_score: 0.4
+	 f_measure: 0.5714285714285714
+solution 12: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ married.female)
+	 coverage_score: 0.4
+	 f_measure: 0.5714285714285714
+solution 13: (male) ⊓ ∃married.(( ¬ male) ⊔ (female))
+	solution from reasoner: male ⊓ (∃ married.(female ⊔ (¬male)))
+	 coverage_score: 0.4
+	 f_measure: 0.5714285714285714
+solution 14: ∃parent.(male)
+	solution from reasoner: ∃ parent.male
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 15: ∃sibling.(female)
+	solution from reasoner: ∃ sibling.female
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 16: (male) ⊓ ∃parent.(male)
+	solution from reasoner: male ⊓ (∃ parent.male)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 17: (male) ⊓ ∃sibling.(female)
+	solution from reasoner: male ⊓ (∃ sibling.female)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 18: ∃married.(female) ⊓ ∃parent.(male)
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.male)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 19: ∃sibling.((female) ⊔ (male))
+	solution from reasoner: ∃ sibling.(female ⊔ male)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 20: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(male)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.male)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 21: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ parent.male)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 22: (male) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: male ⊓ (∃ parent.(male ⊔ (¬female)))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 23: ∃married.(female) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.(male ⊔ (¬female)))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 24: (male) ⊓ ∃married.(female) ⊓ ∃parent.(male)
+	solution from reasoner: male ⊓ ((∃ married.female) ⊔ (∃ parent.male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 25: (male) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: male ⊓ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 26: (( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ sibling.female)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 27: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(male)
+	solution from reasoner: male ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 28: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃parent.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.female) ⊔ (∃ parent.male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 29: (( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 30: (male) ⊓ ∃married.(female) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: male ⊓ ((∃ married.female) ⊔ (∃ parent.(male ⊔ (¬female))))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 31: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.female) ⊔ (∃ parent.(male ⊔ (¬female))))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 32: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: male ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female))))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 33: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5
+solution 34: ∃sibling.(male)
+	solution from reasoner: ∃ sibling.male
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 35: ( ¬ female)
+	solution from reasoner: ¬female
+	 coverage_score: 0.2
+	 f_measure: 0.0
+solution 36: (male) ⊓ ∃sibling.(male)
+	solution from reasoner: male ⊓ (∃ sibling.male)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 37: ∃married.(female) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ married.female) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 38: ∃parent.(male) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ parent.male) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 39: ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 40: ∃married.(female) ⊓ ∃parent.(male) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.male) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 41: (male) ⊓ ∃married.(female) ⊓ ∃sibling.(female)
+	solution from reasoner: male ⊓ ((∃ married.female) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 42: (male) ⊓ ∃parent.(male) ⊓ ∃sibling.(female)
+	solution from reasoner: male ⊓ ((∃ parent.male) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 43: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 44: ∃married.(female) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ married.female) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 45: (( ¬ female) ⊔ (male)) ⊓ ∃sibling.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ sibling.male)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 46: ∃parent.(male) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ parent.male) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 47: ∃married.(female) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 48: (male) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	solution from reasoner: male ⊓ ((∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 49: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(female)
+	solution from reasoner: male ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 50: ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 51: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(male) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.male) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 52: (male) ⊓ ∃married.(female) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: male ⊓ ((∃ married.female) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 53: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 54: ∃married.(female) ⊓ ∃parent.(male) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.male) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 55: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(male) ⊓ ∃sibling.(female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ parent.male) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 56: (male) ⊓ ∃parent.(male) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: male ⊓ ((∃ parent.male) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 57: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃sibling.(female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.female) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 58: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.female) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 59: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.female)
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 60: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(male) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ parent.male) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 61: (male) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: male ⊓ ((∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 62: ∃married.(female) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 63: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 64: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.female))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 65: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(male) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.male) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 66: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: male ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 67: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 68: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.(female ⊔ male))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 69: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.(female ⊔ male)))
+	 coverage_score: 0.2
+	 f_measure: 0.33333333333333326
+solution 70: ∃married.( ¬ male)
+	solution from reasoner: ∃ married.(¬male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 71: ( ¬ female) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: (¬female) ⊓ (∃ parent.(¬female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 72: ∃married.(female) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ married.female) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 73: ( ¬ female) ⊓ ∃married.( ¬ male)
+	solution from reasoner: (¬female) ⊓ (∃ married.(¬male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 74: ∃parent.(male) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ parent.male) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 75: ∃married.( ¬ male) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: (∃ married.(¬male)) ⊔ (∃ parent.(¬female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 76: ∃married.(female) ⊓ ∃parent.(male) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.male) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 77: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(¬female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 78: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 79: (male) ⊓ ∃married.(female) ⊓ ∃sibling.(male)
+	solution from reasoner: male ⊓ ((∃ married.female) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 80: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female))
+	solution from reasoner: (¬female) ⊓ (∃ married.(female ⊔ (¬male)))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 81: (male) ⊓ ∃parent.(male) ⊓ ∃sibling.(male)
+	solution from reasoner: male ⊓ ((∃ parent.male) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 82: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: ((∃ married.(¬male)) ⊔ (∃ parent.(¬female))) ⊓ (¬female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 83: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ married.(¬male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 84: ( ¬ female) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (¬female) ⊓ (∃ parent.(male ⊔ (¬female)))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 85: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ (∃ parent.(¬female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 86: ∃married.( ¬ male) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (∃ married.(¬male)) ⊔ (∃ parent.(male ⊔ (¬female)))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 87: ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 88: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(male)
+	solution from reasoner: male ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 89: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(¬female))) ⊓ (¬female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 90: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(male) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.male) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 91: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(male) ⊓ ∃sibling.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ parent.male) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 92: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃sibling.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.female) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 93: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: ((∃ married.(¬male)) ⊔ (∃ parent.(male ⊔ (¬female)))) ⊓ (¬female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 94: (male) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(male)
+	solution from reasoner: male ⊓ ((∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 95: ∃married.(female) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ married.female) ⊔ (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 96: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(¬male)) ⊔ (∃ parent.(¬female)))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 97: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(¬male)) ⊔ (∃ parent.(male ⊔ (¬female))))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 98: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 99: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(¬female)))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 100: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(male)
+	solution from reasoner: (male ⊔ (¬female)) ⊓ ((∃ married.(female ⊔ (¬male))) ⊔ (∃ sibling.male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+solution 101: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male))
+	solution from reasoner: ((∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female)))) ⊓ (¬female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 102: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ female) ⊔ (male)) ⊓ ∃sibling.(male)
+	solution from reasoner: (∃ married.(female ⊔ (¬male))) ⊔ (∃ parent.(male ⊔ (¬female))) ⊔ (∃ sibling.male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.23529411764705882
+
+Total solutions found: 102
+
+Program finished.
+Program ends at: 09.04.2018  04.15.51 AM
+Program duration: 1.386 sec

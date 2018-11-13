@@ -1,0 +1,10 @@
+Prediction:
+0
+Label:
+11
+001 # 0 # 0 # wall # wall # "" # 0.52888695463
+004 # 0 # 0 # floor, flooring # floor # "" # 0.273818144202
+008 # 0 # 0 # switch, electric switch, electrical switch # light switch # "" # 0.038681402439
+009 # 0 # 0 # light, light source # ceiling recessed light # "on" # 0.306126313796
+010 # 0 # 0 # door # door # "" # 0.315050303866
+012 # 0 # 0 # hinge, flexible joint # hinge # "" # 0.0822513365842

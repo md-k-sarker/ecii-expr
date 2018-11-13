@@ -1,0 +1,54 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.30 AM
+Working with confFile: GrandParent.conf
+Algorithm starts at: 10.16.2018  11.35.30 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	NonnaLina
+	Carmela
+	Isidoro
+	Girolamo
+	NonnoLuigi
+negIndivs from conf:
+	Valentina
+	Marisella
+	Ombretta
+	Luca
+	Giovanna
+	Mauro
+	Dino
+	Nella
+	Luigi
+	Maria
+	Miriam
+	Serena
+
+Algorithm ends at: 10.16.2018  11.35.30 AM
+
+Algorithm duration: 0.109 sec
+
+####################Solutions####################:
+Solution: Person
+	 coverage_score: 0.29411764705882354
+Solution: Thing
+	 coverage_score: 0.29411764705882354
+Solution: Person and (hasChild some Person)
+	 coverage_score: 0.7647058823529411
+Solution: hasChild some (Female or Male)
+	 coverage_score: 0.7647058823529411
+Solution: hasChild some Person
+	 coverage_score: 0.7647058823529411
+Solution: Person and (hasChild some Male)
+	 coverage_score: 0.8823529411764706
+Solution: hasChild some (not (Female))
+	 coverage_score: 0.8823529411764706
+Solution: hasChild some Male
+	 coverage_score: 0.8823529411764706
+Solution: hasChild some (hasChild some Person)
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.30 AM
+Program duration: 0.128 sec

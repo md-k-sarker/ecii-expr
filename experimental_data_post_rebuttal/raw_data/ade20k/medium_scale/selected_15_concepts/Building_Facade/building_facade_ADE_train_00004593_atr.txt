@@ -1,0 +1,10 @@
+Prediction:
+1
+Label:
+3
+001 # 0 # 0 # road, route # road # "" # 0.180821917808
+002 # 0 # 0 # tree # trees # "" # 0.286584725286
+004 # 0 # 0 # building, edifice # building # "" # 0.804118475425
+005 # 0 # 0 # plant, flora, plant life # plant # "" # 0.481629392971
+007 # 0 # 0 # grass # grass # "" # 0.171915021847
+011 # 0 # 0 # plant, flora, plant life # plants # "" # 0.0841822025754

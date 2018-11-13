@@ -1,0 +1,13 @@
+Prediction:
+0
+Label:
+12
+001 # 0 # 0 # wall # wall # "" # 0.378495628379
+002 # 0 # 0 # windowpane, window # window # "" # 0.684223592205
+003 # 0 # 0 # curtain, drape, drapery, mantle, pall # curtain # "valance" # 0.586884064499
+004 # 0 # 1 # bed # bed # "" # 0.323306156874
+005 # 0 # 0 # bag # bag # "" # 0.182598039216
+006 # 0 # 1 # table # table # "" # 0.251859451141
+007 # 0 # 1 # cabinet # cabinet # "" # 0.17032967033
+008 # 0 # 0 # painting, picture # picture # "painting" # 0.307570142933
+009 # 0 # 1 # chair # chair # "" # 0.533634538153

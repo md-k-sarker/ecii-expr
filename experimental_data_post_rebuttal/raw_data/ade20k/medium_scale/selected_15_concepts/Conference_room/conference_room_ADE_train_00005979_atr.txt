@@ -1,0 +1,10 @@
+Prediction:
+9
+Label:
+9
+001 # 0 # 0 # wall # wall # "" # 0.678945800265
+002 # 0 # 0 # floor, flooring # floor # "" # 0.405319524538
+003 # 0 # 0 # ceiling # ceiling # "" # 0.41226369365
+004 # 0 # 0 # podium # podium # "" # 0.309838472834
+005 # 0 # 1 # chair # chair # "" # 0.338188173609
+022 # 0 # 0 # table # table # "" # 0.152034809317

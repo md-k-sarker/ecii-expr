@@ -1,0 +1,62 @@
+Program started.............
+Program starts at: 09.01.2018  21.16.01 PM
+Working with confFile: bedroom_one_vs_all.config
+Algorithm starts at: 09.01.2018  21.16.02 PM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: elk
+posIndivs from conf:
+	bedroom_ADE_train_00000192
+	bedroom_ADE_train_00000195
+	bedroom_ADE_train_00000196
+	bedroom_ADE_train_00000193
+	bedroom_ADE_train_00000194
+negIndivs from conf:
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	dining_room_ADE_train_00006845
+	kitchen_ADE_train_00000594
+
+
+!!!!!!!Fatal error!!!!!!!
+java.lang.UnsupportedOperationException: OWL API reasoner method is not implemented: getObjectPropertyValues(OWLNamedIndividual, OWLObjectPropertyExpression).
+	at org.semanticweb.elk.owlapi.ElkReasoner.unsupportedOwlApiMethod(ElkReasoner.java:246)
+	at org.semanticweb.elk.owlapi.ElkReasoner.getObjectPropertyValues(ElkReasoner.java:587)
+	at org.dase.core.CandidateSolutionFinder.extractObjectTypes(CandidateSolutionFinder.java:609)
+	at org.dase.core.CandidateSolutionFinder.findConcepts(CandidateSolutionFinder.java:82)
+	at org.dase.Main.doOps(Main.java:179)
+	at org.dase.Main.initiateSingleDoOps(Main.java:106)
+	at org.dase.Main.lambda$processBatchRunning$4(Main.java:222)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:430)
+	at org.dase.Main.processBatchRunning(Main.java:212)
+	at org.dase.Main.processBatchRunning(Main.java:200)
+	at org.dase.Main.main(Main.java:288)
+
+Program ends at: 09.01.2018  21.16.03 PM
+Program duration: 2.299 sec

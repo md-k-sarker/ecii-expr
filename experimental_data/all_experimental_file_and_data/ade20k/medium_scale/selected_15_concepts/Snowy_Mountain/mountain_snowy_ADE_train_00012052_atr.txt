@@ -1,0 +1,7 @@
+Prediction:
+8
+Label:
+8
+001 # 0 # 0 # sky # sky # "cloudy" # 0.383535041787
+002 # 0 # 0 # road, route # road # "" # 0.478497233278
+004 # 0 # 0 # mountain, mount # mountain # "snowy" # 0.555090390105

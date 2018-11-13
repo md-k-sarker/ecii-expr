@@ -1,0 +1,426 @@
+/**
+ * See straight.conf. This is the same learning problem, but loading 
+ * background knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "straight.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":hasCard",":hasRank",":hasSuit",
+":nextRank",":sameSuit",
+":sameRank"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:hand1",
+"kb:hand22",
+"kb:hand40",
+"kb:hand44"
+}
+
+lp.negativeExamples = {
+"kb:hand0",
+"kb:hand2",
+"kb:hand3",
+"kb:hand4",
+"kb:hand5",
+"kb:hand6",
+"kb:hand7",
+"kb:hand8",
+"kb:hand9",
+"kb:hand10",
+"kb:hand11",
+"kb:hand12",
+"kb:hand13",
+"kb:hand14",
+"kb:hand15",
+"kb:hand16",
+"kb:hand17",
+"kb:hand18",
+"kb:hand19",
+"kb:hand20",
+"kb:hand21",
+"kb:hand23",
+"kb:hand24",
+"kb:hand25",
+"kb:hand26",
+"kb:hand27",
+"kb:hand28",
+"kb:hand29",
+"kb:hand30",
+"kb:hand31",
+"kb:hand32",
+"kb:hand33",
+"kb:hand34",
+"kb:hand35",
+"kb:hand36",
+"kb:hand37",
+"kb:hand38",
+"kb:hand39",
+"kb:hand41",
+"kb:hand42",
+"kb:hand43",
+"kb:hand45",
+"kb:hand46",
+"kb:hand47",
+"kb:hand48",
+"kb:hand49",
+"kb:hand50",
+"kb:hand51",
+"kb:hand52",
+"kb:hand53",
+"kb:hand54"
+}
+
+la.type="celoe"
+la.stopOnFirstDefinition="true"
+la.maxNrOfResults=10000
+la.maxExecutionTimeInSeconds=600
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 162 ms.
+... initialized component 'reasoner' in 1s 67ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 34ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (7.27%) class expression found after 25ms: Thing
+more accurate (50.91%) class expression found after 269ms: hasCard only (sameRank only deck)
+more accurate (69.09%) class expression found after 342ms: hasCard min 2 (nextRank some card)
+more accurate (94.55%) class expression found after 404ms: hasCard min 2 (nextRank some (nextRank some Thing))
+more accurate (98.18%) class expression found after 737ms: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some Thing))))
+more accurate (100.00%) class expression found after 819ms: hasCard min 2 (nextRank some (nextRank some (nextRank only (nextRank some Thing))))
+Algorithm terminated successfully (time: 819ms, 1109 descriptions tested, 419 nodes in the search tree).
+
+number of retrievals: 1524
+retrieval reasoning time: 392ms ( 0ms per retrieval)
+number of instance checks: 2002 (0 multiple)
+instance check reasoning time: 6ms ( 0ms per instance check)
+(complex) subsumption checks: 368 (0 multiple)
+subsumption reasoning time: 71ms ( 0ms per subsumption check)
+overall reasoning time: 471ms
+
+solutions:
+1: hasCard min 2 (nextRank some (nextRank some (nextRank only (nextRank some Thing)))) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only Nothing)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+3: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only deck)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+4: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some Thing)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+5: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some card)))) (pred. acc.: 98.18%, F-measure: 88.89%)
+6: hasCard min 2 (nextRank some (nextRank some (card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+7: hasCard min 2 (nextRank some (nextRank some (card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+8: hasCard min 2 (nextRank some (nextRank some Thing)) (pred. acc.: 94.55%, F-measure: 72.73%)
+9: hasCard min 2 (nextRank some (nextRank some card)) (pred. acc.: 94.55%, F-measure: 72.73%)
+10: hasCard min 2 (nextRank some (nextRank some (not (deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+11: hasCard min 2 (nextRank some (nextRank some (sameSuit only card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+12: hasCard min 2 (nextRank some (nextRank some (sameRank only Nothing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+13: hasCard min 2 (nextRank some (nextRank some (sameRank only deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+14: hasCard min 2 (nextRank some (nextRank some (sameRank only card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+15: hasCard min 2 (nextRank some (nextRank some (nextRank only card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+16: hasCard min 2 (nextRank some (nextRank some (hasSuit some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+17: hasCard min 2 (nextRank some (nextRank some (hasRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+18: hasCard min 2 (nextRank some (nextRank some (card or deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+19: hasCard min 2 (nextRank some (card and (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+20: hasCard min 2 (nextRank some (card and (nextRank some card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+21: hasCard min 2 (card and (nextRank some (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+22: hasCard min 2 (card and (nextRank some (nextRank some card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+23: deck and (hasCard min 2 (nextRank some (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+24: deck and (hasCard min 2 (nextRank some (nextRank some card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+25: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+26: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+27: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+28: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+29: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+30: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+31: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+32: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+33: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+34: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+35: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+36: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+37: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+38: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+39: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+40: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+41: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+42: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+43: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+44: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+45: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+46: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+47: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 deck))) (pred. acc.: 94.55%, F-measure: 72.73%)
+48: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+49: hasCard min 2 (nextRank some (nextRank some (sameSuit only (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+50: hasCard min 2 (nextRank some (nextRank some (sameRank only (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+51: hasCard min 2 (nextRank some (nextRank some (sameRank only (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+52: hasCard min 2 (nextRank some (nextRank some (nextRank only (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+53: hasCard min 2 (nextRank some (nextRank some (hasSuit only (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+54: hasCard min 2 (nextRank some (nextRank some (hasSuit only (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+55: hasCard min 2 (nextRank some (nextRank some (hasRank only (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+56: hasCard min 2 (nextRank some (nextRank some (hasRank only (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+57: hasCard min 2 (nextRank some (nextRank some (hasSuit some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+58: hasCard min 2 (nextRank some (nextRank some (hasSuit some (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+59: hasCard min 2 (nextRank some (nextRank some (hasRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+60: hasCard min 2 (nextRank some (nextRank some (hasRank some (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+61: hasCard min 2 (nextRank some (nextRank some (card or (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+62: hasCard min 2 (nextRank some (nextRank some (card and (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+63: hasCard min 2 (nextRank some ((not (deck)) and (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+64: hasCard min 2 (nextRank some ((not (deck)) and (nextRank some card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+65: hasCard min 2 (nextRank some (card and (nextRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+66: hasCard min 2 ((not (deck)) and (nextRank some (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+67: hasCard min 2 ((not (deck)) and (nextRank some (nextRank some card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+68: hasCard min 2 (card and (nextRank some (nextRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+69: (not (card)) and (hasCard min 2 (nextRank some (nextRank some Thing))) (pred. acc.: 94.55%, F-measure: 72.73%)
+70: (not (card)) and (hasCard min 2 (nextRank some (nextRank some card))) (pred. acc.: 94.55%, F-measure: 72.73%)
+71: deck and (hasCard min 2 (nextRank some (nextRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+72: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+73: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+74: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+75: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+76: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+77: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+78: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+79: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+80: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+81: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+82: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+83: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+84: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+85: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+86: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+87: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 (not (card))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+88: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+89: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+90: hasCard min 2 (nextRank some (nextRank some (sameSuit only (hasSuit some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+91: hasCard min 2 (nextRank some (nextRank some (sameSuit only (hasRank some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+92: hasCard min 2 (nextRank some (nextRank some (sameSuit only (card or deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+93: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank only Nothing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+94: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+95: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+96: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit only Nothing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+97: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+98: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+99: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank only Nothing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+100: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+101: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+102: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameSuit some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+103: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameSuit some deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+104: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameSuit some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+105: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameRank some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+106: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameRank some deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+107: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameRank some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+108: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+109: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank some deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+110: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+111: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+112: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit some deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+113: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+114: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+115: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank some deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+116: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+117: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasCard some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+118: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasCard some deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+119: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasCard some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+120: hasCard min 2 (nextRank some (nextRank some (sameRank only (card or deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+121: hasCard min 2 (nextRank some (nextRank some (nextRank only (hasSuit some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+122: hasCard min 2 (nextRank some (nextRank some (nextRank only (hasRank some Thing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+123: hasCard min 2 (nextRank some (nextRank some (nextRank only (card or deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+124: hasCard min 2 (nextRank some (nextRank some (card and (sameSuit only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+125: hasCard min 2 (nextRank some (nextRank some (card and (sameRank only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+126: hasCard min 2 (nextRank some (nextRank some (card and (sameRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+127: hasCard min 2 (nextRank some (nextRank some (card and (nextRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+128: hasCard min 2 (nextRank some ((not (deck)) and (nextRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+129: hasCard min 2 (nextRank some (card and (nextRank some (sameSuit only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+130: hasCard min 2 (nextRank some (card and (nextRank some (sameRank only Nothing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+131: hasCard min 2 (nextRank some (card and (nextRank some (sameRank only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+132: hasCard min 2 (nextRank some (card and (nextRank some (sameRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+133: hasCard min 2 (nextRank some (card and (nextRank some (nextRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+134: hasCard min 2 (nextRank some (card and (nextRank some (card or deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+135: hasCard min 2 ((not (deck)) and (nextRank some (nextRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+136: hasCard min 2 (card and (nextRank some (nextRank some (sameSuit only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+137: hasCard min 2 (card and (nextRank some (nextRank some (sameRank only Nothing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+138: hasCard min 2 (card and (nextRank some (nextRank some (sameRank only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+139: hasCard min 2 (card and (nextRank some (nextRank some (sameRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+140: hasCard min 2 (card and (nextRank some (nextRank some (nextRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+141: hasCard min 2 (card and (nextRank some (nextRank some (card or deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+142: hasCard min 2 (card and (nextRank some (card and (nextRank some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+143: (not (card)) and (hasCard min 2 (nextRank some (nextRank some (not (deck))))) (pred. acc.: 94.55%, F-measure: 72.73%)
+144: deck and (hasCard min 2 (nextRank some (nextRank some (sameSuit only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+145: deck and (hasCard min 2 (nextRank some (nextRank some (sameRank only Nothing)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+146: deck and (hasCard min 2 (nextRank some (nextRank some (sameRank only deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+147: deck and (hasCard min 2 (nextRank some (nextRank some (sameRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+148: deck and (hasCard min 2 (nextRank some (nextRank some (nextRank only card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+149: deck and (hasCard min 2 (nextRank some (nextRank some (card or deck)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+150: deck and (hasCard min 2 (nextRank some (card and (nextRank some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+151: deck and (hasCard min 2 (card and (nextRank some (nextRank some card)))) (pred. acc.: 94.55%, F-measure: 72.73%)
+152: hasCard min 2 (nextRank some Thing) (pred. acc.: 69.09%, F-measure: 32.00%)
+153: hasCard min 2 (nextRank some card) (pred. acc.: 69.09%, F-measure: 32.00%)
+154: hasCard min 2 (nextRank some (not (deck))) (pred. acc.: 69.09%, F-measure: 32.00%)
+155: hasCard min 2 (nextRank some (sameSuit only card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+156: hasCard min 2 (nextRank some (sameRank only Nothing)) (pred. acc.: 69.09%, F-measure: 32.00%)
+157: hasCard min 2 (nextRank some (sameRank only deck)) (pred. acc.: 69.09%, F-measure: 32.00%)
+158: hasCard min 2 (nextRank some (sameRank only card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+159: hasCard min 2 (nextRank some (nextRank only card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+160: hasCard min 2 (nextRank some (hasSuit some Thing)) (pred. acc.: 69.09%, F-measure: 32.00%)
+161: hasCard min 2 (nextRank some (hasRank some Thing)) (pred. acc.: 69.09%, F-measure: 32.00%)
+162: hasCard min 2 (nextRank some (card or deck)) (pred. acc.: 69.09%, F-measure: 32.00%)
+163: hasCard min 2 (card and (nextRank some Thing)) (pred. acc.: 69.09%, F-measure: 32.00%)
+164: hasCard min 2 (card and (nextRank some card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+165: deck and (hasCard min 2 (nextRank some Thing)) (pred. acc.: 69.09%, F-measure: 32.00%)
+166: deck and (hasCard min 2 (nextRank some card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+167: hasCard min 2 (nextRank some (sameSuit only (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+168: hasCard min 2 (nextRank some (sameRank only (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+169: hasCard min 2 (nextRank some (sameRank only (not (card)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+170: hasCard min 2 (nextRank some (nextRank only (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+171: hasCard min 2 (nextRank some (hasSuit only (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+172: hasCard min 2 (nextRank some (hasSuit only (not (card)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+173: hasCard min 2 (nextRank some (hasRank only (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+174: hasCard min 2 (nextRank some (hasRank only (not (card)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+175: hasCard min 2 (nextRank some (hasSuit some (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+176: hasCard min 2 (nextRank some (hasSuit some (not (card)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+177: hasCard min 2 (nextRank some (hasRank some (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+178: hasCard min 2 (nextRank some (hasRank some (not (card)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+179: hasCard min 2 (nextRank some (card and (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+180: hasCard min 2 ((not (deck)) and (nextRank some card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+181: hasCard min 2 (card and (nextRank some (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+182: (not (card)) and (hasCard min 2 (nextRank some card)) (pred. acc.: 69.09%, F-measure: 32.00%)
+183: deck and (hasCard min 2 (nextRank some (not (deck)))) (pred. acc.: 69.09%, F-measure: 32.00%)
+184: deck and (hasCard min 2 (card and (nextRank some card))) (pred. acc.: 69.09%, F-measure: 32.00%)
+185: hasCard only (sameRank only Nothing) (pred. acc.: 50.91%, F-measure: 22.86%)
+186: hasCard only (sameRank only deck) (pred. acc.: 50.91%, F-measure: 22.86%)
+187: hasCard only (sameRank only (card and deck)) (pred. acc.: 50.91%, F-measure: 22.86%)
+188: hasCard only (card and (sameRank only deck)) (pred. acc.: 50.91%, F-measure: 22.86%)
+189: hasCard only (sameRank only (deck and (not (deck)))) (pred. acc.: 50.91%, F-measure: 22.86%)
+190: hasCard only (sameRank only (deck and (not (card)))) (pred. acc.: 50.91%, F-measure: 22.86%)
+191: hasCard only ((not (deck)) and (sameRank only deck)) (pred. acc.: 50.91%, F-measure: 22.86%)
+192: (hasCard some Thing) and (hasCard only (sameRank only Nothing)) (pred. acc.: 50.91%, F-measure: 22.86%)
+193: (hasCard some card) and (hasCard only (sameRank only Nothing)) (pred. acc.: 50.91%, F-measure: 22.86%)
+194: deck and (hasCard some Thing) and (hasCard only (sameRank only Nothing)) (pred. acc.: 50.91%, F-measure: 22.86%)
+195: deck and (hasCard some Thing) and (hasCard only (sameRank only deck)) (pred. acc.: 50.91%, F-measure: 22.86%)
+196: (not (card)) and (hasCard some Thing) and (hasCard only (sameRank only Nothing)) (pred. acc.: 50.91%, F-measure: 22.86%)
+197: (not (card)) and (hasCard some Thing) and (hasCard only (sameRank only deck)) (pred. acc.: 50.91%, F-measure: 22.86%)
+198: (card or deck) and (hasCard some Thing) and (hasCard only (sameRank only Nothing)) (pred. acc.: 50.91%, F-measure: 22.86%)
+199: deck and (hasCard some Thing) and (hasCard only (card and (sameRank only deck))) (pred. acc.: 50.91%, F-measure: 22.86%)
+200: hasCard some (nextRank some Thing) (pred. acc.: 25.45%, F-measure: 16.33%)
+201: hasCard some (nextRank some card) (pred. acc.: 25.45%, F-measure: 16.33%)
+202: hasCard some (nextRank some (not (deck))) (pred. acc.: 25.45%, F-measure: 16.33%)
+203: deck (pred. acc.: 7.27%, F-measure: 13.56%)
+204: deck (pred. acc.: 7.27%, F-measure: 13.56%)
+205: Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+206: deck (pred. acc.: 7.27%, F-measure: 13.56%)
+207: not (card) (pred. acc.: 7.27%, F-measure: 13.56%)
+208: hasCard only card (pred. acc.: 7.27%, F-measure: 13.56%)
+209: hasCard some Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+210: hasCard some card (pred. acc.: 7.27%, F-measure: 13.56%)
+211: card or deck (pred. acc.: 7.27%, F-measure: 13.56%)
+212: sameSuit max 2 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+213: sameSuit max 2 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+214: sameSuit max 2 card (pred. acc.: 7.27%, F-measure: 13.56%)
+215: sameSuit max 1 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+216: sameSuit max 1 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+217: sameSuit max 1 card (pred. acc.: 7.27%, F-measure: 13.56%)
+218: sameRank max 1 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+219: sameRank max 1 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+220: sameRank max 1 card (pred. acc.: 7.27%, F-measure: 13.56%)
+221: nextRank max 1 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+222: nextRank max 1 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+223: nextRank max 1 card (pred. acc.: 7.27%, F-measure: 13.56%)
+224: hasCard max 4 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+225: hasCard max 4 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+226: hasCard max 4 card (pred. acc.: 7.27%, F-measure: 13.56%)
+227: hasCard max 3 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+228: hasCard max 3 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+229: hasCard max 3 card (pred. acc.: 7.27%, F-measure: 13.56%)
+230: hasCard max 2 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+231: hasCard max 2 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+232: hasCard max 2 card (pred. acc.: 7.27%, F-measure: 13.56%)
+233: hasCard max 1 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+234: hasCard max 1 deck (pred. acc.: 7.27%, F-measure: 13.56%)
+235: hasCard max 1 card (pred. acc.: 7.27%, F-measure: 13.56%)
+236: hasCard min 3 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+237: hasCard min 3 card (pred. acc.: 7.27%, F-measure: 13.56%)
+238: hasCard min 2 Thing (pred. acc.: 7.27%, F-measure: 13.56%)
+239: hasCard min 2 card (pred. acc.: 7.27%, F-measure: 13.56%)
+240: hasCard only (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+241: hasCard some (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+242: deck or (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+243: deck and (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+244: sameSuit max 2 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+245: sameSuit max 2 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+246: sameSuit max 1 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+247: sameSuit max 1 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+248: sameRank max 1 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+249: sameRank max 1 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+250: nextRank max 1 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+251: nextRank max 1 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+252: hasCard max 4 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+253: hasCard max 4 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+254: hasCard max 3 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+255: hasCard max 3 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+256: hasCard max 2 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+257: hasCard max 2 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+258: hasCard max 1 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+259: hasCard max 1 (not (card)) (pred. acc.: 7.27%, F-measure: 13.56%)
+260: hasCard min 3 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+261: hasCard min 2 (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+262: hasCard only (sameSuit only card) (pred. acc.: 7.27%, F-measure: 13.56%)
+263: hasCard only (sameRank only card) (pred. acc.: 7.27%, F-measure: 13.56%)
+264: hasCard only (nextRank only card) (pred. acc.: 7.27%, F-measure: 13.56%)
+265: hasCard only (hasSuit some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+266: hasCard only (hasRank some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+267: hasCard only (card or deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+268: hasCard some (sameSuit some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+269: hasCard some (hasSuit some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+270: hasCard some (hasRank some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+271: hasCard some (card or deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+272: (not (card)) or (not (deck)) (pred. acc.: 7.27%, F-measure: 13.56%)
+273: deck or (hasCard only Nothing) (pred. acc.: 7.27%, F-measure: 13.56%)
+274: deck or (hasCard only deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+275: deck or (hasCard only card) (pred. acc.: 7.27%, F-measure: 13.56%)
+276: deck or (sameSuit some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+277: deck or (sameSuit some deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+278: deck or (sameSuit some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+279: deck or (sameRank some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+280: deck or (sameRank some deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+281: deck or (sameRank some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+282: deck or (nextRank some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+283: deck or (nextRank some deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+284: deck or (nextRank some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+285: deck or (hasSuit some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+286: deck or (hasSuit some deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+287: deck or (hasSuit some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+288: deck or (hasRank some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+289: deck or (hasRank some deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+290: deck or (hasRank some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+291: deck or (hasCard some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+292: deck or (hasCard some deck) (pred. acc.: 7.27%, F-measure: 13.56%)
+293: deck or (hasCard some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+294: card or (hasCard only card) (pred. acc.: 7.27%, F-measure: 13.56%)
+295: card or (hasCard some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+296: card or (hasCard some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+297: deck and (hasCard some Thing) (pred. acc.: 7.27%, F-measure: 13.56%)
+298: deck and (hasCard some card) (pred. acc.: 7.27%, F-measure: 13.56%)
+299: deck and (hasCard some Thing) and (hasCard only card) (pred. acc.: 7.27%, F-measure: 13.56%)
+300: hasCard min 2 (nextRank some (nextRank some (hasSuit only Nothing))) (pred. acc.: -100.00%, F-measure: -100.00%)
+301: hasCard min 2 (nextRank some (nextRank some (hasSuit only deck))) (pred. acc.: -100.00%, F-measure: -100.00%)
+302: hasCard min 2 (nextRank some (nextRank some (hasSuit only card))) (pred. acc.: -100.00%, F-measure: -100.00%)
+303: hasCard min 2 (nextRank some (nextRank some (hasRank only Nothing))) (pred. acc.: -100.00%, F-measure: -100.00%)
+304: hasCard min 2 (nextRank some (nextRank some (hasRank only deck))) (pred. acc.: -100.00%, F-measure: -100.00%)
+305: hasCard min 2 (nextRank some (nextRank some (hasRank only card))) (pred. acc.: -100.00%, F-measure: -100.00%)
+

@@ -1,0 +1,2718 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.24 AM
+Working with confFile: moral_43examples_complex_owl.conf
+Algorithm starts at: 10.16.2018  11.35.24 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	p99
+	p101
+	p100
+	p95
+	p96
+	p97
+	p10
+	p98
+	p6
+	p91
+	p7
+	p92
+	p4
+	p93
+	p5
+	p94
+	p8
+	p9
+	p90
+	p2
+	p3
+	p0
+	p1
+negIndivs from conf:
+	n97
+	n10
+	n98
+	n99
+	n93
+	n5
+	n94
+	n2
+	n95
+	n3
+	n96
+	n8
+	n9
+	n90
+	n6
+	n91
+	n7
+	n92
+	n0
+	n1
+
+Algorithm ends at: 10.16.2018  11.35.25 AM
+
+Algorithm duration: 1.245 sec
+
+####################Solutions####################:
+Solution: achieve_goal or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: achieve_goal or (not (justified))
+	 coverage_score: 0.5348837209302325
+Solution: achieve_goal or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: benefit_protagonist or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: benefit_victim or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: careful or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (harm_caused_as_planned))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (high_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (justified))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (necessary_for_harm))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (plan_include_harm))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (produce_harm))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (responsible))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (sufficient_for_harm))
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (weak_intend))
+	 coverage_score: 0.5348837209302325
+Solution: control_perpetrator or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: control_perpetrator or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: control_perpetrator or (not (vicarious))
+	 coverage_score: 0.5348837209302325
+Solution: external_cause or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: external_cause or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: external_force or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: foresee_intervention or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: foresee_intervention or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (benefit_victim))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (external_force))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (high_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (intervening_cause))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (justified))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (low_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (neither_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (responsible))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (sufficient_for_harm))
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or (not (weak_intend))
+	 coverage_score: 0.5348837209302325
+Solution: goal_achieveable_less_harmful or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: goal_achieveable_less_harmful or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: goal_outweigh_harm or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: goal_outweigh_harm or (not (justified))
+	 coverage_score: 0.5348837209302325
+Solution: harm_caused_as_planned or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: harm_caused_as_planned or (not (justified))
+	 coverage_score: 0.5348837209302325
+Solution: intervening_contribution or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: intervening_contribution or (not (intervening_cause))
+	 coverage_score: 0.5348837209302325
+Solution: intervening_contribution or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: neither_mental_state or (not (weak_intend))
+	 coverage_score: 0.5348837209302325
+Solution: no_foreseeability or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (external_force))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (goal_achieveable_less_harmful))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (high_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (intervening_cause))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (justified))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (monitor))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (negligent_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (plan_include_harm))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (reckless_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (responsible))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (vicarious))
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or (not (weak_intend))
+	 coverage_score: 0.5348837209302325
+Solution: outrank_perpetrator or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: outrank_perpetrator or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: outrank_perpetrator or (not (vicarious))
+	 coverage_score: 0.5348837209302325
+Solution: plan_include_harm or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: plan_include_harm or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: plan_known or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: severity_harm or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: severity_harm or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: severity_harm or (not (vicarious))
+	 coverage_score: 0.5348837209302325
+Solution: someone_else_cause_harm or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: someone_else_cause_harm or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: someone_else_cause_harm or (not (vicarious))
+	 coverage_score: 0.5348837209302325
+Solution: voluntary or (not (intend_mental_state))
+	 coverage_score: 0.5348837209302325
+Solution: voluntary or (not (no_foreseeability))
+	 coverage_score: 0.5348837209302325
+Solution: voluntary or (not (responsible))
+	 coverage_score: 0.5348837209302325
+Solution: achieve_goal or foreseeable
+	 coverage_score: 0.5348837209302325
+Solution: benefit_victim or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: careful or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: cause or foreseeable
+	 coverage_score: 0.5348837209302325
+Solution: cause or low_foreseeability
+	 coverage_score: 0.5348837209302325
+Solution: cause or outrank_perpetrator
+	 coverage_score: 0.5348837209302325
+Solution: control_perpetrator or foreseeable
+	 coverage_score: 0.5348837209302325
+Solution: external_cause or foreseeable
+	 coverage_score: 0.5348837209302325
+Solution: external_cause or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: foresee_intervention or foreseeable
+	 coverage_score: 0.5348837209302325
+Solution: foresee_intervention or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or goal_achieveable_less_harmful
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or intervening_contribution
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or monitor
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or necessary_for_harm
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or no_foreseeability
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or outrank_perpetrator
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or plan_include_harm
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or severity_harm
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or someone_else_cause_harm
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or vicarious
+	 coverage_score: 0.5348837209302325
+Solution: foreseeable or voluntary
+	 coverage_score: 0.5348837209302325
+Solution: low_foreseeability or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: neither_mental_state or notaccident
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or outrank_perpetrator
+	 coverage_score: 0.5348837209302325
+Solution: notaccident or voluntary
+	 coverage_score: 0.5348837209302325
+Solution: not (intend_mental_state)
+	 coverage_score: 0.5348837209302325
+Solution: Thing
+	 coverage_score: 0.5348837209302325
+Solution: cause or (not (benefit_victim))
+	 coverage_score: 0.5581395348837209
+Solution: cause or (not (negligent_mental_state))
+	 coverage_score: 0.5581395348837209
+Solution: cause or (not (neither_mental_state))
+	 coverage_score: 0.5581395348837209
+Solution: control_perpetrator or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: external_cause or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: foresee_intervention or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: goal_outweigh_harm or (not (weak_intend))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (benefit_protagonist))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (harm_caused_as_planned))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (necessary_for_harm))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (plan_known))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (produce_harm))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (severity_harm))
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or (not (sufficient_for_harm))
+	 coverage_score: 0.5581395348837209
+Solution: outrank_perpetrator or (not (weak_intend))
+	 coverage_score: 0.5581395348837209
+Solution: plan_include_harm or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: plan_known or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: severity_harm or (not (intervening_cause))
+	 coverage_score: 0.5581395348837209
+Solution: severity_harm or (not (plan_include_harm))
+	 coverage_score: 0.5581395348837209
+Solution: someone_else_cause_harm or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: voluntary or (not (justified))
+	 coverage_score: 0.5581395348837209
+Solution: achieve_goal or notaccident
+	 coverage_score: 0.5581395348837209
+Solution: benefit_protagonist or cause
+	 coverage_score: 0.5581395348837209
+Solution: benefit_protagonist or notaccident
+	 coverage_score: 0.5581395348837209
+Solution: careful or cause
+	 coverage_score: 0.5581395348837209
+Solution: cause or goal_outweigh_harm
+	 coverage_score: 0.5581395348837209
+Solution: cause or notaccident
+	 coverage_score: 0.5581395348837209
+Solution: cause or someone_else_cause_harm
+	 coverage_score: 0.5581395348837209
+Solution: harm_caused_as_planned or notaccident
+	 coverage_score: 0.5581395348837209
+Solution: intervening_contribution or notaccident
+	 coverage_score: 0.5581395348837209
+Solution: necessary_for_harm or notaccident
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or plan_known
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or produce_harm
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or severity_harm
+	 coverage_score: 0.5581395348837209
+Solution: notaccident or sufficient_for_harm
+	 coverage_score: 0.5581395348837209
+Solution: plan_known or severity_harm
+	 coverage_score: 0.5581395348837209
+Solution: benefit_victim or (not (justified))
+	 coverage_score: 0.5813953488372093
+Solution: cause or (not (foresee_intervention))
+	 coverage_score: 0.5813953488372093
+Solution: control_perpetrator or (not (reckless_mental_state))
+	 coverage_score: 0.5813953488372093
+Solution: control_perpetrator or (not (weak_intend))
+	 coverage_score: 0.5813953488372093
+Solution: external_force or (not (justified))
+	 coverage_score: 0.5813953488372093
+Solution: intervening_contribution or (not (benefit_victim))
+	 coverage_score: 0.5813953488372093
+Solution: intervening_contribution or (not (justified))
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or (not (benefit_victim))
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or (not (careful))
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or (not (external_cause))
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or (not (foresee_intervention))
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or (not (low_foreseeability))
+	 coverage_score: 0.5813953488372093
+Solution: outrank_perpetrator or (not (justified))
+	 coverage_score: 0.5813953488372093
+Solution: severity_harm or (not (external_force))
+	 coverage_score: 0.5813953488372093
+Solution: severity_harm or (not (justified))
+	 coverage_score: 0.5813953488372093
+Solution: severity_harm or (not (produce_harm))
+	 coverage_score: 0.5813953488372093
+Solution: severity_harm or (not (reckless_mental_state))
+	 coverage_score: 0.5813953488372093
+Solution: severity_harm or (not (weak_intend))
+	 coverage_score: 0.5813953488372093
+Solution: cause or control_perpetrator
+	 coverage_score: 0.5813953488372093
+Solution: cause or external_force
+	 coverage_score: 0.5813953488372093
+Solution: cause or reckless_c
+	 coverage_score: 0.5813953488372093
+Solution: cause or reckless_mental_state
+	 coverage_score: 0.5813953488372093
+Solution: cause or severity_harm
+	 coverage_score: 0.5813953488372093
+Solution: cause or vicarious
+	 coverage_score: 0.5813953488372093
+Solution: control_perpetrator or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: external_force or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: goal_achieveable_less_harmful or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: goal_outweigh_harm or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: high_foreseeability or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: intervening_cause or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: justified or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: no_foreseeability or notaccident
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or plan_include_harm
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or someone_else_cause_harm
+	 coverage_score: 0.5813953488372093
+Solution: notaccident or vicarious
+	 coverage_score: 0.5813953488372093
+Solution: severity_harm or voluntary
+	 coverage_score: 0.5813953488372093
+Solution: notaccident
+	 coverage_score: 0.5813953488372093
+Solution: benefit_protagonist or (not (justified))
+	 coverage_score: 0.6046511627906976
+Solution: careful or (not (justified))
+	 coverage_score: 0.6046511627906976
+Solution: external_force or (not (intervening_cause))
+	 coverage_score: 0.6046511627906976
+Solution: goal_outweigh_harm or (not (intervening_cause))
+	 coverage_score: 0.6046511627906976
+Solution: neither_mental_state or (not (justified))
+	 coverage_score: 0.6046511627906976
+Solution: no_foreseeability or (not (justified))
+	 coverage_score: 0.6046511627906976
+Solution: severity_harm or (not (benefit_victim))
+	 coverage_score: 0.6046511627906976
+Solution: severity_harm or (not (goal_achieveable_less_harmful))
+	 coverage_score: 0.6046511627906976
+Solution: severity_harm or (not (harm_caused_as_planned))
+	 coverage_score: 0.6046511627906976
+Solution: severity_harm or (not (negligent_mental_state))
+	 coverage_score: 0.6046511627906976
+Solution: voluntary or (not (foresee_intervention))
+	 coverage_score: 0.6046511627906976
+Solution: voluntary or (not (intend_c))
+	 coverage_score: 0.6046511627906976
+Solution: voluntary or (not (weak_intend))
+	 coverage_score: 0.6046511627906976
+Solution: foresee_intervention or severity_harm
+	 coverage_score: 0.6046511627906976
+Solution: goal_outweigh_harm or severity_harm
+	 coverage_score: 0.6046511627906976
+Solution: monitor or severity_harm
+	 coverage_score: 0.6046511627906976
+Solution: necessary_for_harm or severity_harm
+	 coverage_score: 0.6046511627906976
+Solution: outrank_perpetrator or plan_known
+	 coverage_score: 0.6046511627906976
+Solution: not (justified)
+	 coverage_score: 0.6046511627906976
+Solution: benefit_protagonist or (not (external_force))
+	 coverage_score: 0.627906976744186
+Solution: benefit_protagonist or (not (intervening_cause))
+	 coverage_score: 0.627906976744186
+Solution: control_perpetrator or (not (intervening_cause))
+	 coverage_score: 0.627906976744186
+Solution: outrank_perpetrator or (not (benefit_victim))
+	 coverage_score: 0.627906976744186
+Solution: outrank_perpetrator or (not (external_force))
+	 coverage_score: 0.627906976744186
+Solution: outrank_perpetrator or (not (intervening_cause))
+	 coverage_score: 0.627906976744186
+Solution: outrank_perpetrator or (not (neither_mental_state))
+	 coverage_score: 0.627906976744186
+Solution: plan_known or (not (benefit_victim))
+	 coverage_score: 0.627906976744186
+Solution: responsible or (not (weak_intend))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (benefit_protagonist))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (careful))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (external_cause))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (high_foreseeability))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (negligent_c))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (neither_mental_state))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (responsible))
+	 coverage_score: 0.627906976744186
+Solution: severity_harm or (not (sufficient_for_harm))
+	 coverage_score: 0.627906976744186
+Solution: someone_else_cause_harm or (not (intervening_cause))
+	 coverage_score: 0.627906976744186
+Solution: someone_else_cause_harm or (not (weak_intend))
+	 coverage_score: 0.627906976744186
+Solution: achieve_goal or severity_harm
+	 coverage_score: 0.627906976744186
+Solution: benefit_protagonist or voluntary
+	 coverage_score: 0.627906976744186
+Solution: low_foreseeability or severity_harm
+	 coverage_score: 0.627906976744186
+Solution: outrank_perpetrator or voluntary
+	 coverage_score: 0.627906976744186
+Solution: notaccident and (not (justified))
+	 coverage_score: 0.6511627906976745
+Solution: careful or (not (benefit_victim))
+	 coverage_score: 0.6511627906976745
+Solution: control_perpetrator or (not (neither_mental_state))
+	 coverage_score: 0.6511627906976745
+Solution: external_cause or (not (benefit_victim))
+	 coverage_score: 0.6511627906976745
+Solution: neither_mental_state or (not (benefit_victim))
+	 coverage_score: 0.6511627906976745
+Solution: severity_harm or (not (low_foreseeability))
+	 coverage_score: 0.6511627906976745
+Solution: someone_else_cause_harm or (not (external_force))
+	 coverage_score: 0.6511627906976745
+Solution: vicarious or (not (weak_intend))
+	 coverage_score: 0.6511627906976745
+Solution: voluntary or (not (benefit_victim))
+	 coverage_score: 0.6511627906976745
+Solution: voluntary or (not (neither_mental_state))
+	 coverage_score: 0.6511627906976745
+Solution: benefit_protagonist or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: careful or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: control_perpetrator or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: control_perpetrator or sufficient_for_harm
+	 coverage_score: 0.6511627906976745
+Solution: external_cause or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: foresee_intervention or outrank_perpetrator
+	 coverage_score: 0.6511627906976745
+Solution: high_foreseeability or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: intervening_contribution or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: negligent_c or outrank_perpetrator
+	 coverage_score: 0.6511627906976745
+Solution: negligent_c or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: neither_mental_state or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: outrank_perpetrator or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: responsible or severity_harm
+	 coverage_score: 0.6511627906976745
+Solution: severity_harm or sufficient_for_harm
+	 coverage_score: 0.6511627906976745
+Solution: someone_else_cause_harm or voluntary
+	 coverage_score: 0.6511627906976745
+Solution: notaccident and (control_perpetrator or negligent_c)
+	 coverage_score: 0.6744186046511628
+Solution: benefit_victim or (notaccident and severity_harm)
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or (foresee_intervention and foreseeable)
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or (foreseeable and negligent_c)
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or (foreseeable and voluntary)
+	 coverage_score: 0.6744186046511628
+Solution: foresee_intervention or (control_perpetrator and foreseeable)
+	 coverage_score: 0.6744186046511628
+Solution: foresee_intervention or (control_perpetrator and notaccident)
+	 coverage_score: 0.6744186046511628
+Solution: goal_achieveable_less_harmful or (foreseeable and severity_harm)
+	 coverage_score: 0.6744186046511628
+Solution: harm_caused_as_planned or (notaccident and severity_harm)
+	 coverage_score: 0.6744186046511628
+Solution: negligent_c or (control_perpetrator and notaccident)
+	 coverage_score: 0.6744186046511628
+Solution: reckless_c or (cause and severity_harm)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (achieve_goal and reckless_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (benefit_victim and foreseeable)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (benefit_victim and intervening_contribution)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (benefit_victim and plan_known)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (benefit_victim and voluntary)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (cause and harm_caused_as_planned)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (cause and intend_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (cause and reckless_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (control_perpetrator and intend_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foresee_intervention and harm_caused_as_planned)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foresee_intervention and reckless_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foresee_intervention and someone_else_cause_harm)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foreseeable and goal_achieveable_less_harmful)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foreseeable and harm_caused_as_planned)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foreseeable and intend_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foreseeable and reckless_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (foreseeable and someone_else_cause_harm)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (goal_achieveable_less_harmful and goal_outweigh_harm)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (goal_achieveable_less_harmful and notaccident)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (goal_achieveable_less_harmful and plan_known)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (goal_outweigh_harm and harm_caused_as_planned)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (goal_outweigh_harm and intend_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (harm_caused_as_planned and notaccident)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (harm_caused_as_planned and plan_known)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (harm_caused_as_planned and voluntary)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (intend_c and plan_known)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (notaccident and someone_else_cause_harm)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (plan_known and reckless_c)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (plan_known and someone_else_cause_harm)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (reckless_c and voluntary)
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (someone_else_cause_harm and voluntary)
+	 coverage_score: 0.6744186046511628
+Solution: someone_else_cause_harm or (cause and severity_harm)
+	 coverage_score: 0.6744186046511628
+Solution: someone_else_cause_harm or (foreseeable and severity_harm)
+	 coverage_score: 0.6744186046511628
+Solution: voluntary or (control_perpetrator and foreseeable)
+	 coverage_score: 0.6744186046511628
+Solution: voluntary or (control_perpetrator and notaccident)
+	 coverage_score: 0.6744186046511628
+Solution: achieve_goal or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: benefit_protagonist or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or (not (external_force))
+	 coverage_score: 0.6744186046511628
+Solution: external_force or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: foresee_intervention or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: goal_achieveable_less_harmful or (not (achieve_goal))
+	 coverage_score: 0.6744186046511628
+Solution: goal_achieveable_less_harmful or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: goal_outweigh_harm or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: harm_caused_as_planned or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: plan_include_harm or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (not (foresee_intervention))
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (not (monitor))
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or (not (necessary_for_harm))
+	 coverage_score: 0.6744186046511628
+Solution: someone_else_cause_harm or (not (benefit_victim))
+	 coverage_score: 0.6744186046511628
+Solution: vicarious or (not (intervening_cause))
+	 coverage_score: 0.6744186046511628
+Solution: benefit_victim or severity_harm
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or foresee_intervention
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or negligent_c
+	 coverage_score: 0.6744186046511628
+Solution: control_perpetrator or voluntary
+	 coverage_score: 0.6744186046511628
+Solution: goal_achieveable_less_harmful or severity_harm
+	 coverage_score: 0.6744186046511628
+Solution: harm_caused_as_planned or severity_harm
+	 coverage_score: 0.6744186046511628
+Solution: intend_c or severity_harm
+	 coverage_score: 0.6744186046511628
+Solution: negligent_mental_state or severity_harm
+	 coverage_score: 0.6744186046511628
+Solution: outrank_perpetrator or responsible
+	 coverage_score: 0.6744186046511628
+Solution: reckless_c or severity_harm
+	 coverage_score: 0.6744186046511628
+Solution: severity_harm or someone_else_cause_harm
+	 coverage_score: 0.6744186046511628
+Solution: notaccident and (control_perpetrator or negligent_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: notaccident and (goal_achieveable_less_harmful or severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: notaccident and (harm_caused_as_planned or severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: notaccident and (intend_c or severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: notaccident and (reckless_c or severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: notaccident and (severity_harm or someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: control_perpetrator or (cause and negligent_c)
+	 coverage_score: 0.6976744186046512
+Solution: control_perpetrator or (foresee_intervention and voluntary)
+	 coverage_score: 0.6976744186046512
+Solution: control_perpetrator or (foreseeable and negligent_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: external_force or (cause and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: goal_achieveable_less_harmful or (notaccident and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: intend_c or (notaccident and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: negligent_mental_state or (control_perpetrator and notaccident)
+	 coverage_score: 0.6976744186046512
+Solution: produce_harm or (notaccident and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: reckless_c or (notaccident and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: reckless_mental_state or (cause and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (achieve_goal and external_force)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (achieve_goal and harm_caused_as_planned)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (achieve_goal and intend_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (achieve_goal and produce_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (achieve_goal and reckless_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (achieve_goal and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_protagonist and external_force)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_protagonist and goal_achieveable_less_harmful)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_protagonist and intend_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_protagonist and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and cause)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and foresee_intervention)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and monitor)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and necessary_for_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and neither_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and notaccident)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (benefit_victim and outrank_perpetrator)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (careful and external_force)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (careful and intend_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (careful and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (cause and external_force)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (cause and goal_achieveable_less_harmful)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (cause and justified)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (cause and reckless_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (cause and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (cause and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (control_perpetrator and goal_achieveable_less_harmful)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (control_perpetrator and harm_caused_as_planned)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (control_perpetrator and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (external_cause and external_force)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (external_cause and intend_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (external_force and foreseeable)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (external_force and notaccident)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foresee_intervention and intend_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foresee_intervention and justified)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foresee_intervention and produce_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foresee_intervention and reckless_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foreseeable and justified)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foreseeable and produce_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foreseeable and reckless_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (foreseeable and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_achieveable_less_harmful and necessary_for_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_achieveable_less_harmful and neither_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_achieveable_less_harmful and outrank_perpetrator)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_achieveable_less_harmful and voluntary)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_outweigh_harm and reckless_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_outweigh_harm and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (goal_outweigh_harm and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (harm_caused_as_planned and intend_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (harm_caused_as_planned and justified)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (harm_caused_as_planned and reckless_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (intend_c and neither_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (intend_c and responsible)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (intend_c and voluntary)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (justified and notaccident)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (justified and plan_known)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (justified and reckless_c)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (justified and voluntary)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (necessary_for_harm and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (neither_mental_state and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (notaccident and produce_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (outrank_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (plan_known and produce_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (plan_known and reckless_mental_state)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (plan_known and weak_intend)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (produce_harm and voluntary)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (reckless_c and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (reckless_mental_state and voluntary)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (responsible and someone_else_cause_harm)
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (someone_else_cause_harm and sufficient_for_harm)
+	 coverage_score: 0.6976744186046512
+Solution: someone_else_cause_harm or (notaccident and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: voluntary or (benefit_protagonist and control_perpetrator)
+	 coverage_score: 0.6976744186046512
+Solution: voluntary or (control_perpetrator and outrank_perpetrator)
+	 coverage_score: 0.6976744186046512
+Solution: voluntary or (control_perpetrator and severity_harm)
+	 coverage_score: 0.6976744186046512
+Solution: control_perpetrator or (not (benefit_victim))
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (not (cause))
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or (not (voluntary))
+	 coverage_score: 0.6976744186046512
+Solution: control_perpetrator or negligent_mental_state
+	 coverage_score: 0.6976744186046512
+Solution: external_force or severity_harm
+	 coverage_score: 0.6976744186046512
+Solution: justified or severity_harm
+	 coverage_score: 0.6976744186046512
+Solution: produce_harm or severity_harm
+	 coverage_score: 0.6976744186046512
+Solution: reckless_mental_state or severity_harm
+	 coverage_score: 0.6976744186046512
+Solution: severity_harm or weak_intend
+	 coverage_score: 0.6976744186046512
+Solution: notaccident and (benefit_victim or severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (control_perpetrator or foresee_intervention)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (control_perpetrator or voluntary)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (external_force or severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (justified or severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (negligent_c or someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (produce_harm or severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (reckless_mental_state or severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: notaccident and (severity_harm or weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (cause and foresee_intervention)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (cause and negligent_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (cause and voluntary)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (foresee_intervention and notaccident)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (foresee_intervention and sufficient_for_harm)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (negligent_c and sufficient_for_harm)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (negligent_mental_state and sufficient_for_harm)
+	 coverage_score: 0.7209302325581395
+Solution: control_perpetrator or (notaccident and voluntary)
+	 coverage_score: 0.7209302325581395
+Solution: external_force or (notaccident and severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: foresee_intervention or (control_perpetrator and outrank_perpetrator)
+	 coverage_score: 0.7209302325581395
+Solution: foresee_intervention or (control_perpetrator and severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: justified or (notaccident and severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: negligent_c or (notaccident and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: plan_include_harm or (foreseeable and severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: reckless_mental_state or (notaccident and severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (achieve_goal and benefit_victim)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (achieve_goal and goal_achieveable_less_harmful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (achieve_goal and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (achieve_goal and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (achieve_goal and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_protagonist and harm_caused_as_planned)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_protagonist and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and careful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and control_perpetrator)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and external_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and goal_achieveable_less_harmful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and goal_outweigh_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and intervening_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and negligent_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and reckless_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and responsible)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (benefit_victim and sufficient_for_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (careful and goal_achieveable_less_harmful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (careful and harm_caused_as_planned)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (cause and intervening_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (cause and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (cause and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and external_force)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and intervening_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and justified)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and reckless_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (control_perpetrator and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and goal_achieveable_less_harmful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and harm_caused_as_planned)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and justified)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and reckless_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_cause and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and goal_achieveable_less_harmful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and goal_outweigh_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and intend_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and neither_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and outrank_perpetrator)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and plan_known)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (external_force and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foresee_intervention and goal_achieveable_less_harmful)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foresee_intervention and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foresee_intervention and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foresee_intervention and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foreseeable and intervening_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foreseeable and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (foreseeable and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_achieveable_less_harmful and intend_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_achieveable_less_harmful and intervening_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_achieveable_less_harmful and intervening_contribution)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_achieveable_less_harmful and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_achieveable_less_harmful and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_outweigh_harm and intervening_cause)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_outweigh_harm and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_outweigh_harm and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_outweigh_harm and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (goal_outweigh_harm and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and intervening_contribution)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and neither_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (harm_caused_as_planned and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (high_foreseeability and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (high_foreseeability and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intend_c and intervening_contribution)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intend_c and justified)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intend_c and outrank_perpetrator)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intend_c and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and low_foreseeability)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and monitor)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and necessary_for_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and negligent_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and neither_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and notaccident)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and plan_known)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_cause and voluntary)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_contribution and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_contribution and reckless_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_contribution and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_contribution and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (intervening_contribution and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (justified and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (justified and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (justified and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (justified and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (justified and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (necessary_for_harm and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (necessary_for_harm and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (notaccident and plan_include_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (outrank_perpetrator and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (outrank_perpetrator and reckless_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (outrank_perpetrator and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (outrank_perpetrator and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and plan_known)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and produce_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and reckless_c)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and reckless_mental_state)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and responsible)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_include_harm and voluntary)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (plan_known and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (produce_harm and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (produce_harm and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (reckless_c and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (reckless_mental_state and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (reckless_mental_state and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (responsible and strong_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (responsible and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (strong_intend and voluntary)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (voluntary and weak_intend)
+	 coverage_score: 0.7209302325581395
+Solution: someone_else_cause_harm or (cause and negligent_c)
+	 coverage_score: 0.7209302325581395
+Solution: someone_else_cause_harm or (foreseeable and negligent_c)
+	 coverage_score: 0.7209302325581395
+Solution: voluntary or (control_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.7209302325581395
+Solution: weak_intend or (notaccident and severity_harm)
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (not (notaccident))
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or (not (plan_known))
+	 coverage_score: 0.7209302325581395
+Solution: intervening_cause or severity_harm
+	 coverage_score: 0.7209302325581395
+Solution: negligent_c or someone_else_cause_harm
+	 coverage_score: 0.7209302325581395
+Solution: plan_include_harm or severity_harm
+	 coverage_score: 0.7209302325581395
+Solution: severity_harm or strong_intend
+	 coverage_score: 0.7209302325581395
+Solution: (no_foreseeability or severity_harm) and (not (intend_mental_state))
+	 coverage_score: 0.7441860465116279
+Solution: no_foreseeability or (severity_harm and (not (intend_mental_state)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (benefit_protagonist)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (benefit_victim)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (careful)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (external_cause)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (external_force)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (foresee_intervention)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (goal_achieveable_less_harmful)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (harm_caused_as_planned)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (high_foreseeability)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (intend_mental_state)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (intervening_cause)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (justified)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (low_foreseeability)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (monitor)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (necessary_for_harm)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (negligent_mental_state)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (neither_mental_state)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (plan_include_harm)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (plan_known)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (produce_harm)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (reckless_mental_state)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (responsible)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (sufficient_for_harm)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (vicarious)))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and (not (weak_intend)))
+	 coverage_score: 0.7441860465116279
+Solution: notaccident and (intervening_cause or severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: notaccident and (plan_include_harm or severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: notaccident and (severity_harm or strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (achieve_goal or foreseeable)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (achieve_goal or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (benefit_protagonist or cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (benefit_protagonist or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (benefit_victim or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (careful or cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (careful or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or control_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or external_force)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or foreseeable)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or goal_outweigh_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or low_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (cause or vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (control_perpetrator or foreseeable)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (external_cause or foreseeable)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (external_cause or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foresee_intervention or foreseeable)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foresee_intervention or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or goal_achieveable_less_harmful)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or intervening_contribution)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or monitor)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or necessary_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (foreseeable or voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (harm_caused_as_planned or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (low_foreseeability or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (necessary_for_harm or notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (notaccident or outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (notaccident or produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (notaccident or sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (notaccident or voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: control_perpetrator or (negligent_c and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: control_perpetrator or (sufficient_for_harm and voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: intervening_cause or (notaccident and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: negligent_c or (control_perpetrator and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: negligent_c or (severity_harm and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: no_foreseeability or (foreseeable and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: plan_include_harm or (notaccident and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (achieve_goal and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (achieve_goal and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (achieve_goal and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (achieve_goal and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and benefit_victim)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_protagonist and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and external_force)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and harm_caused_as_planned)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and intend_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and justified)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and negligent_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (benefit_victim and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (careful and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (cause and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (cause and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (cause and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (control_perpetrator and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (control_perpetrator and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (control_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_cause and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_cause and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_cause and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_cause and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_cause and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and foresee_intervention)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and harm_caused_as_planned)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and intervening_contribution)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and justified)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (external_force and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (foresee_intervention and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (foresee_intervention and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (foresee_intervention and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (foreseeable and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (foreseeable and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and harm_caused_as_planned)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and responsible)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_achieveable_less_harmful and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_outweigh_harm and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (goal_outweigh_harm and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (harm_caused_as_planned and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (harm_caused_as_planned and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (harm_caused_as_planned and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (harm_caused_as_planned and outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (harm_caused_as_planned and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (high_foreseeability and intend_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (high_foreseeability and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (high_foreseeability and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_c and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_c and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_c and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_c and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and intervening_cause)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and intervening_contribution)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and justified)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and low_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and monitor)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and necessary_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and plan_known)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and responsible)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intend_mental_state and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and justified)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and negligent_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_cause and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_contribution and justified)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_contribution and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_contribution and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_contribution and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (intervening_contribution and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (justified and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (justified and outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (justified and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (justified and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (low_foreseeability and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (low_foreseeability and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (low_foreseeability and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (monitor and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (monitor and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (monitor and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (monitor and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (necessary_for_harm and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (necessary_for_harm and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_c and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_c and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_c and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_c and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_mental_state and no_foreseeability)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_mental_state and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_mental_state and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (negligent_mental_state and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (neither_mental_state and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (neither_mental_state and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (neither_mental_state and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (neither_mental_state and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (neither_mental_state and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (neither_mental_state and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and notaccident)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and outrank_perpetrator)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and plan_known)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and produce_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and reckless_c)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and reckless_mental_state)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and responsible)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (no_foreseeability and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (notaccident and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (outrank_perpetrator and plan_include_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (outrank_perpetrator and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (plan_include_harm and someone_else_cause_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (plan_include_harm and sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (plan_include_harm and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (plan_include_harm and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (plan_known and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (produce_harm and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (reckless_c and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (reckless_mental_state and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (responsible and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (someone_else_cause_harm and strong_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (someone_else_cause_harm and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (strong_intend and sufficient_for_harm)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (strong_intend and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (strong_intend and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (sufficient_for_harm and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (vicarious and voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (vicarious and weak_intend)
+	 coverage_score: 0.7441860465116279
+Solution: someone_else_cause_harm or (severity_harm and voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: strong_intend or (notaccident and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: vicarious or (cause and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: vicarious or (foreseeable and severity_harm)
+	 coverage_score: 0.7441860465116279
+Solution: vicarious or (foreseeable and voluntary)
+	 coverage_score: 0.7441860465116279
+Solution: voluntary or (foreseeable and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: voluntary or (notaccident and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: voluntary or (severity_harm and vicarious)
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm and (not (intend_mental_state))
+	 coverage_score: 0.7441860465116279
+Solution: responsible or (not (neither_mental_state))
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or (not (foreseeable))
+	 coverage_score: 0.7441860465116279
+Solution: vicarious or (not (external_force))
+	 coverage_score: 0.7441860465116279
+Solution: intend_mental_state or severity_harm
+	 coverage_score: 0.7441860465116279
+Solution: no_foreseeability or severity_harm
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm or vicarious
+	 coverage_score: 0.7441860465116279
+Solution: vicarious or voluntary
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm
+	 coverage_score: 0.7441860465116279
+Solution: severity_harm
+	 coverage_score: 0.7441860465116279
+Solution: notaccident and (responsible or (not (benefit_victim)))
+	 coverage_score: 0.7674418604651163
+Solution: (no_foreseeability or severity_harm) and (not (justified))
+	 coverage_score: 0.7674418604651163
+Solution: no_foreseeability or (severity_harm and (not (justified)))
+	 coverage_score: 0.7674418604651163
+Solution: responsible or (notaccident and (not (benefit_victim)))
+	 coverage_score: 0.7674418604651163
+Solution: (achieve_goal and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: (foresee_intervention and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: (intervening_contribution and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: (outrank_perpetrator and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: (plan_known and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: (responsible and someone_else_cause_harm) or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and (control_perpetrator or responsible)
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and (intend_mental_state or severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and (no_foreseeability or severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and (responsible or someone_else_cause_harm)
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and (severity_harm or vicarious)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (control_perpetrator or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (external_force or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (goal_achieveable_less_harmful or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (goal_outweigh_harm or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (high_foreseeability or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (intervening_cause or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (intervening_contribution or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (justified or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (no_foreseeability or notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (notaccident or plan_include_harm)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (notaccident or plan_known)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (notaccident or someone_else_cause_harm)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (notaccident or vicarious)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (foresee_intervention and negligent_c)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (foresee_intervention and negligent_mental_state)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (foresee_intervention and responsible)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (foresee_intervention and severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (negligent_c and voluntary)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (negligent_mental_state and severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (negligent_mental_state and voluntary)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (responsible and sufficient_for_harm)
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or (severity_harm and voluntary)
+	 coverage_score: 0.7674418604651163
+Solution: intend_mental_state or (notaccident and severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: negligent_c or (control_perpetrator and outrank_perpetrator)
+	 coverage_score: 0.7674418604651163
+Solution: negligent_c or (outrank_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.7674418604651163
+Solution: no_foreseeability or (notaccident and severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: responsible or (control_perpetrator and notaccident)
+	 coverage_score: 0.7674418604651163
+Solution: responsible or (notaccident and someone_else_cause_harm)
+	 coverage_score: 0.7674418604651163
+Solution: someone_else_cause_harm or (negligent_c and severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: vicarious or (notaccident and severity_harm)
+	 coverage_score: 0.7674418604651163
+Solution: voluntary or (benefit_protagonist and vicarious)
+	 coverage_score: 0.7674418604651163
+Solution: severity_harm and (not (justified))
+	 coverage_score: 0.7674418604651163
+Solution: justified or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: responsible or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: vicarious or (not (benefit_victim))
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and severity_harm
+	 coverage_score: 0.7674418604651163
+Solution: control_perpetrator or responsible
+	 coverage_score: 0.7674418604651163
+Solution: responsible or someone_else_cause_harm
+	 coverage_score: 0.7674418604651163
+Solution: notaccident and (no_foreseeability or (not (benefit_victim)))
+	 coverage_score: 0.7906976744186046
+Solution: (achieve_goal or foreseeable) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (achieve_goal or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (benefit_protagonist or cause) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (benefit_protagonist or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (benefit_victim or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (careful or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (cause or foreseeable) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (cause or goal_outweigh_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (cause or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (cause or outrank_perpetrator) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (cause or someone_else_cause_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (control_perpetrator or foreseeable) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (control_perpetrator or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (external_cause or foreseeable) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (external_cause or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (external_force or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foresee_intervention or foreseeable) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foresee_intervention or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or goal_achieveable_less_harmful) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or intervening_contribution) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or no_foreseeability) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or outrank_perpetrator) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or plan_include_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or someone_else_cause_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foreseeable or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (goal_achieveable_less_harmful or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (goal_outweigh_harm or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (harm_caused_as_planned or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (intervening_contribution or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability or notaccident) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (notaccident or outrank_perpetrator) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (notaccident or plan_include_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (notaccident or plan_known) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (notaccident or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (notaccident or someone_else_cause_harm) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (notaccident or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: no_foreseeability or (foreseeable and (not (benefit_victim)))
+	 coverage_score: 0.7906976744186046
+Solution: no_foreseeability or (notaccident and (not (benefit_victim)))
+	 coverage_score: 0.7906976744186046
+Solution: (achieve_goal and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (benefit_protagonist and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (benefit_protagonist and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (careful and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (careful and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (cause and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (control_perpetrator and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (control_perpetrator and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (external_cause and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (external_cause and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (foresee_intervention and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (goal_achieveable_less_harmful and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (goal_achieveable_less_harmful and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (goal_outweigh_harm and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (harm_caused_as_planned and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (harm_caused_as_planned and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (intervening_contribution and no_foreseeability) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (neither_mental_state and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and notaccident) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and outrank_perpetrator) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and plan_include_harm) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and plan_known) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and severity_harm) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and someone_else_cause_harm) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (no_foreseeability and voluntary) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (plan_include_harm and responsible) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: (responsible and severity_harm) or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: notaccident and (vicarious or voluntary)
+	 coverage_score: 0.7906976744186046
+Solution: severity_harm and (outrank_perpetrator or plan_known)
+	 coverage_score: 0.7906976744186046
+Solution: (not (benefit_victim)) and (not (intend_mental_state))
+	 coverage_score: 0.7906976744186046
+Solution: control_perpetrator or (negligent_c and responsible)
+	 coverage_score: 0.7906976744186046
+Solution: control_perpetrator or (negligent_mental_state and responsible)
+	 coverage_score: 0.7906976744186046
+Solution: negligent_c or (control_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.7906976744186046
+Solution: negligent_mental_state or (control_perpetrator and severity_harm)
+	 coverage_score: 0.7906976744186046
+Solution: responsible or (severity_harm and someone_else_cause_harm)
+	 coverage_score: 0.7906976744186046
+Solution: someone_else_cause_harm or (negligent_c and voluntary)
+	 coverage_score: 0.7906976744186046
+Solution: vicarious or (cause and voluntary)
+	 coverage_score: 0.7906976744186046
+Solution: vicarious or (notaccident and voluntary)
+	 coverage_score: 0.7906976744186046
+Solution: notaccident and (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: no_foreseeability or (not (benefit_victim))
+	 coverage_score: 0.7906976744186046
+Solution: not (benefit_victim)
+	 coverage_score: 0.7906976744186046
+Solution: (benefit_protagonist or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (careful or cause) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (cause or control_perpetrator) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (cause or external_force) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (cause or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (cause or vicarious) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (goal_outweigh_harm or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (negligent_c or vicarious) and (not (intend_mental_state))
+	 coverage_score: 0.813953488372093
+Solution: (outrank_perpetrator or plan_known) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: (plan_known or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (vicarious and (not (benefit_victim)))
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (vicarious and (not (high_foreseeability)))
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (vicarious and (not (intend_mental_state)))
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (vicarious and (not (justified)))
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (vicarious and (not (negligent_mental_state)))
+	 coverage_score: 0.813953488372093
+Solution: responsible or (outrank_perpetrator and (not (benefit_victim)))
+	 coverage_score: 0.813953488372093
+Solution: vicarious or (negligent_c and (not (no_foreseeability)))
+	 coverage_score: 0.813953488372093
+Solution: notaccident and (negligent_c or vicarious)
+	 coverage_score: 0.813953488372093
+Solution: severity_harm and (control_perpetrator or sufficient_for_harm)
+	 coverage_score: 0.813953488372093
+Solution: severity_harm and (foresee_intervention or outrank_perpetrator)
+	 coverage_score: 0.813953488372093
+Solution: severity_harm and (negligent_c or outrank_perpetrator)
+	 coverage_score: 0.813953488372093
+Solution: severity_harm and (outrank_perpetrator or voluntary)
+	 coverage_score: 0.813953488372093
+Solution: severity_harm and (someone_else_cause_harm or voluntary)
+	 coverage_score: 0.813953488372093
+Solution: control_perpetrator or (responsible and severity_harm)
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (notaccident and vicarious)
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or (severity_harm and vicarious)
+	 coverage_score: 0.813953488372093
+Solution: responsible or (control_perpetrator and severity_harm)
+	 coverage_score: 0.813953488372093
+Solution: someone_else_cause_harm or (negligent_c and responsible)
+	 coverage_score: 0.813953488372093
+Solution: someone_else_cause_harm or (responsible and severity_harm)
+	 coverage_score: 0.813953488372093
+Solution: vicarious or (foreseeable and negligent_c)
+	 coverage_score: 0.813953488372093
+Solution: negligent_c or vicarious
+	 coverage_score: 0.813953488372093
+Solution: (achieve_goal or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (benefit_protagonist or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (foresee_intervention or outrank_perpetrator) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (foresee_intervention or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (necessary_for_harm or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (outrank_perpetrator or responsible) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (outrank_perpetrator or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: (severity_harm or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.8372093023255814
+Solution: responsible or (severity_harm and (not (benefit_victim)))
+	 coverage_score: 0.8372093023255814
+Solution: vicarious or (negligent_c and (not (justified)))
+	 coverage_score: 0.8372093023255814
+Solution: severity_harm and (benefit_protagonist or voluntary)
+	 coverage_score: 0.8372093023255814
+Solution: severity_harm and (control_perpetrator or negligent_c)
+	 coverage_score: 0.8372093023255814
+Solution: severity_harm and (negligent_c or someone_else_cause_harm)
+	 coverage_score: 0.8372093023255814
+Solution: severity_harm and (outrank_perpetrator or responsible)
+	 coverage_score: 0.8372093023255814
+Solution: (not (benefit_victim)) and (not (justified))
+	 coverage_score: 0.8372093023255814
+Solution: responsible or (control_perpetrator and outrank_perpetrator)
+	 coverage_score: 0.8372093023255814
+Solution: responsible or (outrank_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.8372093023255814
+Solution: vicarious or (cause and negligent_c)
+	 coverage_score: 0.8372093023255814
+Solution: (careful or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (control_perpetrator or foresee_intervention) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (control_perpetrator or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (control_perpetrator or sufficient_for_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (control_perpetrator or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (external_cause or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (harm_caused_as_planned or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (negligent_c or vicarious) and (not (justified))
+	 coverage_score: 0.8604651162790697
+Solution: (responsible or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: (severity_harm or sufficient_for_harm) and (not (benefit_victim))
+	 coverage_score: 0.8604651162790697
+Solution: responsible or (control_perpetrator and (not (benefit_victim)))
+	 coverage_score: 0.8604651162790697
+Solution: responsible or (someone_else_cause_harm and (not (benefit_victim)))
+	 coverage_score: 0.8604651162790697
+Solution: severity_harm and (control_perpetrator or foresee_intervention)
+	 coverage_score: 0.8604651162790697
+Solution: severity_harm and (control_perpetrator or negligent_mental_state)
+	 coverage_score: 0.8604651162790697
+Solution: severity_harm and (control_perpetrator or voluntary)
+	 coverage_score: 0.8604651162790697
+Solution: responsible or (control_perpetrator and someone_else_cause_harm)
+	 coverage_score: 0.8604651162790697
+Solution: notaccident and severity_harm and (responsible or someone_else_cause_harm)
+	 coverage_score: 0.8837209302325582
+Solution: severity_harm and (responsible or (notaccident and someone_else_cause_harm))
+	 coverage_score: 0.8837209302325582
+Solution: severity_harm and (responsible or (severity_harm and someone_else_cause_harm))
+	 coverage_score: 0.8837209302325582
+Solution: severity_harm and (someone_else_cause_harm or (responsible and severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: (achieve_goal or foreseeable) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (achieve_goal or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (benefit_protagonist or cause) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (benefit_protagonist or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (benefit_victim or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (careful or cause) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (careful or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (cause or external_force) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (cause or foreseeable) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (cause or goal_outweigh_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (cause or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (cause or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (control_perpetrator or foresee_intervention) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (external_cause or foreseeable) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (external_cause or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (external_force or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foresee_intervention or foreseeable) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foresee_intervention or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foresee_intervention or outrank_perpetrator) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foresee_intervention or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or goal_achieveable_less_harmful) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or intervening_contribution) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or no_foreseeability) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or plan_include_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (foreseeable or voluntary) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (goal_achieveable_less_harmful or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (goal_outweigh_harm or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (harm_caused_as_planned or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (intervening_contribution or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (no_foreseeability or notaccident) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (notaccident or plan_include_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (notaccident or plan_known) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (notaccident or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (notaccident or voluntary) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (outrank_perpetrator or plan_known) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (plan_known or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: (responsible or vicarious) and (severity_harm or voluntary)
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (achieve_goal or benefit_protagonist))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (achieve_goal or external_force))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (achieve_goal or foreseeable))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (achieve_goal or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (achieve_goal or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_protagonist or cause))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_protagonist or external_cause))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_protagonist or intervening_contribution))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_protagonist or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_protagonist or plan_include_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_protagonist or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_victim or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (benefit_victim or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (careful or cause))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (careful or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (careful or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (cause or external_force))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (cause or foreseeable))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (cause or goal_outweigh_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (cause or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (cause or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_cause or external_force))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_cause or foreseeable))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_cause or goal_achieveable_less_harmful))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_cause or goal_outweigh_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_cause or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_cause or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or foresee_intervention))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or goal_achieveable_less_harmful))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or intervening_contribution))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or no_foreseeability))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or plan_include_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (external_force or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foresee_intervention or foreseeable))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foresee_intervention or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foresee_intervention or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or goal_achieveable_less_harmful))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or intervening_contribution))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or no_foreseeability))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or plan_include_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (foreseeable or voluntary))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (goal_achieveable_less_harmful or goal_outweigh_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (goal_achieveable_less_harmful or intervening_contribution))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (goal_achieveable_less_harmful or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (goal_achieveable_less_harmful or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (goal_outweigh_harm or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (goal_outweigh_harm or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (harm_caused_as_planned or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (harm_caused_as_planned or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (intervening_contribution or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (intervening_contribution or plan_known))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (intervening_contribution or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (neither_mental_state or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (no_foreseeability or notaccident))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (no_foreseeability or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (notaccident or plan_include_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (notaccident or plan_known))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (notaccident or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (notaccident or voluntary))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (plan_include_harm or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (plan_known or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (severity_harm or voluntary))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (benefit_protagonist or foresee_intervention))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (control_perpetrator or foresee_intervention))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (external_cause or foresee_intervention))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (foresee_intervention or goal_outweigh_harm))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (foresee_intervention or harm_caused_as_planned))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (foresee_intervention or outrank_perpetrator))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (foresee_intervention or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (outrank_perpetrator or plan_known))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (plan_known or severity_harm))
+	 coverage_score: 0.8837209302325582
+Solution: (control_perpetrator or responsible) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (external_force or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (goal_achieveable_less_harmful or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (justified or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (neither_mental_state or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (outrank_perpetrator or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (responsible or someone_else_cause_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (responsible or vicarious) and (not (intend_mental_state))
+	 coverage_score: 0.8837209302325582
+Solution: (severity_harm or someone_else_cause_harm) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: (someone_else_cause_harm or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (not (intend_mental_state)))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (not (neither_mental_state)))
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (vicarious and (not (weak_intend)))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (negligent_c and (not (benefit_victim)))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (negligent_c and (not (intervening_cause)))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (not (intend_mental_state)))
+	 coverage_score: 0.8837209302325582
+Solution: vicarious or (responsible and (not (no_foreseeability)))
+	 coverage_score: 0.8837209302325582
+Solution: notaccident and (responsible or vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: severity_harm and (responsible or someone_else_cause_harm)
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (notaccident and vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: responsible or (severity_harm and vicarious)
+	 coverage_score: 0.8837209302325582
+Solution: responsible or vicarious
+	 coverage_score: 0.8837209302325582
+Solution: notaccident and severity_harm and (control_perpetrator or responsible)
+	 coverage_score: 0.9069767441860465
+Solution: notaccident and severity_harm and (negligent_c or vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: notaccident and (vicarious or (negligent_c and severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: notaccident and (vicarious or (negligent_c and voluntary))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (control_perpetrator or (foresee_intervention and responsible))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (control_perpetrator or (negligent_c and responsible))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (control_perpetrator or (negligent_mental_state and responsible))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (control_perpetrator or (responsible and severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (control_perpetrator or (responsible and sufficient_for_harm))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (negligent_c or (notaccident and vicarious))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (negligent_c or (severity_harm and vicarious))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (responsible or (control_perpetrator and notaccident))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (responsible or (control_perpetrator and severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or (cause and negligent_c))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or (cause and voluntary))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or (foreseeable and negligent_c))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or (foreseeable and voluntary))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or (negligent_c and severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or (severity_harm and voluntary))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (voluntary or (foreseeable and vicarious))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (voluntary or (notaccident and vicarious))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (voluntary or (severity_harm and vicarious))
+	 coverage_score: 0.9069767441860465
+Solution: (achieve_goal or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (benefit_protagonist or voluntary) and (responsible or vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (goal_outweigh_harm or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (harm_caused_as_planned or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (benefit_protagonist or foresee_intervention))
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (benefit_protagonist or goal_achieveable_less_harmful))
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (benefit_protagonist or no_foreseeability))
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (benefit_protagonist or voluntary))
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (careful or goal_achieveable_less_harmful))
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (cause and negligent_c and severity_harm)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (cause and severity_harm and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (foreseeable and negligent_c and severity_harm)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (foreseeable and negligent_c and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (foreseeable and severity_harm and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (responsible and (achieve_goal or severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (responsible and (goal_outweigh_harm or severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (responsible and (harm_caused_as_planned or severity_harm))
+	 coverage_score: 0.9069767441860465
+Solution: (foreseeable and vicarious) or (severity_harm and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: (negligent_c and severity_harm) or (notaccident and vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (negligent_c and severity_harm) or (severity_harm and vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (negligent_c and voluntary) or (notaccident and vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (negligent_c and voluntary) or (severity_harm and vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: (notaccident and vicarious) or (severity_harm and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: (severity_harm and vicarious) or (severity_harm and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: (intervening_contribution or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.9069767441860465
+Solution: (negligent_c or vicarious) and (not (benefit_victim))
+	 coverage_score: 0.9069767441860465
+Solution: (plan_include_harm or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.9069767441860465
+Solution: (produce_harm or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.9069767441860465
+Solution: (vicarious or voluntary) and (not (benefit_victim))
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (not (benefit_victim)))
+	 coverage_score: 0.9069767441860465
+Solution: responsible or (vicarious and (not (justified)))
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (negligent_c and (not (external_force)))
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (responsible and (not (benefit_victim)))
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (responsible and (not (weak_intend)))
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (control_perpetrator or responsible)
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (negligent_c or vicarious)
+	 coverage_score: 0.9069767441860465
+Solution: severity_harm and (vicarious or voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (negligent_c and severity_harm)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (negligent_c and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: vicarious or (severity_harm and voluntary)
+	 coverage_score: 0.9069767441860465
+Solution: notaccident and severity_harm and (vicarious or voluntary)
+	 coverage_score: 0.9302325581395349
+Solution: notaccident and (vicarious or (severity_harm and voluntary))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (vicarious or (notaccident and voluntary))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (voluntary or (benefit_protagonist and vicarious))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (not (benefit_victim)) and (not (intend_mental_state))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (not (benefit_victim)) and (not (justified))
+	 coverage_score: 0.9302325581395349
+Solution: (control_perpetrator or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9302325581395349
+Solution: (intervening_contribution or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9302325581395349
+Solution: (justified or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9302325581395349
+Solution: (responsible or vicarious) and (severity_harm or someone_else_cause_harm)
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (cause and negligent_c and voluntary)
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (notaccident and severity_harm and voluntary)
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (responsible and (control_perpetrator or severity_harm))
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (responsible and (intervening_contribution or severity_harm))
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (responsible and (justified or severity_harm))
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (responsible and (severity_harm or someone_else_cause_harm))
+	 coverage_score: 0.9302325581395349
+Solution: (benefit_protagonist and vicarious) or (severity_harm and voluntary)
+	 coverage_score: 0.9302325581395349
+Solution: notaccident and severity_harm and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (no_foreseeability or (not (benefit_victim)))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (responsible or (not (benefit_victim)))
+	 coverage_score: 0.9302325581395349
+Solution: (benefit_victim or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: (intervening_cause or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: (no_foreseeability or severity_harm) and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: (responsible or vicarious) and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: (severity_harm or vicarious) and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: no_foreseeability or (severity_harm and (not (benefit_victim)))
+	 coverage_score: 0.9302325581395349
+Solution: vicarious or (responsible and (not (justified)))
+	 coverage_score: 0.9302325581395349
+Solution: severity_harm and (not (benefit_victim))
+	 coverage_score: 0.9302325581395349
+Solution: notaccident and (vicarious or (negligent_c and responsible))
+	 coverage_score: 0.9534883720930233
+Solution: severity_harm and (responsible or (control_perpetrator and outrank_perpetrator))
+	 coverage_score: 0.9534883720930233
+Solution: severity_harm and (responsible or (control_perpetrator and someone_else_cause_harm))
+	 coverage_score: 0.9534883720930233
+Solution: severity_harm and (responsible or (outrank_perpetrator and someone_else_cause_harm))
+	 coverage_score: 0.9534883720930233
+Solution: (benefit_protagonist or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (benefit_victim or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (careful or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (external_cause or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (neither_mental_state or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (outrank_perpetrator or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (plan_include_harm or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (benefit_protagonist or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (benefit_victim or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (careful or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (external_cause or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (neither_mental_state or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (outrank_perpetrator or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (responsible and (plan_include_harm or severity_harm))
+	 coverage_score: 0.9534883720930233
+Solution: (negligent_c and responsible) or (notaccident and vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (negligent_c and responsible) or (severity_harm and vicarious)
+	 coverage_score: 0.9534883720930233
+Solution: (responsible or vicarious) and (not (justified))
+	 coverage_score: 0.9534883720930233
+Solution: vicarious or (negligent_c and responsible)
+	 coverage_score: 0.9534883720930233
+Solution: notaccident and severity_harm and (responsible or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: notaccident and (vicarious or (responsible and severity_harm))
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (responsible or (notaccident and vicarious))
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (responsible or (severity_harm and vicarious))
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (vicarious or (negligent_c and responsible))
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (vicarious or (negligent_c and voluntary))
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (vicarious or (responsible and severity_harm))
+	 coverage_score: 0.9767441860465116
+Solution: (external_force or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: (goal_achieveable_less_harmful or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: (intervening_cause or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: (no_foreseeability or severity_harm) and (responsible or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: (responsible or vicarious) and (severity_harm or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (negligent_c and responsible and severity_harm)
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (negligent_c and severity_harm and voluntary)
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (responsible and (external_force or severity_harm))
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (responsible and (goal_achieveable_less_harmful or severity_harm))
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (responsible and (intervening_cause or severity_harm))
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (responsible and (no_foreseeability or severity_harm))
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (responsible and (severity_harm or vicarious))
+	 coverage_score: 0.9767441860465116
+Solution: (notaccident and vicarious) or (responsible and severity_harm)
+	 coverage_score: 0.9767441860465116
+Solution: (responsible and severity_harm) or (severity_harm and vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (responsible or vicarious)
+	 coverage_score: 0.9767441860465116
+Solution: vicarious or (responsible and severity_harm)
+	 coverage_score: 0.9767441860465116
+Solution: severity_harm and (responsible or vicarious) and (not (benefit_victim))
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.25 AM
+Program duration: 1.33 sec

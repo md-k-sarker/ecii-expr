@@ -1,0 +1,120 @@
+Program started.............
+Program starts at: 09.02.2018  10.40.13 AM
+Working with confFile: straight_owl.config
+Algorithm starts at: 09.02.2018  10.40.14 AM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	hand40
+	hand1
+	hand22
+	hand44
+negIndivs from conf:
+	hand0
+	hand49
+	hand2
+	hand4
+	hand46
+	hand3
+	hand45
+	hand6
+	hand48
+	hand5
+	hand47
+	hand8
+	hand42
+	hand7
+	hand41
+	hand9
+	hand43
+	hand17
+	hand16
+	hand19
+	hand18
+	hand13
+	hand12
+	hand15
+	hand14
+	hand53
+	hand52
+	hand11
+	hand10
+	hand54
+	hand51
+	hand50
+	hand28
+	hand27
+	hand29
+	hand24
+	hand23
+	hand26
+	hand25
+	hand20
+	hand21
+	hand39
+	hand38
+	hand35
+	hand34
+	hand37
+	hand36
+	hand31
+	hand30
+	hand33
+	hand32
+
+Algorithm ends at: 09.02.2018  10.40.16 AM
+
+Algorithm duration: 1.6 sec
+
+####################Solutions####################:
+solution 1: ∃hasCard.(( ¬ card) ⊔ (card))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 2: ((deck) ⊔ ( ¬ deck))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 3: ((deck) ⊔ ( ¬ deck)) ⊓ ∃hasCard.(( ¬ card) ⊔ (card))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 4: ( ¬ deck)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 5: ∃hasCard.( ¬ card)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 6: ( ¬ deck) ⊓ ∃hasCard.( ¬ card)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 7: ( ¬ deck) ⊓ ∃hasCard.(( ¬ card) ⊔ (card))
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 8: ((deck) ⊔ ( ¬ deck)) ⊓ ∃hasCard.( ¬ card)
+	 coverage_score: 0.9272727272727272
+	 f_measure: 0.0
+solution 9: (deck)
+	 coverage_score: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 10: ∃hasCard.(card)
+	 coverage_score: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 11: (deck) ⊓ ∃hasCard.(card)
+	 coverage_score: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 12: (deck) ⊓ ∃hasCard.(( ¬ card) ⊔ (card))
+	 coverage_score: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 13: ((deck) ⊔ ( ¬ deck)) ⊓ ∃hasCard.(card)
+	 coverage_score: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+
+Total solutions found: 13
+
+Program finished.
+Program ends at: 09.02.2018  10.40.16 AM
+Program duration: 2.365 sec

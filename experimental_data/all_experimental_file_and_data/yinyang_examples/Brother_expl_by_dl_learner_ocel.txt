@@ -1,0 +1,41 @@
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 129 ms.
+... initialized component 'reasoner' in 891ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 14ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (29.412% accuracy)
+more accurate (94.12%) class expression found: Male
+more accurate (100.00%) class expression found: Male and (hasSibling some Thing)
+Maximum time (5 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: Male and (hasSibling some Thing) (accuracy 100%, length 5, depth 1)
+2: Male and ((not (Male)) or (hasSibling some Thing)) (accuracy 100%, length 8, depth 1)
+3: Male and ((hasChild some Thing) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+4: Male and ((hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+5: Male and ((hasSibling some Thing) or (hasParent max 1 Thing)) (accuracy 100%, length 10, depth 1)
+6: Male and ((not (Male)) or (not (Male)) or (hasSibling some Thing)) (accuracy 100%, length 11, depth 1)
+7: Male and ((not (Male)) or (hasChild some Thing) or (hasSibling some Thing)) (accuracy 100%, length 12, depth 1)
+8: Male and ((not (Male)) or (hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 12, depth 1)
+9: Male and ((hasChild some Thing) or (hasChild some Thing) or (hasSibling some Thing)) (accuracy 100%, length 13, depth 1)
+10: Male and ((hasChild some Thing) or (hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 13, depth 1)
+11: Male and ((hasSibling some Thing) or (hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 13, depth 1)
+12: Male and ((not (Male)) or (hasSibling some Thing) or (hasParent max 1 Thing)) (accuracy 100%, length 13, depth 1)
+13: Male and ((hasChild some Thing) or (hasSibling some Thing) or (hasParent max 1 Thing)) (accuracy 100%, length 14, depth 1)
+14: Male and ((hasSibling some Thing) or (hasSibling some Thing) or (hasParent max 1 Thing)) (accuracy 100%, length 14, depth 1)
+15: Male and ((not (Male)) or (not (Male)) or (not (Male)) or (hasSibling some Thing)) (accuracy 100%, length 14, depth 1)
+16: Male and ((not (Male)) or (not (Male)) or (hasChild some Thing) or (hasSibling some Thing)) (accuracy 100%, length 15, depth 1)
+17: Male and ((not (Male)) or (not (Male)) or (hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 15, depth 1)
+18: Male and ((not (Male)) or (hasChild some Thing) or (hasChild some Thing) or (hasSibling some Thing)) (accuracy 100%, length 16, depth 1)
+19: Male and ((not (Male)) or (hasChild some Thing) or (hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 16, depth 1)
+20: Male and ((not (Male)) or (hasSibling some Thing) or (hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 16, depth 1)
+Algorithm stopped (15927 descriptions tested).
+

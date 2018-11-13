@@ -1,0 +1,65 @@
+/**
+ * Sumo with ADE training Data
+ * 
+ *
+ */
+
+// declare some prefixes to use as abbreviations
+prefixes = [ ("ex","http://www.adampease.org/OP/SUMO.owl#") ]
+
+// knowledge source definition
+ks.type = "OWL File"
+ks.fileName = "OutdoorWarehouse_positive_vs_IndoorWarehouse_negative.owl"
+
+// object properties
+objectProperties={":imageContains"}
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+//lp.type = "posonlylp"
+lp.type = "posNegStandard"
+lp.positiveExamples = {"ex:OutdoorWareHouse_Indi_2_ADE_train_00019755", "ex:OutdoorWareHouse_Indi_1_ADE_train_00019754", "ex:OutdoorWareHouse_Indi_3_ADE_train_00019756"}
+
+lp.negativeExamples = {"ex:IndoorWarehouse_Indi_1_ADE_train_00019704", "ex:IndoorWarehouse_Indi_1_ADE_train_00019703",  "ex:IndoorWarehouse_Indi_1_ADE_train_00019702"}
+
+// create learning algorithm to run
+la.type = "celoe"
+//la.maxExecutionTimeInSeconds = 6000
+la.stopOnFirstDefinition = "true"
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.adampease.org/OP/SUMO>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 442 ms.
+... initialized component 'reasoner' in 9s 178ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 3s 84ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (50.00%) class expression found after 27ms: Thing
+Algorithm terminated successfully (time: 10s 0ms, 256590 descriptions tested, 165430 nodes in the search tree).
+
+number of retrievals: 256600
+retrieval reasoning time: 1s 679ms ( 0ms per retrieval)
+overall reasoning time: 1s 679ms
+
+solutions:
+1: Thing (pred. acc.: 50.00%, F-measure: 66.67%)
+2: not (Mile) (pred. acc.: 50.00%, F-measure: 66.67%)
+3: not (Meter) (pred. acc.: 50.00%, F-measure: 66.67%)
+4: not (FootLength) (pred. acc.: 50.00%, F-measure: 66.67%)
+5: not (Fish) (pred. acc.: 50.00%, F-measure: 66.67%)
+6: not (ChangeOfControl) (pred. acc.: 50.00%, F-measure: 66.67%)
+7: not (Centimeter) (pred. acc.: 50.00%, F-measure: 66.67%)
+8: not (CelsiusDegree) (pred. acc.: 50.00%, F-measure: 66.67%)
+9: not (Brandy) (pred. acc.: 50.00%, F-measure: 66.67%)
+10: not (AntarcticArea) (pred. acc.: 50.00%, F-measure: 66.67%)
+

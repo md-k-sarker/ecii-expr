@@ -1,0 +1,16 @@
+Prediction:
+13
+Label:
+13
+001 # 0 # 0 # wall # wall # "" # 0.369784876141
+003 # 0 # 0 # floor, flooring # floor # "wood" # 0.389852558543
+004 # 0 # 0 # ceiling # ceiling # "tray" # 0.446689942259
+005 # 0 # 0 # painting, picture # picture # "painting" # 0.264541832669
+006 # 0 # 1 # cabinet # cabinet # "" # 0.235550708833
+007 # 0 # 0 # table # table # "" # 0.185243741765
+008 # 0 # 1 # chair # chair # "" # 0.233307148468
+009 # 0 # 0 # windowpane, window # window # "" # 0.147581832597
+012 # 0 # 0 # chandelier, pendant, pendent # chandelier # "on" # 0.0859626980788
+018 # 0 # 0 # curtain, drape, drapery, mantle, pall # curtain # "" # 0.25890736342
+020 # 0 # 0 # rug, carpet, carpeting # carpet # "" # 0.49906986358
+023 # 0 # 0 # flower # flowers # "" # 0.0907965332233

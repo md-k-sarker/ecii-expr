@@ -1,0 +1,8 @@
+Prediction:
+3
+Label:
+3
+001 # 0 # 0 # sky # sky # "" # 0.390479253779
+002 # 0 # 0 # road, route # road # "" # 0.0763946139049
+003 # 0 # 0 # building, edifice # building # "" # 0.878523223501
+009 # 0 # 0 # tree # tree # "" # 0.198198198198

@@ -1,0 +1,135 @@
+/**
+ * Automatically created random poker decks (the UCI-ML-Repository Poker example 
+ * was transformed to a conf file). The goal is to learn the concept of a 
+ * straight (5 cards with increasing rank). Note, that for Ace and 2 in one deck,
+ * nextRank is set between these two cards only if there is no king in the deck.
+ * Otherwise the special case that a straight can start with Ace cannot be
+ * handled using ALC as target language.
+ *
+ * possible solution:
+ *   EXISTS hasCard.EXISTS nextRank.EXISTS nextRank.EXISTS nextRank.
+ *   EXISTS nextRank.TOP
+ *
+ * Copyright (C) 2007, Jens Lehmann 
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "KB File"
+ks.fileName = "straight.kb" 
+
+// object properties
+objectProperties={":hasCard",":hasRank",":hasSuit",
+":nextRank",":sameSuit",
+":sameRank"}
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:hand1",
+"kb:hand22",
+"kb:hand40",
+"kb:hand44"
+}
+
+lp.negativeExamples = {
+"kb:hand0",
+"kb:hand2",
+"kb:hand3",
+"kb:hand4",
+"kb:hand5",
+"kb:hand6",
+"kb:hand7",
+"kb:hand8",
+"kb:hand9",
+"kb:hand10",
+"kb:hand11",
+"kb:hand12",
+"kb:hand13",
+"kb:hand14",
+"kb:hand15",
+"kb:hand16",
+"kb:hand17",
+"kb:hand18",
+"kb:hand19",
+"kb:hand20",
+"kb:hand21",
+"kb:hand23",
+"kb:hand24",
+"kb:hand25",
+"kb:hand26",
+"kb:hand27",
+"kb:hand28",
+"kb:hand29",
+"kb:hand30",
+"kb:hand31",
+"kb:hand32",
+"kb:hand33",
+"kb:hand34",
+"kb:hand35",
+"kb:hand36",
+"kb:hand37",
+"kb:hand38",
+"kb:hand39",
+"kb:hand41",
+"kb:hand42",
+"kb:hand43",
+"kb:hand45",
+"kb:hand46",
+"kb:hand47",
+"kb:hand48",
+"kb:hand49",
+"kb:hand50",
+"kb:hand51",
+"kb:hand52",
+"kb:hand53",
+"kb:hand54"
+}
+
+alg.type = "ocel"
+DL-Learner command line interface
+Initializing component 'ks' of type KB File ...
+... initialized component 'ks' in 573ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 195 ms.
+... initialized component 'reasoner' in 499ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 22ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (7.273% accuracy)
+more accurate (25.45%) class expression found: hasCard some (nextRank some Thing)
+more accurate (80.00%) class expression found: hasCard some (nextRank some (nextRank some Thing))
+more accurate (94.55%) class expression found: hasCard min 2 (nextRank some (nextRank some Thing))
+more accurate (100.00%) class expression found: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some Thing))))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: hasCard some (nextRank some (nextRank some (nextRank some (nextRank some Thing)))) (accuracy 100%, length 11, depth 5)
+2: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some Thing)))) (accuracy 100%, length 11, depth 5)
+3: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some card)))) (accuracy 100%, length 11, depth 5)
+4: hasCard some (nextRank some (nextRank some (nextRank some (nextRank some card)))) (accuracy 100%, length 11, depth 5)
+5: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (not (deck)))))) (accuracy 100%, length 12, depth 5)
+6: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (hasRank some Thing))))) (accuracy 100%, length 13, depth 6)
+7: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (hasSuit some Thing))))) (accuracy 100%, length 13, depth 6)
+8: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (nextRank some Thing))))) (accuracy 100%, length 13, depth 6)
+9: hasCard some (nextRank some (nextRank some (nextRank some (nextRank some (not (deck)))))) (accuracy 100%, length 12, depth 5)
+10: hasCard some (nextRank some (nextRank some (nextRank some (nextRank some (hasRank some Thing))))) (accuracy 100%, length 13, depth 6)
+11: hasCard some (nextRank some (nextRank some (nextRank some (nextRank some (hasSuit some Thing))))) (accuracy 100%, length 13, depth 6)
+12: deck and (hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some Thing))))) (accuracy 100%, length 13, depth 5)
+13: hasCard some (card and (nextRank some (nextRank some (nextRank some (sameSuit some Thing))))) (accuracy 100%, length 13, depth 5)
+14: hasCard some (nextRank some (card and (nextRank some (nextRank some (sameSuit some Thing))))) (accuracy 100%, length 13, depth 5)
+15: hasCard some (nextRank some (nextRank some (card and (nextRank some (sameSuit some Thing))))) (accuracy 100%, length 13, depth 5)
+16: hasCard some (nextRank some (nextRank some (nextRank some (card and (sameSuit some Thing))))) (accuracy 100%, length 13, depth 5)
+17: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (card or card))))) (accuracy 100%, length 13, depth 5)
+18: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (card or deck))))) (accuracy 100%, length 13, depth 5)
+19: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (hasCard only Thing))))) (accuracy 100%, length 13, depth 6)
+20: hasCard some (nextRank some (nextRank some (nextRank some (sameSuit some (hasRank only Thing))))) (accuracy 100%, length 13, depth 6)
+Algorithm stopped (24458 descriptions tested).
+

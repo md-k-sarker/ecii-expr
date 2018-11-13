@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/street_ADE_train_00016862#"
+     xml:base="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/street_ADE_train_00016862"
+     xmlns:hcbdwsu="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/street_ADE_train_00016862"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Building -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Building"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Doubledoor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Doubledoor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Railing -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Railing"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Road -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Road"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sidewalk -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sidewalk"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sky -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sky"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Street -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Street"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Tree -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Tree"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Van -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Van"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Building -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Building"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Doubledoor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Doubledoor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Edifice -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Edifice"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pavement -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pavement"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Rail -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Rail"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Railing -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Railing"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Road -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Road"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Route -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Route"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sidewalk -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sidewalk"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sky -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sky"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Tree -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Tree"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Van -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Van"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sky"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sky"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_003_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_003_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Road"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Road"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Route"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sidewalk"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pavement"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sidewalk"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_005_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_005_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_007_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_007_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Tree"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Tree"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Building"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Building"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Edifice"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_026_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_026_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Van"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Van"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_036_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_036_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Doubledoor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Doubledoor"/>
+        <hcbdwsu:hasAttribute rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal</hcbdwsu:hasAttribute>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_041_0_street_ADE_train_00016862 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_041_0_street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Railing"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Rail"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Railing"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#street_ADE_train_00016862 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#street_ADE_train_00016862">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_003_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_005_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_007_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_026_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_036_0_street_ADE_train_00016862"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_041_0_street_ADE_train_00016862"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.4.20160507-1731) https://github.com/owlcs/owlapi -->
+

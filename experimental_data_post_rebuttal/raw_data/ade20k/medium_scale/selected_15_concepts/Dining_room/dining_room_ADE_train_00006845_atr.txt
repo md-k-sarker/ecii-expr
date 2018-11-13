@@ -1,0 +1,11 @@
+Prediction:
+13
+Label:
+13
+001 # 0 # 0 # wall # wall # "" # 0.213102725367
+003 # 0 # 0 # floor, flooring # floor # "carpet" # 0.292209645201
+004 # 0 # 0 # table # table # "" # 0.20933125972
+005 # 0 # 1 # door # door # "" # 0.642461810936
+006 # 0 # 1 # chair # chair # "" # 0.0887156644395
+009 # 0 # 0 # tapestry, tapis # tapestry # "" # 0.543617446979
+025 # 0 # 0 # rug, carpet, carpeting # rug # "" # 0.147781299525

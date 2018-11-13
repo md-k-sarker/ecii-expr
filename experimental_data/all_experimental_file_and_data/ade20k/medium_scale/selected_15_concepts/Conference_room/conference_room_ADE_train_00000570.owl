@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/conference_room_ADE_train_00000570#"
+     xml:base="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/conference_room_ADE_train_00000570"
+     xmlns:hcbdwsu="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/conference_room_ADE_train_00000570"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceiling -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceiling"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Conferenceroom -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Conferenceroom"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Projectionscreen -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Projectionscreen"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Swivelchair -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Swivelchair"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Table -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Table"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ceiling -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ceiling"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Projectionscreen -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Projectionscreen"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Screen -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Screen"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Silverscreen -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Silverscreen"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Swivelchair -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Swivelchair"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Table -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Table"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Window -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Window"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Windowpane -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Windowpane"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Window -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Window"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#conference_room_ADE_train_00000570 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_conference_room_ADE_train_00000570"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_003_0_conference_room_ADE_train_00000570"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_conference_room_ADE_train_00000570"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_005_0_conference_room_ADE_train_00000570"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_015_0_conference_room_ADE_train_00000570"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_017_0_conference_room_ADE_train_00000570"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_018_0_conference_room_ADE_train_00000570"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_003_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_003_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceiling"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ceiling"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_005_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_005_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Swivelchair"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Swivelchair"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_015_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_015_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Table"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Table"/>
+        <hcbdwsu:hasAttribute rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conference table</hcbdwsu:hasAttribute>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_017_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_017_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Projectionscreen"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Projectionscreen"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Screen"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Silverscreen"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_018_0_conference_room_ADE_train_00000570 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_018_0_conference_room_ADE_train_00000570">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Window"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Windowpane"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Window"/>
+        <hcbdwsu:hasAttribute rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single hung</hcbdwsu:hasAttribute>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.4.20160507-1731) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,53 @@
+➜  ~ dl_cli moral_all_examples_simple_owl.conf 
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 154 ms.
+... initialized component 'reasoner' in 3s 914ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 2ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 11ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (50.495% accuracy)
+more accurate (77.72%) class expression found: severity_harm
+more accurate (79.21%) class expression found: notaccident and severity_harm
+more accurate (90.10%) class expression found: severity_harm and (not (benefit_victim))
+more accurate (91.09%) class expression found: notaccident and severity_harm and (not (benefit_victim))
+more accurate (91.58%) class expression found: severity_harm and (not (benefit_victim)) and (not (justified))
+more accurate (95.54%) class expression found: severity_harm and (outrank_perpetrator or voluntary) and (not (benefit_victim))
+more accurate (98.02%) class expression found: severity_harm and (vicarious or voluntary) and (not (benefit_victim))
+more accurate (98.51%) class expression found: severity_harm and (vicarious or (notaccident and voluntary)) and (not (benefit_victim))
+more accurate (100.00%) class expression found: severity_harm and (vicarious or (responsible and voluntary)) and (not (benefit_victim))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: severity_harm and (vicarious or (responsible and voluntary)) and (not (benefit_victim)) (accuracy 100%, length 10, depth 0)
+2: severity_harm and (vicarious or (blameworthy and voluntary)) and (not (benefit_victim)) (accuracy 100%, length 10, depth 0)
+3: severity_harm and (vicarious or (voluntary and (not (intervening_cause)))) and (not (benefit_victim)) (accuracy 100%, length 11, depth 0)
+4: severity_harm and ((blameworthy and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 9, depth 0)
+5: severity_harm and (vicarious or (blameworthy and voluntary)) and (not (justified)) (accuracy 100%, length 10, depth 0)
+6: severity_harm and ((blameworthy and voluntary) or (vicarious and (not (benefit_victim)))) (accuracy 100%, length 10, depth 0)
+7: severity_harm and ((blameworthy and voluntary) or (vicarious and (not (justified)))) (accuracy 100%, length 10, depth 0)
+8: notaccident and severity_harm and ((blameworthy and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+9: severity_harm and ((blameworthy and cause and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+10: severity_harm and ((blameworthy and foreseeable and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+11: severity_harm and ((blameworthy and notaccident and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+12: severity_harm and ((blameworthy and severity_harm and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+13: severity_harm and ((blameworthy and voluntary) or (control_perpetrator and vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+14: severity_harm and ((blameworthy and voluntary) or (notaccident and vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+15: severity_harm and ((blameworthy and voluntary) or (outrank_perpetrator and vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+16: severity_harm and ((blameworthy and voluntary) or (severity_harm and vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+17: severity_harm and ((blameworthy and voluntary) or (someone_else_cause_harm and vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+18: severity_harm and ((blameworthy and voluntary) or (vicarious and vicarious_blame and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+19: severity_harm and ((blameworthy and voluntary) or (vicarious and vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+20: severity_harm and ((blameworthy and responsible and voluntary) or (vicarious and vicarious_blame)) (accuracy 100%, length 11, depth 0)
+Algorithm stopped (27694 descriptions tested).

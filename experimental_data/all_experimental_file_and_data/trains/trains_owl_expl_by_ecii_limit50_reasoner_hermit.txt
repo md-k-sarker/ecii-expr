@@ -1,0 +1,564 @@
+Program started.............
+Program starts at: 09.01.2018  14.09.31 PM
+Working with confFile: trains_owl.config
+Algorithm starts at: 09.01.2018  14.09.31 PM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: hermit
+posIndivs from conf:
+	east2
+	east3
+	east1
+	east4
+	east5
+negIndivs from conf:
+	west10
+	west8
+	west9
+	west6
+	west7
+
+Algorithm ends at: 09.01.2018  14.09.31 PM
+
+Algorithm duration: 0.054 sec
+
+####################Solutions####################:
+solution 1: ∃hasCar.(( ¬ LongCar) ⊔ (Car))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 2: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 3: ∃hasCar.(( ¬ LongCar) ⊔ (ClosedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 4: ∃hasCar.(( ¬ LongCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 5: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ (ShortCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 6: ∃hasCar.(( ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 7: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ (ClosedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 8: ∃hasCar.(( ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (ClosedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 9: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar) ⊔ (ClosedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 10: ∃hasCar.(( ¬ LongCar) ⊔ (ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 11: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 12: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 13: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 14: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 15: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar) ⊔ (DoubleCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 16: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ (DoubleCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 17: ∃hasCar.(( ¬ LongCar) ⊔ (DoubleCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 18: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 19: ∃hasCar.(( ¬ LongCar) ⊔ (DoubleCar) ⊔ (ClosedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 20: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 21: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 22: ∃hasCar.(( ¬ LongCar) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 23: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 24: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ (ShortCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 25: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ ( ¬ LongCar) ⊔ (Car))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 26: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ (ClosedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 27: ∃hasCar.(( ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 28: ∃hasCar.(( ¬ LongCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 29: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 30: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 31: ∃hasCar.(( ¬ LongCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 32: ∃hasCar.(( ¬ LongCar) ⊔ (ShortCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 33: ∃hasCar.(( ¬ LongCar) ⊔ (Car) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 34: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 35: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 36: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 37: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 38: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ (DoubleCar))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 39: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 40: ∃hasCar.(( ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 41: ∃hasCar.(( ¬ LongCar) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 42: ∃hasCar.(( ¬ LongCar) ⊔ (Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.8
+	 f_measure: 0.8
+solution 43: ∃hasCar.(( ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 44: ∃hasCar.((ShortCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 45: ∃hasCar.((Car) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 46: ∃hasCar.(( ¬ JaggedCar) ⊔ (ClosedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 47: ∃hasCar.(( ¬ LongCar) ⊔ (DoubleCar))
+	 coverage_score: 0.7
+	 f_measure: 0.7
+solution 48: ∃hasCar.((Car) ⊔ (DoubleCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 49: ∃hasCar.(( ¬ LongCar) ⊔ (DoubleCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.7
+solution 50: ∃hasCar.((Car) ⊔ ( ¬ JaggedCar) ⊔ (ClosedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 51: ∃hasCar.(( ¬ JaggedCar) ⊔ (ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 52: ∃hasCar.((ShortCar) ⊔ ( ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 53: ∃hasCar.((ShortCar) ⊔ ( ¬ JaggedCar) ⊔ (ClosedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 54: ∃hasCar.((Car) ⊔ ( ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 55: ∃hasCar.((Car) ⊔ (ShortCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 56: ∃hasCar.((DoubleCar) ⊔ ( ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 57: ∃hasCar.((DoubleCar) ⊔ ( ¬ JaggedCar) ⊔ (ClosedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 58: ∃hasCar.(( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 59: ∃hasCar.((ShortCar) ⊔ (DoubleCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 60: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 61: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 62: ∃hasCar.((DoubleCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 63: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 64: ∃hasCar.((ShortCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 65: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (ClosedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 66: ∃hasCar.((Car) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 67: ∃hasCar.(( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 68: ∃hasCar.(( ¬ JaggedCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 69: ∃hasCar.((ShortCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 70: ∃hasCar.((Car) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 71: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 72: ∃hasCar.(( ¬ JaggedCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 73: ∃hasCar.(( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 74: ∃hasCar.(( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.7
+	 f_measure: 0.8125
+solution 75: ∃hasCar.(OpenCar)
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 76: ∃hasCar.( ¬ LongCar)
+	 coverage_score: 0.5
+	 f_measure: 0.0
+solution 77: ∃hasCar.(ClosedCar)
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 78: ∃hasCar.(ShortCar)
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 79: ∃hasCar.(Car)
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 80: (Train)
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 81: ∃hasCar.((DoubleCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 82: ∃hasCar.((ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 83: ∃hasCar.((Car) ⊔ (DoubleCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 84: ∃hasCar.(Car ⊓ ¬ JaggedCar)
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 85: ∃hasCar.((ShortCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 86: ∃hasCar.((Car) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 87: ∃hasCar.(( ¬ LongCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.0
+solution 88: ∃hasCar.((ShortCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 89: ∃hasCar.((ShortCar) ⊔ (DoubleCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 90: ∃hasCar.((Car) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 91: ∃hasCar.((DoubleCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 92: ∃hasCar.((Car) ⊔ (ShortCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 93: ∃hasCar.((DoubleCar) ⊔ (ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 94: ∃hasCar.((ShortCar) ⊔ (DoubleCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 95: ∃hasCar.((Car) ⊔ (DoubleCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 96: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 97: ∃hasCar.((ShortCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 98: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 99: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 100: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 101: ∃hasCar.((Car) ⊔ (ShortCar) ⊔ (DoubleCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 102: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 103: ∃hasCar.((Car) ⊔ (DoubleCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 104: ∃hasCar.((Car) ⊔ (ShortCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 105: ∃hasCar.((Car) ⊔ (ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 106: ∃hasCar.((ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 107: ∃hasCar.((ShortCar) ⊔ (DoubleCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 108: ∃hasCar.((DoubleCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 109: ∃hasCar.((ShortCar) ⊔ (ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 110: ∃hasCar.((Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 111: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.55
+solution 112: ∃hasCar.((Car) ⊔ (ShortCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 113: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (DoubleCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 114: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 115: ∃hasCar.((DoubleCar) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 116: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 117: ∃hasCar.((Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 118: ∃hasCar.((ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 119: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ClosedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 120: ∃hasCar.(( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.55
+solution 121: ∃hasCar.((ShortCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 122: ∃hasCar.((Car) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 123: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 124: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (DoubleCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.55
+solution 125: ∃hasCar.((Car) ⊔ (ShortCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 126: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ (ClosedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 127: ∃hasCar.((Car) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 128: ∃hasCar.((ShortCar) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 129: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ (ShortCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 130: ∃hasCar.((DoubleCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 131: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (DoubleCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 132: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 133: ∃hasCar.((ShortCar) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 134: ∃hasCar.((ShortCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 135: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 136: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 137: ∃hasCar.((ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 138: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ (DoubleCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 139: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar) ⊔ (DoubleCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 140: ∃hasCar.((ShortCar) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 141: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 142: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 143: ∃hasCar.((Car) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 144: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 145: ∃hasCar.((DoubleCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 146: ∃hasCar.((ShortCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 147: ∃hasCar.((Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 148: ∃hasCar.((ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 149: ∃hasCar.((DoubleCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.55
+solution 150: ∃hasCar.((DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 151: ∃hasCar.((Car) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 152: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 153: ∃hasCar.((ShortCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 154: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 155: ∃hasCar.((Car) ⊔ (ShortCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 156: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 157: ∃hasCar.((Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 158: ∃hasCar.((DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 159: ∃hasCar.((ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 160: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 161: ∃hasCar.((ShortCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 162: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ClosedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 163: ∃hasCar.((Car) ⊔ (Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 164: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (ShortCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 165: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (OpenCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 166: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ ( ¬ JaggedCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.5
+	 f_measure: 0.55
+solution 167: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)) ⊔ (Car ⊓ ¬ JaggedCar))
+	 coverage_score: 0.5
+	 f_measure: 0.75
+solution 168: ∃hasCar.((DoubleCar) ⊔ ( ¬ JaggedCar))
+	 coverage_score: 0.4
+	 f_measure: 0.4
+solution 169: ∃hasCar.(Car ⊓ ¬ LongCar)
+	 coverage_score: 0.3
+	 f_measure: 0.4875
+solution 170: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (DoubleCar))
+	 coverage_score: 0.3
+	 f_measure: 0.4875
+solution 171: ∃hasCar.(Car ⊓ ¬ (LongCar ⊔ JaggedCar))
+	 coverage_score: 0.3
+	 f_measure: 0.4875
+solution 172: ∃hasCar.((DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.3
+	 f_measure: 0.4875
+solution 173: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.3
+	 f_measure: 0.4875
+solution 174: ∃hasCar.((Car ⊓ ¬ LongCar) ⊔ (DoubleCar) ⊔ (Car ⊓ ¬ (LongCar ⊔ JaggedCar)))
+	 coverage_score: 0.3
+	 f_measure: 0.4875
+solution 175: ∃hasCar.( ¬ JaggedCar)
+	 coverage_score: 0.2
+	 f_measure: 0.0
+solution 176: ∃hasCar.(DoubleCar)
+	 coverage_score: 0.2
+	 f_measure: 0.34285714285714286
+
+Total solutions found: 176
+
+Program finished.
+Program ends at: 09.01.2018  14.09.31 PM
+Program duration: 0.074 sec

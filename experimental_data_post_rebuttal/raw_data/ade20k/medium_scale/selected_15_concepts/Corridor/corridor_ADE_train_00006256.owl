@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/corridor_ADE_train_00006256#"
+     xml:base="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/corridor_ADE_train_00006256"
+     xmlns:hcbdwsu="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/corridor_ADE_train_00006256"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceilingrecessedlight -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceilingrecessedlight"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Corridor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Corridor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Door -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Door"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Hinge -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Hinge"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Lightswitch -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Lightswitch"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Door -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Door"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Electricalswitch -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Electricalswitch"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Electricswitch -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Electricswitch"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flexiblejoint -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flexiblejoint"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Hinge -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Hinge"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Light -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Light"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Lightsource -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Lightsource"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Switch -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Switch"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#corridor_ADE_train_00006256 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_corridor_ADE_train_00006256"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_corridor_ADE_train_00006256"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_corridor_ADE_train_00006256"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_009_0_corridor_ADE_train_00006256"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_010_0_corridor_ADE_train_00006256"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_012_0_corridor_ADE_train_00006256"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_corridor_ADE_train_00006256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_corridor_ADE_train_00006256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_004_0_corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_corridor_ADE_train_00006256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Lightswitch"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Electricalswitch"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Electricswitch"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Switch"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_009_0_corridor_ADE_train_00006256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_009_0_corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceilingrecessedlight"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Light"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Lightsource"/>
+        <hcbdwsu:hasAttribute rdf:datatype="http://www.w3.org/2001/XMLSchema#string">on</hcbdwsu:hasAttribute>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_010_0_corridor_ADE_train_00006256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_010_0_corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Door"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Door"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_012_0_corridor_ADE_train_00006256 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_012_0_corridor_ADE_train_00006256">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Hinge"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flexiblejoint"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Hinge"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.4.20160507-1731) https://github.com/owlcs/owlapi -->
+

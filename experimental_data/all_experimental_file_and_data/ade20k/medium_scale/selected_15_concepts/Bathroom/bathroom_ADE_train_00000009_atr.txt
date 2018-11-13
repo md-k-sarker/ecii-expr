@@ -1,0 +1,9 @@
+Prediction:
+0
+Label:
+0
+001 # 0 # 0 # wall # wall # "tiled" # 0.221190989816
+005 # 0 # 1 # toilet, can, commode, crapper, pot, potty, stool, throne # toilet # "" # 0.394047885433
+007 # 0 # 0 # screen door, screen # shower screen # "transparent" # 0.361548590993
+008 # 0 # 1 # bathtub, bathing tub, bath, tub # bathtub # "" # 0.512014101494
+010 # 0 # 1 # painting, picture # picture # "" # 0.605740181269

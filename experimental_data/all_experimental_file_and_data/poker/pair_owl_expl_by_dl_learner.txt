@@ -1,0 +1,45 @@
+➜  ~ dl_cli pair_owl.conf
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 159 ms.
+... initialized component 'reasoner' in 1s 67ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 37ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (40.816% accuracy)
+more accurate (100.00%) class expression found: hasCard some (sameRank some Thing)
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: hasCard some (sameRank some Thing) (accuracy 100%, length 5, depth 2)
+2: hasCard some (sameRank some card) (accuracy 100%, length 5, depth 2)
+3: hasCard some (sameRank some (not (deck))) (accuracy 100%, length 6, depth 2)
+4: hasCard some (sameRank some (hasRank some Thing)) (accuracy 100%, length 7, depth 3)
+5: hasCard some (sameRank some (hasSuit some Thing)) (accuracy 100%, length 7, depth 3)
+6: deck and (hasCard some (sameRank some Thing)) (accuracy 100%, length 7, depth 2)
+7: hasCard some (card and (sameRank some Thing)) (accuracy 100%, length 7, depth 2)
+8: hasCard some (sameRank some (card or card)) (accuracy 100%, length 7, depth 2)
+9: hasCard some (sameRank some (card or deck)) (accuracy 100%, length 7, depth 2)
+10: hasCard some (sameRank some (hasCard only Thing)) (accuracy 100%, length 7, depth 3)
+11: hasCard some (sameRank some (hasRank only Thing)) (accuracy 100%, length 7, depth 3)
+12: hasCard some (sameRank some (hasSuit only Thing)) (accuracy 100%, length 7, depth 3)
+13: hasCard some (sameRank some (nextRank only Thing)) (accuracy 100%, length 7, depth 3)
+14: hasCard some (sameRank some (sameRank only Thing)) (accuracy 100%, length 7, depth 3)
+15: hasCard some (sameRank some (sameSuit only Thing)) (accuracy 100%, length 7, depth 3)
+16: (not (card)) and (hasCard some (sameRank some Thing)) (accuracy 100%, length 8, depth 2)
+17: (hasCard some Thing) and (hasCard some (sameRank some Thing)) (accuracy 100%, length 9, depth 2)
+18: hasCard some ((not (deck)) and (sameRank some Thing)) (accuracy 100%, length 8, depth 2)
+19: hasCard some ((hasRank some Thing) and (sameRank some Thing)) (accuracy 100%, length 9, depth 2)
+20: hasCard some ((hasSuit some Thing) and (sameRank some Thing)) (accuracy 100%, length 9, depth 2)
+Algorithm stopped (28003 descriptions tested).

@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/airport_terminal_ADE_train_00000002#"
+     xml:base="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/airport_terminal_ADE_train_00000002"
+     xmlns:hcbdwsu="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu/airport_terminal_ADE_train_00000002"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#hasAttribute">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#isOccluded">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#partLevel">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Advertisement -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Advertisement"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#AirportTerminal -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#AirportTerminal"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceiling -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceiling"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Column -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Column"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Flowerpot -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Flowerpot"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Lighttroffer -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Lighttroffer"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Person -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Person"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Plant -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Plant"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sign -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sign"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ad -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ad"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advert -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advert"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertisement -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertisement"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertising -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertising"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertizement -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertizement"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertizing -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertizing"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ceiling -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ceiling"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Column -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Column"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flora -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flora"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flowerpot -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flowerpot"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Individual -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Individual"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Light -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Light"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Lightsource -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Lightsource"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Mortal -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Mortal"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Person -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Person"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pillar -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pillar"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Plant -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Plant"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Plantlife -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Plantlife"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pot -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pot"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sign -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sign"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Signboard -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Signboard"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Somebody -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Somebody"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Someone -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Someone"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Soul -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Soul"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Window -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Window"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Windowpane -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Windowpane"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Window -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Window"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#airport_terminal_ADE_train_00000002 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_007_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_010_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_011_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_012_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_021_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_033_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_036_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_060_0_airport_terminal_ADE_train_00000002"/>
+        <hcbdwsu:imageContains rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_061_0_airport_terminal_ADE_train_00000002"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_001_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Wall"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Wall"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_007_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_007_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Floor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Floor"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flooring"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_008_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Ceiling"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ceiling"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_010_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_010_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Sign"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Sign"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Signboard"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_011_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_011_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Lighttroffer"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Light"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Lightsource"/>
+        <hcbdwsu:hasAttribute rdf:datatype="http://www.w3.org/2001/XMLSchema#string">on</hcbdwsu:hasAttribute>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_012_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_012_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Window"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Windowpane"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Window"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_021_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_021_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Person"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Individual"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Mortal"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Person"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Somebody"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Someone"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Soul"/>
+        <hcbdwsu:hasAttribute rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sitting</hcbdwsu:hasAttribute>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_033_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_033_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Column"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Column"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pillar"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_036_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_036_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Advertisement"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Ad"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advert"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertisement"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertising"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertizement"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Advertizing"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_060_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_060_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Flowerpot"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flowerpot"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Pot"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_061_0_airport_terminal_ADE_train_00000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#obj_061_0_airport_terminal_ADE_train_00000002">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#Plant"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Flora"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Plant"/>
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/ADE20K/hcbdwsu#WN_Plantlife"/>
+        <hcbdwsu:isOccluded rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</hcbdwsu:isOccluded>
+        <hcbdwsu:partLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hcbdwsu:partLevel>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.4.20160507-1731) https://github.com/owlcs/owlapi -->
+

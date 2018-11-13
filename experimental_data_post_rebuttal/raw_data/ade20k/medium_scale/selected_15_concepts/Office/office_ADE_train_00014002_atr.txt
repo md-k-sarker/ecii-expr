@@ -1,0 +1,16 @@
+Prediction:
+2
+Label:
+2
+001 # 0 # 0 # wall # wall # "" # 0.135950715255
+003 # 0 # 0 # monitor, monitoring device # monitor # "" # 0.108561341571
+004 # 0 # 0 # drawer # drawer # "" # 0.658724906243
+005 # 0 # 0 # door # door # "" # 0.257627118644
+006 # 0 # 0 # shelf # shelves # "" # 0.38668577799
+007 # 0 # 0 # rug, carpet, carpeting # rug # "" # 0.239818515718
+008 # 0 # 0 # desk # desk # "" # 0.301705981466
+010 # 0 # 0 # computer, computing machine, computing device, data processor, electronic computer, information processing system # computer # "desktop" # 0.56401308615
+011 # 0 # 0 # swivel chair # swivel chair # "" # 0.223495702006
+012 # 0 # 0 # person, individual, someone, somebody, mortal, soul # person # "sitting" # 0.227497406481
+014 # 0 # 0 # apparel, wearing apparel, dress, clothes # clothes # "" # 0.376427943761
+015 # 0 # 0 # curtain, drape, drapery, mantle, pall # curtain # "" # 0.547854372576

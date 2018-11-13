@@ -1,0 +1,17 @@
+Prediction:
+6
+Label:
+15
+001 # 0 # 0 # wall # wall # "" # 0.223676323676
+003 # 0 # 0 # floor, flooring # floor # "tile" # 0.361167791555
+004 # 0 # 0 # ceiling # ceiling # "" # 0.359021017196
+005 # 0 # 0 # work surface # work surface # "" # 0.0669265756985
+006 # 0 # 1 # double door # double door # "" # 0.0522668206757
+008 # 0 # 1 # door # door # "" # 0.0966677664137
+013 # 0 # 0 # cabinet # cabinet # "" # 0.156192800488
+021 # 0 # 1 # chair # chair # "" # 0.261624484991
+023 # 0 # 1 # table # table # "" # 0.343361411953
+034 # 0 # 0 # place mat # place mat # "" # 0.0880366092831
+046 # 0 # 0 # fan # ceiling fan # "" # 0.468312547722
+053 # 0 # 1 # oven # oven # "" # 0.275528484414
+055 # 0 # 0 # microwave, microwave oven # microwave # "" # 0.178148921364

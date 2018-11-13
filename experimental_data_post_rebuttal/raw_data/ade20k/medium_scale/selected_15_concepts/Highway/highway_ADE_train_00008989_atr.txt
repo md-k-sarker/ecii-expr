@@ -1,0 +1,10 @@
+Prediction:
+14
+Label:
+14
+001 # 0 # 0 # sky # sky # "" # 0.698304843979
+002 # 0 # 0 # road, route # road # "" # 0.529434015793
+004 # 0 # 0 # car, auto, automobile, machine, motorcar # car # "" # 0.178727114211
+006 # 0 # 0 # field # field # "" # 0.225617413144
+007 # 0 # 0 # tree # tree # "" # 0.192218350755
+010 # 0 # 0 # central reservation # central reservation # "" # 0.331974637681

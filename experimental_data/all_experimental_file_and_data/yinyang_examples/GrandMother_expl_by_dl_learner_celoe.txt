@@ -1,0 +1,72 @@
+/******************
+Example taken from yingyang
+GrandMother
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":hasChild",":hasParent",":hasSibling"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:NonnaLina",
+"kb:Dora"
+}
+lp.negativeExamples = {
+"kb:NonnoLuigi",
+"kb:Gianni",
+"kb:Maria"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 135 ms.
+... initialized component 'reasoner' in 938ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 14ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (40.00%) class expression found after 91ms: Thing
+more accurate (80.00%) class expression found after 198ms: Female
+more accurate (100.00%) class expression found after 432ms: Female and (hasChild some (hasChild some Person))
+Algorithm terminated successfully (time: 432ms, 176 descriptions tested, 108 nodes in the search tree).
+
+number of retrievals: 245
+retrieval reasoning time: 21ms ( 0ms per retrieval)
+number of instance checks: 9 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 35 (0 multiple)
+subsumption reasoning time: 30ms ( 0ms per subsumption check)
+overall reasoning time: 52ms
+
+solutions:
+1: Female and (hasChild some (hasChild some Person)) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+3: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+4: Female (pred. acc.: 80.00%, F-measure: 80.00%)
+5: not (Male) (pred. acc.: 80.00%, F-measure: 80.00%)
+6: hasSibling only Nothing (pred. acc.: 80.00%, F-measure: 80.00%)
+7: hasSibling only Male (pred. acc.: 80.00%, F-measure: 80.00%)
+8: Person and (not (Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+9: Female and (not (Male)) (pred. acc.: 80.00%, F-measure: 80.00%)
+10: Female and (hasChild some Person) (pred. acc.: 80.00%, F-measure: 80.00%)
+

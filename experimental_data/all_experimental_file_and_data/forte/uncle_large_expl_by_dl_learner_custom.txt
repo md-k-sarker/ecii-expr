@@ -1,0 +1,167 @@
+/**
+ * Extracted from the FORTE (First Order Revision of Theories from Examples) 
+ * data set:
+ *
+ * http://www.cs.utexas.edu/users/ml/forte.html
+ *
+ * The goal of this learning problem is to learn the concept of an uncle.
+ *
+ * In the file forte_family.kb, you can find a graphical representation of the
+ * family tree corresponding to the facts in this file.
+ *
+ * possible solution: (male AND (EXISTS hasSibling.EXISTS hasChild.TOP 
+ *	   OR EXISTS married.EXISTS hasSibling.EXISTS hasChild.TOP))
+ *
+ * Copyright (C) 2007, Jens Lehmann 
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "KB File"
+ks.fileName = "forte_family.kb" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":married",":parent",":sibling"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:art",
+"kb:calvin",
+"kb:carlos",
+"kb:david",
+"kb:eric",
+"kb:fred",
+"kb:frederick",
+"kb:george",
+"kb:harry",
+"kb:jack",
+"kb:james",
+"kb:jonas",
+"kb:karl",
+"kb:leon",
+"kb:mark",
+"kb:melvin",
+"kb:neil",
+"kb:nero",
+"kb:owen",
+"kb:paul",
+"kb:peter",
+"kb:umo",
+"kb:walt"
+}
+lp.negativeExamples = {
+"kb:alfred",
+"kb:alice",
+"kb:angela",
+"kb:ann",
+"kb:beatrice",
+"kb:bob",
+"kb:callie",
+"kb:carl",
+"kb:christy",
+"kb:cornelia",
+"kb:deanna",
+"kb:elisa",
+"kb:f12",
+"kb:f14",
+"kb:f19",
+"kb:f2",
+"kb:f20",
+"kb:f21",
+"kb:f22",
+"kb:f23",
+"kb:f25",
+"kb:f26",
+"kb:f28",
+"kb:f8",
+"kb:fannie",
+"kb:gail",
+"kb:helen",
+"kb:jane",
+"kb:janet",
+"kb:kari",
+"kb:lorrie",
+"kb:m1",
+"kb:m10",
+"kb:m11",
+"kb:m13",
+"kb:m15",
+"kb:m16",
+"kb:m17",
+"kb:m18",
+"kb:m24",
+"kb:m27",
+"kb:m29",
+"kb:m3",
+"kb:m4",
+"kb:m5",
+"kb:m6",
+"kb:m7",
+"kb:m9",
+"kb:maria",
+"kb:martha",
+"kb:nancy",
+"kb:nonnie",
+"kb:oma",
+"kb:paula",
+"kb:prissie",
+"kb:rachel",
+"kb:ray",
+"kb:regina",
+"kb:steve",
+"kb:susan",
+"kb:terri",
+"kb:terry",
+"kb:wendy"
+}
+
+alg.type = "ocel"
+
+DL-Learner command line interface
+Initializing component 'ks' of type KB File ...
+... initialized component 'ks' in 500ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 130 ms.
+... initialized component 'reasoner' in 365ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 15ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (26.744% accuracy)
+more accurate (73.26%) class expression found: male
+more accurate (75.58%) class expression found: male and (parent max 3 Thing)
+more accurate (77.91%) class expression found: male and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (93.02%) class expression found: male and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: male and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: male and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 13, depth 2)
+2: male and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 13, depth 2)
+3: male and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 13, depth 2)
+4: male and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 13, depth 2)
+5: male and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 13, depth 2)
+6: male and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 13, depth 2)
+7: male and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 13, depth 2)
+8: male and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 13, depth 2)
+9: male and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 14, depth 2)
+10: male and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 14, depth 2)
+11: male and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 15, depth 3)
+12: male and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 14, depth 2)
+13: male and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 14, depth 2)
+14: male and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 15, depth 3)
+15: male and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 15, depth 3)
+16: male and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 15, depth 3)
+17: male and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 15, depth 3)
+18: male and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 15, depth 3)
+19: male and ((married some (sibling some (not (female)))) or (sibling some (married some Thing))) (accuracy 100%, length 14, depth 2)
+20: male and ((married some (sibling some (married some Thing))) or (sibling some (married some Thing))) (accuracy 100%, length 15, depth 3)
+Algorithm stopped (23624 descriptions tested).
+

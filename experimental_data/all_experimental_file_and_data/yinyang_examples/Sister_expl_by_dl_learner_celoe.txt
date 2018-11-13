@@ -1,0 +1,90 @@
+/******************
+Example taken from yingyang
+Sister
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":hasChild",":hasParent",":hasSibling"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:Antonella",
+"kb:Giovanna",
+"kb:Maria",
+"kb:Marisella",
+"kb:Milly",
+"kb:Miriam",
+"kb:Nella",
+"kb:Ombretta",
+"kb:Rosanna",
+"kb:Serena",
+"kb:Valentina"
+}
+lp.negativeExamples = {
+"kb:Dino",
+"kb:Luigi",
+"kb:Mauro",
+"kb:Francesco",
+"kb:Giuseppe",
+"kb:Carmela"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+
+// learning algorithm
+// create learning algorithm to run
+//la.type = "celoe"
+//la.maxNrOfResults = 1000
+//la.maxExecutionTimeInSeconds = 300
+//la.stopOnFirstDefinition = true
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 133 ms.
+... initialized component 'reasoner' in 959ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 15ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (64.71%) class expression found after 40ms: Thing
+more accurate (94.12%) class expression found after 86ms: Female
+more accurate (100.00%) class expression found after 117ms: Female and (hasSibling some Person)
+Algorithm terminated successfully (time: 117ms, 37 descriptions tested, 19 nodes in the search tree).
+
+number of retrievals: 79
+retrieval reasoning time: 2ms ( 0ms per retrieval)
+number of instance checks: 10 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 6 (0 multiple)
+subsumption reasoning time: 4ms ( 0ms per subsumption check)
+overall reasoning time: 6ms
+
+solutions:
+1: Female and (hasSibling some Person) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Female (pred. acc.: 94.12%, F-measure: 95.65%)
+3: not (Male) (pred. acc.: 94.12%, F-measure: 95.65%)
+4: Person and (not (Male)) (pred. acc.: 94.12%, F-measure: 95.65%)
+5: Female and (not (Male)) (pred. acc.: 94.12%, F-measure: 95.65%)
+6: hasSibling some Person (pred. acc.: 70.59%, F-measure: 81.48%)
+7: Thing (pred. acc.: 64.71%, F-measure: 78.57%)
+8: Person (pred. acc.: 64.71%, F-measure: 78.57%)
+

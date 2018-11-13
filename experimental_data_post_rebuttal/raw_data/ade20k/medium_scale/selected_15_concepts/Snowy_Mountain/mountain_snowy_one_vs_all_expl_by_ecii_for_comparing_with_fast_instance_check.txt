@@ -1,0 +1,4593 @@
+Program started.............
+Program starts at: 10.15.2018  23.19.21 PM
+Working with confFile: /Users/sarker/Workspaces/ProjectHCBD/experiments/ecii_aaai_dl_fast_instance_check/experimental_data/all_experimental_file_and_data/ade20k/medium_scale/selected_15_concepts/Snowy_Mountain/mountain_snowy_one_vs_all.config
+Algorithm starts at: 10.15.2018  23.19.21 PM
+
+User defined parameters:
+K1/negExprTypeLimit: 2
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 2
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	mountain_snowy_ADE_train_00012052
+	mountain_snowy_ADE_train_00012051
+	mountain_snowy_ADE_train_00012054
+	mountain_snowy_ADE_train_00012053
+	mountain_snowy_ADE_train_00000932
+negIndivs from conf:
+	bedroom_ADE_train_00000192
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	dining_room_ADE_train_00006845
+	kitchen_ADE_train_00000594
+
+Algorithm ends at: 10.15.2018  23.19.22 PM
+
+Algorithm duration: 0.717 sec
+
+####################Solutions####################:
+solution 1: ∃imageContains.(( ¬ Region) ⊔ (Sky))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 2: ∃imageContains.((WN_Mount) ⊔ ( ¬ Physical))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 3: ∃imageContains.(( ¬ Entity) ⊔ (UplandArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 4: ∃imageContains.((LandForm) ⊔ ( ¬ Object))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 5: ∃imageContains.((UplandArea) ⊔ ( ¬ Physical))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 6: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Object))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 7: ∃imageContains.((Mountain) ⊔ ( ¬ Object))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 8: ∃imageContains.((WN_Mount) ⊔ ( ¬ Entity))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 9: ∃imageContains.(( ¬ Entity) ⊔ (Sky))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 10: ∃imageContains.((Mountain) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 11: ∃imageContains.((WN_Sky) ⊔ ( ¬ Physical))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 12: ∃imageContains.((WN_Sky) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 13: ∃imageContains.((WN_Sky) ⊔ ( ¬ Entity))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 14: ∃imageContains.(( ¬ Object) ⊔ (UplandArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 15: ∃imageContains.((WN_Mount) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 16: ∃imageContains.((WN_Sky) ⊔ ( ¬ Object))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 17: ∃imageContains.((Mountain) ⊔ ( ¬ Physical))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 18: ∃imageContains.((WN_Mount) ⊔ ( ¬ Object))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 19: ∃imageContains.((LandForm) ⊔ ( ¬ Physical))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 20: ∃imageContains.(( ¬ Region) ⊔ (LandForm))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 21: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Region))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 22: ∃imageContains.(( ¬ Object) ⊔ (Sky))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 23: ∃imageContains.(( ¬ Region) ⊔ (Mountain))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 24: ∃imageContains.(( ¬ GeographicArea) ⊔ (UplandArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 25: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Physical))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 26: ∃imageContains.((LandForm) ⊔ ( ¬ Entity))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 27: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Entity))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 28: ∃imageContains.((Mountain) ⊔ ( ¬ Entity))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 29: ∃imageContains.((WN_Mountain) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 30: ∃imageContains.((WN_Sky) ⊔ ( ¬ Region))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 31: ∃imageContains.(( ¬ GeographicArea) ⊔ (Sky))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 32: ∃imageContains.((LandForm) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 33: ∃imageContains.(( ¬ Region) ⊔ (UplandArea))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 34: ∃imageContains.((WN_Mount) ⊔ ( ¬ Region))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 35: ∃imageContains.(( ¬ Physical) ⊔ (Sky))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 36: ∃imageContains.((WN_Mount) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 37: ∃imageContains.(( ¬ LocalizablePlace) ⊔ (Sky))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 38: ∃imageContains.(( ¬ LocalizablePlace) ⊔ (UplandArea))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 39: ∃imageContains.((WN_Mount) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 40: ∃imageContains.(( ¬ Artifact) ⊔ (UplandArea))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 41: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (WN_Mountain))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 42: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (Sky))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 43: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (LandForm))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 44: ∃imageContains.((WN_Sky) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 45: ∃imageContains.((WN_Sky) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 46: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (UplandArea))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 47: ∃imageContains.((WN_Mountain) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 48: ∃imageContains.((Mountain) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 49: ∃imageContains.((LandForm) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 50: ∃imageContains.((Mountain) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 51: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (Mountain))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 52: ∃imageContains.((LandForm) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 53: ∃imageContains.(( ¬ Artifact) ⊔ (Sky))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 54: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (WN_Sky))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 55: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 56: ∃imageContains.(( ¬ StationaryArtifact) ⊔ (WN_Mount))
+	 coverage_score: 0.9473684210526315
+	 f_measure: 0.9166666666666667
+solution 57: ∃imageContains.(( ¬ WN_Wall) ⊔ (UplandArea))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 58: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 59: ∃imageContains.((LandForm) ⊔ ( ¬ Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 60: ∃imageContains.((WN_Sky) ⊔ ( ¬ Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 61: ∃imageContains.(( ¬ WN_Wall) ⊔ (Sky))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 62: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 63: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 64: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 65: ∃imageContains.(( ¬ Wall) ⊔ (Mountain))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 66: ∃imageContains.((WN_Mount) ⊔ ( ¬ Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 67: ∃imageContains.(( ¬ Wall) ⊔ (UplandArea))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 68: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 69: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 70: ∃imageContains.(( ¬ Wall) ⊔ (Sky))
+	 coverage_score: 0.7894736842105263
+	 f_measure: 0.7777777777777778
+solution 71: ∃imageContains.( ¬ Object)
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 72: ∃imageContains.( ¬ Physical)
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 73: ∃imageContains.( ¬ Region)
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 74: ∃imageContains.( ¬ Entity)
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 75: ∃imageContains.( ¬ GeographicArea)
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 76: ∃imageContains.(( ¬ Building) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 77: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 78: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 79: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 80: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 81: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Region))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 82: ∃imageContains.(( ¬ GeographicArea) ⊔ ( ¬ Graph))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 83: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 84: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Seat))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 85: ∃imageContains.(( ¬ Window) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 86: ∃imageContains.(( ¬ Ceiling) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 87: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 88: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 89: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 90: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 91: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 92: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 93: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Device))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 94: ∃imageContains.(( ¬ Region) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 95: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Holder))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 96: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Product))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 97: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 98: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 99: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 100: ∃imageContains.(( ¬ Region) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 101: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 102: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 103: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 104: ∃imageContains.(( ¬ Floor) ⊔ (Mountain))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 105: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 106: ∃imageContains.(( ¬ Region) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 107: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Window))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 108: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 109: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 110: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 111: ∃imageContains.(( ¬ GeographicArea) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 112: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 113: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 114: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 115: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Wall))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 116: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 117: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 118: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 119: ∃imageContains.(( ¬ Product) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 120: ∃imageContains.(( ¬ WN_Flooring) ⊔ (Sky))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 121: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 122: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 123: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 124: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 125: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 126: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 127: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 128: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 129: ∃imageContains.(( ¬ Road) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 130: ∃imageContains.(( ¬ Object) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 131: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 132: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 133: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 134: ∃imageContains.((LandForm) ⊔ ( ¬ Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 135: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 136: ∃imageContains.(( ¬ Object) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 137: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 138: ∃imageContains.((WN_Mount) ⊔ ( ¬ Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 139: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 140: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 141: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 142: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 143: ∃imageContains.(( ¬ Region) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 144: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 145: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 146: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 147: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 148: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 149: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 150: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 151: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Region))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 152: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 153: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 154: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 155: ∃imageContains.(( ¬ Door) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 156: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 157: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 158: ∃imageContains.(( ¬ Device) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 159: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 160: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 161: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 162: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 163: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 164: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 165: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 166: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 167: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 168: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 169: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 170: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Seat))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 171: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 172: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 173: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 174: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 175: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 176: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 177: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 178: ∃imageContains.(( ¬ Window) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 179: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 180: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 181: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 182: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 183: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Graph))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 184: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Window))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 185: ∃imageContains.((WN_Sky) ⊔ ( ¬ Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 186: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 187: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 188: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 189: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 190: ∃imageContains.(( ¬ Floor) ⊔ (UplandArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 191: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 192: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 193: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 194: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 195: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Graph))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 196: ∃imageContains.(( ¬ Table) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 197: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 198: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 199: ∃imageContains.(( ¬ WN_Cabinet) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 200: ∃imageContains.(( ¬ Region) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 201: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Product))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 202: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 203: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 204: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 205: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 206: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 207: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 208: ∃imageContains.(( ¬ Object) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 209: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Device))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 210: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 211: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 212: ∃imageContains.(( ¬ Device) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 213: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 214: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 215: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 216: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 217: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 218: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 219: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 220: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 221: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 222: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 223: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 224: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 225: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 226: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 227: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 228: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 229: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 230: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 231: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 232: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 233: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Building))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 234: ∃imageContains.(( ¬ Region) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 235: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 236: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 237: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 238: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 239: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 240: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 241: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 242: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 243: ∃imageContains.(( ¬ Product) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 244: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 245: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 246: ∃imageContains.(( ¬ Object) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 247: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 248: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 249: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 250: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 251: ∃imageContains.(( ¬ WN_Floor) ⊔ (UplandArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 252: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 253: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Door))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 254: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 255: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 256: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 257: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 258: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 259: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 260: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Region))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 261: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Region))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 262: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 263: ∃imageContains.(( ¬ Floor) ⊔ (Sky))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 264: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 265: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 266: ∃imageContains.(( ¬ WN_Flooring) ⊔ (UplandArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 267: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 268: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Device))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 269: ∃imageContains.(( ¬ Region) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 270: ∃imageContains.(( ¬ Object) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 271: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 272: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 273: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 274: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 275: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 276: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Region))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 277: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 278: ∃imageContains.(( ¬ Object) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 279: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 280: ∃imageContains.(( ¬ Physical) ⊔ ( ¬ Graph))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 281: ∃imageContains.(( ¬ Region) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 282: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 283: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 284: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 285: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 286: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 287: ∃imageContains.(( ¬ GeographicArea) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 288: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 289: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 290: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 291: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Seat))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 292: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 293: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 294: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 295: ∃imageContains.(( ¬ Ceiling) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 296: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 297: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 298: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 299: ∃imageContains.(( ¬ WN_Floor) ⊔ (Sky))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 300: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 301: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Object))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 302: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 303: ∃imageContains.(( ¬ Object) ⊔ ( ¬ Graph))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 304: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 305: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Window))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 306: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 307: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Entity))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 308: ∃imageContains.(( ¬ Road) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 309: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 310: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Physical))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 311: ∃imageContains.(( ¬ Entity) ⊔ ( ¬ Product))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 312: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 313: ∃imageContains.(( ¬ Region) ⊔ ( ¬ Table))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 314: ∃imageContains.(( ¬ Region) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 315: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ GeographicArea))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.0
+solution 316: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Floor))
+	 coverage_score: 0.7368421052631579
+	 f_measure: 0.75
+solution 317: ∃imageContains.( ¬ StationaryArtifact)
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 318: ∃imageContains.( ¬ LocalizablePlace)
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 319: ∃imageContains.( ¬ Artifact)
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 320: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 321: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 322: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 323: ∃imageContains.((Mountain) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 324: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 325: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 326: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ (UplandArea))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 327: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 328: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 329: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 330: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 331: ∃imageContains.((WN_Mount) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 332: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Graph))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 333: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 334: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 335: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 336: ∃imageContains.((WN_Mount) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 337: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 338: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 339: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 340: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 341: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 342: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 343: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 344: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 345: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 346: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 347: ∃imageContains.(( ¬ Device) ⊔ (UplandArea))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 348: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 349: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 350: ∃imageContains.(( ¬ DurableGood) ⊔ (UplandArea))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 351: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Window))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 352: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 353: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 354: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ (Sky))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 355: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 356: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 357: ∃imageContains.((LandForm) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 358: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 359: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 360: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Window))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 361: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 362: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Seat))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 363: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 364: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Holder))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 365: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 366: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 367: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 368: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 369: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 370: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Seat))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 371: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Holder))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 372: ∃imageContains.((WN_Sky) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 373: ∃imageContains.(( ¬ Table) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 374: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 375: ∃imageContains.((LandForm) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 376: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 377: ∃imageContains.((LandForm) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 378: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Chair))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 379: ∃imageContains.(( ¬ DurableGood) ⊔ (Sky))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 380: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 381: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 382: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 383: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 384: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 385: ∃imageContains.(( ¬ Device) ⊔ (Sky))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 386: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 387: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 388: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 389: ∃imageContains.((Mountain) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 390: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Table))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 391: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 392: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 393: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 394: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Seat))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 395: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 396: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 397: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 398: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 399: ∃imageContains.((WN_Sky) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 400: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 401: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 402: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 403: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 404: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 405: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 406: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 407: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 408: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 409: ∃imageContains.((Mountain) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 410: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Furniture))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 411: ∃imageContains.(( ¬ Product) ⊔ (Sky))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 412: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 413: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 414: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 415: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 416: ∃imageContains.((LandForm) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 417: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Holder))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 418: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 419: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 420: ∃imageContains.((WN_Mountain) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 421: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Floor))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 422: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 423: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Door))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 424: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ Graph))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 425: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 426: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 427: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 428: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 429: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 430: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 431: ∃imageContains.((WN_Sky) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 432: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Door))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 433: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 434: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 435: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 436: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Graph))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 437: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 438: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 439: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Graph))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 440: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 441: ∃imageContains.((WN_Mount) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 442: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 443: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Door))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 444: ∃imageContains.((WN_Mount) ⊔ ( ¬ Device))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 445: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Window))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 446: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Ceiling))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 447: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 448: ∃imageContains.(( ¬ LocalizablePlace) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 449: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Window))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 450: ∃imageContains.((WN_Mountain) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 451: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 452: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 453: ∃imageContains.(( ¬ Product) ⊔ (UplandArea))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 454: ∃imageContains.((WN_Sky) ⊔ ( ¬ Product))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 455: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Artifact))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 456: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 457: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 458: ∃imageContains.(( ¬ StationaryArtifact) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 459: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Road))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 460: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ LocalizablePlace))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 461: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Graph))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 462: ∃imageContains.(( ¬ DurableGood) ⊔ (Mountain))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.7272727272727273
+solution 463: ∃imageContains.(( ¬ Artifact) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.6842105263157895
+	 f_measure: 0.0
+solution 464: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Graph))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 465: ∃imageContains.(( ¬ Furniture) ⊔ (WN_Sky))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 466: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 467: ∃imageContains.(( ¬ Furniture) ⊔ (WN_Mountain))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 468: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 469: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 470: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 471: ∃imageContains.(( ¬ Furniture) ⊔ (LandForm))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 472: ∃imageContains.(( ¬ Furniture) ⊔ (Mountain))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 473: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 474: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 475: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 476: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Building))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 477: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 478: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Graph))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 479: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 480: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 481: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 482: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 483: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 484: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Road))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 485: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 486: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 487: ∃imageContains.(( ¬ Furniture) ⊔ (WN_Mount))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 488: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 489: ∃imageContains.(( ¬ Furniture) ⊔ (Sky))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 490: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 491: ∃imageContains.(( ¬ Furniture) ⊔ (UplandArea))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.7083333333333334
+solution 492: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 493: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 494: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 495: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 496: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 497: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Graph))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 498: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 499: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 500: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.631578947368421
+	 f_measure: 0.0
+solution 501: ∃imageContains.(( ¬ Device) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 502: ∃imageContains.((WN_Mountain) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 503: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Device))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 504: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 505: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 506: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 507: ∃imageContains.((WN_Sky) ⊔ ( ¬ Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 508: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 509: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 510: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 511: ∃imageContains.((WN_Sky) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 512: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 513: ∃imageContains.(( ¬ Table) ⊔ (Sky))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 514: ∃imageContains.((WN_Mount) ⊔ ( ¬ Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 515: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Floor))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 516: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Device))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 517: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Wall))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 518: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Product))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 519: ∃imageContains.((LandForm) ⊔ ( ¬ Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 520: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 521: ∃imageContains.(( ¬ Table) ⊔ (UplandArea))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 522: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Product))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 523: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 524: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 525: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 526: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Device))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 527: ∃imageContains.((Mountain) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 528: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 529: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ ( ¬ Product))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 530: ∃imageContains.(( ¬ WN_Table) ⊔ (UplandArea))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 531: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 532: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 533: ∃imageContains.((WN_Mount) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 534: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Device))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 535: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ (UplandArea))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 536: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 537: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 538: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 539: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Product))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 540: ∃imageContains.(( ¬ Table) ⊔ (Mountain))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 541: ∃imageContains.(( ¬ Device) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 542: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Table))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 543: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ Product))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 544: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Product))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 545: ∃imageContains.(( ¬ WN_Table) ⊔ (Sky))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 546: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ (Sky))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 547: ∃imageContains.((LandForm) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.6923076923076923
+solution 548: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5789473684210527
+	 f_measure: 0.0
+solution 549: ∃imageContains.( ¬ WN_Wall)
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 550: ∃imageContains.( ¬ Wall)
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 551: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 552: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 553: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 554: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 555: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 556: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 557: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 558: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 559: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 560: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 561: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 562: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 563: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 564: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 565: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 566: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 567: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 568: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 569: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 570: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 571: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 572: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Door))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 573: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (WN_Mountain))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 574: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 575: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 576: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 577: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 578: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 579: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 580: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 581: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 582: ∃imageContains.((Mountain) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 583: ∃imageContains.((WN_Sky) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 584: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 585: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 586: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 587: ∃imageContains.(( ¬ Product) ⊔ ( ¬ Graph))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 588: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 589: ∃imageContains.(( ¬ Device) ⊔ ( ¬ Graph))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 590: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 591: ∃imageContains.((LandForm) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 592: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Holder))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 593: ∃imageContains.(( ¬ Window) ⊔ (UplandArea))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 594: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 595: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 596: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 597: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Graph))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 598: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 599: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 600: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 601: ∃imageContains.((WN_Mount) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 602: ∃imageContains.(( ¬ Table) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 603: ∃imageContains.((LandForm) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 604: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 605: ∃imageContains.(( ¬ Window) ⊔ (Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 606: ∃imageContains.((Mountain) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 607: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 608: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 609: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 610: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 611: ∃imageContains.((WN_Sky) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 612: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 613: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 614: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 615: ∃imageContains.(( ¬ WN_Windowpane) ⊔ (UplandArea))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 616: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 617: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 618: ∃imageContains.(( ¬ Window) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 619: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 620: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 621: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 622: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Road))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 623: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 624: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 625: ∃imageContains.(( ¬ Seat) ⊔ (UplandArea))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 626: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Building))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 627: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 628: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 629: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 630: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 631: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 632: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (LandForm))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 633: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 634: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 635: ∃imageContains.(( ¬ WN_Window) ⊔ (LandForm))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 636: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 637: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 638: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 639: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Building))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 640: ∃imageContains.(( ¬ WN_Wall) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 641: ∃imageContains.(( ¬ WN_Window) ⊔ (UplandArea))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 642: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Graph))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 643: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (UplandArea))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 644: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 645: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 646: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 647: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 648: ∃imageContains.(( ¬ WN_Windowpane) ⊔ (Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 649: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 650: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 651: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 652: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 653: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 654: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 655: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 656: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 657: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 658: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 659: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 660: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Graph))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 661: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (WN_Mount))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 662: ∃imageContains.(( ¬ WN_Window) ⊔ (Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 663: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 664: ∃imageContains.((WN_Sky) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 665: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 666: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 667: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 668: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 669: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 670: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Holder))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 671: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 672: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 673: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 674: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 675: ∃imageContains.(( ¬ Device) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 676: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 677: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 678: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 679: ∃imageContains.((WN_Mount) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 680: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 681: ∃imageContains.((WN_Mount) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 682: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 683: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Road))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 684: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 685: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 686: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 687: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Road))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 688: ∃imageContains.(( ¬ WN_Window) ⊔ (WN_Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 689: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 690: ∃imageContains.(( ¬ Ceiling) ⊔ (Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 691: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 692: ∃imageContains.(( ¬ Seat) ⊔ (Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 693: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 694: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 695: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 696: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 697: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 698: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 699: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (WN_Sky))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 700: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 701: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 702: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 703: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 704: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 705: ∃imageContains.((LandForm) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 706: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 707: ∃imageContains.(( ¬ Ceiling) ⊔ (UplandArea))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 708: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Device))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 709: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 710: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Product))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 711: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 712: ∃imageContains.((Mountain) ⊔ ( ¬ Window))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 713: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 714: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 715: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 716: ∃imageContains.(( ¬ WN_Window) ⊔ (Mountain))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 717: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 718: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 719: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Seat))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 720: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Building))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 721: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 722: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Wall))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 723: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 724: ∃imageContains.(( ¬ WN_Ceiling) ⊔ (Mountain))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.6785714285714286
+solution 725: ∃imageContains.(( ¬ Wall) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.5263157894736842
+	 f_measure: 0.0
+solution 726: ∃imageContains.( ¬ Floor)
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 727: ∃imageContains.( ¬ WN_Flooring)
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 728: ∃imageContains.( ¬ WN_Floor)
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 729: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 730: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 731: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Window))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 732: ∃imageContains.(( ¬ WN_Floor) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 733: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 734: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 735: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 736: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Device))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 737: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Graph))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 738: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Window))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 739: ∃imageContains.(( ¬ Door) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 740: ∃imageContains.(( ¬ WN_Chair) ⊔ (Sky))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 741: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 742: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Door))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 743: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 744: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 745: ∃imageContains.((Mountain) ⊔ ( ¬ Holder))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 746: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 747: ∃imageContains.((LandForm) ⊔ ( ¬ Holder))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 748: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 749: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 750: ∃imageContains.(( ¬ Product) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 751: ∃imageContains.(( ¬ Chair) ⊔ (Mountain))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 752: ∃imageContains.(( ¬ WN_Flooring) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 753: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 754: ∃imageContains.((WN_Mount) ⊔ ( ¬ Holder))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 755: ∃imageContains.(( ¬ Device) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 756: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 757: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 758: ∃imageContains.((WN_Sky) ⊔ ( ¬ Holder))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 759: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Building))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 760: ∃imageContains.(( ¬ Holder) ⊔ (UplandArea))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 761: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 762: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Floor))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 763: ∃imageContains.(( ¬ Chair) ⊔ (UplandArea))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 764: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 765: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 766: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 767: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 768: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 769: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Graph))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 770: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 771: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 772: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Product))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 773: ∃imageContains.(( ¬ Chair) ⊔ (Sky))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 774: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 775: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 776: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 777: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Product))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 778: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Road))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 779: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Product))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 780: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 781: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 782: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Floor))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 783: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 784: ∃imageContains.((WN_Mount) ⊔ ( ¬ Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 785: ∃imageContains.(( ¬ Chair) ⊔ (WN_Sky))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 786: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 787: ∃imageContains.(( ¬ Holder) ⊔ (Sky))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 788: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 789: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ WN_Flooring))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 790: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 791: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 792: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 793: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 794: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 795: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 796: ∃imageContains.(( ¬ Floor) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 797: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 798: ∃imageContains.(( ¬ WN_Chair) ⊔ (UplandArea))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 799: ∃imageContains.(( ¬ Device) ⊔ ( ¬ Window))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 800: ∃imageContains.(( ¬ Window) ⊔ ( ¬ Product))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 801: ∃imageContains.(( ¬ Table) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 802: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Device))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 803: ∃imageContains.(( ¬ Chair) ⊔ (LandForm))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 804: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 805: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 806: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Device))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 807: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Holder))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 808: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.6666666666666666
+solution 809: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.47368421052631576
+	 f_measure: 0.0
+solution 810: ∃imageContains.( ¬ Product)
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 811: ∃imageContains.( ¬ Device)
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 812: ∃imageContains.( ¬ DurableGood)
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 813: ∃imageContains.( ¬ ManufacturedProduct)
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 814: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 815: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 816: ∃imageContains.(( ¬ WN_Edifice) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 817: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 818: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 819: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 820: ∃imageContains.(( ¬ Cabinet) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 821: ∃imageContains.(( ¬ Table) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 822: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 823: ∃imageContains.(( ¬ Roadway) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 824: ∃imageContains.(( ¬ Window) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 825: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 826: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 827: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 828: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 829: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 830: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 831: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 832: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 833: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 834: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 835: ∃imageContains.(( ¬ Table) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 836: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 837: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 838: ∃imageContains.(( ¬ WN_Road) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 839: ∃imageContains.((WN_Mount) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 840: ∃imageContains.(( ¬ Product) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 841: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 842: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 843: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 844: ∃imageContains.((WN_Mount) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 845: ∃imageContains.(( ¬ Roadway) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 846: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 847: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 848: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 849: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 850: ∃imageContains.((Mountain) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 851: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 852: ∃imageContains.(( ¬ Ceiling) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 853: ∃imageContains.(( ¬ Cabinet) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 854: ∃imageContains.((LandForm) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 855: ∃imageContains.(( ¬ WN_Edifice) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 856: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 857: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Holder))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 858: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 859: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 860: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 861: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 862: ∃imageContains.(( ¬ Device) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 863: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 864: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 865: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 866: ∃imageContains.((WN_Sky) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 867: ∃imageContains.(( ¬ WN_Road) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 868: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 869: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 870: ∃imageContains.((Mountain) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 871: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 872: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 873: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 874: ∃imageContains.(( ¬ Device) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 875: ∃imageContains.((LandForm) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 876: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 877: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 878: ∃imageContains.((UplandArea) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 879: ∃imageContains.((Mountain) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 880: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 881: ∃imageContains.(( ¬ LandTransitway) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 882: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 883: ∃imageContains.((LandForm) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 884: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 885: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 886: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 887: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 888: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 889: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 890: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 891: ∃imageContains.((Mountain) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 892: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 893: ∃imageContains.((Mountain) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 894: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 895: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 896: ∃imageContains.(( ¬ Door) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 897: ∃imageContains.((Mountain) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 898: ∃imageContains.((WN_Sky) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 899: ∃imageContains.(( ¬ Table) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 900: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 901: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 902: ∃imageContains.(( ¬ CorpuscularObject) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 903: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 904: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 905: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ DurableGood))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 906: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 907: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 908: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 909: ∃imageContains.((WN_Mountain) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 910: ∃imageContains.(( ¬ Building) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 911: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 912: ∃imageContains.(( ¬ WN_Building) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 913: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 914: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 915: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 916: ∃imageContains.((WN_Mountain) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 917: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 918: ∃imageContains.((WN_Mount) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 919: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 920: ∃imageContains.((WN_Mount) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 921: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 922: ∃imageContains.((WN_Sky) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 923: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 924: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Holder))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 925: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 926: ∃imageContains.((WN_Mount) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 927: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 928: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 929: ∃imageContains.(( ¬ Abstract) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 930: ∃imageContains.((LandForm) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 931: ∃imageContains.(( ¬ Road) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 932: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 933: ∃imageContains.((WN_Sky) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 934: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Furniture))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 935: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 936: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 937: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 938: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 939: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 940: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 941: ∃imageContains.((UplandArea) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 942: ∃imageContains.((Mountain) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 943: ∃imageContains.((WN_Mount) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 944: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 945: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 946: ∃imageContains.((LandForm) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 947: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 948: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 949: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 950: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 951: ∃imageContains.((LandForm) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 952: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 953: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 954: ∃imageContains.((WN_Mount) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 955: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 956: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 957: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 958: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 959: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 960: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 961: ∃imageContains.(( ¬ Device) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 962: ∃imageContains.((WN_Sky) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 963: ∃imageContains.((LandForm) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 964: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 965: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 966: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 967: ∃imageContains.(( ¬ Abstract) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 968: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 969: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 970: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 971: ∃imageContains.(( ¬ Graph) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 972: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 973: ∃imageContains.((Mountain) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 974: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 975: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 976: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 977: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 978: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 979: ∃imageContains.(( ¬ Window) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 980: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 981: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 982: ∃imageContains.(( ¬ Road) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 983: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 984: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ ManufacturedProduct))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 985: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 986: ∃imageContains.((Mountain) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 987: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 988: ∃imageContains.(( ¬ CorpuscularObject) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 989: ∃imageContains.((WN_Sky) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 990: ∃imageContains.(( ¬ WN_Building) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 991: ∃imageContains.((WN_Mount) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 992: ∃imageContains.((WN_Mount) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 993: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 994: ∃imageContains.((WN_Sky) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 995: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 996: ∃imageContains.((LandForm) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 997: ∃imageContains.((WN_Mountain) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 998: ∃imageContains.((WN_Mountain) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 999: ∃imageContains.(( ¬ Door) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1000: ∃imageContains.((LandForm) ⊔ ( ¬ Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1001: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1002: ∃imageContains.((LandForm) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1003: ∃imageContains.((WN_Sky) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1004: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1005: ∃imageContains.(( ¬ Building) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1006: ∃imageContains.((Mountain) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1007: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1008: ∃imageContains.(( ¬ WN_Cabinet) ⊔ (Sky))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1009: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1010: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1011: ∃imageContains.((WN_Sky) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1012: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1013: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1014: ∃imageContains.((WN_Mount) ⊔ ( ¬ Door))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1015: ∃imageContains.((WN_Sky) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1016: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1017: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1018: ∃imageContains.(( ¬ LandTransitway) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1019: ∃imageContains.((WN_Mountain) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1020: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1021: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Window))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1022: ∃imageContains.((WN_Mount) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1023: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1024: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Seat))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1025: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Graph))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1026: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1027: ∃imageContains.((LandForm) ⊔ ( ¬ Road))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1028: ∃imageContains.((WN_Sky) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1029: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Device))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1030: ∃imageContains.(( ¬ ManufacturedProduct) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1031: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ Product))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1032: ∃imageContains.(( ¬ DurableGood) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1033: ∃imageContains.(( ¬ Cabinet) ⊔ (Mountain))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1034: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ (UplandArea))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.65625
+solution 1035: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.42105263157894735
+	 f_measure: 0.0
+solution 1036: ∃imageContains.( ¬ Furniture)
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1037: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1038: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1039: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1040: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1041: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1042: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Building))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1043: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1044: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1045: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1046: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1047: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1048: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1049: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1050: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1051: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1052: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1053: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1054: ∃imageContains.(( ¬ Window) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1055: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1056: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1057: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1058: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1059: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1060: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1061: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1062: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1063: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1064: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1065: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Door))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1066: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1067: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1068: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1069: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1070: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1071: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1072: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1073: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1074: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1075: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1076: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1077: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1078: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1079: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1080: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1081: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1082: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1083: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1084: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1085: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1086: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1087: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1088: ∃imageContains.(( ¬ Window) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1089: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1090: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1091: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1092: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1093: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1094: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1095: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1096: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Door))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1097: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1098: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1099: ∃imageContains.(( ¬ SelfConnectedObject) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1100: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1101: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1102: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Building))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1103: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1104: ∃imageContains.(( ¬ Building) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1105: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1106: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1107: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ Table))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1108: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Road))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1109: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Door))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1110: ∃imageContains.(( ¬ Table) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1111: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1112: ∃imageContains.(( ¬ Furniture) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1113: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1114: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1115: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1116: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1117: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1118: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1119: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Window))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1120: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3684210526315789
+	 f_measure: 0.0
+solution 1121: ∃imageContains.( ¬ WN_Table)
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1122: ∃imageContains.( ¬ Table)
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1123: ∃imageContains.( ¬ SelfConnectedObject)
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1124: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1125: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1126: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1127: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1128: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1129: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1130: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1131: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Window))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1132: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1133: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1134: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1135: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1136: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1137: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1138: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1139: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1140: ∃imageContains.(( ¬ WN_Table) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1141: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1142: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1143: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1144: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1145: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1146: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Road))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1147: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1148: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1149: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1150: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1151: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1152: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1153: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1154: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1155: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1156: ∃imageContains.(( ¬ Table) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1157: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1158: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1159: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1160: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1161: ∃imageContains.(( ¬ Window) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1162: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1163: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1164: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1165: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Seat))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1166: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1167: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1168: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1169: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1170: ∃imageContains.(( ¬ Road) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1171: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1172: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1173: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1174: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Building))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1175: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1176: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Building))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1177: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1178: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1179: ∃imageContains.(( ¬ Door) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1180: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Table))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1181: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1182: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1183: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1184: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1185: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1186: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ Door))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1187: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1188: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1189: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1190: ∃imageContains.(( ¬ Road) ⊔ ( ¬ SelfConnectedObject))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1191: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1192: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1193: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Holder))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1194: ∃imageContains.(( ¬ WN_Cabinet) ⊔ ( ¬ Graph))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1195: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1196: ∃imageContains.(( ¬ Table) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1197: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Table))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1198: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1199: ∃imageContains.(( ¬ Ceiling) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.3157894736842105
+	 f_measure: 0.0
+solution 1200: ∃imageContains.( ¬ WN_Windowpane)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1201: ∃imageContains.(UplandArea)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1202: ∃imageContains.( ¬ Window)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1203: ∃imageContains.(WN_Mount)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1204: ∃imageContains.( ¬ WN_Window)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1205: ∃imageContains.(Mountain)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1206: ∃imageContains.( ¬ WN_Ceiling)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1207: ∃imageContains.(WN_Sky)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1208: ∃imageContains.(WN_Mountain)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1209: ∃imageContains.( ¬ Seat)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1210: ∃imageContains.( ¬ Ceiling)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1211: ∃imageContains.(Sky)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1212: ∃imageContains.(LandForm)
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1213: ∃imageContains.((WN_Sky) ⊔ (Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1214: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1215: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1216: ∃imageContains.((WN_Mount) ⊔ (WN_Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1217: ∃imageContains.(( ¬ WN_Ceiling) ⊔ ( ¬ Ceiling))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1218: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1219: ∃imageContains.((WN_Sky) ⊔ (UplandArea))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1220: ∃imageContains.((WN_Mount) ⊔ (Mountain))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1221: ∃imageContains.((WN_Mount) ⊔ (WN_Mountain))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1222: ∃imageContains.((Mountain) ⊔ (UplandArea))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1223: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1224: ∃imageContains.((WN_Mountain) ⊔ (Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1225: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Seat))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1226: ∃imageContains.((WN_Mount) ⊔ (UplandArea))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1227: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ WN_Windowpane))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1228: ∃imageContains.(( ¬ Seat) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1229: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1230: ∃imageContains.((LandForm) ⊔ (UplandArea))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1231: ∃imageContains.((WN_Mount) ⊔ (LandForm))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1232: ∃imageContains.((WN_Mount) ⊔ (Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1233: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1234: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Door))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1235: ∃imageContains.((Mountain) ⊔ (Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1236: ∃imageContains.(( ¬ WN_Windowpane) ⊔ ( ¬ Window))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1237: ∃imageContains.((LandForm) ⊔ (Mountain))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1238: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1239: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Door))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1240: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Holder))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1241: ∃imageContains.((WN_Mountain) ⊔ (Mountain))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1242: ∃imageContains.((WN_Sky) ⊔ (LandForm))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1243: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1244: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Seat))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1245: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Door))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1246: ∃imageContains.(( ¬ Road) ⊔ ( ¬ CorpuscularObject))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1247: ∃imageContains.((WN_Mountain) ⊔ (WN_Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1248: ∃imageContains.((WN_Sky) ⊔ (Mountain))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1249: ∃imageContains.(( ¬ WN_Window) ⊔ ( ¬ Window))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1250: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ TransitwayObstacle))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1251: ∃imageContains.((WN_Mountain) ⊔ (LandForm))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1252: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Building))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1253: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1254: ∃imageContains.(( ¬ Door) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1255: ∃imageContains.((UplandArea) ⊔ (Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1256: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1257: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1258: ∃imageContains.(( ¬ Door) ⊔ ( ¬ Seat))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1259: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Holder))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1260: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Seat))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1261: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ Seat))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1262: ∃imageContains.((WN_Mountain) ⊔ (UplandArea))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1263: ∃imageContains.((LandForm) ⊔ (Sky))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.631578947368421
+solution 1264: ∃imageContains.(( ¬ CorpuscularObject) ⊔ ( ¬ Graph))
+	 coverage_score: 0.2631578947368421
+	 f_measure: 0.0
+solution 1265: ∃imageContains.( ¬ WN_Chair)
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1266: ∃imageContains.( ¬ Holder)
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1267: ∃imageContains.( ¬ Chair)
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1268: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1269: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Building))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1270: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1271: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Graph))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1272: ∃imageContains.(( ¬ Building) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1273: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ Holder))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1274: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1275: ∃imageContains.(( ¬ Holder) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1276: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Abstract))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1277: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1278: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ Cabinet))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1279: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1280: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1281: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1282: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ Graph))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1283: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1284: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1285: ∃imageContains.(( ¬ WN_Road) ⊔ ( ¬ Graph))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1286: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1287: ∃imageContains.(( ¬ WN_Chair) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1288: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Building))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1289: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1290: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ Graph))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1291: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Chair))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1292: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1293: ∃imageContains.(( ¬ Chair) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1294: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.21052631578947367
+	 f_measure: 0.0
+solution 1295: ∃imageContains.( ¬ Road)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1296: ∃imageContains.( ¬ Fabric)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1297: ∃imageContains.( ¬ Container)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1298: ∃imageContains.( ¬ Abstract)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1299: ∃imageContains.( ¬ LandTransitway)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1300: ∃imageContains.( ¬ WN_Tree)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1301: ∃imageContains.( ¬ TransitwayObstacle)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1302: ∃imageContains.( ¬ WN_Road)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1303: ∃imageContains.( ¬ WN_Building)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1304: ∃imageContains.( ¬ Door)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1305: ∃imageContains.( ¬ WN_Route)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1306: ∃imageContains.( ¬ Cabinet)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1307: ∃imageContains.( ¬ Transitway)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1308: ∃imageContains.( ¬ Roadway)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1309: ∃imageContains.( ¬ WN_Edifice)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1310: ∃imageContains.( ¬ CorpuscularObject)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1311: ∃imageContains.( ¬ Building)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1312: ∃imageContains.( ¬ Graph)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1313: ∃imageContains.( ¬ WN_Cabinet)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1314: ∃imageContains.( ¬ LandArea)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1315: ∃imageContains.( ¬ WN_Door)
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1316: ∃imageContains.(( ¬ Road) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1317: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1318: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Graph))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1319: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ Building))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1320: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1321: ∃imageContains.(( ¬ TransitwayObstacle) ⊔ ( ¬ Door))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1322: ∃imageContains.(( ¬ WN_Building) ⊔ ( ¬ Graph))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1323: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1324: ∃imageContains.(( ¬ Cabinet) ⊔ ( ¬ WN_Cabinet))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1325: ∃imageContains.(( ¬ Roadway) ⊔ ( ¬ LandTransitway))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1326: ∃imageContains.(( ¬ WN_Edifice) ⊔ ( ¬ Graph))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1327: ∃imageContains.(( ¬ Abstract) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1328: ∃imageContains.(( ¬ Road) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1329: ∃imageContains.(( ¬ Road) ⊔ ( ¬ Roadway))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1330: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Building))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1331: ∃imageContains.(( ¬ Building) ⊔ ( ¬ WN_Edifice))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1332: ∃imageContains.(( ¬ LandTransitway) ⊔ ( ¬ WN_Road))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1333: ∃imageContains.(( ¬ Building) ⊔ ( ¬ Graph))
+	 coverage_score: 0.15789473684210525
+	 f_measure: 0.0
+solution 1334: ∃imageContains.( ¬ WN_Mantle)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1335: ∃imageContains.( ¬ OrganicThing)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1336: ∃imageContains.( ¬ Tree)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1337: ∃imageContains.( ¬ WN_Drape)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1338: ∃imageContains.( ¬ WN_Pall)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1339: ∃imageContains.( ¬ Swivelchair)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1340: ∃imageContains.( ¬ WN_Doubledoor)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1341: ∃imageContains.( ¬ WN_Swivelchair)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1342: ∃imageContains.( ¬ Agent)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1343: ∃imageContains.( ¬ WindowCovering)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1344: ∃imageContains.( ¬ WN_Bed)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1345: ∃imageContains.( ¬ CommunicationDevice)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1346: ∃imageContains.( ¬ WN_Curtain)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1347: ∃imageContains.( ¬ Doubledoor)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1348: ∃imageContains.( ¬ WN_Plant)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1349: ∃imageContains.( ¬ Curtain)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1350: ∃imageContains.( ¬ Organism)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1351: ∃imageContains.( ¬ WN_Plantlife)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1352: ∃imageContains.( ¬ OrganicObject)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1353: ∃imageContains.( ¬ EngineeringComponent)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1354: ∃imageContains.( ¬ WN_Flora)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1355: ∃imageContains.( ¬ Plants)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1356: ∃imageContains.( ¬ WN_Drapery)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1357: ∃imageContains.( ¬ Bed)
+	 coverage_score: 0.10526315789473684
+	 f_measure: 0.0
+solution 1358: ∃imageContains.( ¬ Person)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1359: ∃imageContains.( ¬ Board)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1360: ∃imageContains.( ¬ WN_Somebody)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1361: ∃imageContains.( ¬ WN_Candlestick)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1362: ∃imageContains.( ¬ WN_Worksurface)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1363: ∃imageContains.( ¬ Radiator)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1364: ∃imageContains.( ¬ WN_Bathingtub)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1365: ∃imageContains.( ¬ TelephonyDevice)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1366: ∃imageContains.( ¬ WN_Phone)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1367: ∃imageContains.( ¬ WN_Someone)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1368: ∃imageContains.( ¬ WN_Oven)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1369: ∃imageContains.( ¬ WN_Bowl)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1370: ∃imageContains.(WN_Rock)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1371: ∃imageContains.( ¬ Tray)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1372: ∃imageContains.( ¬ Covering)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1373: ∃imageContains.( ¬ WN_Couch)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1374: ∃imageContains.( ¬ Glass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1375: ∃imageContains.( ¬ WN_Picture)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1376: ∃imageContains.( ¬ WN_Screen)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1377: ∃imageContains.( ¬ Motion)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1378: ∃imageContains.( ¬ WN_Shelf)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1379: ∃imageContains.( ¬ Ceilingfan)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1380: ∃imageContains.( ¬ WN_Ash-bin)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1381: ∃imageContains.( ¬ WN_Microwaveoven)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1382: ∃imageContains.( ¬ Firstfloor)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1383: ∃imageContains.( ¬ Centralreservation)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1384: ∃imageContains.(WN_Stone)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1385: ∃imageContains.( ¬ WN_Telephone)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1386: ∃imageContains.( ¬ WN_Writtendocument)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1387: ∃imageContains.( ¬ WN_Tapis)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1388: ∃imageContains.( ¬ WN_Garbagecan)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1389: ∃imageContains.( ¬ PassengerVehicle)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1390: ∃imageContains.( ¬ Bathtub)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1391: ∃imageContains.( ¬ WN_Motorcar)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1392: ∃imageContains.( ¬ WN_Papers)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1393: ∃imageContains.( ¬ WN_Tray)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1394: ∃imageContains.( ¬ Projectionscreen)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1395: ∃imageContains.( ¬ Oven)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1396: ∃imageContains.( ¬ Bowl)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1397: ∃imageContains.( ¬ WN_Wastebin)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1398: ∃imageContains.(Substance)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1399: ∃imageContains.( ¬ WN_Placemat)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1400: ∃imageContains.( ¬ WN_Radiator)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1401: ∃imageContains.( ¬ Cushion)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1402: ∃imageContains.( ¬ WN_Tapestry)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1403: ∃imageContains.( ¬ Vehicle)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1404: ∃imageContains.( ¬ WN_Firstfloor)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1405: ∃imageContains.( ¬ WN_Mortal)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1406: ∃imageContains.( ¬ WN_Teacup)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1407: ∃imageContains.( ¬ WN_Individual)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1408: ∃imageContains.( ¬ Teacup)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1409: ∃imageContains.( ¬ Worksurface)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1410: ∃imageContains.( ¬ Fountain)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1411: ∃imageContains.( ¬ WN_Carpeting)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1412: ∃imageContains.( ¬ Ashtray)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1413: ∃imageContains.( ¬ WN_Field)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1414: ∃imageContains.( ¬ WN_Bag)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1415: ∃imageContains.( ¬ Transfer)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1416: ∃imageContains.( ¬ WN_Painting)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1417: ∃imageContains.( ¬ ContactSite)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1418: ∃imageContains.( ¬ Telephone)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1419: ∃imageContains.( ¬ Armchair)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1420: ∃imageContains.( ¬ WN_Centralreservation)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1421: ∃imageContains.( ¬ WN_Trashbarrel)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1422: ∃imageContains.( ¬ Translocation)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1423: ∃imageContains.( ¬ WN_Machine)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1424: ∃imageContains.( ¬ WN_Silverscreen)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1425: ∃imageContains.( ¬ WN_Grass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1426: ∃imageContains.( ¬ WN_Microwave)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1427: ∃imageContains.( ¬ WN_Projectionscreen)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1428: ∃imageContains.(Mountainpass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1429: ∃imageContains.( ¬ WN_Lounge)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1430: ∃imageContains.( ¬ WN_Plate)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1431: ∃imageContains.( ¬ Sofa)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1432: ∃imageContains.( ¬ WN_Plank)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1433: ∃imageContains.( ¬ Snow)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1434: ∃imageContains.( ¬ Mixture)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1435: ∃imageContains.( ¬ Calendar)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1436: ∃imageContains.( ¬ WN_Box)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1437: ∃imageContains.( ¬ WN_Car)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1438: ∃imageContains.( ¬ WN_Fan)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1439: ∃imageContains.(WN_Ground)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1440: ∃imageContains.( ¬ ContentBearingPhysical)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1441: ∃imageContains.( ¬ Papers)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1442: ∃imageContains.( ¬ WN_Candleholder)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1443: ∃imageContains.(Rocks)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1444: ∃imageContains.( ¬ Microwave)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1445: ∃imageContains.( ¬ Creamer)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1446: ∃imageContains.( ¬ Machinery)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1447: ∃imageContains.( ¬ WN_Fountain)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1448: ∃imageContains.( ¬ IndustrialSupply)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1449: ∃imageContains.( ¬ WN_Ashcan)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1450: ∃imageContains.( ¬ WN_Carpet)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1451: ∃imageContains.( ¬ WN_Ashbin)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1452: ∃imageContains.( ¬ Tapestry)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1453: ∃imageContains.( ¬ HeatingDevice)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1454: ∃imageContains.( ¬ WN_Rug)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1455: ∃imageContains.( ¬ WN_Trashcan)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1456: ∃imageContains.( ¬ Sign)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1457: ∃imageContains.( ¬ Sink)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1458: ∃imageContains.( ¬ Placemat)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1459: ∃imageContains.( ¬ Candleholder)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1460: ∃imageContains.( ¬ WN_Creamer)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1461: ∃imageContains.( ¬ WN_Signboard)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1462: ∃imageContains.( ¬ WN_Sink)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1463: ∃imageContains.( ¬ WN_Kettle)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1464: ∃imageContains.( ¬ WN_Sign)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1465: ∃imageContains.( ¬ WN_Auto)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1466: ∃imageContains.( ¬ Field)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1467: ∃imageContains.( ¬ WN_Trashbin)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1468: ∃imageContains.( ¬ Rug)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1469: ∃imageContains.( ¬ Shelves)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1470: ∃imageContains.( ¬ WN_Ashtray)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1471: ∃imageContains.( ¬ WN_Board)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1472: ∃imageContains.( ¬ Kettle)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1473: ∃imageContains.( ¬ WN_Cushion)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1474: ∃imageContains.( ¬ WN_Glass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1475: ∃imageContains.(WN_Mountainpass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1476: ∃imageContains.( ¬ Trashcan)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1477: ∃imageContains.( ¬ TransportationEquipment)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1478: ∃imageContains.( ¬ Picture)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1479: ∃imageContains.(Trees)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1480: ∃imageContains.( ¬ WN_Telephoneset)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1481: ∃imageContains.( ¬ WN_Snow)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1482: ∃imageContains.( ¬ WN_Calendar)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1483: ∃imageContains.( ¬ WN_Sofa)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1484: ∃imageContains.( ¬ WN_Soul)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1485: ∃imageContains.( ¬ WN_Automobile)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1486: ∃imageContains.( ¬ ContentBearingObject)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1487: ∃imageContains.( ¬ CapitalGood)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1488: ∃imageContains.( ¬ WN_Tub)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1489: ∃imageContains.( ¬ Putting)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1490: ∃imageContains.( ¬ WN_Boiler)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1491: ∃imageContains.( ¬ WN_Coffeetable)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1492: ∃imageContains.( ¬ Grass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1493: ∃imageContains.(Rock)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1494: ∃imageContains.( ¬ WN_Bath)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1495: ∃imageContains.( ¬ ElectricDevice)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1496: ∃imageContains.( ¬ WN_Person)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1497: ∃imageContains.( ¬ WN_Document)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1498: ∃imageContains.( ¬ WN_Cocktailtable)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1499: ∃imageContains.( ¬ WN_Dustbin)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1500: ∃imageContains.( ¬ telephone)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1501: ∃imageContains.( ¬ Coffeetable)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1502: ∃imageContains.( ¬ Plate)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1503: ∃imageContains.( ¬ Plant)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1504: ∃imageContains.( ¬ FloweringPlant)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1505: ∃imageContains.( ¬ WN_Bathtub)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1506: ∃imageContains.( ¬ Box)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1507: ∃imageContains.(Ground)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1508: ∃imageContains.( ¬ Car)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1509: ∃imageContains.( ¬ WN_Drinkingglass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1510: ∃imageContains.( ¬ Process)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1511: ∃imageContains.( ¬ Bag)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1512: ∃imageContains.(WN_Earth)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1513: ∃imageContains.( ¬ TransportationDevice)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1514: ∃imageContains.( ¬ WN_Armchair)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.0
+solution 1515: ∃imageContains.(Substance ⊓ ¬ Mixture)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+solution 1516: ∃imageContains.(Substance ⊓ ¬ Glass)
+	 coverage_score: 0.05263157894736842
+	 f_measure: 0.13333333333333333
+
+Total solutions found: 1516
+
+Program finished.
+Program ends at: 10.15.2018  23.19.22 PM
+Program duration: 0.848 sec

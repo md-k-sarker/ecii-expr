@@ -1,0 +1,77 @@
+/******************
+Example taken from yingyang
+Father
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":hasChild",":hasParent",":hasSibling"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:Dino",
+"kb:Francesco",
+"kb:Mauro",
+"kb:Giggino"
+}
+lp.negativeExamples = {
+"kb:Giovanna",
+"kb:Marisella",
+"kb:Ombretta",
+"kb:Serena",
+"kb:Valentina",
+"kb:Luca",
+"kb:Luigi",
+"kb:Maria",
+"kb:Nella",
+"kb:Miriam",
+"kb:NonnaLina",
+"kb:Carmela"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 120 ms.
+... initialized component 'reasoner' in 899ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 14ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (25.00%) class expression found after 36ms: Thing
+more accurate (87.50%) class expression found after 82ms: Male
+more accurate (100.00%) class expression found after 109ms: Male and (hasChild some Person)
+Algorithm terminated successfully (time: 110ms, 24 descriptions tested, 13 nodes in the search tree).
+
+number of retrievals: 41
+retrieval reasoning time: 1ms ( 0ms per retrieval)
+(complex) subsumption checks: 10 (0 multiple)
+subsumption reasoning time: 4ms ( 0ms per subsumption check)
+overall reasoning time: 6ms
+
+solutions:
+1: Male and (hasChild some Person) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Male (pred. acc.: 87.50%, F-measure: 80.00%)
+3: Male and (not (Female)) (pred. acc.: 87.50%, F-measure: 80.00%)
+4: Thing (pred. acc.: 25.00%, F-measure: 40.00%)
+5: Person (pred. acc.: 25.00%, F-measure: 40.00%)
+

@@ -1,0 +1,13 @@
+Prediction:
+12
+Label:
+9
+001 # 0 # 0 # wall # wall # "" # 0.390943532383
+003 # 0 # 0 # floor, flooring # floor # "tile" # 0.335672896434
+004 # 0 # 0 # ceiling # ceiling # "" # 0.119839142091
+005 # 0 # 0 # windowpane, window # window # "single hung" # 0.387908857038
+009 # 0 # 0 # monitor, monitoring device # monitor # "" # 0.232595666206
+011 # 0 # 1 # cabinet # cabinet # "" # 0.164396579031
+012 # 0 # 1 # table # table # "" # 0.494663600448
+013 # 0 # 1 # chair # chair # "" # 0.101884570082
+018 # 0 # 1 # swivel chair # swivel chair # "" # 0.276275541417

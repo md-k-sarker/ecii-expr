@@ -1,0 +1,14 @@
+Prediction:
+6
+Label:
+6
+001 # 0 # 0 # wall # wall # "" # 0.26220293155
+003 # 0 # 0 # floor, flooring # floor # "tile" # 0.521591502699
+004 # 0 # 0 # ceiling # ceiling # "" # 0.323832992375
+005 # 0 # 0 # windowpane, window # window # "" # 0.475893675527
+006 # 0 # 1 # door # door # "" # 0.0841968911917
+009 # 0 # 1 # armchair # armchair # "" # 0.129676716309
+012 # 0 # 1 # candlestick, candle holder # candle holder # "" # 0.0976548827441
+017 # 0 # 0 # coffee table, cocktail table # coffee table # "" # 0.244393431044
+018 # 0 # 1 # sofa, couch, lounge # sofa # "" # 0.384222865812
+028 # 0 # 0 # cushion # cushion # "" # 0.185519125683

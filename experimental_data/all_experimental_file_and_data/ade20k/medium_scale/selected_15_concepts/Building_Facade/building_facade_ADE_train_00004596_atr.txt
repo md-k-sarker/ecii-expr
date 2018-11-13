@@ -1,0 +1,9 @@
+Prediction:
+3
+Label:
+3
+001 # 0 # 0 # road, route # road # "" # 0.126261210762
+002 # 0 # 0 # sidewalk, pavement # sidewalk # "" # 0.182747695853
+003 # 0 # 0 # building, edifice # building # "" # 0.788120715599
+005 # 0 # 1 # car, auto, automobile, machine, motorcar # car # "" # 0.486725663717
+009 # 0 # 0 # display window, shop window, shopwindow, show window # shop window # "" # 0.164896307537

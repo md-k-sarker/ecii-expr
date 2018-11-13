@@ -1,0 +1,40 @@
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 119 ms.
+... initialized component 'reasoner' in 789ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 14ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (75% accuracy)
+more accurate (100.00%) class expression found: hasParent some Thing
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: hasParent some Thing (accuracy 100%, length 3, depth 1)
+2: hasParent some Female (accuracy 100%, length 3, depth 1)
+3: hasParent some Male (accuracy 100%, length 3, depth 1)
+4: hasParent some (not (Female)) (accuracy 100%, length 4, depth 1)
+5: hasParent some (not (Male)) (accuracy 100%, length 4, depth 1)
+6: hasParent some (hasChild some Thing) (accuracy 100%, length 5, depth 2)
+7: hasParent min 2 Thing (accuracy 100%, length 4, depth 1)
+8: Person and (hasParent some Thing) (accuracy 100%, length 5, depth 1)
+9: hasParent some (Female or Female) (accuracy 100%, length 5, depth 1)
+10: hasParent some (Female or Male) (accuracy 100%, length 5, depth 1)
+11: hasParent some (Male or Male) (accuracy 100%, length 5, depth 1)
+12: hasParent some (hasChild only Thing) (accuracy 100%, length 5, depth 2)
+13: hasParent some (hasParent only Thing) (accuracy 100%, length 5, depth 2)
+14: hasParent some (hasSibling only Thing) (accuracy 100%, length 5, depth 2)
+15: (hasParent some Thing) and (hasParent some Thing) (accuracy 100%, length 7, depth 1)
+16: hasParent some (Female or (not (Female))) (accuracy 100%, length 6, depth 1)
+17: hasParent some (Female or (not (Male))) (accuracy 100%, length 6, depth 1)
+18: hasParent some (Female or (hasChild some Thing)) (accuracy 100%, length 7, depth 2)
+19: hasParent some (Female or (hasParent some Thing)) (accuracy 100%, length 7, depth 2)
+20: hasParent some (Female or (hasSibling some Thing)) (accuracy 100%, length 7, depth 2)
+Algorithm stopped (28834 descriptions tested).
+

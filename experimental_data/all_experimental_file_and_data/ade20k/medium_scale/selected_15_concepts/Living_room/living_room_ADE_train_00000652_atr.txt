@@ -1,0 +1,16 @@
+Prediction:
+6
+Label:
+6
+001 # 0 # 0 # wall # wall # "" # 0.339828080229
+003 # 0 # 0 # floor, flooring # floor # "wood" # 0.509274873524
+004 # 0 # 0 # ceiling # ceiling # "wood" # 0.594271164863
+005 # 0 # 0 # shelf # shelves # "" # 0.0628099173554
+007 # 0 # 0 # windowpane, window # window # "" # 0.299941645594
+011 # 0 # 1 # coffee table, cocktail table # coffee table # "" # 0.11443559355
+013 # 0 # 1 # painting, picture # picture # "photo" # 0.299913569576
+020 # 0 # 1 # sofa, couch, lounge # sofa # "" # 0.483727097396
+021 # 0 # 1 # table # side table # "" # 0.0727566693614
+023 # 0 # 0 # double door # double door # "" # 0.681203663323
+024 # 0 # 0 # fireplace, hearth, open fireplace # fireplace # "" # 0.412848059636
+047 # 0 # 0 # curtain, drape, drapery, mantle, pall # curtain # "" # 0.190131935659

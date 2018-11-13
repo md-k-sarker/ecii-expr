@@ -1,0 +1,13 @@
+Prediction:
+15
+Label:
+15
+001 # 0 # 0 # wall # wall # "" # 0.147961520843
+008 # 0 # 0 # ceiling # ceiling # "" # 0.252869793375
+009 # 0 # 0 # microwave, microwave oven # microwave # "" # 0.241054158607
+010 # 0 # 0 # stove, kitchen stove, range, kitchen range, cooking stove # range # "" # 0.373758200562
+011 # 0 # 0 # countertop # countertop # "" # 0.125838926174
+013 # 0 # 1 # cabinet # cabinet # "" # 0.241407753643
+014 # 0 # 1 # chest of drawers, chest, bureau, dresser # chest of drawers # "" # 0.229263746505
+026 # 0 # 0 # sink # sink # "" # 0.366673946276
+033 # 0 # 0 # work surface # work surface # "" # 0.451665662391

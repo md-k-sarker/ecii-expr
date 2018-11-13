@@ -1,0 +1,35 @@
+➜  moral_reasoner dl_cli moral_all_examples_complex_owl.conf
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 181 ms.
+... initialized component 'reasoner' in 4s 550ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 9ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (50.50%) class expression found after 29ms: Thing
+more accurate (77.72%) class expression found after 84ms: severity_harm
+more accurate (100.00%) class expression found after 85ms: guilty
+Algorithm terminated successfully (time: 85ms, 25 descriptions tested, 4 nodes in the search tree).
+
+number of retrievals: 29
+retrieval reasoning time: 0ms ( 0ms per retrieval)
+overall reasoning time: 0ms
+
+solutions:
+1: guilty (pred. acc.: 100.00%, F-measure: 100.00%)
+2: severity_harm (pred. acc.: 77.72%, F-measure: 81.93%)
+3: notaccident (pred. acc.: 54.95%, F-measure: 69.15%)
+4: Thing (pred. acc.: 50.50%, F-measure: 67.11%)

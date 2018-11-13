@@ -1,0 +1,15 @@
+Prediction:
+6
+Label:
+4
+001 # 0 # 0 # wall # wall # "" # 0.160163339383
+007 # 0 # 0 # floor, flooring # floor # "" # 0.760128957752
+008 # 0 # 0 # ceiling # ceiling # "" # 0.347015753273
+010 # 0 # 0 # signboard, sign # sign # "" # 0.332092078538
+011 # 0 # 0 # light, light source # light troffer # "on" # 0.241245136187
+012 # 0 # 0 # windowpane, window # window # "" # 0.459550907413
+021 # 0 # 1 # person, individual, someone, somebody, mortal, soul # person # "sitting" # 0.198202247191
+033 # 0 # 0 # column, pillar # column # "" # 0.199370645089
+036 # 0 # 0 # ad, advertisement, advertizement, advertising, advertizing, advert # advertisement # "" # 0.0765490196078
+060 # 0 # 0 # pot, flowerpot # flowerpot # "" # 0.273702031603
+061 # 0 # 0 # plant, flora, plant life # plant # "" # 0.136348371208

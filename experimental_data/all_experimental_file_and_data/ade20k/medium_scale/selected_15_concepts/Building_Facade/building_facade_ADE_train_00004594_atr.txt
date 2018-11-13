@@ -1,0 +1,7 @@
+Prediction:
+3
+Label:
+3
+001 # 0 # 0 # sky # sky # "" # 0.157148643175
+002 # 0 # 0 # sidewalk, pavement # sidewalk # "" # 0.184811471057
+003 # 0 # 0 # building, edifice # building # "" # 0.883636292484

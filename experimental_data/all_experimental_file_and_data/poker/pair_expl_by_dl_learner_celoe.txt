@@ -1,0 +1,125 @@
+/**
+ * Automatically created random poker decks (the UCI-ML-Repository Poker example 
+ * was transformed to a conf file). The goal is to learn the concept of a pair 
+ * (two cards with equal rank).
+ *
+ * possible solution:
+ *   EXISTS hasCard.EXISTS sameRank.TOP
+ *
+ * Copyright (C) 2007, Jens Lehmann 
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "KB File"
+ks.fileName = "pair.kb" 
+
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:hand9",
+"kb:hand13",
+"kb:hand18",
+"kb:hand19",
+"kb:hand21",
+"kb:hand22",
+"kb:hand23",
+"kb:hand24",
+"kb:hand25",
+"kb:hand26",
+"kb:hand29",
+"kb:hand35",
+"kb:hand36",
+"kb:hand38",
+"kb:hand39",
+"kb:hand40",
+"kb:hand41",
+"kb:hand43",
+"kb:hand47",
+"kb:hand48"
+}
+
+lp.negativeExamples = {
+"kb:hand0",
+"kb:hand1",
+"kb:hand2",
+"kb:hand3",
+"kb:hand4",
+"kb:hand5",
+"kb:hand6",
+"kb:hand7",
+"kb:hand8",
+"kb:hand10",
+"kb:hand11",
+"kb:hand12",
+"kb:hand14",
+"kb:hand15",
+"kb:hand16",
+"kb:hand17",
+"kb:hand20",
+"kb:hand27",
+"kb:hand28",
+"kb:hand30",
+"kb:hand31",
+"kb:hand32",
+"kb:hand33",
+"kb:hand34",
+"kb:hand37",
+"kb:hand42",
+"kb:hand44",
+"kb:hand45",
+"kb:hand46"
+}
+
+la.type="celoe"
+la.stopOnFirstDefinition="true"
+
+➜  ecii_aaai dl_cli pair_owl.conf 
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 185 ms.
+... initialized component 'reasoner' in 1s 178ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 57ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (40.82%) class expression found after 25ms: Thing
+more accurate (100.00%) class expression found after 237ms: hasCard some (sameRank some Thing)
+Algorithm terminated successfully (time: 237ms, 208 descriptions tested, 138 nodes in the search tree).
+
+number of retrievals: 230
+retrieval reasoning time: 57ms ( 0ms per retrieval)
+number of instance checks: 890 (0 multiple)
+instance check reasoning time: 2ms ( 0ms per instance check)
+(complex) subsumption checks: 12 (0 multiple)
+subsumption reasoning time: 9ms ( 0ms per subsumption check)
+overall reasoning time: 69ms
+
+solutions:
+1: hasCard some (sameRank some Thing) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+3: deck (pred. acc.: 40.82%, F-measure: 57.97%)
+4: not (card) (pred. acc.: 40.82%, F-measure: 57.97%)
+5: hasCard only card (pred. acc.: 40.82%, F-measure: 57.97%)
+6: hasCard some Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+7: hasCard some card (pred. acc.: 40.82%, F-measure: 57.97%)
+8: card or deck (pred. acc.: 40.82%, F-measure: 57.97%)
+9: nextRank max 1 Thing (pred. acc.: 40.82%, F-measure: 57.97%)
+10: hasCard max 4 Thing (pred. acc.: 40.82%, F-measure: 57.97%)

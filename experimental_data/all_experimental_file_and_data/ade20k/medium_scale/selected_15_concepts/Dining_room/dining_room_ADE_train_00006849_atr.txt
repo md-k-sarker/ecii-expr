@@ -1,0 +1,14 @@
+Prediction:
+13
+Label:
+13
+001 # 0 # 0 # wall # wall # "" # 0.340355805243
+003 # 0 # 0 # floor, flooring # floor # "" # 0.388495368569
+004 # 0 # 0 # chair # chair # "" # 0.0771541205181
+006 # 0 # 0 # buffet, counter, sideboard # sideboard # "" # 0.169642122583
+007 # 0 # 0 # flower # flowers # "" # 0.388790560472
+008 # 0 # 0 # table # table # "" # 0.382141560799
+009 # 0 # 0 # cushion # cushion # "" # 0.222965680984
+011 # 0 # 0 # windowpane, window # window # "" # 0.388997268826
+017 # 0 # 1 # cabinet # cabinet # "" # 0.327591510305
+021 # 0 # 0 # candelabrum, candelabra # candelabra # "" # 0.106776180698

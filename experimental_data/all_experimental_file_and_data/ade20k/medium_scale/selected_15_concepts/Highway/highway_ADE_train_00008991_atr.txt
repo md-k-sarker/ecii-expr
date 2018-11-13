@@ -1,0 +1,10 @@
+Prediction:
+14
+Label:
+14
+001 # 0 # 0 # sky # sky # "cloudy" # 0.533765879511
+002 # 0 # 0 # road, route # road # "" # 0.228209394599
+003 # 0 # 0 # signboard, sign # sign # "" # 0.660871724823
+007 # 0 # 0 # tree # tree # "" # 0.362076749436
+008 # 0 # 0 # fence, fencing # fence # "" # 0.217391304348
+011 # 0 # 0 # bridge, span # bridge # "" # 0.422873457049

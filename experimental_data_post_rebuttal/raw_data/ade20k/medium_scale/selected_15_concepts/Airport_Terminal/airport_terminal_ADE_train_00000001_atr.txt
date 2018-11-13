@@ -1,0 +1,10 @@
+Prediction:
+1
+Label:
+4
+001 # 0 # 0 # wall # wall # "glass" # 0.177914110429
+012 # 0 # 0 # floor, flooring # floor # "" # 0.432042022324
+013 # 0 # 0 # ceiling # ceiling # "" # 0.716228719467
+023 # 0 # 0 # first floor # first floor # "" # 0.398569570871
+028 # 0 # 0 # fountain # fountain # "" # 0.157241959218
+036 # 0 # 0 # plant, flora, plant life # plants # "" # 0.168635170604

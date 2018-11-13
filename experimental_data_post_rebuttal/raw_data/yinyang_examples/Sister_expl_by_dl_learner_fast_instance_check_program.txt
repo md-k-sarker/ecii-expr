@@ -1,0 +1,50 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.30 AM
+Working with confFile: Sister.conf
+Algorithm starts at: 10.16.2018  11.35.30 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	Valentina
+	Marisella
+	Ombretta
+	Giovanna
+	Nella
+	Maria
+	Miriam
+	Rosanna
+	Milly
+	Serena
+	Antonella
+negIndivs from conf:
+	Francesco
+	Mauro
+	Carmela
+	Dino
+	Luigi
+	Giuseppe
+
+Algorithm ends at: 10.16.2018  11.35.30 AM
+
+Algorithm duration: 0.104 sec
+
+####################Solutions####################:
+Solution: Person
+	 coverage_score: 0.6470588235294118
+Solution: Thing
+	 coverage_score: 0.6470588235294118
+Solution: Female and (not (Male))
+	 coverage_score: 0.9411764705882353
+Solution: Person and (not (Male))
+	 coverage_score: 0.9411764705882353
+Solution: not (Male)
+	 coverage_score: 0.9411764705882353
+Solution: Female
+	 coverage_score: 0.9411764705882353
+Solution: Female and (hasSibling some Person)
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.30 AM
+Program duration: 0.118 sec

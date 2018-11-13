@@ -1,0 +1,15 @@
+Prediction:
+15
+Label:
+15
+002 # 0 # 0 # wall # wall # "" # 0.0876906318083
+006 # 0 # 0 # floor, flooring # floor # "tile" # 0.255848774097
+008 # 0 # 0 # ceiling # ceiling # "" # 0.544166852554
+016 # 0 # 1 # door # door # "" # 0.135714285714
+020 # 0 # 0 # microwave, microwave oven # microwave # "" # 0.201610080504
+035 # 0 # 0 # stove, kitchen stove, range, kitchen range, cooking stove # range # "" # 0.233181916504
+036 # 0 # 0 # work surface # work surface # "" # 0.256044355572
+037 # 0 # 1 # cabinet # cabinet # "" # 0.290272614622
+041 # 0 # 1 # double door # double door # "" # 0.519869174162
+056 # 0 # 0 # tree # trees # "" # 0.0967741935484
+062 # 0 # 0 # oven # oven # "" # 0.213667425968

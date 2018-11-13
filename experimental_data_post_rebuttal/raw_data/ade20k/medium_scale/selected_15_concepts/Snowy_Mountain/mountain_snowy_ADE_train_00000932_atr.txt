@@ -1,0 +1,8 @@
+Prediction:
+8
+Label:
+8
+001 # 0 # 0 # sky # sky # "" # 0.595698500395
+002 # 0 # 0 # mountain, mount # mountain # "snowy" # 0.351089041869
+004 # 0 # 0 # tree # trees # "" # 0.425823398666
+005 # 0 # 0 # earth, ground # ground # "snowy" # 0.762360973461

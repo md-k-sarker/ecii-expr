@@ -1,0 +1,21 @@
+//Market vs WorkRoom and WareHouse
+//Positive contains Market (IndoorMarket and OutdoorMarket) individuals
+//Negative contains Workroom and WareHouse (IndoorWareHouse and OutDoorWareHouse) individuals
+
+lp.type = "posNegStandard"
+
+lp.positiveExamples = {"ex:OutdoorMarketplace_Indi_1_ADE_train_00000931", "ex:OutdoorMarketplace_Indi_2_ADE_train_00011672","ex:OutdoorMarketplace_Indi_3_ADE_train_00011673","ex:OutdoorMarketplace_Indi_4_ADE_train_00011674", "ex:IndoorMarketplace_Indi_1_ADE_train_00011662",  "ex:IndoorMarketplace_Indi_2_ADE_train_00011666",  "ex:IndoorMarketplace_Indi_3_ADE_train_00011664",  "ex:IndoorMarketplace_Indi_4_ADE_train_00011665"}
+
+lp.negativeExamples = {"ex:OutdoorWareHouse_Indi_1_ADE_train_00019754","ex:OutdoorWareHouse_Indi_2_ADE_train_00019755", "ex:OutdoorWareHouse_Indi_3_ADE_train_00019756","ex:IndoorWarehouse_Indi_1_ADE_train_00019702","ex:IndoorWarehouse_Indi_2_ADE_train_00019703","ex:IndoorWarehouse_Indi_3_ADE_train_00019704","ex:IndoorWarehouse_Indi_4_ADE_train_00019705", "ex:IndoorWarehouse_Indi_5_ADE_train_00019706", "ex:WorkRoom_Indi_1_ADE_train_00020098", "ex:WorkRoom_Indi_2_ADE_train_00020099",  "ex:WorkRoom_Indi_3_ADE_train_00020100", "ex:WorkRoom_Indi_4_ADE_train_00020101"}
+
+Solutions:
+1: imageContains some WarmBloodedVertebrate (pred. acc.: 100.00%, F-measure: 100.00%)
+2: imageContains some Vertebrate (pred. acc.: 100.00%, F-measure: 100.00%)
+3: imageContains some SentientAgent (pred. acc.: 100.00%, F-measure: 100.00%)
+4: imageContains some Primate (pred. acc.: 100.00%, F-measure: 100.00%)
+5: imageContains some Organism (pred. acc.: 100.00%, F-measure: 100.00%)
+6: imageContains some Mammal (pred. acc.: 100.00%, F-measure: 100.00%)
+7: imageContains some Human (pred. acc.: 100.00%, F-measure: 100.00%)
+8: imageContains some Hominid (pred. acc.: 100.00%, F-measure: 100.00%)
+9: imageContains some CognitiveAgent (pred. acc.: 100.00%, F-measure: 100.00%)
+10: imageContains some Animal (pred. acc.: 100.00%, F-measure: 100.00%)

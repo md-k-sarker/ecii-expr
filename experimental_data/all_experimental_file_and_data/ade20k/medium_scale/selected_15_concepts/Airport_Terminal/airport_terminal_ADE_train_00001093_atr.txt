@@ -1,0 +1,11 @@
+Prediction:
+4
+Label:
+4
+001 # 0 # 0 # wall # wall # "" # 0.492447129909
+003 # 0 # 0 # floor, flooring # floor # "" # 0.728505460676
+004 # 0 # 0 # ceiling # ceiling # "" # 0.614834537847
+005 # 0 # 0 # conveyer belt, conveyor belt, conveyer, conveyor, transporter # conveyor belt # "" # 0.273420479303
+007 # 0 # 0 # bannister, banister, balustrade, balusters, handrail # handrail # "" # 0.386810446009
+010 # 0 # 0 # pane, pane of glass, window glass # pane # "glass" # 0.149878271455
+015 # 0 # 0 # column, pillar # column # "" # 0.0649169519462

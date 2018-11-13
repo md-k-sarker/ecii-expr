@@ -1,0 +1,41 @@
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 121 ms.
+... initialized component 'reasoner' in 827ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 14ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (40% accuracy)
+more accurate (80.00%) class expression found: Female
+more accurate (100.00%) class expression found: Female and (hasParent max 1 Thing)
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: Female and (hasChild max 2 Thing) (accuracy 100%, length 6, depth 1)
+2: Female and (hasParent max 1 Thing) (accuracy 100%, length 6, depth 1)
+3: Female and (hasParent max 1 Female) (accuracy 100%, length 6, depth 1)
+4: Female and (hasParent max 1 Male) (accuracy 100%, length 6, depth 1)
+5: Female and (hasChild max 2 Female) (accuracy 100%, length 6, depth 1)
+6: Female and (hasChild max 2 Male) (accuracy 100%, length 6, depth 1)
+7: Female and (hasChild max 1 Male) (accuracy 100%, length 6, depth 1)
+8: Female and (hasParent max 1 (not (Female))) (accuracy 100%, length 7, depth 1)
+9: Female and (hasParent max 1 (not (Male))) (accuracy 100%, length 7, depth 1)
+10: Female and (hasParent max 1 (hasChild some Thing)) (accuracy 100%, length 8, depth 2)
+11: Female and (hasParent max 1 (hasParent some Thing)) (accuracy 100%, length 8, depth 2)
+12: Female and (hasParent max 1 (hasSibling some Thing)) (accuracy 100%, length 8, depth 2)
+13: Female and (hasChild max 2 (not (Female))) (accuracy 100%, length 7, depth 1)
+14: Female and (hasChild max 2 (not (Male))) (accuracy 100%, length 7, depth 1)
+15: Female and (hasChild max 2 (hasChild some Thing)) (accuracy 100%, length 8, depth 2)
+16: Female and (hasChild max 2 (hasParent some Thing)) (accuracy 100%, length 8, depth 2)
+17: Female and (hasChild max 2 (hasSibling some Thing)) (accuracy 100%, length 8, depth 2)
+18: Female and Person and (hasParent max 1 Thing) (accuracy 100%, length 8, depth 1)
+19: Female and (hasParent max 1 (Female or Female)) (accuracy 100%, length 8, depth 1)
+20: Female and (hasParent max 1 (Female or Male)) (accuracy 100%, length 8, depth 1)
+Algorithm stopped (23988 descriptions tested).
+

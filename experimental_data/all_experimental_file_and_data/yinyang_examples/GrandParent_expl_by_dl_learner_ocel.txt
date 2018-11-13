@@ -1,0 +1,42 @@
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 133 ms.
+... initialized component 'reasoner' in 932ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 13ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (29.412% accuracy)
+more accurate (76.47%) class expression found: hasChild some Thing
+more accurate (88.24%) class expression found: hasChild some Male
+more accurate (100.00%) class expression found: hasChild some (hasChild some Thing)
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: hasChild some (hasChild some Thing) (accuracy 100%, length 5, depth 2)
+2: hasChild some (hasChild some (hasParent some Thing)) (accuracy 100%, length 7, depth 3)
+3: Person and (hasChild some (hasChild some Thing)) (accuracy 100%, length 7, depth 2)
+4: hasChild some (Male and (hasChild some Thing)) (accuracy 100%, length 7, depth 2)
+5: hasChild some (hasChild some (Female or Male)) (accuracy 100%, length 7, depth 2)
+6: hasChild some (hasChild some (hasChild only Thing)) (accuracy 100%, length 7, depth 3)
+7: hasChild some (hasChild some (hasParent only Thing)) (accuracy 100%, length 7, depth 3)
+8: hasChild some (hasChild some (hasSibling only Thing)) (accuracy 100%, length 7, depth 3)
+9: (hasChild some Thing) and (hasChild some (hasChild some Thing)) (accuracy 100%, length 9, depth 2)
+10: hasChild some ((not (Female)) and (hasChild some Thing)) (accuracy 100%, length 8, depth 2)
+11: hasChild some ((hasChild some Thing) and (hasChild some Thing)) (accuracy 100%, length 9, depth 2)
+12: hasChild some ((hasChild some Thing) and (hasParent some Thing)) (accuracy 100%, length 9, depth 2)
+13: hasChild some (hasChild some (Female or (not (Female)))) (accuracy 100%, length 8, depth 2)
+14: hasChild some (hasChild some (Female or (hasParent some Thing))) (accuracy 100%, length 9, depth 3)
+15: hasChild some (hasChild some (Male or (not (Male)))) (accuracy 100%, length 8, depth 2)
+16: hasChild some (hasChild some (Male or (hasParent some Thing))) (accuracy 100%, length 9, depth 3)
+17: hasChild some (hasChild some (Male or (hasSibling some Thing))) (accuracy 100%, length 9, depth 3)
+18: hasChild some (hasChild some (hasChild max 2 Thing)) (accuracy 100%, length 8, depth 3)
+19: hasChild some (hasChild some (hasSibling max 2 Thing)) (accuracy 100%, length 8, depth 3)
+20: (Person or Person) and (hasChild some (hasChild some Thing)) (accuracy 100%, length 9, depth 2)
+Algorithm stopped (23968 descriptions tested).
+

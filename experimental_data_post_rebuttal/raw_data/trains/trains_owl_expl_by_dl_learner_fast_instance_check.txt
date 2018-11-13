@@ -1,0 +1,71 @@
+/**
+ * See arch.conf. This is the same learning problem, but loading background
+ * knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+prefixes = [ ("kb","http://example.com/trains#") ]
+
+// knowledge source definition
+ks.type = "OWL File"
+ks.fileName = "trains2.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+lp.type = "posNegStandard"
+lp.positiveExamples = {"kb:east1", "kb:east2", "kb:east3", "kb:east4", "kb:east5"}
+lp.negativeExamples = {"kb:west6", "kb:west7", "kb:west8", "kb:west9", "kb:west10"}
+
+// learning algorithm
+// create learning algorithm to run
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+la.maxNrOfResults=10000
+la.maxExecutionTimeInSeconds=600
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://example.com/trains>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 140 ms.
+... initialized component 'reasoner' in 900ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 21ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (50.00%) class expression found after 23ms: Thing
+more accurate (80.00%) class expression found after 92ms: hasCar some ClosedCar
+more accurate (100.00%) class expression found after 98ms: hasCar some (ClosedCar and ShortCar)
+Algorithm terminated successfully (time: 98ms, 44 descriptions tested, 21 nodes in the search tree).
+
+number of retrievals: 144
+retrieval reasoning time: 2ms ( 0ms per retrieval)
+number of instance checks: 41 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 4 (0 multiple)
+subsumption reasoning time: 7ms ( 1ms per subsumption check)
+overall reasoning time: 10ms
+
+solutions:
+1: hasCar some (ClosedCar and ShortCar) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: hasCar some ClosedCar (pred. acc.: 80.00%, F-measure: 83.33%)
+3: Thing (pred. acc.: 50.00%, F-measure: 66.67%)
+4: Train (pred. acc.: 50.00%, F-measure: 66.67%)
+5: not (ShortCar) (pred. acc.: 50.00%, F-measure: 66.67%)
+6: not (Shape) (pred. acc.: 50.00%, F-measure: 66.67%)
+7: not (OpenCar) (pred. acc.: 50.00%, F-measure: 66.67%)
+8: not (LongCar) (pred. acc.: 50.00%, F-measure: 66.67%)
+9: not (JaggedCar) (pred. acc.: 50.00%, F-measure: 66.67%)
+10: not (DoubleCar) (pred. acc.: 50.00%, F-measure: 66.67%)
+11: not (ClosedCar) (pred. acc.: 50.00%, F-measure: 66.67%)
+12: not (Car) (pred. acc.: 50.00%, F-measure: 66.67%)
+13: hasCar some ShortCar (pred. acc.: 50.00%, F-measure: 66.67%)
+14: hasCar some OpenCar (pred. acc.: 50.00%, F-measure: 66.67%)
+15: hasCar some Car (pred. acc.: 50.00%, F-measure: 66.67%)
+

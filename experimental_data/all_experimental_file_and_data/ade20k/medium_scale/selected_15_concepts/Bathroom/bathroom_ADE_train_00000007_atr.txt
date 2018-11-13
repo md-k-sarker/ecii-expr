@@ -1,0 +1,16 @@
+Prediction:
+0
+Label:
+0
+001 # 0 # 0 # wall # wall # "" # 0.313402461479
+005 # 0 # 0 # floor, flooring # floor # "tile" # 0.362418933715
+006 # 0 # 0 # ceiling # ceiling # "" # 0.240312637605
+007 # 0 # 0 # screen door, screen # shower screen # "" # 0.325460487225
+008 # 0 # 1 # shower stall, shower bath # shower stall # "" # 0.208860759494
+009 # 0 # 0 # toilet, can, commode, crapper, pot, potty, stool, throne # toilet # "" # 0.328637660485
+011 # 0 # 0 # blind, screen # blind # "" # 0.172839506173
+012 # 0 # 0 # painting, picture # picture # "painting" # 0.301167582418
+013 # 0 # 1 # mirror # mirror # "" # 0.504186504679
+014 # 0 # 0 # countertop # countertop # "" # 0.172133445472
+016 # 0 # 0 # cabinet # cabinet # "wood" # 0.637100446225
+019 # 0 # 0 # sconce # sconce # "on" # 0.191928251121

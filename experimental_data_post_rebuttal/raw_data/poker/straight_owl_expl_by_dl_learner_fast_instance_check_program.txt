@@ -1,0 +1,992 @@
+Program started.............
+Program starts at: 10.16.2018  11.34.42 AM
+Working with confFile: straight_owl.conf
+Algorithm starts at: 10.16.2018  11.34.42 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	hand40
+	hand1
+	hand22
+	hand44
+negIndivs from conf:
+	hand0
+	hand49
+	hand2
+	hand4
+	hand46
+	hand3
+	hand45
+	hand6
+	hand48
+	hand5
+	hand47
+	hand8
+	hand42
+	hand7
+	hand41
+	hand9
+	hand43
+	hand17
+	hand16
+	hand19
+	hand18
+	hand13
+	hand12
+	hand15
+	hand14
+	hand53
+	hand52
+	hand11
+	hand10
+	hand54
+	hand51
+	hand50
+	hand28
+	hand27
+	hand29
+	hand24
+	hand23
+	hand26
+	hand25
+	hand20
+	hand21
+	hand39
+	hand38
+	hand35
+	hand34
+	hand37
+	hand36
+	hand31
+	hand30
+	hand33
+	hand32
+
+Algorithm ends at: 10.16.2018  11.34.44 AM
+
+Algorithm duration: 1.909 sec
+
+####################Solutions####################:
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank only card)))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank only deck)))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank only Nothing)))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit only card)))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit only deck)))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit only Nothing)))
+	 coverage_score: -1.0
+Solution: hasCard only ((hasRank only Nothing) and (sameRank only deck))
+	 coverage_score: -1.0
+Solution: hasCard only ((hasSuit only Nothing) and (sameRank only deck))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (hasRank only Nothing))
+	 coverage_score: -1.0
+Solution: hasCard min 2 (nextRank some (hasSuit only Nothing))
+	 coverage_score: -1.0
+Solution: deck and (hasCard some Thing) and (hasCard only card)
+	 coverage_score: 0.07272727272727272
+Solution: deck and (hasCard some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck and (hasCard some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: card or (hasCard some card)
+	 coverage_score: 0.07272727272727272
+Solution: card or (hasCard some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: card or (hasCard only card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasCard some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasCard some deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasCard some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasRank some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasRank some deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasRank some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasSuit some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasSuit some deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasSuit some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (nextRank some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (nextRank some deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (nextRank some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (sameRank some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (sameRank some deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (sameRank some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (sameSuit some card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (sameSuit some deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (sameSuit some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasCard only card)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasCard only deck)
+	 coverage_score: 0.07272727272727272
+Solution: deck or (hasCard only Nothing)
+	 coverage_score: 0.07272727272727272
+Solution: (not (card)) or (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some (card or deck)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some (hasRank some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some (hasSuit some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some (sameSuit some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (card or deck)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (hasRank some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (hasSuit some Thing)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (nextRank only card)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (sameRank only card)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (sameSuit only card)
+	 coverage_score: 0.07272727272727272
+Solution: hasCard min 2 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard min 3 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 1 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 2 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 3 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 4 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 4 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: nextRank max 1 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: nextRank max 1 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: sameRank max 1 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: sameRank max 1 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 1 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 1 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 2 (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 2 (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: deck and (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: deck or (not (card))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only (not (deck))
+	 coverage_score: 0.07272727272727272
+Solution: hasCard min 2 card
+	 coverage_score: 0.07272727272727272
+Solution: hasCard min 2 Thing
+	 coverage_score: 0.07272727272727272
+Solution: hasCard min 3 card
+	 coverage_score: 0.07272727272727272
+Solution: hasCard min 3 Thing
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 1 deck
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 2 deck
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 3 deck
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 4 card
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 4 deck
+	 coverage_score: 0.07272727272727272
+Solution: hasCard max 4 Thing
+	 coverage_score: 0.07272727272727272
+Solution: nextRank max 1 card
+	 coverage_score: 0.07272727272727272
+Solution: nextRank max 1 deck
+	 coverage_score: 0.07272727272727272
+Solution: nextRank max 1 Thing
+	 coverage_score: 0.07272727272727272
+Solution: sameRank max 1 card
+	 coverage_score: 0.07272727272727272
+Solution: sameRank max 1 deck
+	 coverage_score: 0.07272727272727272
+Solution: sameRank max 1 Thing
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 1 card
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 1 deck
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 1 Thing
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 2 card
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 2 deck
+	 coverage_score: 0.07272727272727272
+Solution: sameSuit max 2 Thing
+	 coverage_score: 0.07272727272727272
+Solution: card or deck
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some card
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some Thing
+	 coverage_score: 0.07272727272727272
+Solution: hasCard only card
+	 coverage_score: 0.07272727272727272
+Solution: not (card)
+	 coverage_score: 0.07272727272727272
+Solution: deck
+	 coverage_score: 0.07272727272727272
+Solution: Thing
+	 coverage_score: 0.07272727272727272
+Solution: deck
+	 coverage_score: 0.07272727272727272
+Solution: deck
+	 coverage_score: 0.07272727272727272
+Solution: hasCard some (nextRank some (not (deck)))
+	 coverage_score: 0.2545454545454545
+Solution: hasCard some (nextRank some card)
+	 coverage_score: 0.2545454545454545
+Solution: hasCard some (nextRank some Thing)
+	 coverage_score: 0.2545454545454545
+Solution: (deck or (not (card))) and (hasCard some Thing) and (hasCard only (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some Thing) and (hasCard only (sameRank only deck)) and (hasCard max 4 Thing)
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some Thing) and (hasCard only (sameRank only deck)) and (nextRank max 1 Thing)
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some Thing) and (hasCard only (sameRank only deck)) and (sameRank max 1 Thing)
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some Thing) and (hasCard only (sameRank only deck)) and (sameSuit max 2 Thing)
+	 coverage_score: 0.509090909090909
+Solution: deck and (hasCard some Thing) and (hasCard only (card and (sameRank only deck)))
+	 coverage_score: 0.509090909090909
+Solution: (card or deck) and (hasCard some Thing) and (hasCard only (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: (card or deck) and (hasCard some Thing) and (hasCard only (sameRank only Nothing))
+	 coverage_score: 0.509090909090909
+Solution: (not (card)) and (hasCard some Thing) and (hasCard only (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: (not (card)) and (hasCard some Thing) and (hasCard only (sameRank only Nothing))
+	 coverage_score: 0.509090909090909
+Solution: deck and (hasCard some Thing) and (hasCard only (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: deck and (hasCard some Thing) and (hasCard only (sameRank only Nothing))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((card or (not (deck))) and (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((sameRank only deck) and (hasCard max 4 Thing))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((sameRank only deck) and (nextRank max 1 Thing))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((sameRank only deck) and (sameRank max 1 Thing))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((sameRank only deck) and (sameSuit max 2 Thing))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (card or (not (deck)))))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasCard max 4 Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (nextRank max 1 Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameRank max 1 Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameSuit max 2 Thing)))
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some card) and (hasCard only (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some card) and (hasCard only (sameRank only Nothing))
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some Thing) and (hasCard only (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: (hasCard some Thing) and (hasCard only (sameRank only Nothing))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((card or deck) and (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((hasRank some Thing) and (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((hasSuit some Thing) and (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasCard some card)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasCard some deck)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasCard some Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasRank some card)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasRank some deck)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasRank some Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasSuit some card)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasSuit some deck)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasSuit some Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (nextRank some card)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (nextRank some deck)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (nextRank some Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameRank some card)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameRank some deck)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameRank some Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameSuit some card)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameSuit some deck)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (sameSuit some Thing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasRank only Nothing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (hasSuit only Nothing)))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only ((not (deck)) and (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (not (card))))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck and (not (deck))))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (card and (sameRank only deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (card and deck))
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only deck)
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only Nothing)
+	 coverage_score: 0.509090909090909
+Solution: hasCard only (sameRank only (deck))
+	 coverage_score: 0.509090909090909
+Solution: (card or deck) and (hasCard min 2 (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 ((card or deck) and (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 ((hasRank some Thing) and (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 ((hasSuit some Thing) and (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (hasCard some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (hasRank some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (hasSuit some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (nextRank some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (sameRank some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (sameSuit some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (deck or (hasRank some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (deck or (hasSuit some Thing)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some ((not (card)) or (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: deck and (hasCard min 2 (nextRank some (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: (not (card)) and (hasCard min 2 (nextRank some card))
+	 coverage_score: 0.6909090909090909
+Solution: (not (card)) and (hasCard min 2 (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (card and (nextRank some (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 ((not (deck)) and (nextRank some card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 ((not (deck)) and (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card and (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasRank some (not (card))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasRank some (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasSuit some (not (card))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasSuit some (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasRank only (not (card))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasRank only (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasSuit only (not (card))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasSuit only (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (nextRank only (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank only (not (card))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank only (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit only (not (deck))))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 1 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 1 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 1 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 2 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 2 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 2 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 3 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 3 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 3 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 4 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 4 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasCard max 4 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (nextRank max 1 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (nextRank max 1 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (nextRank max 1 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank max 1 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank max 1 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank max 1 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit max 1 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit max 1 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit max 1 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit max 2 card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit max 2 deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit max 2 Thing))
+	 coverage_score: 0.6909090909090909
+Solution: deck and (hasCard min 2 (nextRank some card))
+	 coverage_score: 0.6909090909090909
+Solution: deck and (hasCard min 2 (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (card and (nextRank some card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (card and (nextRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (card or deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasRank some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (hasSuit some Thing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (nextRank only card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank only card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank only deck))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameRank only Nothing))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (sameSuit only card))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some (not (deck)))
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some card)
+	 coverage_score: 0.6909090909090909
+Solution: hasCard min 2 (nextRank some Thing)
+	 coverage_score: 0.6909090909090909
+Solution: deck and (hasCard min 2 (card and (nextRank some (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (card and (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (deck or (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (deck or (nextRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (sameRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: (card or deck) and (hasCard min 2 (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: (card or deck) and (hasCard min 2 (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: (not (card)) and (hasCard min 2 (nextRank some (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: (hasCard some card) and (hasCard min 2 (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: (hasCard some card) and (hasCard min 2 (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (card and (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (deck or (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (deck or (nextRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (sameRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((card or deck) and (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((card or deck) and (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((not (deck)) and (nextRank some (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((hasRank some Thing) and (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((hasRank some Thing) and (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((hasSuit some Thing) and (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((hasSuit some Thing) and (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((nextRank some card) and (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((nextRank some card) and (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (deck or (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (deck or (nextRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (sameRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((card or deck) and (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((card or deck) and (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((not (deck)) and (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((hasRank some Thing) and (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((hasRank some Thing) and (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((hasSuit some Thing) and (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((hasSuit some Thing) and (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (card and (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (card and (nextRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (hasRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (hasSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (sameRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card and (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card and (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card and (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card and (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasCard some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasCard some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasCard some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasRank some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasSuit some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasSuit some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (nextRank some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (nextRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameRank some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameSuit some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameSuit some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasSuit only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (hasSuit only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (nextRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (nextRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameSuit only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (sameSuit only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (hasRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (hasSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (sameRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (sameRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (sameRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (deck or (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some ((not (card)) or (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank only (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank only (hasRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank only (hasSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasCard some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasCard some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasCard some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameRank some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameRank some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameSuit some card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameSuit some deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (sameSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (hasSuit only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank only deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (nextRank only Nothing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (card or deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (hasRank some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (hasSuit some Thing))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only card))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: (not (card)) and (hasCard min 2 (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: (not (card)) and (hasCard min 2 (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((not (deck)) and (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 ((not (deck)) and (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((not (deck)) and (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some ((not (deck)) and (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card and (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank some (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit some (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit some (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank only (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank only (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit only (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit only (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank only (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (not (card)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (not (deck)))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 1 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 2 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 3 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasCard max 4 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank max 1 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank max 1 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 2 Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: deck and (hasCard min 2 (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (card and (nextRank some (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (card and (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (deck or (nextRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card or deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasRank some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (hasSuit some Thing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank only card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only deck)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameRank only Nothing)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (not (deck))))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some card))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some Thing))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (card)))
+	 coverage_score: 0.9454545454545454
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 (not (deck)))))
+	 coverage_score: 0.9636363636363636
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 card)))
+	 coverage_score: 0.9636363636363636
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit max 1 Thing)))
+	 coverage_score: 0.9636363636363636
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some card))))
+	 coverage_score: 0.9818181818181818
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (nextRank some Thing))))
+	 coverage_score: 0.9818181818181818
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only deck))))
+	 coverage_score: 0.9818181818181818
+Solution: hasCard min 2 (nextRank some (nextRank some (sameSuit only (sameSuit only Nothing))))
+	 coverage_score: 0.9818181818181818
+Solution: hasCard min 2 (nextRank some (nextRank some (nextRank only (nextRank some Thing))))
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.34.44 AM
+Program duration: 2.133 sec

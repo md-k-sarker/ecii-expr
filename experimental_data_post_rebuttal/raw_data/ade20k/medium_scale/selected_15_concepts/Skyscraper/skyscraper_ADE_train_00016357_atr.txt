@@ -1,0 +1,10 @@
+Prediction:
+10
+Label:
+10
+001 # 0 # 0 # sky # sky # "" # 0.636429150527
+002 # 0 # 0 # road, route # road # "" # 0.156862745098
+003 # 0 # 0 # sidewalk, pavement # sidewalk # "" # 0.0752913056468
+004 # 0 # 0 # building, edifice # building # "" # 0.524161639748
+009 # 0 # 0 # grass # grass # "" # 0.2007023705
+010 # 0 # 0 # tree # tree # "" # 0.114014933946

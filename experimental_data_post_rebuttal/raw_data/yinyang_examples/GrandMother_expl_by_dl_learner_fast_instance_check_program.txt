@@ -1,0 +1,78 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.30 AM
+Working with confFile: GrandMother.conf
+Algorithm starts at: 10.16.2018  11.35.30 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	NonnaLina
+	Dora
+negIndivs from conf:
+	Gianni
+	Maria
+	NonnoLuigi
+
+Algorithm ends at: 10.16.2018  11.35.31 AM
+
+Algorithm duration: 0.043 sec
+
+####################Solutions####################:
+Solution: Person
+	 coverage_score: 0.4
+Solution: Thing
+	 coverage_score: 0.4
+Solution: Female and ((not (Female)) or (not (Male)))
+	 coverage_score: 0.8
+Solution: (not (Male)) and (hasChild max 2 Thing)
+	 coverage_score: 0.8
+Solution: (not (Male)) and (hasParent max 1 Thing)
+	 coverage_score: 0.8
+Solution: (not (Male)) and (hasSibling max 2 Thing)
+	 coverage_score: 0.8
+Solution: Female and (hasChild max 2 Thing)
+	 coverage_score: 0.8
+Solution: Female and (hasParent max 1 Female)
+	 coverage_score: 0.8
+Solution: Female and (hasParent max 1 Male)
+	 coverage_score: 0.8
+Solution: Female and (hasParent max 1 Thing)
+	 coverage_score: 0.8
+Solution: Female and (hasSibling max 1 Female)
+	 coverage_score: 0.8
+Solution: Female and (hasSibling max 1 Male)
+	 coverage_score: 0.8
+Solution: Female and (hasSibling max 1 Thing)
+	 coverage_score: 0.8
+Solution: Female and (hasSibling max 2 Female)
+	 coverage_score: 0.8
+Solution: Female and (hasSibling max 2 Male)
+	 coverage_score: 0.8
+Solution: Female and (hasSibling max 2 Thing)
+	 coverage_score: 0.8
+Solution: (Female or Male) and (not (Male))
+	 coverage_score: 0.8
+Solution: (not (Male)) and (hasChild some Female)
+	 coverage_score: 0.8
+Solution: (not (Male)) and (hasChild some Person)
+	 coverage_score: 0.8
+Solution: Female and (hasChild some Female)
+	 coverage_score: 0.8
+Solution: Female and (hasChild some Person)
+	 coverage_score: 0.8
+Solution: Female and (not (Male))
+	 coverage_score: 0.8
+Solution: Person and (not (Male))
+	 coverage_score: 0.8
+Solution: not (Male)
+	 coverage_score: 0.8
+Solution: Female
+	 coverage_score: 0.8
+Solution: Female
+	 coverage_score: 0.8
+Solution: Female and (hasChild max 1 Thing)
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.31 AM
+Program duration: 0.055 sec

@@ -1,0 +1,1031 @@
+Algorithm started.................
+Algorithm starts at: 06.08.2018  18.47.03 PM
+
+PosExamples: 
+	living_room_ADE_train_00000652
+	living_room_ADE_train_00000651
+	living_room_ADE_train_00000654
+	living_room_ADE_train_00000653
+	living_room_ADE_train_00000655
+
+NegExamples:
+	bedroom_ADE_train_00000192
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	dining_room_ADE_train_00006845
+	kitchen_ADE_train_00000594
+
+Algorithm ends at: 06.08.2018  18.57.27 PMAlgorithm duration: 624 sec
+
+####################Solutions####################:
+solution 1: imageContains min 5 (Artifact and (not (Box)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 2: imageContains min 5 (Artifact and (not (Box)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 3: imageContains min 5 (Artifact and (not (Box)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 4: imageContains min 5 (Artifact and (not (Box)) and (not (Product)))
+	accuracy_score: 1.0
+solution 5: imageContains min 5 (Artifact and (not (Container)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 6: imageContains min 5 (Artifact and (not (Container)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 7: imageContains min 5 (Artifact and (not (Container)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 8: imageContains min 5 (Artifact and (not (Container)) and (not (Product)))
+	accuracy_score: 1.0
+solution 9: imageContains min 5 (Artifact and (not (DurableGood)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 10: imageContains min 5 (Artifact and (not (DurableGood)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 11: imageContains min 5 (Artifact and (not (Furniture)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 12: imageContains min 5 (Artifact and (not (Furniture)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 13: imageContains min 5 (Artifact and (not (Holder)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 14: imageContains min 5 (Artifact and (not (Holder)) and (not (Product)))
+	accuracy_score: 1.0
+solution 15: imageContains min 5 (Artifact and (not (ManufacturedProduct)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 16: imageContains min 5 (Artifact and (not (Product)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 17: imageContains min 5 (Entity and (not (Box)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 18: imageContains min 5 (Entity and (not (Box)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 19: imageContains min 5 (Entity and (not (Box)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 20: imageContains min 5 (Entity and (not (Box)) and (not (Product)))
+	accuracy_score: 1.0
+solution 21: imageContains min 5 (Entity and (not (Container)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 22: imageContains min 5 (Entity and (not (Container)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 23: imageContains min 5 (Entity and (not (Container)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 24: imageContains min 5 (Entity and (not (Container)) and (not (Product)))
+	accuracy_score: 1.0
+solution 25: imageContains min 5 (Entity and (not (DurableGood)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 26: imageContains min 5 (Entity and (not (DurableGood)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 27: imageContains min 5 (Entity and (not (Furniture)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 28: imageContains min 5 (Entity and (not (Furniture)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 29: imageContains min 5 (Entity and (not (Holder)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 30: imageContains min 5 (Entity and (not (Holder)) and (not (Product)))
+	accuracy_score: 1.0
+solution 31: imageContains min 5 (Entity and (not (ManufacturedProduct)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 32: imageContains min 5 (Entity and (not (Product)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 33: imageContains min 5 (Object and (not (Box)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 34: imageContains min 5 (Object and (not (Box)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 35: imageContains min 5 (Object and (not (Box)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 36: imageContains min 5 (Object and (not (Box)) and (not (Product)))
+	accuracy_score: 1.0
+solution 37: imageContains min 5 (Object and (not (Container)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 38: imageContains min 5 (Object and (not (Container)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 39: imageContains min 5 (Object and (not (Container)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 40: imageContains min 5 (Object and (not (Container)) and (not (Product)))
+	accuracy_score: 1.0
+solution 41: imageContains min 5 (Object and (not (DurableGood)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 42: imageContains min 5 (Object and (not (DurableGood)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 43: imageContains min 5 (Object and (not (Furniture)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 44: imageContains min 5 (Object and (not (Furniture)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 45: imageContains min 5 (Object and (not (Holder)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 46: imageContains min 5 (Object and (not (Holder)) and (not (Product)))
+	accuracy_score: 1.0
+solution 47: imageContains min 5 (Object and (not (ManufacturedProduct)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 48: imageContains min 5 (Object and (not (Product)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 49: imageContains min 5 (Physical and (not (Box)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 50: imageContains min 5 (Physical and (not (Box)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 51: imageContains min 5 (Physical and (not (Box)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 52: imageContains min 5 (Physical and (not (Box)) and (not (Product)))
+	accuracy_score: 1.0
+solution 53: imageContains min 5 (Physical and (not (Container)) and (not (DurableGood)))
+	accuracy_score: 1.0
+solution 54: imageContains min 5 (Physical and (not (Container)) and (not (Furniture)))
+	accuracy_score: 1.0
+solution 55: imageContains min 5 (Physical and (not (Container)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 56: imageContains min 5 (Physical and (not (Container)) and (not (Product)))
+	accuracy_score: 1.0
+solution 57: imageContains min 5 (Physical and (not (DurableGood)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 58: imageContains min 5 (Physical and (not (DurableGood)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 59: imageContains min 5 (Physical and (not (Furniture)) and (not (Holder)))
+	accuracy_score: 1.0
+solution 60: imageContains min 5 (Physical and (not (Furniture)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 61: imageContains min 5 (Physical and (not (Holder)) and (not (ManufacturedProduct)))
+	accuracy_score: 1.0
+solution 62: imageContains min 5 (Physical and (not (Holder)) and (not (Product)))
+	accuracy_score: 1.0
+solution 63: imageContains min 5 (Physical and (not (ManufacturedProduct)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 64: imageContains min 5 (Physical and (not (Product)) and (not (WN_Box)))
+	accuracy_score: 1.0
+solution 65: (not (Armchair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 66: (not (Ashtray)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 67: (not (Bag)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 68: (not (Basket)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 69: (not (Bathtub)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 70: (not (Bed)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 71: (not (Board)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 72: (not (Bowl)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 73: (not (Box)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 74: (not (Building)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 75: (not (Cabinet)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 76: (not (Calendar)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 77: (not (Candleholder)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 78: (not (Car)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 79: (not (Carpet)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 80: (not (Ceiling)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 81: (not (Ceilingfan)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 82: (not (Centralreservation)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 83: (not (Chair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 84: (not (Coffeetable)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 85: (not (Creamer)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 86: (not (Curtain)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 87: (not (Cushion)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 88: (not (Door)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 89: (not (Doubledoor)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 90: (not (Field)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 91: (not (Fireplace)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 92: (not (Firstfloor)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 93: (not (Floor)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 94: (not (Floorlamp)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 95: (not (Flowers)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 96: (not (Fountain)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 97: (not (Glass)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 98: (not (Grass)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 99: (not (Ground)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 100: (not (Kettle)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 101: (not (Microwave)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 102: (not (Mountain)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 103: (not (Ottoman)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 104: (not (Oven)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 105: (not (Papers)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 106: (not (Person)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 107: (not (Piano)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 108: (not (Picture)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 109: (not (Placemat)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 110: (not (Plants)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 111: (not (Plate)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 112: (not (Projectionscreen)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 113: (not (Radiator)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 114: (not (Road)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 115: (not (Rug)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 116: (not (Shelf)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 117: (not (Shelves)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 118: (not (Sidetable)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 119: (not (Sign)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 120: (not (Sink)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 121: (not (Sky)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 122: (not (Snow)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 123: (not (Sofa)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 124: (not (Step)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 125: (not (Swivelchair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 126: (not (Table)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 127: (not (Tapestry)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 128: (not (Teacup)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 129: (not (Television)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 130: (not (Trashcan)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 131: (not (Tray)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 132: (not (Tree)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 133: (not (Trees)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 134: (not (WN_Armchair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 135: (not (WN_Ash-bin)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 136: (not (WN_Ashbin)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 137: (not (WN_Ashcan)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 138: (not (WN_Ashtray)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 139: (not (WN_Auto)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 140: (not (WN_Automobile)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 141: (not (WN_Bag)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 142: (not (WN_Basket)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 143: (not (WN_Bath)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 144: (not (WN_Bathingtub)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 145: (not (WN_Bathtub)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 146: (not (WN_Bed)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 147: (not (WN_Board)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 148: (not (WN_Boiler)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 149: (not (WN_Boobtube)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 150: (not (WN_Bowl)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 151: (not (WN_Box)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 152: (not (WN_Building)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 153: (not (WN_Cabinet)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 154: (not (WN_Calendar)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 155: (not (WN_Candleholder)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 156: (not (WN_Candlestick)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 157: (not (WN_Car)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 158: (not (WN_Carpet)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 159: (not (WN_Carpeting)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 160: (not (WN_Ceiling)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 161: (not (WN_Centralreservation)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 162: (not (WN_Chair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 163: (not (WN_Cocktailtable)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 164: (not (WN_Coffeetable)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 165: (not (WN_Couch)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 166: (not (WN_Creamer)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 167: (not (WN_Curtain)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 168: (not (WN_Cushion)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 169: (not (WN_Document)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 170: (not (WN_Door)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 171: (not (WN_Doubledoor)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 172: (not (WN_Drape)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 173: (not (WN_Drapery)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 174: (not (WN_Drinkingglass)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 175: (not (WN_Dustbin)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 176: (not (WN_Earth)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 177: (not (WN_Edifice)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 178: (not (WN_Fan)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 179: (not (WN_Field)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 180: (not (WN_Fireplace)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 181: (not (WN_Firstfloor)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 182: (not (WN_Floor)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 183: (not (WN_Flooring)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 184: (not (WN_Flora)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 185: (not (WN_Flower)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 186: (not (WN_Forte-piano)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 187: (not (WN_Fountain)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 188: (not (WN_Garbagecan)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 189: (not (WN_Glass)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 190: (not (WN_Gogglebox)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 191: (not (WN_Grass)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 192: (not (WN_Ground)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 193: (not (WN_Handbasket)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 194: (not (WN_Hassock)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 195: (not (WN_Hearth)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 196: (not (WN_Idiotbox)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 197: (not (WN_Individual)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 198: (not (WN_Kettle)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 199: (not (WN_Lamp)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 200: (not (WN_Lounge)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 201: (not (WN_Machine)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 202: (not (WN_Mantle)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 203: (not (WN_Microwave)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 204: (not (WN_Microwaveoven)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 205: (not (WN_Mortal)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 206: (not (WN_Motorcar)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 207: (not (WN_Mount)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 208: (not (WN_Mountain)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 209: (not (WN_Openfireplace)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 210: (not (WN_Ottoman)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 211: (not (WN_Oven)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 212: (not (WN_Painting)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 213: (not (WN_Pall)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 214: (not (WN_Papers)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 215: (not (WN_Person)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 216: (not (WN_Phone)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 217: (not (WN_Piano)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 218: (not (WN_Pianoforte)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 219: (not (WN_Picture)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 220: (not (WN_Placemat)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 221: (not (WN_Plank)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 222: (not (WN_Plant)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 223: (not (WN_Plantlife)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 224: (not (WN_Plate)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 225: (not (WN_Pouf)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 226: (not (WN_Pouffe)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 227: (not (WN_Projectionscreen)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 228: (not (WN_Puff)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 229: (not (WN_Radiator)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 230: (not (WN_Road)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 231: (not (WN_Route)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 232: (not (WN_Rug)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 233: (not (WN_Screen)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 234: (not (WN_Shelf)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 235: (not (WN_Sign)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 236: (not (WN_Signboard)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 237: (not (WN_Silverscreen)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 238: (not (WN_Sink)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 239: (not (WN_Sky)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 240: (not (WN_Snow)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 241: (not (WN_Sofa)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 242: (not (WN_Somebody)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 243: (not (WN_Someone)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 244: (not (WN_Soul)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 245: (not (WN_Stair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 246: (not (WN_Step)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 247: (not (WN_Swivelchair)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 248: (not (WN_Table)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 249: (not (WN_Tapestry)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 250: (not (WN_Tapis)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 251: (not (WN_Teacup)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 252: (not (WN_Telephone)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 253: (not (WN_Telephoneset)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 254: (not (WN_Television)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 255: (not (WN_Televisionreceiver)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 256: (not (WN_Televisionset)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 257: (not (WN_Telly)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 258: (not (WN_Trashbarrel)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 259: (not (WN_Trashbin)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 260: (not (WN_Trashcan)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 261: (not (WN_Tray)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 262: (not (WN_Tree)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 263: (not (WN_Tub)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 264: (not (WN_Tv)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 265: (not (WN_Tvset)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 266: (not (WN_Wall)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 267: (not (WN_Wastebin)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 268: (not (WN_Window)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 269: (not (WN_Windowpane)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 270: (not (WN_Worksurface)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 271: (not (WN_Writtendocument)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 272: (not (Wall)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 273: (not (Window)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 274: (not (Worksurface)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 275: (not (telephone)) and (imageContains min 5 (Entity and (not (Product))))
+	accuracy_score: 0.9564354645876385
+solution 276: imageContains min 5 (Entity and (not (Armchair)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 277: imageContains min 5 (Entity and (not (Ashtray)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 278: imageContains min 5 (Entity and (not (Bag)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 279: imageContains min 5 (Entity and (not (Basket)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 280: imageContains min 5 (Entity and (not (Bathtub)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 281: imageContains min 5 (Entity and (not (Board)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 282: imageContains min 5 (Entity and (not (Bowl)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 283: imageContains min 5 (Entity and (not (Building)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 284: imageContains min 5 (Entity and (not (Cabinet)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 285: imageContains min 5 (Entity and (not (Calendar)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 286: imageContains min 5 (Entity and (not (Candleholder)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 287: imageContains min 5 (Entity and (not (Car)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 288: imageContains min 5 (Entity and (not (Carpet)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 289: imageContains min 5 (Entity and (not (Ceilingfan)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 290: imageContains min 5 (Entity and (not (Centralreservation)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 291: imageContains min 5 (Entity and (not (Coffeetable)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 292: imageContains min 5 (Entity and (not (Creamer)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 293: imageContains min 5 (Entity and (not (Curtain)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 294: imageContains min 5 (Entity and (not (Cushion)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 295: imageContains min 5 (Entity and (not (Doubledoor)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 296: imageContains min 5 (Entity and (not (Field)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 297: imageContains min 5 (Entity and (not (Fireplace)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 298: imageContains min 5 (Entity and (not (Firstfloor)) and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 299: imageContains min 5 (Artifact and (not (DurableGood)))
+	accuracy_score: 0.9564354645876385
+solution 300: imageContains min 5 (Artifact and (not (Furniture)))
+	accuracy_score: 0.9564354645876385
+solution 301: imageContains min 5 (Artifact and (not (ManufacturedProduct)))
+	accuracy_score: 0.9564354645876385
+solution 302: imageContains min 5 (Artifact and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 303: imageContains min 5 (Entity and (not (DurableGood)))
+	accuracy_score: 0.9564354645876385
+solution 304: imageContains min 5 (Entity and (not (Furniture)))
+	accuracy_score: 0.9564354645876385
+solution 305: imageContains min 5 (Entity and (not (ManufacturedProduct)))
+	accuracy_score: 0.9564354645876385
+solution 306: imageContains min 5 (Entity and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 307: imageContains min 5 (Object and (not (DurableGood)))
+	accuracy_score: 0.9564354645876385
+solution 308: imageContains min 5 (Object and (not (Furniture)))
+	accuracy_score: 0.9564354645876385
+solution 309: imageContains min 5 (Object and (not (ManufacturedProduct)))
+	accuracy_score: 0.9564354645876385
+solution 310: imageContains min 5 (Object and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 311: imageContains min 5 (Physical and (not (DurableGood)))
+	accuracy_score: 0.9564354645876385
+solution 312: imageContains min 5 (Physical and (not (Furniture)))
+	accuracy_score: 0.9564354645876385
+solution 313: imageContains min 5 (Physical and (not (ManufacturedProduct)))
+	accuracy_score: 0.9564354645876385
+solution 314: imageContains min 5 (Physical and (not (Product)))
+	accuracy_score: 0.9564354645876385
+solution 315: imageContains min 5 (Artifact and (not (Bag)))
+	accuracy_score: 0.8952847075210475
+solution 316: imageContains min 5 (Artifact and (not (Bed)))
+	accuracy_score: 0.8952847075210475
+solution 317: imageContains min 5 (Artifact and (not (Container)))
+	accuracy_score: 0.8952847075210475
+solution 318: imageContains min 5 (Artifact and (not (Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 319: imageContains min 5 (Artifact and (not (Fabric)))
+	accuracy_score: 0.8952847075210475
+solution 320: imageContains min 5 (Artifact and (not (Holder)))
+	accuracy_score: 0.8952847075210475
+solution 321: imageContains min 5 (Artifact and (not (WN_Bag)))
+	accuracy_score: 0.8952847075210475
+solution 322: imageContains min 5 (Artifact and (not (WN_Bed)))
+	accuracy_score: 0.8952847075210475
+solution 323: imageContains min 5 (Artifact and (not (WN_Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 324: imageContains min 5 (Artifact and (not (WN_Drape)))
+	accuracy_score: 0.8952847075210475
+solution 325: imageContains min 5 (Artifact and (not (WN_Drapery)))
+	accuracy_score: 0.8952847075210475
+solution 326: imageContains min 5 (Artifact and (not (WN_Mantle)))
+	accuracy_score: 0.8952847075210475
+solution 327: imageContains min 5 (Artifact and (not (WN_Pall)))
+	accuracy_score: 0.8952847075210475
+solution 328: imageContains min 5 (Artifact and (not (WindowCovering)))
+	accuracy_score: 0.8952847075210475
+solution 329: imageContains min 5 (Entity and (not (Bag)))
+	accuracy_score: 0.8952847075210475
+solution 330: imageContains min 5 (Entity and (not (Bed)))
+	accuracy_score: 0.8952847075210475
+solution 331: imageContains min 5 (Entity and (not (Container)))
+	accuracy_score: 0.8952847075210475
+solution 332: imageContains min 5 (Entity and (not (Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 333: imageContains min 5 (Entity and (not (Fabric)))
+	accuracy_score: 0.8952847075210475
+solution 334: imageContains min 5 (Entity and (not (Holder)))
+	accuracy_score: 0.8952847075210475
+solution 335: imageContains min 5 (Entity and (not (WN_Bag)))
+	accuracy_score: 0.8952847075210475
+solution 336: imageContains min 5 (Entity and (not (WN_Bed)))
+	accuracy_score: 0.8952847075210475
+solution 337: imageContains min 5 (Entity and (not (WN_Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 338: imageContains min 5 (Entity and (not (WN_Drape)))
+	accuracy_score: 0.8952847075210475
+solution 339: imageContains min 5 (Entity and (not (WN_Drapery)))
+	accuracy_score: 0.8952847075210475
+solution 340: imageContains min 5 (Entity and (not (WN_Mantle)))
+	accuracy_score: 0.8952847075210475
+solution 341: imageContains min 5 (Entity and (not (WN_Pall)))
+	accuracy_score: 0.8952847075210475
+solution 342: imageContains min 5 (Entity and (not (WindowCovering)))
+	accuracy_score: 0.8952847075210475
+solution 343: imageContains min 5 (Object and (not (Bag)))
+	accuracy_score: 0.8952847075210475
+solution 344: imageContains min 5 (Object and (not (Bed)))
+	accuracy_score: 0.8952847075210475
+solution 345: imageContains min 5 (Object and (not (Container)))
+	accuracy_score: 0.8952847075210475
+solution 346: imageContains min 5 (Object and (not (Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 347: imageContains min 5 (Object and (not (Fabric)))
+	accuracy_score: 0.8952847075210475
+solution 348: imageContains min 5 (Object and (not (Holder)))
+	accuracy_score: 0.8952847075210475
+solution 349: imageContains min 5 (Object and (not (WN_Bag)))
+	accuracy_score: 0.8952847075210475
+solution 350: imageContains min 5 (Object and (not (WN_Bed)))
+	accuracy_score: 0.8952847075210475
+solution 351: imageContains min 5 (Object and (not (WN_Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 352: imageContains min 5 (Object and (not (WN_Drape)))
+	accuracy_score: 0.8952847075210475
+solution 353: imageContains min 5 (Object and (not (WN_Drapery)))
+	accuracy_score: 0.8952847075210475
+solution 354: imageContains min 5 (Object and (not (WN_Mantle)))
+	accuracy_score: 0.8952847075210475
+solution 355: imageContains min 5 (Object and (not (WN_Pall)))
+	accuracy_score: 0.8952847075210475
+solution 356: imageContains min 5 (Object and (not (WindowCovering)))
+	accuracy_score: 0.8952847075210475
+solution 357: imageContains min 5 (Physical and (not (Bag)))
+	accuracy_score: 0.8952847075210475
+solution 358: imageContains min 5 (Physical and (not (Bed)))
+	accuracy_score: 0.8952847075210475
+solution 359: imageContains min 5 (Physical and (not (Container)))
+	accuracy_score: 0.8952847075210475
+solution 360: imageContains min 5 (Physical and (not (Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 361: imageContains min 5 (Physical and (not (Fabric)))
+	accuracy_score: 0.8952847075210475
+solution 362: imageContains min 5 (Physical and (not (Holder)))
+	accuracy_score: 0.8952847075210475
+solution 363: imageContains min 5 (Physical and (not (WN_Bag)))
+	accuracy_score: 0.8952847075210475
+solution 364: imageContains min 5 (Physical and (not (WN_Bed)))
+	accuracy_score: 0.8952847075210475
+solution 365: imageContains min 5 (Physical and (not (WN_Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 366: imageContains min 5 (Physical and (not (WN_Drape)))
+	accuracy_score: 0.8952847075210475
+solution 367: imageContains min 5 (Physical and (not (WN_Drapery)))
+	accuracy_score: 0.8952847075210475
+solution 368: imageContains min 5 (Physical and (not (WN_Mantle)))
+	accuracy_score: 0.8952847075210475
+solution 369: imageContains min 5 (Physical and (not (WN_Pall)))
+	accuracy_score: 0.8952847075210475
+solution 370: imageContains min 5 (Physical and (not (WindowCovering)))
+	accuracy_score: 0.8952847075210475
+solution 371: (not (Sky)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 372: (not (Snow)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 373: (not (Sofa)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 374: (not (Step)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 375: (not (Swivelchair)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 376: (not (Table)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 377: (not (Tapestry)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 378: (not (Teacup)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 379: (not (Television)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 380: (not (Trashcan)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 381: (not (Tray)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 382: (not (Tree)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 383: (not (Trees)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 384: (not (WN_Armchair)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 385: (not (WN_Ash-bin)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 386: (not (WN_Ashbin)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 387: (not (WN_Ashcan)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 388: (not (WN_Ashtray)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 389: (not (WN_Auto)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 390: (not (WN_Automobile)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 391: (not (WN_Bag)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 392: (not (WN_Basket)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 393: (not (WN_Bath)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 394: (not (WN_Bathingtub)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 395: (not (WN_Bathtub)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 396: (not (WN_Bed)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 397: (not (WN_Board)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 398: (not (WN_Boiler)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 399: (not (WN_Boobtube)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 400: (not (WN_Bowl)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 401: (not (WN_Box)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 402: (not (WN_Building)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 403: (not (WN_Cabinet)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 404: (not (WN_Calendar)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 405: (not (WN_Candleholder)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 406: (not (WN_Candlestick)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 407: (not (WN_Car)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 408: (not (WN_Carpet)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 409: (not (WN_Carpeting)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 410: (not (WN_Ceiling)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 411: (not (WN_Centralreservation)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 412: (not (WN_Chair)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 413: (not (WN_Cocktailtable)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 414: (not (WN_Coffeetable)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 415: (not (WN_Couch)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 416: (not (WN_Creamer)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 417: (not (WN_Curtain)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 418: (not (WN_Cushion)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 419: (not (WN_Document)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 420: (not (WN_Door)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 421: (not (WN_Doubledoor)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 422: (not (WN_Drape)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 423: (not (WN_Drapery)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 424: (not (WN_Drinkingglass)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 425: (not (WN_Dustbin)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 426: (not (WN_Earth)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 427: (not (WN_Edifice)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 428: (not (WN_Fan)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 429: (not (WN_Field)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 430: (not (WN_Fireplace)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 431: (not (WN_Firstfloor)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 432: (not (WN_Floor)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 433: (not (WN_Flooring)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 434: (not (WN_Flora)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 435: (not (WN_Flower)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 436: (not (WN_Forte-piano)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 437: (not (WN_Fountain)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 438: (not (WN_Garbagecan)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 439: (not (WN_Glass)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 440: (not (WN_Gogglebox)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 441: (not (WN_Grass)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 442: (not (WN_Ground)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 443: (not (WN_Handbasket)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 444: (not (WN_Hassock)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 445: (not (WN_Hearth)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 446: (not (WN_Idiotbox)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 447: (not (WN_Individual)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 448: (not (WN_Kettle)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 449: (not (WN_Lamp)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 450: (not (WN_Lounge)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 451: (not (WN_Machine)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 452: (not (WN_Mantle)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 453: (not (WN_Microwave)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 454: (not (WN_Microwaveoven)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 455: (not (WN_Mortal)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 456: (not (WN_Motorcar)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 457: (not (WN_Mount)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 458: (not (WN_Mountain)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 459: (not (WN_Openfireplace)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 460: (not (WN_Ottoman)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 461: (not (WN_Oven)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 462: (not (WN_Painting)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 463: (not (WN_Pall)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 464: (not (WN_Papers)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 465: (not (WN_Person)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 466: (not (WN_Phone)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 467: (not (WN_Piano)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 468: (not (WN_Pianoforte)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 469: (not (WN_Picture)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 470: (not (WN_Placemat)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 471: (not (WN_Plank)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 472: (not (WN_Plant)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 473: (not (WN_Plantlife)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 474: (not (WN_Plate)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 475: (not (WN_Pouf)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 476: (not (WN_Pouffe)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 477: (not (WN_Projectionscreen)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 478: (not (WN_Puff)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 479: (not (WN_Radiator)) and (imageContains some WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 480: imageContains min 3 (Artifact and GeographicArea)
+	accuracy_score: 0.8726779962499649
+solution 481: imageContains min 3 (Artifact and LocalizablePlace)
+	accuracy_score: 0.8726779962499649
+solution 482: imageContains some (Artifact and WN_Windowpane)
+	accuracy_score: 0.8726779962499649
+solution 483: imageContains some (Ceiling and WN_Ceiling)
+	accuracy_score: 0.8726779962499649
+solution 484: imageContains some (Entity and WN_Windowpane)
+	accuracy_score: 0.8726779962499649
+solution 485: imageContains some (Object and WN_Windowpane)
+	accuracy_score: 0.8726779962499649
+solution 486: imageContains some (Physical and WN_Windowpane)
+	accuracy_score: 0.8726779962499649
+solution 487: imageContains some (WN_Window and WN_Windowpane)
+	accuracy_score: 0.8726779962499649
+solution 488: imageContains some (WN_Window and Window)
+	accuracy_score: 0.8726779962499649
+solution 489: imageContains some (WN_Windowpane and Window)
+	accuracy_score: 0.8726779962499649
+solution 490: imageContains min 3 LocalizablePlace
+	accuracy_score: 0.8726779962499649
+solution 491: imageContains min 3 StationaryArtifact
+	accuracy_score: 0.8726779962499649
+solution 492: imageContains min 5 Artifact
+	accuracy_score: 0.8726779962499649
+solution 493: imageContains min 5 Entity
+	accuracy_score: 0.8726779962499649
+solution 494: imageContains min 5 Object
+	accuracy_score: 0.8726779962499649
+solution 495: imageContains min 5 Physical
+	accuracy_score: 0.8726779962499649
+solution 496: imageContains some Ceiling
+	accuracy_score: 0.8726779962499649
+solution 497: imageContains some WN_Ceiling
+	accuracy_score: 0.8726779962499649
+solution 498: imageContains some WN_Window
+	accuracy_score: 0.8726779962499649
+solution 499: imageContains some WN_Windowpane
+	accuracy_score: 0.8726779962499649
+solution 500: imageContains some Window
+	accuracy_score: 0.8726779962499649
+
+Total solutions found: 500Program ends at: 06.08.2018  18.57.27 PMProgram duration: 625 sec

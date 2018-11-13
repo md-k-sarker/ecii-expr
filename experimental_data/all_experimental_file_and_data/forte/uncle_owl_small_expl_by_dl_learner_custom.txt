@@ -1,0 +1,87 @@
+/**
+ * See uncle.conf. This is the same learning problem, but loading background
+ * knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "forte_family.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// object properties
+objectProperties={":married",":parent",":sibling"}
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:art",
+"kb:calvin",
+"kb:carlos",
+"kb:david",
+"kb:eric",
+"kb:fred",
+"kb:frederick",
+"kb:george"
+}
+lp.negativeExamples = {
+"kb:alfred",
+"kb:alice",
+"kb:angela",
+"kb:bob",
+"kb:carl",
+"kb:christy",
+"kb:karl"
+}
+
+alg.type = "ocel"
+
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 137 ms.
+... initialized component 'reasoner' in 924ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 29ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (53.333% accuracy)
+more accurate (73.33%) class expression found: male
+more accurate (80.00%) class expression found: male and (parent max 3 Thing)
+more accurate (93.33%) class expression found: male and (parent max 1 (parent some female))
+more accurate (100.00%) class expression found: male and (parent max 1 (parent some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: male and (parent max 1 (parent some (parent some Thing))) (accuracy 100%, length 10, depth 3)
+2: male and (parent max 1 (parent some (parent some female))) (accuracy 100%, length 10, depth 3)
+3: male and (parent max 1 (parent some (parent some male))) (accuracy 100%, length 10, depth 3)
+4: male and (parent max 1 (parent some (parent some (not (female))))) (accuracy 100%, length 11, depth 3)
+5: male and (parent max 1 (parent some (parent some (not (male))))) (accuracy 100%, length 11, depth 3)
+6: male and (parent max 1 (parent some (parent some (married some Thing)))) (accuracy 100%, length 12, depth 4)
+7: male and (parent max 1 (parent some (parent some (parent some Thing)))) (accuracy 100%, length 12, depth 4)
+8: male and (parent max 1 (parent some (parent some (sibling some Thing)))) (accuracy 100%, length 12, depth 4)
+9: male and (parent max 1 (parent some (parent min 2 Thing))) (accuracy 100%, length 11, depth 3)
+10: male and (parent max 1 (parent min 2 (parent some Thing))) (accuracy 100%, length 11, depth 3)
+11: male and (parent max 1 (female and (parent some (parent some Thing)))) (accuracy 100%, length 12, depth 3)
+12: male and (parent max 1 (male and (parent some (parent some Thing)))) (accuracy 100%, length 12, depth 3)
+13: male and (parent max 1 (parent some (male and (parent some Thing)))) (accuracy 100%, length 12, depth 3)
+14: male and (parent max 1 (parent some (parent some (female or female)))) (accuracy 100%, length 12, depth 3)
+15: male and (parent max 1 (parent some (parent some (female or male)))) (accuracy 100%, length 12, depth 3)
+16: male and (parent max 1 (parent some (parent some (male or male)))) (accuracy 100%, length 12, depth 3)
+17: male and (parent max 1 (parent some (parent some (married only Thing)))) (accuracy 100%, length 12, depth 4)
+18: male and (parent max 1 (parent some (parent some (parent only Thing)))) (accuracy 100%, length 12, depth 4)
+19: male and (parent max 1 (parent some (parent some (sibling only Thing)))) (accuracy 100%, length 12, depth 4)
+20: male and male and (parent max 1 (parent some (parent some female))) (accuracy 100%, length 12, depth 3)
+Algorithm stopped (18092 descriptions tested).
+

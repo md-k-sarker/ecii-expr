@@ -1,0 +1,41 @@
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 116 ms.
+... initialized component 'reasoner' in 793ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 13ms. Status: OK
+Running algorithm instance "alg" (OCEL)
+starting top down refinement with: Thing (64.706% accuracy)
+more accurate (94.12%) class expression found: Female
+more accurate (100.00%) class expression found: Female and (hasSibling some Thing)
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: Female and (hasSibling some Thing) (accuracy 100%, length 5, depth 1)
+2: Female and (hasSibling some (hasSibling some Thing)) (accuracy 100%, length 7, depth 2)
+3: Female and ((not (Female)) or (hasSibling some Thing)) (accuracy 100%, length 8, depth 1)
+4: Female and ((hasParent some Thing) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+5: Female and ((hasSibling some Thing) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+6: Female and Person and (hasSibling some Thing) (accuracy 100%, length 7, depth 1)
+7: Female and (hasSibling some (Female or Male)) (accuracy 100%, length 7, depth 1)
+8: Female and (hasSibling some (hasChild only Thing)) (accuracy 100%, length 7, depth 2)
+9: Female and (hasSibling some (hasParent only Thing)) (accuracy 100%, length 7, depth 2)
+10: Female and (hasSibling some (hasSibling only Thing)) (accuracy 100%, length 7, depth 2)
+11: Female and (hasSibling some (hasSibling some Female)) (accuracy 100%, length 7, depth 2)
+12: Female and ((hasSibling some Female) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+13: Female and ((hasSibling some Female) or (hasSibling some Male)) (accuracy 100%, length 9, depth 1)
+14: Female and ((hasSibling some Male) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+15: Female and ((hasParent some Female) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+16: Female and ((hasParent some Female) or (hasSibling some Female)) (accuracy 100%, length 9, depth 1)
+17: Female and ((hasParent some Male) or (hasSibling some Thing)) (accuracy 100%, length 9, depth 1)
+18: Female and ((hasParent some Male) or (hasSibling some Female)) (accuracy 100%, length 9, depth 1)
+19: Female and ((hasParent some Thing) or (hasSibling some Female)) (accuracy 100%, length 9, depth 1)
+20: Female and ((not (Person)) or (hasSibling some Thing)) (accuracy 100%, length 8, depth 1)
+Algorithm stopped (25122 descriptions tested).
+

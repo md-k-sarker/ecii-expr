@@ -1,0 +1,9 @@
+Prediction:
+1
+Label:
+1
+002 # 0 # 0 # road, route # road # "" # 0.491705246914
+003 # 0 # 0 # building, edifice # building # "" # 0.808571501545
+004 # 0 # 0 # car, auto, automobile, machine, motorcar # car # "" # 0.267028330319
+006 # 0 # 0 # snow # snow # "" # 0.198104693141
+009 # 0 # 0 # tree # tree # "" # 0.0876736111111

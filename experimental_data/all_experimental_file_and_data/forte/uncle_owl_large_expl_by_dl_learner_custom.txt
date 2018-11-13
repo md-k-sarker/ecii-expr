@@ -1,0 +1,739 @@
+/**
+ * See uncle.conf. This is the same learning problem, but loading background
+ * knowledge from an OWL file instead.
+ *
+ * Copyright (C) 2007, Jens Lehmann
+ */
+
+/** background knowledge **/
+
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+cli.type = "org.dllearner.cli.CLI"
+cli.performCrossValidation = true
+cli.nrOfFolds = 10
+
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "forte_family.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:art",
+"kb:calvin",
+"kb:carlos",
+"kb:david",
+"kb:eric",
+"kb:fred",
+"kb:frederick",
+"kb:george",
+"kb:harry",
+"kb:jack",
+"kb:james",
+"kb:jonas",
+"kb:karl",
+"kb:leon",
+"kb:mark",
+"kb:melvin",
+"kb:neil",
+"kb:nero",
+"kb:owen",
+"kb:paul",
+"kb:peter",
+"kb:umo",
+"kb:walt"
+}
+lp.negativeExamples = {
+"kb:alfred",
+"kb:alice",
+"kb:angela",
+"kb:ann",
+"kb:beatrice",
+"kb:bob",
+"kb:callie",
+"kb:carl",
+"kb:christy",
+"kb:cornelia",
+"kb:deanna",
+"kb:elisa",
+"kb:f12",
+"kb:f14",
+"kb:f19",
+"kb:f2",
+"kb:f20",
+"kb:f21",
+"kb:f22",
+"kb:f23",
+"kb:f25",
+"kb:f26",
+"kb:f28",
+"kb:f8",
+"kb:fannie",
+"kb:gail",
+"kb:helen",
+"kb:jane",
+"kb:janet",
+"kb:kari",
+"kb:lorrie",
+"kb:m1",
+"kb:m10",
+"kb:m11",
+"kb:m13",
+"kb:m15",
+"kb:m16",
+"kb:m17",
+"kb:m18",
+"kb:m24",
+"kb:m27",
+"kb:m29",
+"kb:m3",
+"kb:m4",
+"kb:m5",
+"kb:m6",
+"kb:m7",
+"kb:m9",
+"kb:maria",
+"kb:martha",
+"kb:nancy",
+"kb:nonnie",
+"kb:oma",
+"kb:paula",
+"kb:prissie",
+"kb:rachel",
+"kb:ray",
+"kb:regina",
+"kb:steve",
+"kb:susan",
+"kb:terri",
+"kb:terry",
+"kb:wendy"
+}
+
+alg.type = "ocel"
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 148 ms.
+... initialized component 'reasoner' in 923ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'alg' of type OWL Class Expression Learner ...
+... initialized component 'alg' in 15ms. Status: OK
+starting top down refinement with: Thing (26.316% accuracy)
+more accurate (73.68%) class expression found: male
+more accurate (76.32%) class expression found: male and (parent max 3 Thing)
+more accurate (78.95%) class expression found: male and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (94.74%) class expression found: male and ((parent some female) or (sibling some (parent some Thing)))
+more accurate (96.05%) class expression found: male and ((parent some (female and (sibling max 2 Thing))) or (sibling some (married some Thing)))
+more accurate (100.00%) class expression found: male and (((married some (sibling some Thing)) and (parent some female)) or (sibling some (parent some male)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: male and (((married some (sibling some Thing)) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 17, depth 2)
+2: male and (((married some (sibling some male)) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 17, depth 2)
+3: male and (((married some (sibling some (not (female)))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 18, depth 2)
+4: male and (((married some (sibling some (married some Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+5: male and (((married some (sibling some (parent some Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+6: male and (((married some (sibling some (sibling some Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+7: male and ((male and (married some (sibling some Thing)) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 2)
+8: male and ((male and (sibling some (parent some male))) or ((married some (sibling some Thing)) and (parent some female))) (accuracy 100%, length 19, depth 2)
+9: male and (((married some (female and (sibling some Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 2)
+10: male and (((married some (sibling some Thing)) and (parent some female)) or (sibling some (parent some (male and male)))) (accuracy 100%, length 19, depth 2)
+11: male and (((married some (sibling some Thing)) and (parent some (female and female))) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 2)
+12: male and (((married some (sibling some (female or male))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 2)
+13: male and (((married some (sibling some (male or male))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 2)
+14: male and (((married some (sibling some (married only Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+15: male and (((married some (sibling some (parent only Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+16: male and (((married some (sibling some (sibling only Thing))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+17: male and male and (((married some (sibling some male)) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 2)
+18: male and (((married some (sibling some (sibling some female))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+19: male and (((married some (sibling some (parent some male))) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 19, depth 3)
+20: male and (((not (female)) and (married some (sibling some Thing)) and (parent some female)) or (sibling some (parent some male))) (accuracy 100%, length 20, depth 2)
+Algorithm stopped (20125 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m29, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: [george]
+test set errors neg: []
+fold 0:
+  training: 20 positive, 56 negative examples and 0 uncertain examples  testing: 2/3 correct positives, 7/7 correct negatives 0/0 correct uncertain 
+  concept: male  and (((married some (sibling some Thing))  and (parent some female)) or (sibling some (parent some Thing)))
+  match: 90% (100% on training set)
+  commission: 10% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 17
+  runtime: 10.014s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m29, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: [george]
+test set errors neg: []
+fold 0:
+  training: 20 positive, 56 negative examples and 0 uncertain examples  testing: 2/3 correct positives, 7/7 correct negatives 0/0 correct uncertain 
+  concept: male  and (((married some (sibling some Thing))  and (parent some female)) or (sibling some (parent some Thing)))
+  match: 90% (100% on training set)
+  commission: 10% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 17
+  runtime: 10.014s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (73.08%) class expression found: not (female)
+more accurate (75.64%) class expression found: ((married some Thing) or (sibling some Thing)) and (not (female))
+more accurate (78.21%) class expression found: ((parent some Thing) or (sibling max 2 Thing)) and (not (female))
+more accurate (82.05%) class expression found: ((married some Thing) or (sibling some male)) and (not (female))
+more accurate (94.87%) class expression found: ((married some Thing) or (sibling some (male and (parent some Thing)))) and (not (female))
+more accurate (96.15%) class expression found: ((married some (parent max 2 (parent some Thing))) or (sibling some (male and (parent some male)))) and (not (female))
+more accurate (97.44%) class expression found: ((married some (parent max 1 (parent some (parent some Thing)))) or (sibling some (male and (parent some Thing)))) and (not (female))
+Maximum time (10 seconds) reached, stopping now...
+no appropriate solutions found (try increasing the noisePercentage parameter to what was reported as most accurate expression found above)
+Algorithm stopped (39671 descriptions tested).
+
+0.9130434782608695----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#beatrice, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: [frederick]
+test set errors neg: [steve]
+fold 1:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 1/2 correct positives, 5/6 correct negatives 0/0 correct uncertain 
+  concept: ((married some (parent max 1 (parent some (parent some Thing)))) or (sibling some      (male      and (parent some Thing))))  and (not (female))
+  match: 75% (97.436% on training set)
+  commission: 25% (2.564% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 21
+  runtime: 10.003s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#beatrice, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: [frederick]
+test set errors neg: [steve]
+fold 1:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 1/2 correct positives, 5/6 correct negatives 0/0 correct uncertain 
+  concept: ((married some (parent max 1 (parent some (parent some Thing)))) or (sibling some      (male      and (parent some Thing))))  and (not (female))
+  match: 75% (97.436% on training set)
+  commission: 25% (2.564% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 21
+  runtime: 10.003s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (73.08%) class expression found: male or male
+more accurate (75.64%) class expression found: (male or male) and (parent max 3 Thing)
+more accurate (78.21%) class expression found: (male or male) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (92.31%) class expression found: (male and (married some Thing)) or (male and (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some Thing))) (accuracy 100%, length 15, depth 2)
+2: (male and (married some (sibling some male))) or (male and (sibling some (parent some Thing))) (accuracy 100%, length 15, depth 2)
+3: (male and (married some (sibling some male))) or (male and (sibling some (parent some female))) (accuracy 100%, length 15, depth 2)
+4: (male and (married some (sibling some male))) or (male and (sibling some (parent some male))) (accuracy 100%, length 15, depth 2)
+5: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some female))) (accuracy 100%, length 15, depth 2)
+6: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some male))) (accuracy 100%, length 15, depth 2)
+7: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some (not (female))))) (accuracy 100%, length 16, depth 2)
+8: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some (not (male))))) (accuracy 100%, length 16, depth 2)
+9: (male and (married some (sibling some Thing))) or (male and (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 17, depth 3)
+10: (male and (married some (sibling some Thing))) or (male and (sibling some (parent min 2 Thing))) (accuracy 100%, length 16, depth 2)
+11: (male and (married some (sibling some (not (female))))) or (male and (sibling some (parent some Thing))) (accuracy 100%, length 16, depth 2)
+12: (male and (married some (sibling some (married some Thing)))) or (male and (sibling some (parent some Thing))) (accuracy 100%, length 17, depth 3)
+13: (male and (married some (sibling some (parent some Thing)))) or (male and (sibling some (parent some Thing))) (accuracy 100%, length 17, depth 3)
+14: (male and (married some (sibling some (sibling some Thing)))) or (male and (sibling some (parent some Thing))) (accuracy 100%, length 17, depth 3)
+15: (male and (married some (sibling some Thing))) or (male and (sibling some (married some Thing))) (accuracy 100%, length 15, depth 2)
+16: (male and (married some (sibling some male))) or (male and (sibling some (married some Thing))) (accuracy 100%, length 15, depth 2)
+17: (male and (married some (sibling some Thing))) or (male and (sibling some (married some (married some Thing)))) (accuracy 100%, length 17, depth 3)
+18: (male and (married some (sibling some Thing))) or (male and (sibling some (married some (parent some Thing)))) (accuracy 100%, length 17, depth 3)
+19: (male and (married some (sibling some (not (female))))) or (male and (sibling some (married some Thing))) (accuracy 100%, length 16, depth 2)
+20: (male and (married some (sibling some (married some Thing)))) or (male and (sibling some (married some Thing))) (accuracy 100%, length 17, depth 3)
+Algorithm stopped (62652 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 2:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male  and (married some (sibling some Thing))) or (male  and (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 15
+  runtime: 10.004s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 2:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male  and (married some (sibling some Thing))) or (male  and (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 15
+  runtime: 10.004s
+
+starting top down refinement with: Thing (26.316% accuracy)
+more accurate (75.00%) class expression found: male or (not (female))
+more accurate (77.63%) class expression found: (male or (not (female))) and (parent max 3 Thing)
+more accurate (78.95%) class expression found: (male or (not (female))) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (96.05%) class expression found: (male or (not (female))) and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 16, depth 2)
+2: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 16, depth 2)
+3: (male or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 16, depth 2)
+4: (male or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 16, depth 2)
+5: (male or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 16, depth 2)
+6: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 16, depth 2)
+7: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 16, depth 2)
+8: (male or (not (female))) and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 16, depth 2)
+9: (male or (not (female))) and ((married some (male or (sibling some Thing))) or (sibling some (married some Thing))) (accuracy 100%, length 18, depth 2)
+10: (male or (not (female))) and ((married some (male or (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 2)
+11: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 17, depth 2)
+12: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 17, depth 2)
+13: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 18, depth 3)
+14: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 17, depth 2)
+15: (male or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 17, depth 2)
+16: (male or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 3)
+17: (male or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 3)
+18: (male or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 3)
+19: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 18, depth 3)
+20: (male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 18, depth 3)
+Algorithm stopped (81935 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m9, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 3:
+  training: 20 positive, 56 negative examples and 0 uncertain examples  testing: 3/3 correct positives, 7/7 correct negatives 0/0 correct uncertain 
+  concept: (male or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 16
+  runtime: 10.004s
+
++[http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m9, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 3:
+  training: 20 positive, 56 negative examples and 0 uncertain examples  testing: 3/3 correct positives, 7/7 correct negatives 0/0 correct uncertain 
+  concept: (male or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 16
+  runtime: 10.004s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (74.36%) class expression found: (not (female)) or (not (female))
+more accurate (76.92%) class expression found: ((not (female)) or (not (female))) and (parent max 3 Thing)
+more accurate (78.21%) class expression found: (male or male or male) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (79.49%) class expression found: ((not (female)) or (not (female))) and (parent max 1 (parent some (parent some female)))
+more accurate (92.31%) class expression found: ((not (female)) or (not (female))) and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 17, depth 2)
+2: ((not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 17, depth 2)
+3: ((not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 17, depth 2)
+4: ((not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 17, depth 2)
+5: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 17, depth 2)
+6: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 17, depth 2)
+7: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 18, depth 2)
+8: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 18, depth 2)
+9: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 19, depth 3)
+10: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 18, depth 2)
+11: ((not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 2)
+12: ((not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 19, depth 3)
+13: ((not (female)) or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 19, depth 3)
+14: ((not (female)) or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 19, depth 3)
+15: ((not (female)) or (not (female))) and ((married some (sibling min 2 Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 2)
+16: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 17, depth 2)
+17: ((not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 17, depth 2)
+18: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 19, depth 3)
+19: ((not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 19, depth 3)
+20: ((not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (married some Thing))) (accuracy 100%, length 18, depth 2)
+Algorithm stopped (101295 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 4:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: ((not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 17
+  runtime: 10.005s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 4:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: ((not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 17
+  runtime: 10.005s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (70.51%) class expression found: male or male or (not (female))
+more accurate (73.08%) class expression found: (male or male or (not (female))) and (parent max 3 Thing)
+more accurate (75.64%) class expression found: (male or male or (not (female))) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (92.31%) class expression found: (male or male or (not (female))) and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 2)
+2: (male or male or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 18, depth 2)
+3: (male or male or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 18, depth 2)
+4: (male or male or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 18, depth 2)
+5: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 18, depth 2)
+6: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 18, depth 2)
+7: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 18, depth 2)
+8: (male or male or (not (female))) and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 18, depth 2)
+9: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 19, depth 2)
+10: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 19, depth 2)
+11: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 20, depth 3)
+12: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 19, depth 2)
+13: (male or male or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 19, depth 2)
+14: (male or male or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 20, depth 3)
+15: (male or male or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 20, depth 3)
+16: (male or male or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 20, depth 3)
+17: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 20, depth 3)
+18: (male or male or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 20, depth 3)
+19: (male or male or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (married some Thing))) (accuracy 100%, length 19, depth 2)
+20: (male or male or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (married some Thing))) (accuracy 100%, length 20, depth 3)
+Algorithm stopped (120066 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f26, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 5:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male or male or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 18
+  runtime: 10.003s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f26, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 5:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male or male or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 18
+  runtime: 10.003s
+
+starting top down refinement with: Thing (26.316% accuracy)
+more accurate (71.05%) class expression found: male or (not (female)) or (not (female))
+more accurate (73.68%) class expression found: (male or male or male or male) and (parent max 3 Thing)
+more accurate (76.32%) class expression found: (male or male or male or male) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (80.26%) class expression found: (male or (not (female)) or (not (female))) and ((married some Thing) or (sibling some female))
+more accurate (86.84%) class expression found: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some female))
+more accurate (100.00%) class expression found: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some Thing))))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (married some Thing)))) (accuracy 100%, length 21, depth 2)
+2: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some Thing)))) (accuracy 100%, length 21, depth 2)
+3: (male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (female and (parent some Thing)))) (accuracy 100%, length 21, depth 2)
+4: (male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (female and (parent some female)))) (accuracy 100%, length 21, depth 2)
+5: (male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (female and (parent some male)))) (accuracy 100%, length 21, depth 2)
+6: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some female)))) (accuracy 100%, length 21, depth 2)
+7: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some male)))) (accuracy 100%, length 21, depth 2)
+8: (male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (female and (married some Thing)))) (accuracy 100%, length 21, depth 2)
+9: (male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (female and (married some male)))) (accuracy 100%, length 21, depth 2)
+10: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (married some male)))) (accuracy 100%, length 21, depth 2)
+11: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some (not (female)))))) (accuracy 100%, length 22, depth 2)
+12: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some (not (male)))))) (accuracy 100%, length 22, depth 2)
+13: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent some (sibling some Thing))))) (accuracy 100%, length 23, depth 3)
+14: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (parent min 2 Thing)))) (accuracy 100%, length 22, depth 2)
+15: (male or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (female and (parent some Thing)))) (accuracy 100%, length 22, depth 2)
+16: (male or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (female and (parent some Thing)))) (accuracy 100%, length 23, depth 3)
+17: (male or (not (female)) or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (female and (parent some Thing)))) (accuracy 100%, length 23, depth 3)
+18: (male or (not (female)) or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (female and (parent some Thing)))) (accuracy 100%, length 23, depth 3)
+19: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (married some (not (female)))))) (accuracy 100%, length 22, depth 2)
+20: (male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (female and (married some (married some Thing))))) (accuracy 100%, length 23, depth 3)
+Algorithm stopped (136260 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#steve, http://localhost/foo#terri, http://localhost/foo#terry]
+?[]
+test set errors pos: [jonas]
+test set errors neg: []
+fold 6:
+  training: 20 positive, 56 negative examples and 0 uncertain examples  testing: 2/3 correct positives, 7/7 correct negatives 0/0 correct uncertain 
+  concept: (male or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some      (female      and (parent some Thing))))
+  match: 90% (100% on training set)
+  commission: 10% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 21
+  runtime: 10.003s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#steve, http://localhost/foo#terri, http://localhost/foo#terry]
+?[]
+test set errors pos: [jonas]
+test set errors neg: []
+fold 6:
+  training: 20 positive, 56 negative examples and 0 uncertain examples  testing: 2/3 correct positives, 7/7 correct negatives 0/0 correct uncertain 
+  concept: (male or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some      (female      and (parent some Thing))))
+  match: 90% (100% on training set)
+  commission: 10% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 21
+  runtime: 10.003s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (74.36%) class expression found: (not (female)) or (not (female)) or (not (female))
+more accurate (76.92%) class expression found: ((not (female)) or (not (female)) or (not (female))) and (parent max 3 Thing)
+more accurate (78.21%) class expression found: ((not (female)) or (not (female)) or (not (female))) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (79.49%) class expression found: ((not (female)) or (not (female)) or (not (female))) and (parent max 1 (parent some (parent some female)))
+more accurate (92.31%) class expression found: ((not (female)) or (not (female)) or (not (female))) and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 20, depth 2)
+2: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 20, depth 2)
+3: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 20, depth 2)
+4: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 20, depth 2)
+5: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 20, depth 2)
+6: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 20, depth 2)
+7: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 21, depth 2)
+8: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 21, depth 2)
+9: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 22, depth 3)
+10: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 21, depth 2)
+11: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 21, depth 2)
+12: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 22, depth 3)
+13: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 22, depth 3)
+14: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 22, depth 3)
+15: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 20, depth 2)
+16: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 20, depth 2)
+17: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 22, depth 3)
+18: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 22, depth 3)
+19: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (married some Thing))) (accuracy 100%, length 21, depth 2)
+20: ((not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (married some Thing))) (accuracy 100%, length 22, depth 3)
+Algorithm stopped (153952 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m17, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 7:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: ((not (female)) or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 20
+  runtime: 10.011s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m17, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 7:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: ((not (female)) or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 20
+  runtime: 10.011s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (74.36%) class expression found: male or male or (not (female)) or (not (female))
+more accurate (76.92%) class expression found: (male or male or male or male or male) and (parent max 3 Thing)
+more accurate (78.21%) class expression found: (male or male or male or male or male) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (79.49%) class expression found: (male or male or (not (female)) or (not (female))) and (parent max 1 (parent some (parent some female)))
+more accurate (92.31%) class expression found: (male or male or (not (female)) or (not (female))) and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 21, depth 2)
+2: (male or male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 21, depth 2)
+3: (male or male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 21, depth 2)
+4: (male or male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 21, depth 2)
+5: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 21, depth 2)
+6: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 21, depth 2)
+7: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 22, depth 2)
+8: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 22, depth 2)
+9: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 23, depth 3)
+10: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 22, depth 2)
+11: (male or male or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 22, depth 2)
+12: (male or male or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 23, depth 3)
+13: (male or male or (not (female)) or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 23, depth 3)
+14: (male or male or (not (female)) or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 23, depth 3)
+15: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 21, depth 2)
+16: (male or male or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 21, depth 2)
+17: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 23, depth 3)
+18: (male or male or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 23, depth 3)
+19: (male or male or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (married some Thing))) (accuracy 100%, length 22, depth 2)
+20: (male or male or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (married some Thing))) (accuracy 100%, length 23, depth 3)
+Algorithm stopped (170699 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 8:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male or male or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 21
+  runtime: 10.003s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#david, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#peter, http://localhost/foo#umo, http://localhost/foo#walt]
+-[http://localhost/foo#alfred, http://localhost/foo#alice, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#carl, http://localhost/foo#christy, http://localhost/foo#cornelia, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f19, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#lorrie, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m24, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 8:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male or male or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 21
+  runtime: 10.003s
+
+starting top down refinement with: Thing (26.923% accuracy)
+more accurate (73.08%) class expression found: male or (not (female)) or (not (female)) or (not (female))
+more accurate (75.64%) class expression found: (male or (not (female)) or (not (female)) or (not (female))) and (parent max 3 Thing)
+more accurate (78.21%) class expression found: (male or (not (female)) or (not (female)) or (not (female))) and ((parent some Thing) or (sibling max 2 Thing))
+more accurate (93.59%) class expression found: (male or (not (female)) or (not (female)) or (not (female))) and ((married some Thing) or (sibling some (parent some Thing)))
+more accurate (100.00%) class expression found: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+Maximum time (10 seconds) reached, stopping now...
+solutions (at most 20 are shown):
+1: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some Thing))) (accuracy 100%, length 22, depth 2)
+2: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some Thing))) (accuracy 100%, length 22, depth 2)
+3: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some female))) (accuracy 100%, length 22, depth 2)
+4: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (parent some male))) (accuracy 100%, length 22, depth 2)
+5: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some female))) (accuracy 100%, length 22, depth 2)
+6: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some male))) (accuracy 100%, length 22, depth 2)
+7: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some Thing))) (accuracy 100%, length 22, depth 2)
+8: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some male)) or (sibling some (married some Thing))) (accuracy 100%, length 22, depth 2)
+9: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (female))))) (accuracy 100%, length 23, depth 2)
+10: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (not (male))))) (accuracy 100%, length 23, depth 2)
+11: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent some (sibling some Thing)))) (accuracy 100%, length 24, depth 3)
+12: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (parent min 2 Thing))) (accuracy 100%, length 23, depth 2)
+13: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (parent some Thing))) (accuracy 100%, length 23, depth 2)
+14: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 24, depth 3)
+15: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (parent some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 24, depth 3)
+16: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (sibling some Thing))) or (sibling some (parent some Thing))) (accuracy 100%, length 24, depth 3)
+17: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (married some Thing)))) (accuracy 100%, length 24, depth 3)
+18: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some Thing)) or (sibling some (married some (parent some Thing)))) (accuracy 100%, length 24, depth 3)
+19: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (not (female)))) or (sibling some (married some Thing))) (accuracy 100%, length 23, depth 2)
+20: (male or (not (female)) or (not (female)) or (not (female))) and ((married some (sibling some (married some Thing))) or (sibling some (married some Thing))) (accuracy 100%, length 24, depth 3)
+Algorithm stopped (185041 descriptions tested).
+
+1.0----1.0
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo]
+-[http://localhost/foo#alfred, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#christy, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 9:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male or (not (female)) or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 22
+  runtime: 10.008s
+
++[http://localhost/foo#art, http://localhost/foo#calvin, http://localhost/foo#carlos, http://localhost/foo#eric, http://localhost/foo#fred, http://localhost/foo#frederick, http://localhost/foo#george, http://localhost/foo#harry, http://localhost/foo#jack, http://localhost/foo#james, http://localhost/foo#jonas, http://localhost/foo#karl, http://localhost/foo#leon, http://localhost/foo#mark, http://localhost/foo#melvin, http://localhost/foo#neil, http://localhost/foo#nero, http://localhost/foo#owen, http://localhost/foo#paul, http://localhost/foo#peter, http://localhost/foo#umo]
+-[http://localhost/foo#alfred, http://localhost/foo#angela, http://localhost/foo#ann, http://localhost/foo#beatrice, http://localhost/foo#bob, http://localhost/foo#callie, http://localhost/foo#christy, http://localhost/foo#deanna, http://localhost/foo#elisa, http://localhost/foo#f12, http://localhost/foo#f14, http://localhost/foo#f2, http://localhost/foo#f20, http://localhost/foo#f21, http://localhost/foo#f22, http://localhost/foo#f23, http://localhost/foo#f25, http://localhost/foo#f26, http://localhost/foo#f28, http://localhost/foo#f8, http://localhost/foo#fannie, http://localhost/foo#gail, http://localhost/foo#helen, http://localhost/foo#jane, http://localhost/foo#janet, http://localhost/foo#kari, http://localhost/foo#m1, http://localhost/foo#m10, http://localhost/foo#m11, http://localhost/foo#m13, http://localhost/foo#m15, http://localhost/foo#m16, http://localhost/foo#m17, http://localhost/foo#m18, http://localhost/foo#m27, http://localhost/foo#m29, http://localhost/foo#m3, http://localhost/foo#m4, http://localhost/foo#m5, http://localhost/foo#m6, http://localhost/foo#m7, http://localhost/foo#m9, http://localhost/foo#maria, http://localhost/foo#martha, http://localhost/foo#nancy, http://localhost/foo#nonnie, http://localhost/foo#oma, http://localhost/foo#paula, http://localhost/foo#prissie, http://localhost/foo#rachel, http://localhost/foo#ray, http://localhost/foo#regina, http://localhost/foo#steve, http://localhost/foo#susan, http://localhost/foo#terri, http://localhost/foo#terry, http://localhost/foo#wendy]
+?[]
+test set errors pos: []
+test set errors neg: []
+fold 9:
+  training: 21 positive, 57 negative examples and 0 uncertain examples  testing: 2/2 correct positives, 6/6 correct negatives 0/0 correct uncertain 
+  concept: (male or (not (female)) or (not (female)) or (not (female)))  and ((married some (sibling some Thing)) or (sibling some (parent some Thing)))
+  match: 100% (100% on training set)
+  commission: 0% (0% on training set)
+  omission: 0% (0% on training set)
+  induction: 0% (0% on training set)
+  length: 22
+  runtime: 10.008s
+
+
+Finished 10-folds cross-validation.
+runtime: av. 10.006s (deviation 0.004s; min 10.003s; max 10.014s)
+length: av. 18.8 (deviation 2.486; min 15; max 22)
+F-Measure on training set: av. 99.545% (deviation 1.437%; min 95.455%; max 100%)
+F-Measure: av. 91% (deviation 16.633%; min 50%; max 100%)
+Match rate on training set: av. 99.744% (deviation 0.811%; min 97.436%; max 100%)
+Match rate: av. 95.5% (deviation 8.317%; min 75%; max 100%)
+Commission rate: av. 4.5% (deviation 8.317%; min 0%; max 25%)
+Omission rate: av. 0% (deviation 0%; min 0%; max 0%)
+Induction rate: av. 0% (deviation 0%; min 0%; max 0%)

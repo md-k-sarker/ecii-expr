@@ -1,0 +1,65 @@
+/**
+ * Sumo with ADE training Data
+ * 
+ *
+ */
+
+// declare some prefixes to use as abbreviations
+prefixes = [ ("ex","http://www.adampease.org/OP/SUMO.owl#") ]
+
+// knowledge source definition
+ks.type = "OWL File"
+ks.fileName = "workroom_positive_vs_warehouse_negative.owl"
+
+// object properties
+objectProperties={":imageContains"}
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+//lp.type = "posonlylp"
+lp.type = "posNegStandard"
+lp.negativeExamples = {"ex:OutdoorWareHouse_Indi_1_ADE_train_00019754","ex:OutdoorWareHouse_Indi_2_ADE_train_00019755", "ex:OutdoorWareHouse_Indi_3_ADE_train_00019756","ex:IndoorWarehouse_Indi_1_ADE_train_00019702","ex:IndoorWarehouse_Indi_2_ADE_train_00019703","ex:IndoorWarehouse_Indi_3_ADE_train_00019704","ex:IndoorWarehouse_Indi_4_ADE_train_00019705", "ex:IndoorWarehouse_Indi_5_ADE_train_00019706"}
+
+lp.positiveExamples = {"ex:WorkRoom_Indi_1_ADE_train_00020098", "ex:WorkRoom_Indi_2_ADE_train_00020099",  "ex:WorkRoom_Indi_3_ADE_train_00020100", "ex:WorkRoom_Indi_4_ADE_train_00020101"}
+
+// create learning algorithm to run
+la.type = "celoe"
+//la.maxExecutionTimeInSeconds = 6000
+la.stopOnFirstDefinition = "true"
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.adampease.org/OP/SUMO>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 594 ms.
+... initialized component 'reasoner' in 7s 789ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 3s 26ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (33.33%) class expression found after 28ms: Thing
+Algorithm terminated successfully (time: 10s 0ms, 199097 descriptions tested, 107917 nodes in the search tree).
+
+number of retrievals: 199107
+retrieval reasoning time: 2s 342ms ( 0ms per retrieval)
+overall reasoning time: 2s 343ms
+
+solutions:
+1: Thing (pred. acc.: 33.33%, F-measure: 50.00%)
+2: not (Mile) (pred. acc.: 33.33%, F-measure: 50.00%)
+3: not (Meter) (pred. acc.: 33.33%, F-measure: 50.00%)
+4: not (FootLength) (pred. acc.: 33.33%, F-measure: 50.00%)
+5: not (Fish) (pred. acc.: 33.33%, F-measure: 50.00%)
+6: not (ChangeOfControl) (pred. acc.: 33.33%, F-measure: 50.00%)
+7: not (Centimeter) (pred. acc.: 33.33%, F-measure: 50.00%)
+8: not (CelsiusDegree) (pred. acc.: 33.33%, F-measure: 50.00%)
+9: not (Brandy) (pred. acc.: 33.33%, F-measure: 50.00%)
+10: not (AntarcticArea) (pred. acc.: 33.33%, F-measure: 50.00%)
+

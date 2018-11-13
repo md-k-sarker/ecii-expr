@@ -1,0 +1,2536 @@
+Program started.............
+Program starts at: 09.02.2018  10.32.02 AM
+Working with confFile: /Users/sarker/Workspaces/ProjectHCBD/experiments/ecii_aaai/yinyang_examples/GrandFather.config
+Algorithm starts at: 09.02.2018  10.32.03 AM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	Isidoro
+	Gianni
+	NonnoLuigi
+negIndivs from conf:
+	Valentina
+	Marisella
+	Luca
+	Carmela
+	Dino
+	Maria
+	Miriam
+	Serena
+	Ombretta
+	NonnaLina
+	Giovanna
+	Mauro
+	Nella
+	Luigi
+
+Algorithm ends at: 09.02.2018  10.32.04 AM
+
+Algorithm duration: 0.783 sec
+
+####################Solutions####################:
+solution 1: ((Person) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 2: ((Male) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 3: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 4: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 5: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 6: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 7: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 8: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 9: (( ¬ Person) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 10: ((Person) ⊔ (Male) ⊔ ( ¬ Person))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 11: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 12: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 13: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 14: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 15: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 1.0
+	 f_measure: 1.0
+solution 16: ( ¬ Person)
+	 coverage_score: 0.8235294117647058
+	 f_measure: 0.0
+solution 17: (( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.8235294117647058
+	 f_measure: 0.0
+solution 18: (( ¬ Male) ⊔ ( ¬ Female))
+	 coverage_score: 0.8235294117647058
+	 f_measure: 0.0
+solution 19: (( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.8235294117647058
+	 f_measure: 0.0
+solution 20: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.8235294117647058
+	 f_measure: 0.0
+solution 21: ((Person) ⊔ ( ¬ Female))
+	 coverage_score: 0.7647058823529411
+	 f_measure: 0.6
+solution 22: ((Male) ⊔ ( ¬ Female))
+	 coverage_score: 0.7647058823529411
+	 f_measure: 0.6
+solution 23: ((Person) ⊔ (Male) ⊔ ( ¬ Female))
+	 coverage_score: 0.7647058823529411
+	 f_measure: 0.6
+solution 24: (( ¬ Female) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.7647058823529411
+	 f_measure: 0.6
+solution 25: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.7647058823529411
+	 f_measure: 0.6
+solution 26: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.7647058823529411
+	 f_measure: 0.6
+solution 27: ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 28: ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 29: ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 30: ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 31: ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 32: ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 33: ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 34: ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 35: ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 36: ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 37: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 38: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 39: ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 40: ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 41: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 42: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 43: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 44: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 45: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 46: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 47: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 48: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 49: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 50: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 51: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 52: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 53: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 54: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 55: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 56: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 57: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 58: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 59: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 60: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 61: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 62: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 63: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 64: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 65: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 66: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 67: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 68: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 69: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 70: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 71: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 72: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 73: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 74: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 75: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 76: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 77: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 78: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 79: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 80: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 81: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 82: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 83: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 84: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 85: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 86: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 87: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 88: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 89: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 90: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 91: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 92: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 93: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 94: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 95: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 96: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 97: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 98: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 99: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 100: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 101: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 102: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 103: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 104: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 105: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 106: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 107: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 108: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 109: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 110: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 111: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 112: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 113: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 114: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 115: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 116: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 117: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 118: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 119: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 120: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 121: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 122: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 123: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 124: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 125: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 126: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 127: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 128: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 129: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 130: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 131: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 132: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 133: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 134: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 135: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 136: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 137: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 138: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 139: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 140: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 141: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 142: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 143: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 144: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 145: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 146: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 147: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 148: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 149: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 150: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 151: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 152: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 153: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 154: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 155: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 156: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 157: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 158: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 159: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 160: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 161: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 162: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 163: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 164: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 165: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 166: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 167: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 168: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 169: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 170: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 171: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 172: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 173: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 174: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 175: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 176: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 177: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 178: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 179: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 180: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 181: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 182: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 183: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 184: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 185: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 186: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 187: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 188: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 189: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 190: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 191: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 192: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 193: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 194: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 195: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 196: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 197: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 198: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 199: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 200: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 201: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 202: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 203: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 204: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 205: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 206: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 207: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 208: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 209: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 210: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 211: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 212: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 213: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 214: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 215: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 216: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 217: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 218: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 219: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 220: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 221: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 222: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 223: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 224: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 225: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 226: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 227: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 228: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 229: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 230: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 231: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 232: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 233: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 234: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 235: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 236: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 237: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 238: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 239: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 240: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 241: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 242: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 243: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 244: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 245: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 246: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 247: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 248: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 249: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 250: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 251: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 252: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 253: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 254: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 255: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 256: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 257: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 258: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 259: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 260: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 261: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 262: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 263: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 264: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 265: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 266: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.7058823529411765
+	 f_measure: 0.28571428571428575
+solution 267: ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 268: ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 269: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 270: ( ¬ Person) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 271: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 272: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 273: ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 274: ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 275: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 276: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 277: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 278: ( ¬ Person) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 279: ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 280: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 281: ( ¬ Person) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 282: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 283: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 284: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 285: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 286: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 287: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 288: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 289: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 290: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 291: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 292: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 293: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 294: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 295: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 296: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 297: ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 298: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 299: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 300: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 301: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 302: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 303: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 304: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 305: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 306: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 307: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 308: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 309: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 310: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 311: ( ¬ Person) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 312: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 313: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 314: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 315: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 316: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 317: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 318: ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 319: ( ¬ Person) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 320: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 321: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 322: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 323: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 324: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 325: ( ¬ Person) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 326: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 327: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 328: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 329: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 330: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 331: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 332: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 333: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 334: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 335: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 336: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 337: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 338: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 339: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 340: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 341: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 342: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 343: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 344: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 345: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 346: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 347: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 348: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 349: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 350: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 351: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 352: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 353: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 354: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 355: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 356: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 357: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 358: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 359: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 360: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 361: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 362: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 363: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 364: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 365: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 366: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 367: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 368: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 369: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 370: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 371: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 372: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 373: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 374: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 375: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 376: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 377: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 378: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 379: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 380: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 381: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 382: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 383: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 384: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 385: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 386: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 387: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 388: ( ¬ Person) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 389: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 390: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 391: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 392: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 393: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 394: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 395: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 396: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 397: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 398: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 399: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 400: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 401: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 402: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 403: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 404: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 405: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 406: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 407: ( ¬ Person) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 408: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 409: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 410: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 411: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 412: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 413: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 414: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 415: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 416: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 417: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 418: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 419: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 420: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 421: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 422: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 423: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 424: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 425: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 426: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 427: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 428: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 429: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 430: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 431: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 432: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 433: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 434: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 435: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 436: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 437: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 438: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 439: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 440: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 441: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 442: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 443: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 444: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 445: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 446: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 447: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 448: ((Person) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 449: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 450: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 451: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 452: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 453: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 454: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 455: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 456: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 457: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 458: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 459: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 460: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 461: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 462: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 463: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 464: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 465: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 466: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 467: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 468: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 469: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 470: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 471: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 472: ((Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 473: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 474: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 475: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 476: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 477: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 478: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 479: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 480: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 481: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 482: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 483: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 484: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 485: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 486: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 487: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 488: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 489: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 490: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 491: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 492: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 493: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 494: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 495: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 496: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 497: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 498: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 499: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 500: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 501: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 502: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 503: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 504: ((Person) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 505: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 506: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 507: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 508: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 509: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 510: ((Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 511: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 512: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 513: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 514: ((Person) ⊔ (Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 515: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 516: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 517: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 518: ((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 519: (( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 520: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 521: ((Male) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 522: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 523: (( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 524: (( ¬ Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 525: ((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 526: ((Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 527: (( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.25
+solution 528: ( ¬ Female)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 529: ∃hasSibling.( ¬ Female)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 530: ∃hasParent.( ¬ Person)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 531: ∃hasParent.( ¬ Male)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 532: ∃hasParent.( ¬ Female)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 533: ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 534: ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 535: ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 536: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 537: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 538: ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 539: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 540: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 541: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 542: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 543: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 544: ( ¬ Person) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 545: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 546: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 547: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 548: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 549: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 550: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 551: ( ¬ Person) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 552: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 553: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 554: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 555: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 556: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 557: (( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 558: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 559: (( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 560: (( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 561: (( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 562: ∃hasChild.(( ¬ Person) ⊔ (Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 563: ∃hasChild.(( ¬ Person) ⊔ (Person) ⊔ (Female))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 564: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 565: ∃hasChild.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 566: ∃hasChild.(( ¬ Person) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 567: ∃hasChild.(( ¬ Person) ⊔ (Male) ⊔ (Female))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 568: ∃hasChild.(( ¬ Person) ⊔ (Person) ⊔ (Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 569: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Person) ⊔ (Female))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 570: ∃hasChild.(( ¬ Person) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 571: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Person) ⊔ (Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 572: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 573: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 574: ∃hasChild.(( ¬ Person) ⊔ (Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.42857142857142855
+solution 575: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 576: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 577: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 578: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 579: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 580: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 581: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 582: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 583: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 584: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 585: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 586: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 587: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 588: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 589: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 590: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 591: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 592: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 593: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 594: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 595: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 596: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 597: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 598: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 599: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 600: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 601: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 602: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 603: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 604: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 605: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 606: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 607: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 608: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 609: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 610: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 611: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 612: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 613: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 614: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 615: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 616: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 617: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 618: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 619: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 620: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 621: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 622: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 623: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 624: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 625: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 626: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 627: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 628: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 629: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 630: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 631: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 632: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 633: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 634: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 635: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 636: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 637: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 638: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 639: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 640: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 641: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 642: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 643: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 644: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 645: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 646: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 647: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 648: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 649: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 650: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 651: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 652: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 653: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 654: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 655: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 656: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 657: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 658: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 659: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 660: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 661: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 662: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.2
+solution 663: ∃hasChild.(( ¬ Person) ⊔ (Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 664: ∃hasChild.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 665: ∃hasChild.(( ¬ Person) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 666: ∃hasChild.(( ¬ Person) ⊔ ( ¬ Male) ⊔ (Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 667: ∃hasChild.(( ¬ Female) ⊔ (Person) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 668: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 669: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 670: ∃hasChild.(( ¬ Female) ⊔ (Male) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 671: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 672: ∃hasChild.(( ¬ Female) ⊔ (Person) ⊔ (Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 673: ∃hasChild.(( ¬ Person) ⊔ ( ¬ Male) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 674: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 675: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 676: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 677: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 678: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 679: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 680: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 681: ∃hasChild.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 682: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 683: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 684: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 685: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Person) ⊔ (Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 686: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 687: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 688: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 689: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 690: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 691: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 692: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 693: ∃hasChild.(( ¬ Female) ⊔ (Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.4
+solution 694: ∃hasChild.(( ¬ Person) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 695: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 696: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 697: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 698: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 699: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 700: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 701: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 702: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.30769230769230765
+solution 703: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 704: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 705: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 706: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 707: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.( ¬ Person)
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 708: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 709: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 710: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 711: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 712: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 713: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 714: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 715: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 716: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 717: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 718: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 719: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 720: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 721: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 722: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 723: ((Person) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 724: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 725: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 726: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 727: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 728: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 729: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 730: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 731: ((Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 732: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 733: ((Person) ⊔ (Male) ⊔ ( ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 734: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 735: (( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 736: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.((Person) ⊔ ( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 737: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 738: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Male) ⊔ ( ¬ Person))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 739: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 740: ((Person) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 741: ((Male) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Female)) ⊓ ∃hasSibling.(( ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.18181818181818182
+solution 742: ((Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 743: ∃hasChild.(( ¬ Female) ⊔ (Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.28571428571428575
+solution 744: ∃hasChild.(( ¬ Female) ⊔ (Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.28571428571428575
+solution 745: ∃hasChild.((Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 746: ((Male) ⊔ ( ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 747: (( ¬ Male) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 748: (( ¬ Male) ⊔ (Person) ⊔ (Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 749: ∃hasChild.((Person) ⊔ ( ¬ Male) ⊔ (Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 750: ∃hasChild.((Person) ⊔ ( ¬ Male) ⊔ (Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 751: ∃hasChild.(( ¬ Male) ⊔ (Male) ⊔ (Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 752: ∃hasChild.(( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 753: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 754: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 755: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Male) ⊔ (Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 756: ∃hasChild.(( ¬ Female) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.28571428571428575
+solution 757: ∃hasChild.((Person) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 758: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 759: ∃hasChild.(( ¬ Person) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 760: ((Person) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 761: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 762: ∃hasChild.(( ¬ Male) ⊔ (Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 763: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Female) ⊔ (Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.28571428571428575
+solution 764: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 765: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 766: ∃hasChild.(( ¬ Person) ⊔ (Person ⊓ ¬ Female) ⊔ ( ¬ Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.16666666666666666
+solution 767: ((Male) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.375
+solution 768: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.4117647058823529
+	 f_measure: 0.28571428571428575
+solution 769: ∃hasChild.( ¬ Person)
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.0
+solution 770: ∃hasSibling.((Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 771: ∃hasChild.(( ¬ Male) ⊔ (Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.26666666666666666
+solution 772: ∃hasSibling.((Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 773: ∃hasChild.(( ¬ Male) ⊔ (Female))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.26666666666666666
+solution 774: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.0
+solution 775: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Person))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.0
+solution 776: ∃hasChild.(( ¬ Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.0
+solution 777: ∃hasSibling.(( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 778: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Female))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 779: ∃hasChild.(( ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 780: ∃hasSibling.((Female) ⊔ (Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 781: ∃hasChild.(( ¬ Female) ⊔ ( ¬ Person) ⊔ ( ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.0
+solution 782: ∃hasChild.(( ¬ Male) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.26666666666666666
+solution 783: ∃hasSibling.((Person) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 784: ∃hasSibling.((Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.15384615384615383
+solution 785: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Male) ⊔ (Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.26666666666666666
+solution 786: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.35294117647058826
+	 f_measure: 0.26666666666666666
+solution 787: ∃hasChild.( ¬ Female)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.0
+solution 788: ∃hasSibling.( ¬ Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.0
+solution 789: ∃hasChild.((Person ⊓ ¬ Female) ⊔ ( ¬ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.14285714285714288
+solution 790: ∃hasChild.(( ¬ Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.14285714285714288
+solution 791: ( ¬ Male)
+	 coverage_score: 0.23529411764705882
+	 f_measure: 0.0
+solution 792: ∃hasChild.( ¬ Male)
+	 coverage_score: 0.23529411764705882
+	 f_measure: 0.0
+solution 793: ∃hasChild.(Person)
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 794: (Person)
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 795: (Male)
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 796: ∃hasChild.((Person) ⊔ (Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 797: ∃hasChild.((Male) ⊔ (Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 798: ∃hasChild.((Person) ⊔ (Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 799: ((Person) ⊔ (Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 800: (Person ⊓ ¬ Female)
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 801: ∃hasChild.((Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 802: ((Person) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 803: ((Male) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 804: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Person))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 805: ∃hasChild.((Person) ⊔ (Male) ⊔ (Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 806: ∃hasChild.((Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 807: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 808: ∃hasChild.((Person) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 809: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Person) ⊔ (Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 810: ∃hasChild.((Person) ⊔ (Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 811: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Person) ⊔ (Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 812: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Male) ⊔ (Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 813: ((Person) ⊔ (Male) ⊔ (Person ⊓ ¬ Female))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 814: ∃hasChild.((Male) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 815: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 816: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Male) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 817: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 818: ∃hasChild.(Male)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947367
+solution 819: ∃hasChild.(Female)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947367
+solution 820: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Male))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947367
+solution 821: ∃hasChild.((Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947367
+solution 822: ∃hasChild.((Person ⊓ ¬ Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947367
+solution 823: ∃hasSibling.(Person)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 824: ∃hasSibling.(Female)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 825: ∃hasChild.(Person ⊓ ¬ Male)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 826: ∃hasChild.(Person ⊓ ¬ Female)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 827: ∃hasSibling.((Female) ⊔ (Person))
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 828: ∃hasSibling.(Person ⊓ ¬ Male)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 829: ∃hasSibling.((Female) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 830: ∃hasSibling.((Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 831: ∃hasSibling.((Female) ⊔ (Person) ⊔ (Person ⊓ ¬ Male))
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+
+Total solutions found: 831
+
+Program finished.
+Program ends at: 09.02.2018  10.32.04 AM
+Program duration: 1.28 sec

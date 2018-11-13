@@ -1,0 +1,33 @@
+Program started.............
+Program starts at: 10.16.2018  11.35.31 AM
+Working with confFile: Offspring.conf
+Algorithm starts at: 10.16.2018  11.35.31 AM
+
+User defined parameters:
+ReasonerName: Pellet (Default)
+posIndivs from conf:
+	Ombretta
+	Luca
+	Dino
+	Luigi
+	Maria
+	Serena
+negIndivs from conf:
+	Gianni
+	Dora
+
+Algorithm ends at: 10.16.2018  11.35.31 AM
+
+Algorithm duration: 0.052 sec
+
+####################Solutions####################:
+Solution: Person
+	 coverage_score: 0.75
+Solution: Thing
+	 coverage_score: 0.75
+Solution: hasParent some Person
+	 coverage_score: 1.0
+
+Program finished.
+Program ends at: 10.16.2018  11.35.31 AM
+Program duration: 0.063 sec

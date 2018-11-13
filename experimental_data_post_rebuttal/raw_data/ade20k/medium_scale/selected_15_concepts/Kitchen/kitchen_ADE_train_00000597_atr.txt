@@ -1,0 +1,15 @@
+Prediction:
+15
+Label:
+15
+001 # 0 # 0 # wall # wall # "" # 0.230443775856
+003 # 0 # 0 # floor, flooring # floor # "tile" # 0.353916648484
+004 # 0 # 0 # ceiling # ceiling # "" # 0.252748437163
+005 # 0 # 0 # blanket, cover # blanket # "" # 0.617625899281
+006 # 0 # 0 # cabinet # cabinet # "" # 0.0687830687831
+007 # 0 # 0 # refrigerator, icebox # refrigerator # "" # 0.245953382972
+032 # 0 # 0 # windowpane, window # window # "single hung" # 0.248950859618
+042 # 0 # 0 # work surface # work surface # "" # 0.237297757593
+045 # 0 # 0 # shelf # shelves # "" # 0.175781903328
+047 # 0 # 1 # stool # stool # "" # 0.175592960979
+077 # 0 # 0 # wardrobe, closet, press # wardrobe # "" # 0.30289017341

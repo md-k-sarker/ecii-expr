@@ -1,0 +1,7 @@
+Prediction:
+8
+Label:
+8
+001 # 0 # 0 # sky # sky # "" # 0.45238920129
+002 # 0 # 0 # road, route # road # "" # 0.20657485562
+003 # 0 # 0 # mountain, mount # mountain # "" # 0.74819615179

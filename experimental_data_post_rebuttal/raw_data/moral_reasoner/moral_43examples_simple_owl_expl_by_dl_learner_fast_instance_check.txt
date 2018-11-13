@@ -1,0 +1,181 @@
+ /***********************
+ solution should be:
+ guilty = (blameworthy OR vicarious_blame ).
+ 
+ 
+ Examples:
+ 23 positive
+ 20 negative
+ 
+ ***********************/
+prefixes = [ ("kb","http://localhost/foo#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "moral_43instances.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:p0",
+"kb:p1",
+"kb:p2",
+"kb:p3",
+"kb:p4",
+"kb:p5",
+"kb:p6",
+"kb:p7",
+"kb:p8",
+"kb:p9",
+"kb:p10",
+"kb:p90",
+"kb:p91",
+"kb:p92",
+"kb:p93",
+"kb:p94",
+"kb:p95",
+"kb:p96",
+"kb:p97",
+"kb:p98",
+"kb:p99",
+"kb:p100",
+"kb:p101"
+}
+lp.negativeExamples = {
+"kb:n0",
+"kb:n1",
+"kb:n2",
+"kb:n3",
+//n4
+"kb:n5",
+"kb:n6",
+"kb:n7",
+"kb:n8",
+"kb:n9",
+"kb:n10",
+"kb:n90",
+"kb:n91",
+"kb:n92",
+"kb:n93",
+"kb:n94",
+"kb:n95",
+"kb:n96",
+"kb:n97",
+"kb:n98",
+"kb:n99"
+}
+ 
+la.type="celoe"
+la.stopOnFirstDefinition="true"
+la.maxNrOfResults=10000
+la.maxExecutionTimeInSeconds=600
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 150 ms.
+... initialized component 'reasoner' in 1s 369ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 9ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (53.49%) class expression found after 23ms: Thing
+more accurate (74.42%) class expression found after 67ms: severity_harm
+more accurate (79.07%) class expression found after 73ms: not (benefit_victim)
+more accurate (100.00%) class expression found after 167ms: blameworthy or vicarious_blame
+Algorithm terminated successfully (time: 168ms, 371 descriptions tested, 83 nodes in the search tree).
+
+number of retrievals: 500
+retrieval reasoning time: 12ms ( 0ms per retrieval)
+(complex) subsumption checks: 141 (0 multiple)
+subsumption reasoning time: 14ms ( 0ms per subsumption check)
+overall reasoning time: 27ms
+
+solutions:
+1: blameworthy or vicarious_blame (pred. acc.: 100.00%, F-measure: 100.00%)
+2: not (benefit_victim) (pred. acc.: 79.07%, F-measure: 83.64%)
+3: notaccident and severity_harm (pred. acc.: 76.74%, F-measure: 82.14%)
+4: severity_harm (pred. acc.: 74.42%, F-measure: 80.70%)
+5: no_foreseeability or severity_harm (pred. acc.: 74.42%, F-measure: 80.70%)
+6: plan_include_harm or severity_harm (pred. acc.: 72.09%, F-measure: 79.31%)
+7: external_force or severity_harm (pred. acc.: 69.77%, F-measure: 77.97%)
+8: severity_harm or someone_else_cause_harm (pred. acc.: 67.44%, F-measure: 76.67%)
+9: harm_caused_as_planned or severity_harm (pred. acc.: 67.44%, F-measure: 76.67%)
+10: goal_achieveable_less_harmful or severity_harm (pred. acc.: 67.44%, F-measure: 76.67%)
+11: control_perpetrator or voluntary (pred. acc.: 67.44%, F-measure: 76.67%)
+12: control_perpetrator or foresee_intervention (pred. acc.: 67.44%, F-measure: 76.67%)
+13: benefit_victim or severity_harm (pred. acc.: 67.44%, F-measure: 76.67%)
+14: someone_else_cause_harm or voluntary (pred. acc.: 65.12%, F-measure: 75.41%)
+15: outrank_perpetrator or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+16: neither_mental_state or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+17: intervening_contribution or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+18: foresee_intervention or outrank_perpetrator (pred. acc.: 65.12%, F-measure: 75.41%)
+19: external_cause or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+20: control_perpetrator or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+21: careful or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+22: benefit_protagonist or severity_harm (pred. acc.: 65.12%, F-measure: 75.41%)
+23: outrank_perpetrator or voluntary (pred. acc.: 62.79%, F-measure: 74.19%)
+24: benefit_protagonist or voluntary (pred. acc.: 62.79%, F-measure: 74.19%)
+25: achieve_goal or severity_harm (pred. acc.: 62.79%, F-measure: 74.19%)
+26: not (justified) (pred. acc.: 60.47%, F-measure: 73.02%)
+27: outrank_perpetrator or plan_known (pred. acc.: 60.47%, F-measure: 73.02%)
+28: goal_outweigh_harm or severity_harm (pred. acc.: 60.47%, F-measure: 73.02%)
+29: foresee_intervention or severity_harm (pred. acc.: 60.47%, F-measure: 73.02%)
+30: notaccident (pred. acc.: 58.14%, F-measure: 71.88%)
+31: severity_harm or voluntary (pred. acc.: 58.14%, F-measure: 71.88%)
+32: notaccident or someone_else_cause_harm (pred. acc.: 58.14%, F-measure: 71.88%)
+33: notaccident or plan_include_harm (pred. acc.: 58.14%, F-measure: 71.88%)
+34: no_foreseeability or notaccident (pred. acc.: 58.14%, F-measure: 71.88%)
+35: goal_outweigh_harm or notaccident (pred. acc.: 58.14%, F-measure: 71.88%)
+36: goal_achieveable_less_harmful or notaccident (pred. acc.: 58.14%, F-measure: 71.88%)
+37: external_force or notaccident (pred. acc.: 58.14%, F-measure: 71.88%)
+38: control_perpetrator or notaccident (pred. acc.: 58.14%, F-measure: 71.88%)
+39: cause or severity_harm (pred. acc.: 58.14%, F-measure: 71.88%)
+40: cause or external_force (pred. acc.: 58.14%, F-measure: 71.88%)
+41: cause or control_perpetrator (pred. acc.: 58.14%, F-measure: 71.88%)
+42: plan_known or severity_harm (pred. acc.: 55.81%, F-measure: 70.77%)
+43: notaccident or severity_harm (pred. acc.: 55.81%, F-measure: 70.77%)
+44: notaccident or plan_known (pred. acc.: 55.81%, F-measure: 70.77%)
+45: intervening_contribution or notaccident (pred. acc.: 55.81%, F-measure: 70.77%)
+46: harm_caused_as_planned or notaccident (pred. acc.: 55.81%, F-measure: 70.77%)
+47: cause or someone_else_cause_harm (pred. acc.: 55.81%, F-measure: 70.77%)
+48: cause or notaccident (pred. acc.: 55.81%, F-measure: 70.77%)
+49: cause or goal_outweigh_harm (pred. acc.: 55.81%, F-measure: 70.77%)
+50: careful or cause (pred. acc.: 55.81%, F-measure: 70.77%)
+51: benefit_protagonist or notaccident (pred. acc.: 55.81%, F-measure: 70.77%)
+52: benefit_protagonist or cause (pred. acc.: 55.81%, F-measure: 70.77%)
+53: achieve_goal or notaccident (pred. acc.: 55.81%, F-measure: 70.77%)
+54: Thing (pred. acc.: 53.49%, F-measure: 69.70%)
+55: not (intend_mental_state) (pred. acc.: 53.49%, F-measure: 69.70%)
+56: notaccident or voluntary (pred. acc.: 53.49%, F-measure: 69.70%)
+57: notaccident or outrank_perpetrator (pred. acc.: 53.49%, F-measure: 69.70%)
+58: neither_mental_state or notaccident (pred. acc.: 53.49%, F-measure: 69.70%)
+59: foreseeable or voluntary (pred. acc.: 53.49%, F-measure: 69.70%)
+60: foreseeable or someone_else_cause_harm (pred. acc.: 53.49%, F-measure: 69.70%)
+61: foreseeable or severity_harm (pred. acc.: 53.49%, F-measure: 69.70%)
+62: foreseeable or plan_include_harm (pred. acc.: 53.49%, F-measure: 69.70%)
+63: foreseeable or outrank_perpetrator (pred. acc.: 53.49%, F-measure: 69.70%)
+64: foreseeable or notaccident (pred. acc.: 53.49%, F-measure: 69.70%)
+65: foreseeable or no_foreseeability (pred. acc.: 53.49%, F-measure: 69.70%)
+66: foreseeable or intervening_contribution (pred. acc.: 53.49%, F-measure: 69.70%)
+67: foreseeable or goal_achieveable_less_harmful (pred. acc.: 53.49%, F-measure: 69.70%)
+68: foresee_intervention or notaccident (pred. acc.: 53.49%, F-measure: 69.70%)
+69: foresee_intervention or foreseeable (pred. acc.: 53.49%, F-measure: 69.70%)
+70: external_cause or notaccident (pred. acc.: 53.49%, F-measure: 69.70%)
+71: external_cause or foreseeable (pred. acc.: 53.49%, F-measure: 69.70%)
+72: control_perpetrator or foreseeable (pred. acc.: 53.49%, F-measure: 69.70%)
+73: cause or outrank_perpetrator (pred. acc.: 53.49%, F-measure: 69.70%)
+74: cause or foreseeable (pred. acc.: 53.49%, F-measure: 69.70%)
+75: careful or notaccident (pred. acc.: 53.49%, F-measure: 69.70%)
+76: benefit_victim or notaccident (pred. acc.: 53.49%, F-measure: 69.70%)
+77: achieve_goal or foreseeable (pred. acc.: 53.49%, F-measure: 69.70%)
+

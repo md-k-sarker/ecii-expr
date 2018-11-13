@@ -1,0 +1,18 @@
+Prediction:
+6
+Label:
+2
+001 # 0 # 0 # wall # wall # "" # 0.377897068848
+003 # 0 # 0 # floor, flooring # floor # "wood" # 0.411431327626
+004 # 0 # 0 # ceiling # ceiling # "" # 0.0445060018467
+005 # 0 # 0 # cabinet # cabinet # "" # 0.135144236166
+007 # 0 # 0 # box # box # "" # 0.0873386432299
+011 # 0 # 0 # board, plank # board # "" # 0.182543813986
+012 # 0 # 0 # calendar # calendar # "" # 0.110473723168
+014 # 0 # 0 # windowpane, window # window # "casement" # 0.27281134402
+015 # 0 # 1 # chair # chair # "" # 0.343736760345
+016 # 0 # 1 # swivel chair # swivel chair # "" # 0.280715396579
+017 # 0 # 0 # table # table # "" # 0.359138799817
+018 # 0 # 0 # shelf # shelves # "" # 0.170636470129
+029 # 0 # 0 # document, written document, papers # papers # "" # 0.0645161290323
+048 # 0 # 1 # person, individual, someone, somebody, mortal, soul # person # "sitting" # 0.187665431445

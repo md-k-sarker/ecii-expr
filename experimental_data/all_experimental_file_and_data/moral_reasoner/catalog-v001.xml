@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1536176142378" name="duplicate:http://localhost/foo" uri="moral_43instances.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1536176142378" name="duplicate:http://localhost/foo" uri="moral.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1536176142378" name="duplicate:http://localhost/foo" uri="moral_minimal.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1536176142378" name="duplicate:http://localhost/foo" uri="moral_43instances_complex.owl"/>
+    </group>
+</catalog>

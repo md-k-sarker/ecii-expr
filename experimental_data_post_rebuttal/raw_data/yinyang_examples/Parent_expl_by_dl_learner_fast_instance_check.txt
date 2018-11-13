@@ -1,0 +1,144 @@
+/******************
+Example taken from yingyang
+Parent
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:Maria",
+"kb:Nella",
+"kb:Rosanna",
+"kb:Dino",
+"kb:Francesco",
+"kb:NonnaLina",
+"kb:NonnoLuigi",
+"kb:Mauro",
+"kb:Carmela",
+"kb:Girolamo"
+}
+lp.negativeExamples = {
+"kb:Giovanna",
+"kb:Marisella",
+"kb:Ombretta",
+"kb:Serena",
+"kb:Valentina",
+"kb:Luca",
+"kb:Luigi"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+la.maxExecutionTimeInSeconds=600
+la.maxNrOfResults=10000
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 130 ms.
+... initialized component 'reasoner' in 860ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 14ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (58.82%) class expression found after 27ms: Thing
+more accurate (100.00%) class expression found after 77ms: hasChild some Person
+Algorithm terminated successfully (time: 77ms, 8 descriptions tested, 4 nodes in the search tree).
+
+number of retrievals: 12
+retrieval reasoning time: 0ms ( 0ms per retrieval)
+overall reasoning time: 0ms
+
+solutions:
+1: hasChild some Person (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Thing (pred. acc.: 58.82%, F-measure: 74.07%)
+3: Person (pred. acc.: 58.82%, F-measure: 74.07%)
+
+/******************
+Example taken from yingyang
+Parent
+******************/
+prefixes = [ ("kb","http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily#") ]
+ 
+// knowledge source definition 
+ks.type = "OWL File"
+ks.fileName = "basicFamily.owl" 
+
+// reasoner
+reasoner.type = "closed world reasoner"
+reasoner.sources = { ks }
+
+// learning problem
+lp.type = "posNegStandard"
+lp.positiveExamples = {
+"kb:Maria",
+"kb:Nella",
+"kb:Rosanna",
+"kb:Dino",
+"kb:Francesco",
+"kb:NonnaLina",
+"kb:NonnoLuigi",
+"kb:Mauro",
+"kb:Carmela",
+"kb:Girolamo"
+}
+lp.negativeExamples = {
+"kb:Giovanna",
+"kb:Marisella",
+"kb:Ombretta",
+"kb:Serena",
+"kb:Valentina",
+"kb:Luca",
+"kb:Luigi"
+}
+
+// algorithm settings
+la.type = "celoe"
+la.stopOnFirstDefinition = "true"
+la.maxExecutionTimeInSeconds=600
+la.maxNrOfResults=10000
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+OntologyID(OntologyIRI(<http://www.csc.liv.ac.uk/~luigi/ontologies/basicFamily>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 131 ms.
+... initialized component 'reasoner' in 858ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 13ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (58.82%) class expression found after 35ms: Thing
+more accurate (100.00%) class expression found after 86ms: hasChild some Person
+Algorithm terminated successfully (time: 86ms, 8 descriptions tested, 4 nodes in the search tree).
+
+number of retrievals: 12
+retrieval reasoning time: 0ms ( 0ms per retrieval)
+overall reasoning time: 0ms
+
+solutions:
+1: hasChild some Person (pred. acc.: 100.00%, F-measure: 100.00%)
+2: Thing (pred. acc.: 58.82%, F-measure: 74.07%)
+3: Person (pred. acc.: 58.82%, F-measure: 74.07%)
+

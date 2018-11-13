@@ -1,0 +1,555 @@
+Program started.............
+Program starts at: 09.04.2018  04.30.55 AM
+Working with confFile: GrandParent.config
+Algorithm starts at: 09.04.2018  04.30.55 AM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K4/hornClausesListMaxSize: 50
+K5/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	NonnaLina
+	Carmela
+	Isidoro
+	Girolamo
+	NonnoLuigi
+negIndivs from conf:
+	Valentina
+	Marisella
+	Ombretta
+	Luca
+	Giovanna
+	Mauro
+	Dino
+	Nella
+	Luigi
+	Maria
+	Miriam
+	Serena
+
+Algorithm ends at: 09.04.2018  04.30.55 AM
+
+Algorithm duration: 0.178 sec
+
+####################Solutions####################:
+solution 1: ∃hasSibling.( ¬ Person)
+	solution from reasoner: ∃ hasSibling.(¬Person)
+	 coverage_score: 0.6470588235294118
+	 coverage_score_by_reasoner: 0.0
+	 f_measure: 0.0
+	 f_measure_by_reasoner: 0.0
+solution 2: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person))
+	solution from reasoner: ∃ hasSibling.((¬Male) ⊔ (¬Person))
+	 coverage_score: 0.6470588235294118
+	 coverage_score_by_reasoner: 0.0
+	 f_measure: 0.0
+	 f_measure_by_reasoner: 0.0
+solution 3: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: ∃ hasSibling.((¬Female) ⊔ (¬Person))
+	 coverage_score: 0.6470588235294118
+	 coverage_score_by_reasoner: 0.0
+	 f_measure: 0.0
+	 f_measure_by_reasoner: 0.0
+solution 4: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female))
+	solution from reasoner: ∃ hasSibling.((¬Female) ⊔ (¬Male))
+	 coverage_score: 0.6470588235294118
+	 coverage_score_by_reasoner: 0.0
+	 f_measure: 0.0
+	 f_measure_by_reasoner: 0.0
+solution 5: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female))
+	solution from reasoner: ∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person))
+	 coverage_score: 0.6470588235294118
+	 f_measure: 0.0
+solution 6: ∃hasParent.( ¬ Male)
+	solution from reasoner: ∃ hasParent.(¬Male)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 7: ∃hasParent.( ¬ Person)
+	solution from reasoner: ∃ hasParent.(¬Person)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 8: ∃hasSibling.( ¬ Female)
+	solution from reasoner: ∃ hasSibling.(¬Female)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 9: ∃hasParent.( ¬ Female)
+	solution from reasoner: ∃ hasParent.(¬Female)
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 10: ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: ∃ hasParent.((¬Female) ⊔ (¬Male))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 11: ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: ∃ hasParent.((¬Female) ⊔ (¬Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 12: ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: ∃ hasParent.((¬Male) ⊔ (¬Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 13: ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: ∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))
+	 coverage_score: 0.5882352941176471
+	 f_measure: 0.0
+solution 14: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 15: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 16: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 17: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 18: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 19: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 20: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 21: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 22: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 23: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 24: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 25: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 26: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 27: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 28: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 29: ∃hasSibling.( ¬ Person) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Person))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 30: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 31: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 32: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 33: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 34: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 35: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 36: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 37: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 38: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 39: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 40: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 41: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 42: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 43: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 44: ∃hasSibling.(( ¬ Female) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 45: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 46: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 47: ∃hasSibling.(( ¬ Male) ⊔ ( ¬ Person)) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 48: ∃hasSibling.(( ¬ Person) ⊔ ( ¬ Male) ⊔ ( ¬ Female)) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.((¬Female) ⊔ (¬Male) ⊔ (¬Person)))
+	 coverage_score: 0.5294117647058824
+	 f_measure: 0.0
+solution 49: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 50: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 51: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 52: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 53: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 54: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 55: ∃hasSibling.( ¬ Female) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Female))
+	 coverage_score: 0.47058823529411764
+	 f_measure: 0.0
+solution 56: ∃hasChild.(Male)
+	solution from reasoner: ∃ hasChild.Male
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 57: (Person)
+	solution from reasoner: Person
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 58: ∃hasSibling.( ¬ Male)
+	solution from reasoner: ∃ hasSibling.(¬Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.0
+solution 59: ∃hasChild.(Person)
+	solution from reasoner: ∃ hasChild.Person
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 60: ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: ∃ hasChild.(Female ⊔ Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 61: ((Male) ⊔ (Female))
+	solution from reasoner: Female ⊔ Male
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 62: ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: ∃ hasChild.(Male ⊔ Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 63: (Person) ⊓ ∃hasChild.(Male)
+	solution from reasoner: Person ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 64: ((Male) ⊔ (Person))
+	solution from reasoner: Male ⊔ Person
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 65: ((Female) ⊔ (Person))
+	solution from reasoner: Female ⊔ Person
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 66: ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: ∃ hasChild.(Female ⊔ Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 67: (Person) ⊓ ∃hasChild.(Person)
+	solution from reasoner: Person ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 68: ((Person) ⊔ (Male) ⊔ (Female))
+	solution from reasoner: Female ⊔ Male ⊔ Person
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 69: ((Male) ⊔ (Person)) ⊓ ∃hasChild.(Person)
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 70: ((Female) ⊔ (Person)) ⊓ ∃hasChild.(Person)
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 71: ((Male) ⊔ (Female)) ⊓ ∃hasChild.(Male)
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 72: (Person) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: Person ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 73: ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: ∃ hasChild.(Female ⊔ Male ⊔ Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 74: (Person) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: Person ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 75: ((Male) ⊔ (Person)) ⊓ ∃hasChild.(Male)
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 76: ((Female) ⊔ (Person)) ⊓ ∃hasChild.(Male)
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 77: ((Male) ⊔ (Female)) ⊓ ∃hasChild.(Person)
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 78: (Person) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: Person ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 79: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.(Male)
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 80: ((Male) ⊔ (Person)) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 81: ((Female) ⊔ (Person)) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 82: ((Female) ⊔ (Person)) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 83: ((Male) ⊔ (Female)) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 84: (Person) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: Person ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 85: ((Male) ⊔ (Person)) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 86: ((Male) ⊔ (Female)) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 87: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.(Person)
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 88: ((Male) ⊔ (Person)) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 89: ((Female) ⊔ (Person)) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 90: ((Male) ⊔ (Female)) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 91: ((Female) ⊔ (Person)) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 92: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 93: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 94: ((Male) ⊔ (Female)) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 95: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 96: ((Male) ⊔ (Person)) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 97: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.29411764705882354
+	 f_measure: 0.45454545454545453
+solution 98: (Male)
+	solution from reasoner: Male
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 99: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.( ¬ Female)
+	solution from reasoner: (∃ hasParent.(¬Female)) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 100: (Male) ⊓ ∃hasChild.(Person)
+	solution from reasoner: Male ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 101: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.( ¬ Person)
+	solution from reasoner: (∃ hasParent.(¬Person)) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 102: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.( ¬ Male)
+	solution from reasoner: (∃ hasParent.(¬Male)) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 103: (Male) ⊓ ∃hasChild.(Male)
+	solution from reasoner: Male ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 104: (Male) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: Male ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 105: (Male) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: Male ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 106: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.(( ¬ Person) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 107: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 108: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.(( ¬ Female) ⊔ ( ¬ Male))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male))) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 109: (Male) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: Male ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 110: ∃hasSibling.( ¬ Male) ⊓ ∃hasParent.(( ¬ Male) ⊔ ( ¬ Female) ⊔ ( ¬ Person))
+	solution from reasoner: (∃ hasParent.((¬Female) ⊔ (¬Male) ⊔ (¬Person))) ⊔ (∃ hasSibling.(¬Male))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.0
+solution 111: (Male) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: Male ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.17647058823529413
+	 f_measure: 0.3
+solution 112: ∃hasChild.(Female)
+	solution from reasoner: ∃ hasChild.Female
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 113: (Female)
+	solution from reasoner: Female
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 114: (Female) ⊓ ∃hasChild.(Male)
+	solution from reasoner: Female ⊓ (∃ hasChild.Male)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 115: (Person) ⊓ ∃hasChild.(Female)
+	solution from reasoner: Person ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 116: (Female) ⊓ ∃hasChild.(Person)
+	solution from reasoner: Female ⊓ (∃ hasChild.Person)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 117: ((Female) ⊔ (Person)) ⊓ ∃hasChild.(Female)
+	solution from reasoner: (Female ⊔ Person) ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 118: (Female) ⊓ ∃hasChild.((Male) ⊔ (Female))
+	solution from reasoner: Female ⊓ (∃ hasChild.(Female ⊔ Male))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 119: (Female) ⊓ ∃hasChild.((Male) ⊔ (Person))
+	solution from reasoner: Female ⊓ (∃ hasChild.(Male ⊔ Person))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 120: ((Male) ⊔ (Female)) ⊓ ∃hasChild.(Female)
+	solution from reasoner: (Female ⊔ Male) ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 121: (Female) ⊓ ∃hasChild.((Person) ⊔ (Female))
+	solution from reasoner: Female ⊓ (∃ hasChild.(Female ⊔ Person))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 122: ((Male) ⊔ (Person)) ⊓ ∃hasChild.(Female)
+	solution from reasoner: (Male ⊔ Person) ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 123: ((Person) ⊔ (Male) ⊔ (Female)) ⊓ ∃hasChild.(Female)
+	solution from reasoner: (Female ⊔ Male ⊔ Person) ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 124: (Female) ⊓ ∃hasChild.((Female) ⊔ (Male) ⊔ (Person))
+	solution from reasoner: Female ⊓ (∃ hasChild.(Female ⊔ Male ⊔ Person))
+	 coverage_score: 0.11764705882352941
+	 f_measure: 0.21052631578947364
+solution 125: (Male) ⊓ ∃hasChild.(Female)
+	solution from reasoner: Male ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 126: (Female) ⊓ ∃hasChild.(Female)
+	solution from reasoner: Female ⊓ (∃ hasChild.Female)
+	 coverage_score: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+
+Total solutions found: 126
+
+Program finished.
+Program ends at: 09.04.2018  04.30.55 AM
+Program duration: 0.199 sec

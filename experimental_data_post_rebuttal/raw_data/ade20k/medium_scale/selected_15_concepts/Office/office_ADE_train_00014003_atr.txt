@@ -1,0 +1,12 @@
+Prediction:
+12
+Label:
+2
+001 # 0 # 0 # wall # wall # "" # 0.533637140416
+002 # 0 # 0 # floor, flooring # floor # "carpet" # 0.504408523145
+003 # 0 # 0 # desk # desk # "" # 0.597030037125
+004 # 0 # 0 # computer, computing machine, computing device, data processor, electronic computer, information processing system # computer case # "tower" # 0.501316482359
+007 # 0 # 0 # paper # paper # "" # 0.0896521926982
+008 # 0 # 0 # book # book # "" # 0.210644831116
+009 # 0 # 1 # monitor, monitoring device # monitor # "" # 0.213288396726
+010 # 0 # 0 # computer, computing machine, computing device, data processor, electronic computer, information processing system # computer # "desktop" # 0.485988612259

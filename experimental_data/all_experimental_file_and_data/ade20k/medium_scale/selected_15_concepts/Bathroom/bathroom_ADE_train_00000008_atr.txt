@@ -1,0 +1,10 @@
+Prediction:
+0
+Label:
+0
+001 # 0 # 0 # wall # wall # "" # 0.389152341434
+004 # 0 # 0 # floor, flooring # floor # "" # 0.480457578646
+006 # 0 # 0 # ceiling # ceiling # "" # 0.113873026537
+007 # 0 # 0 # windowpane, window # window # "" # 0.251012510125
+008 # 0 # 0 # shower # shower # "" # 0.598387281691
+009 # 0 # 0 # table # table # "" # 0.36788541274

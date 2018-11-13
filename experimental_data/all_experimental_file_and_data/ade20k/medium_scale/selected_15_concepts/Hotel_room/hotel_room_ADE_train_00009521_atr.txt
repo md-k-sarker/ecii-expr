@@ -1,0 +1,10 @@
+Prediction:
+12
+Label:
+7
+001 # 0 # 0 # wall # wall # "" # 0.496219281664
+002 # 0 # 0 # lamp # table lamp # "on" # 0.313889998668
+003 # 0 # 0 # desk # desk # "" # 0.435953648606
+004 # 0 # 0 # chair # chair # "" # 0.362771579565
+005 # 0 # 0 # laptop, laptop computer # laptop # "" # 0.172582076309
+007 # 0 # 0 # telephone, phone, telephone set # telephone # "" # 0.136997885835

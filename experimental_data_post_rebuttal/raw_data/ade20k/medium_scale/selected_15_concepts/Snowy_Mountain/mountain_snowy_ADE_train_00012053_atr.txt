@@ -1,0 +1,9 @@
+Prediction:
+8
+Label:
+8
+001 # 0 # 0 # sky # sky # "" # 0.514642123678
+002 # 0 # 0 # mountain, mount # mountain # "snowy" # 0.773051690577
+003 # 0 # 0 # rock, stone # rock # "" # 0.107323232323
+004 # 0 # 0 # rock, stone # rocks # "" # 0.204118917123
+006 # 0 # 0 # mountain pass # mountain pass # "" # 0.370909744696

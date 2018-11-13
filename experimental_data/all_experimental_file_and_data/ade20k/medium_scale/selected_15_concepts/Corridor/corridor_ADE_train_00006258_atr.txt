@@ -1,0 +1,11 @@
+Prediction:
+0
+Label:
+11
+001 # 0 # 0 # wall # wall # "" # 0.308125175853
+003 # 0 # 0 # ceiling # ceiling # "" # 0.486105173151
+007 # 0 # 0 # door # door # "" # 0.102302805717
+008 # 0 # 0 # earth, ground # ground # "" # 0.500666963095
+009 # 0 # 0 # poster, posting, placard, notice, bill, card # poster # "" # 0.374682657796
+010 # 0 # 0 # bulletin board, notice board # bulletin board # "" # 0.0716292134831
+013 # 0 # 0 # board, plank # board # "" # 0.330967869111

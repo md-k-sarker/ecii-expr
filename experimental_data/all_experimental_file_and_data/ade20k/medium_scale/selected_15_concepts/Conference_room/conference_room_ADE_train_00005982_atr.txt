@@ -1,0 +1,15 @@
+Prediction:
+0
+Label:
+9
+001 # 0 # 0 # wall # wall # "" # 0.206263173743
+003 # 0 # 0 # floor, flooring # floor # "carpet" # 0.422902699764
+004 # 0 # 0 # screen, silver screen, projection screen # projection screen # "" # 0.390072327356
+005 # 0 # 0 # door # door # "" # 0.516063888379
+006 # 0 # 0 # cabinet # cabinet # "" # 0.156281407035
+007 # 0 # 0 # podium # podium # "" # 0.236486486486
+008 # 0 # 0 # chair # chair # "" # 0.264169068204
+011 # 0 # 0 # television receiver, television, television set, tv, tv set, idiot box, boob tube, telly, goggle box # television # "" # 0.160600310505
+012 # 0 # 0 # person, individual, someone, somebody, mortal, soul # person # "" # 0.358208955224
+014 # 0 # 0 # swivel chair # swivel chair # "" # 0.252475247525
+015 # 0 # 0 # table # table # "" # 0.28043186136

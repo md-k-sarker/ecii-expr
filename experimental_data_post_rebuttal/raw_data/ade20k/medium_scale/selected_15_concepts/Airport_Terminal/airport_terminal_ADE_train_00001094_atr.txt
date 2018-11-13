@@ -1,0 +1,13 @@
+Prediction:
+1
+Label:
+4
+001 # 0 # 0 # wall # wall # "" # 0.445903123585
+005 # 0 # 0 # floor, flooring # floor # "" # 0.47327071476
+006 # 0 # 0 # ceiling # ceiling # "" # 0.387412408135
+009 # 0 # 1 # person, individual, someone, somebody, mortal, soul # person # "standig" # 0.291492329149
+010 # 0 # 0 # check-in-desk # check-in-desk # "" # 0.485822728288
+011 # 0 # 0 # bulletin board, notice board # bulletin board # "" # 0.139828781084
+024 # 0 # 0 # barrier # barrier # "" # 0.108387295714
+027 # 0 # 0 # person, individual, someone, somebody, mortal, soul # people # "" # 0.0675490643542
+032 # 0 # 0 # pane, pane of glass, window glass # pane # "glass" # 0.417311411992

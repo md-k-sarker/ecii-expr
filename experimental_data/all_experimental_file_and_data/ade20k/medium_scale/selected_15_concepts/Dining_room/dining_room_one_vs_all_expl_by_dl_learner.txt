@@ -1,0 +1,1031 @@
+Algorithm started.................
+Algorithm starts at: 06.08.2018  18.36.36 PM
+
+PosExamples: 
+	dining_room_ADE_train_00006848
+	dining_room_ADE_train_00006849
+	dining_room_ADE_train_00006846
+	dining_room_ADE_train_00006847
+	dining_room_ADE_train_00006845
+
+NegExamples:
+	bedroom_ADE_train_00000192
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	kitchen_ADE_train_00000594
+
+Algorithm ends at: 06.08.2018  18.47.01 PMAlgorithm duration: 625 sec
+
+####################Solutions####################:
+solution 1: (imageContains some Chair) and (imageContains some Floor)
+	accuracy_score: 0.9225771273642582
+solution 2: (imageContains some Chair) and (imageContains some WN_Floor)
+	accuracy_score: 0.9225771273642582
+solution 3: (imageContains some Chair) and (imageContains some WN_Flooring)
+	accuracy_score: 0.9225771273642582
+solution 4: (not (Agent)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 5: (not (Armchair)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 6: (not (Artifact)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 7: (not (Ashtray)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 8: (not (Bag)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 9: (not (Bathtub)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 10: (not (Bed)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 11: (not (Board)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 12: (not (BodyPart)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 13: (not (Bowl)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 14: (not (Box)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 15: (not (Building)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 16: (not (Cabinet)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 17: (not (Calendar)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 18: (not (Candelabra)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 19: (not (Candleholder)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 20: (not (Car)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 21: (not (Carpet)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 22: (not (Ceiling)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 23: (not (Ceilingfan)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 24: (not (Centralreservation)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 25: (not (Chair)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 26: (not (Chandelier)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 27: (not (Coffeetable)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 28: (not (CommunicationDevice)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 29: (not (ContactSite)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 30: (not (Container)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 31: (not (ContentBearingObject)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 32: (not (CorpuscularObject)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 33: (not (Covering)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 34: (not (Creamer)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 35: (not (Curtain)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 36: (not (Cushion)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 37: (not (Device)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 38: (not (Door)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 39: (not (Doubledoor)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 40: (not (DurableGood)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 41: (not (ElectricDevice)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 42: (not (Entity)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 43: (not (Fabric)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 44: (not (Field)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 45: (not (Firstfloor)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 46: (not (Floor)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 47: (not (Floorlamp)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 48: (not (FloweringPlant)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 49: (not (Flowers)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 50: (not (Fountain)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 51: (not (Furniture)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 52: (not (GeographicArea)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 53: (not (Glass)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 54: (not (Graph)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 55: (not (Grass)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 56: (not (Ground)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 57: (not (HeatingDevice)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 58: (not (Holder)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 59: (not (IndustrialSupply)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 60: (not (Kettle)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 61: (not (LandArea)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 62: (not (LandForm)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 63: (not (LandTransitway)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 64: (not (LocalizablePlace)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 65: (not (Machinery)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 66: (not (ManufacturedProduct)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 67: (not (Microwave)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 68: (not (Mountain)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 69: (not (Object)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 70: (not (Organ)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 71: (not (OrganicObject)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 72: (not (OrganicThing)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 73: (not (Organism)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 74: (not (Oven)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 75: (not (Papers)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 76: (not (PassengerVehicle)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 77: (not (Person)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 78: (not (Physical)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 79: (not (Picture)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 80: (not (Placemat)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 81: (not (Plants)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 82: (not (Plate)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 83: (not (Product)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 84: (not (Projectionscreen)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 85: (not (Radiator)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 86: (not (Region)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 87: (not (Road)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 88: (not (Roadway)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 89: (not (Rug)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 90: (not (Seat)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 91: (not (SelfConnectedObject)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 92: (not (Shelves)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 93: (not (Shutter)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 94: (not (Sideboard)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 95: (not (Sign)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 96: (not (Sink)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 97: (not (Sky)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 98: (not (Snow)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 99: (not (Sofa)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 100: (not (StationaryArtifact)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 101: (not (Swivelchair)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 102: (not (Table)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 103: (not (Tapestry)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 104: (not (Teacup)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 105: (not (TelephonyDevice)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 106: (not (Transitway)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 107: (not (TransitwayObstacle)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 108: (not (TransportationDevice)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 109: (not (TransportationEquipment)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 110: (not (Trashcan)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 111: (not (Tray)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 112: (not (Tree)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 113: (not (Trees)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 114: (not (UplandArea)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 115: (not (Vehicle)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 116: (not (WN_Armchair)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 117: (not (WN_Ash-bin)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 118: (not (WN_Ashbin)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 119: (not (WN_Ashcan)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 120: (not (WN_Ashtray)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 121: (not (WN_Auto)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 122: (not (WN_Automobile)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 123: (not (WN_Bag)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 124: (not (WN_Bath)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 125: (not (WN_Bathingtub)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 126: (not (WN_Bathtub)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 127: (not (WN_Bed)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 128: (not (WN_Board)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 129: (not (WN_Boiler)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 130: (not (WN_Bowl)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 131: (not (WN_Box)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 132: (not (WN_Buffet)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 133: (not (WN_Building)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 134: (not (WN_Cabinet)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 135: (not (WN_Calendar)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 136: (not (WN_Candelabra)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 137: (not (WN_Candelabrum)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 138: (not (WN_Candleholder)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 139: (not (WN_Candlestick)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 140: (not (WN_Car)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 141: (not (WN_Carpet)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 142: (not (WN_Carpeting)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 143: (not (WN_Ceiling)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 144: (not (WN_Centralreservation)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 145: (not (WN_Chair)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 146: (not (WN_Chandelier)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 147: (not (WN_Cocktailtable)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 148: (not (WN_Coffeetable)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 149: (not (WN_Couch)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 150: (not (WN_Counter)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 151: (not (WN_Creamer)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 152: (not (WN_Curtain)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 153: (not (WN_Cushion)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 154: (not (WN_Document)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 155: (not (WN_Door)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 156: (not (WN_Doubledoor)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 157: (not (WN_Drape)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 158: (not (WN_Drapery)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 159: (not (WN_Drinkingglass)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 160: (not (WN_Dustbin)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 161: (not (WN_Earth)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 162: (not (WN_Edifice)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 163: (not (WN_Fan)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 164: (not (WN_Field)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 165: (not (WN_Firstfloor)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 166: (not (WN_Floor)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 167: (not (WN_Flooring)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 168: (not (WN_Flora)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 169: (not (WN_Flower)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 170: (not (WN_Fountain)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 171: (not (WN_Garbagecan)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 172: (not (WN_Glass)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 173: (not (WN_Grass)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 174: (not (WN_Ground)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 175: (not (WN_Individual)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 176: (not (WN_Kettle)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 177: (not (WN_Lamp)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 178: (not (WN_Lounge)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 179: (not (WN_Machine)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 180: (not (WN_Mantle)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 181: (not (WN_Microwave)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 182: (not (WN_Microwaveoven)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 183: (not (WN_Mortal)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 184: (not (WN_Motorcar)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 185: (not (WN_Mount)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 186: (not (WN_Mountain)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 187: (not (WN_Oven)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 188: (not (WN_Painting)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 189: (not (WN_Pall)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 190: (not (WN_Papers)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 191: (not (WN_Pendant)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 192: (not (WN_Pendent)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 193: (not (WN_Person)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 194: (not (WN_Phone)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 195: (not (WN_Picture)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 196: (not (WN_Placemat)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 197: (not (WN_Plank)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 198: (not (WN_Plant)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 199: (not (WN_Plantlife)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 200: (not (WN_Plate)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 201: (not (WN_Projectionscreen)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 202: (not (WN_Radiator)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 203: (not (WN_Road)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 204: (not (WN_Route)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 205: (not (WN_Rug)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 206: (not (WN_Screen)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 207: (not (WN_Shelf)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 208: (not (WN_Shutter)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 209: (not (WN_Sideboard)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 210: (not (WN_Sign)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 211: (not (WN_Signboard)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 212: (not (WN_Silverscreen)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 213: (not (WN_Sink)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 214: (not (WN_Sky)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 215: (not (WN_Snow)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 216: (not (WN_Sofa)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 217: (not (WN_Somebody)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 218: (not (WN_Someone)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 219: (not (WN_Soul)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 220: (not (WN_Swivelchair)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 221: (not (WN_Table)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 222: (not (WN_Tapestry)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 223: (not (WN_Tapis)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 224: (not (WN_Teacup)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 225: (not (WN_Telephone)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 226: (not (WN_Telephoneset)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 227: (not (WN_Trashbarrel)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 228: (not (WN_Trashbin)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 229: (not (WN_Trashcan)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 230: (not (WN_Tray)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 231: (not (WN_Tree)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 232: (not (WN_Tub)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 233: (not (WN_Wall)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 234: (not (WN_Wastebin)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 235: (not (WN_Window)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 236: (not (WN_Windowpane)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 237: (not (WN_Worksurface)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 238: (not (WN_Writtendocument)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 239: (not (Wall)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 240: (not (Window)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 241: (not (WindowCovering)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 242: (not (Worksurface)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 243: (not (telephone)) and (imageContains some Chair)
+	accuracy_score: 0.8952847075210475
+solution 244: imageContains some (Chair and (not (Abstract)))
+	accuracy_score: 0.8952847075210475
+solution 245: imageContains some (Chair and (not (Agent)))
+	accuracy_score: 0.8952847075210475
+solution 246: imageContains some (Chair and (not (AnatomicalStructure)))
+	accuracy_score: 0.8952847075210475
+solution 247: imageContains some (Chair and (not (Armchair)))
+	accuracy_score: 0.8952847075210475
+solution 248: imageContains some (Chair and (not (Ashtray)))
+	accuracy_score: 0.8952847075210475
+solution 249: imageContains some (Chair and (not (Bag)))
+	accuracy_score: 0.8952847075210475
+solution 250: imageContains some (Chair and (not (Bathtub)))
+	accuracy_score: 0.8952847075210475
+solution 251: imageContains some (Chair and (not (Bed)))
+	accuracy_score: 0.8952847075210475
+solution 252: imageContains some (Chair and (not (Board)))
+	accuracy_score: 0.8952847075210475
+solution 253: imageContains some (Chair and (not (BodyPart)))
+	accuracy_score: 0.8952847075210475
+solution 254: imageContains some (Chair and (not (Bowl)))
+	accuracy_score: 0.8952847075210475
+solution 255: imageContains some (Chair and (not (Box)))
+	accuracy_score: 0.8952847075210475
+solution 256: imageContains some (Chair and (not (Building)))
+	accuracy_score: 0.8952847075210475
+solution 257: imageContains some (Chair and (not (Cabinet)))
+	accuracy_score: 0.8952847075210475
+solution 258: imageContains some (Chair and (not (Calendar)))
+	accuracy_score: 0.8952847075210475
+solution 259: imageContains some (Chair and (not (Candelabra)))
+	accuracy_score: 0.8952847075210475
+solution 260: imageContains some (Chair and (not (Candleholder)))
+	accuracy_score: 0.8952847075210475
+solution 261: imageContains some (Chair and (not (CapitalGood)))
+	accuracy_score: 0.8952847075210475
+solution 262: imageContains some (Chair and (not (Car)))
+	accuracy_score: 0.8952847075210475
+solution 263: imageContains some (Chair and (not (Carpet)))
+	accuracy_score: 0.8952847075210475
+solution 264: imageContains some (Chair and (not (Ceiling)))
+	accuracy_score: 0.8952847075210475
+solution 265: imageContains some (Chair and (not (Ceilingfan)))
+	accuracy_score: 0.8952847075210475
+solution 266: imageContains some (Chair and (not (Centralreservation)))
+	accuracy_score: 0.8952847075210475
+solution 267: imageContains some (Chair and (not (Chandelier)))
+	accuracy_score: 0.8952847075210475
+solution 268: imageContains some (Chair and (not (Coffeetable)))
+	accuracy_score: 0.8952847075210475
+solution 269: imageContains some (Chair and (not (ContactSite)))
+	accuracy_score: 0.8952847075210475
+solution 270: imageContains some (Chair and (not (Container)))
+	accuracy_score: 0.8952847075210475
+solution 271: imageContains some (Chair and (not (ContentBearingObject)))
+	accuracy_score: 0.8952847075210475
+solution 272: imageContains some (Chair and (not (ContentBearingPhysical)))
+	accuracy_score: 0.8952847075210475
+solution 273: imageContains some (Chair and (not (CorpuscularObject)))
+	accuracy_score: 0.8952847075210475
+solution 274: imageContains some (Chair and (not (Covering)))
+	accuracy_score: 0.8952847075210475
+solution 275: imageContains some (Chair and (not (Creamer)))
+	accuracy_score: 0.8952847075210475
+solution 276: imageContains some (Chair and (not (Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 277: imageContains some (Chair and (not (Cushion)))
+	accuracy_score: 0.8952847075210475
+solution 278: imageContains some (Chair and (not (Device)))
+	accuracy_score: 0.8952847075210475
+solution 279: imageContains some (Chair and (not (Door)))
+	accuracy_score: 0.8952847075210475
+solution 280: imageContains some (Chair and (not (Doubledoor)))
+	accuracy_score: 0.8952847075210475
+solution 281: imageContains some (Chair and (not (ElectricDevice)))
+	accuracy_score: 0.8952847075210475
+solution 282: imageContains some (Chair and (not (Fabric)))
+	accuracy_score: 0.8952847075210475
+solution 283: imageContains some (Chair and (not (Field)))
+	accuracy_score: 0.8952847075210475
+solution 284: imageContains some (Chair and (not (Firstfloor)))
+	accuracy_score: 0.8952847075210475
+solution 285: imageContains some (Chair and (not (Floor)))
+	accuracy_score: 0.8952847075210475
+solution 286: imageContains some (Chair and (not (Floorlamp)))
+	accuracy_score: 0.8952847075210475
+solution 287: imageContains some (Chair and (not (Flowers)))
+	accuracy_score: 0.8952847075210475
+solution 288: imageContains some (Chair and (not (Fountain)))
+	accuracy_score: 0.8952847075210475
+solution 289: imageContains some (Chair and (not (GeographicArea)))
+	accuracy_score: 0.8952847075210475
+solution 290: imageContains some (Chair and (not (Glass)))
+	accuracy_score: 0.8952847075210475
+solution 291: imageContains some (Chair and (not (Graph)))
+	accuracy_score: 0.8952847075210475
+solution 292: imageContains some (Chair and (not (Ground)))
+	accuracy_score: 0.8952847075210475
+solution 293: imageContains some (Chair and (not (HeatingDevice)))
+	accuracy_score: 0.8952847075210475
+solution 294: imageContains some (Chair and (not (Holder)))
+	accuracy_score: 0.8952847075210475
+solution 295: imageContains some (Chair and (not (IndustrialSupply)))
+	accuracy_score: 0.8952847075210475
+solution 296: imageContains some (Chair and (not (Kettle)))
+	accuracy_score: 0.8952847075210475
+solution 297: imageContains some (Chair and (not (LandArea)))
+	accuracy_score: 0.8952847075210475
+solution 298: imageContains some (Chair and (not (LandForm)))
+	accuracy_score: 0.8952847075210475
+solution 299: imageContains some (Chair and (not (LandTransitway)))
+	accuracy_score: 0.8952847075210475
+solution 300: imageContains some (Chair and (not (LocalizablePlace)))
+	accuracy_score: 0.8952847075210475
+solution 301: imageContains some (Chair and (not (Machinery)))
+	accuracy_score: 0.8952847075210475
+solution 302: imageContains some (Chair and (not (Microwave)))
+	accuracy_score: 0.8952847075210475
+solution 303: imageContains some (Chair and (not (Mixture)))
+	accuracy_score: 0.8952847075210475
+solution 304: imageContains some (Chair and (not (Motion)))
+	accuracy_score: 0.8952847075210475
+solution 305: imageContains some (Chair and (not (Mountain)))
+	accuracy_score: 0.8952847075210475
+solution 306: imageContains some (Chair and (not (Organ)))
+	accuracy_score: 0.8952847075210475
+solution 307: imageContains some (Chair and (not (OrganicObject)))
+	accuracy_score: 0.8952847075210475
+solution 308: imageContains some (Chair and (not (OrganicThing)))
+	accuracy_score: 0.8952847075210475
+solution 309: imageContains some (Chair and (not (Oven)))
+	accuracy_score: 0.8952847075210475
+solution 310: imageContains some (Chair and (not (Papers)))
+	accuracy_score: 0.8952847075210475
+solution 311: imageContains some (Chair and (not (Person)))
+	accuracy_score: 0.8952847075210475
+solution 312: imageContains some (Chair and (not (Picture)))
+	accuracy_score: 0.8952847075210475
+solution 313: imageContains some (Chair and (not (Placemat)))
+	accuracy_score: 0.8952847075210475
+solution 314: imageContains some (Chair and (not (Plants)))
+	accuracy_score: 0.8952847075210475
+solution 315: imageContains some (Chair and (not (Plate)))
+	accuracy_score: 0.8952847075210475
+solution 316: imageContains some (Chair and (not (Process)))
+	accuracy_score: 0.8952847075210475
+solution 317: imageContains some (Chair and (not (Projectionscreen)))
+	accuracy_score: 0.8952847075210475
+solution 318: imageContains some (Chair and (not (Putting)))
+	accuracy_score: 0.8952847075210475
+solution 319: imageContains some (Chair and (not (Radiator)))
+	accuracy_score: 0.8952847075210475
+solution 320: imageContains some (Chair and (not (Region)))
+	accuracy_score: 0.8952847075210475
+solution 321: imageContains some (Chair and (not (Road)))
+	accuracy_score: 0.8952847075210475
+solution 322: imageContains some (Chair and (not (Roadway)))
+	accuracy_score: 0.8952847075210475
+solution 323: imageContains some (Chair and (not (Rug)))
+	accuracy_score: 0.8952847075210475
+solution 324: imageContains some (Chair and (not (SelfConnectedObject)))
+	accuracy_score: 0.8952847075210475
+solution 325: imageContains some (Chair and (not (Shelves)))
+	accuracy_score: 0.8952847075210475
+solution 326: imageContains some (Chair and (not (Shutter)))
+	accuracy_score: 0.8952847075210475
+solution 327: imageContains some (Chair and (not (Sideboard)))
+	accuracy_score: 0.8952847075210475
+solution 328: imageContains some (Chair and (not (Sign)))
+	accuracy_score: 0.8952847075210475
+solution 329: imageContains some (Chair and (not (Sink)))
+	accuracy_score: 0.8952847075210475
+solution 330: imageContains some (Chair and (not (Sky)))
+	accuracy_score: 0.8952847075210475
+solution 331: imageContains some (Chair and (not (Snow)))
+	accuracy_score: 0.8952847075210475
+solution 332: imageContains some (Chair and (not (Sofa)))
+	accuracy_score: 0.8952847075210475
+solution 333: imageContains some (Chair and (not (StationaryArtifact)))
+	accuracy_score: 0.8952847075210475
+solution 334: imageContains some (Chair and (not (Substance)))
+	accuracy_score: 0.8952847075210475
+solution 335: imageContains some (Chair and (not (Swivelchair)))
+	accuracy_score: 0.8952847075210475
+solution 336: imageContains some (Chair and (not (Table)))
+	accuracy_score: 0.8952847075210475
+solution 337: imageContains some (Chair and (not (Tapestry)))
+	accuracy_score: 0.8952847075210475
+solution 338: imageContains some (Chair and (not (Teacup)))
+	accuracy_score: 0.8952847075210475
+solution 339: imageContains some (Chair and (not (Transfer)))
+	accuracy_score: 0.8952847075210475
+solution 340: imageContains some (Chair and (not (Transitway)))
+	accuracy_score: 0.8952847075210475
+solution 341: imageContains some (Chair and (not (TransitwayObstacle)))
+	accuracy_score: 0.8952847075210475
+solution 342: imageContains some (Chair and (not (Translocation)))
+	accuracy_score: 0.8952847075210475
+solution 343: imageContains some (Chair and (not (TransportationEquipment)))
+	accuracy_score: 0.8952847075210475
+solution 344: imageContains some (Chair and (not (Trashcan)))
+	accuracy_score: 0.8952847075210475
+solution 345: imageContains some (Chair and (not (Tray)))
+	accuracy_score: 0.8952847075210475
+solution 346: imageContains some (Chair and (not (Tree)))
+	accuracy_score: 0.8952847075210475
+solution 347: imageContains some (Chair and (not (Trees)))
+	accuracy_score: 0.8952847075210475
+solution 348: imageContains some (Chair and (not (UplandArea)))
+	accuracy_score: 0.8952847075210475
+solution 349: imageContains some (Chair and (not (WN_Armchair)))
+	accuracy_score: 0.8952847075210475
+solution 350: imageContains some (Chair and (not (WN_Ash-bin)))
+	accuracy_score: 0.8952847075210475
+solution 351: imageContains some (Chair and (not (WN_Ashbin)))
+	accuracy_score: 0.8952847075210475
+solution 352: imageContains some (Chair and (not (WN_Ashcan)))
+	accuracy_score: 0.8952847075210475
+solution 353: imageContains some (Chair and (not (WN_Ashtray)))
+	accuracy_score: 0.8952847075210475
+solution 354: imageContains some (Chair and (not (WN_Auto)))
+	accuracy_score: 0.8952847075210475
+solution 355: imageContains some (Chair and (not (WN_Bag)))
+	accuracy_score: 0.8952847075210475
+solution 356: imageContains some (Chair and (not (WN_Bath)))
+	accuracy_score: 0.8952847075210475
+solution 357: imageContains some (Chair and (not (WN_Bathingtub)))
+	accuracy_score: 0.8952847075210475
+solution 358: imageContains some (Chair and (not (WN_Bathtub)))
+	accuracy_score: 0.8952847075210475
+solution 359: imageContains some (Chair and (not (WN_Bed)))
+	accuracy_score: 0.8952847075210475
+solution 360: imageContains some (Chair and (not (WN_Board)))
+	accuracy_score: 0.8952847075210475
+solution 361: imageContains some (Chair and (not (WN_Boiler)))
+	accuracy_score: 0.8952847075210475
+solution 362: imageContains some (Chair and (not (WN_Bowl)))
+	accuracy_score: 0.8952847075210475
+solution 363: imageContains some (Chair and (not (WN_Box)))
+	accuracy_score: 0.8952847075210475
+solution 364: imageContains some (Chair and (not (WN_Buffet)))
+	accuracy_score: 0.8952847075210475
+solution 365: imageContains some (Chair and (not (WN_Building)))
+	accuracy_score: 0.8952847075210475
+solution 366: imageContains some (Chair and (not (WN_Cabinet)))
+	accuracy_score: 0.8952847075210475
+solution 367: imageContains some (Chair and (not (WN_Calendar)))
+	accuracy_score: 0.8952847075210475
+solution 368: imageContains some (Chair and (not (WN_Candelabra)))
+	accuracy_score: 0.8952847075210475
+solution 369: imageContains some (Chair and (not (WN_Candelabrum)))
+	accuracy_score: 0.8952847075210475
+solution 370: imageContains some (Chair and (not (WN_Candleholder)))
+	accuracy_score: 0.8952847075210475
+solution 371: imageContains some (Chair and (not (WN_Candlestick)))
+	accuracy_score: 0.8952847075210475
+solution 372: imageContains some (Chair and (not (WN_Car)))
+	accuracy_score: 0.8952847075210475
+solution 373: imageContains some (Chair and (not (WN_Carpet)))
+	accuracy_score: 0.8952847075210475
+solution 374: imageContains some (Chair and (not (WN_Carpeting)))
+	accuracy_score: 0.8952847075210475
+solution 375: imageContains some (Chair and (not (WN_Ceiling)))
+	accuracy_score: 0.8952847075210475
+solution 376: imageContains some (Chair and (not (WN_Centralreservation)))
+	accuracy_score: 0.8952847075210475
+solution 377: imageContains some (Chair and (not (WN_Chandelier)))
+	accuracy_score: 0.8952847075210475
+solution 378: imageContains some (Chair and (not (WN_Cocktailtable)))
+	accuracy_score: 0.8952847075210475
+solution 379: imageContains some (Chair and (not (WN_Coffeetable)))
+	accuracy_score: 0.8952847075210475
+solution 380: imageContains some (Chair and (not (WN_Couch)))
+	accuracy_score: 0.8952847075210475
+solution 381: imageContains some (Chair and (not (WN_Counter)))
+	accuracy_score: 0.8952847075210475
+solution 382: imageContains some (Chair and (not (WN_Creamer)))
+	accuracy_score: 0.8952847075210475
+solution 383: imageContains some (Chair and (not (WN_Curtain)))
+	accuracy_score: 0.8952847075210475
+solution 384: imageContains some (Chair and (not (WN_Cushion)))
+	accuracy_score: 0.8952847075210475
+solution 385: imageContains some (Chair and (not (WN_Document)))
+	accuracy_score: 0.8952847075210475
+solution 386: imageContains some (Chair and (not (WN_Door)))
+	accuracy_score: 0.8952847075210475
+solution 387: imageContains some (Chair and (not (WN_Doubledoor)))
+	accuracy_score: 0.8952847075210475
+solution 388: imageContains some (Chair and (not (WN_Drape)))
+	accuracy_score: 0.8952847075210475
+solution 389: imageContains some (Chair and (not (WN_Drapery)))
+	accuracy_score: 0.8952847075210475
+solution 390: imageContains some (Chair and (not (WN_Drinkingglass)))
+	accuracy_score: 0.8952847075210475
+solution 391: imageContains some (Chair and (not (WN_Dustbin)))
+	accuracy_score: 0.8952847075210475
+solution 392: imageContains some (Chair and (not (WN_Earth)))
+	accuracy_score: 0.8952847075210475
+solution 393: imageContains some (Chair and (not (WN_Edifice)))
+	accuracy_score: 0.8952847075210475
+solution 394: imageContains some (Chair and (not (WN_Fan)))
+	accuracy_score: 0.8952847075210475
+solution 395: imageContains some (Chair and (not (WN_Field)))
+	accuracy_score: 0.8952847075210475
+solution 396: imageContains some (Chair and (not (WN_Firstfloor)))
+	accuracy_score: 0.8952847075210475
+solution 397: imageContains some (Chair and (not (WN_Floor)))
+	accuracy_score: 0.8952847075210475
+solution 398: imageContains some (Chair and (not (WN_Flooring)))
+	accuracy_score: 0.8952847075210475
+solution 399: imageContains some (Chair and (not (WN_Flora)))
+	accuracy_score: 0.8952847075210475
+solution 400: imageContains some (Chair and (not (WN_Flower)))
+	accuracy_score: 0.8952847075210475
+solution 401: imageContains some (Chair and (not (WN_Fountain)))
+	accuracy_score: 0.8952847075210475
+solution 402: imageContains some (Chair and (not (WN_Garbagecan)))
+	accuracy_score: 0.8952847075210475
+solution 403: imageContains some (Chair and (not (WN_Glass)))
+	accuracy_score: 0.8952847075210475
+solution 404: imageContains some (Chair and (not (WN_Ground)))
+	accuracy_score: 0.8952847075210475
+solution 405: imageContains some (Chair and (not (WN_Individual)))
+	accuracy_score: 0.8952847075210475
+solution 406: imageContains some (Chair and (not (WN_Kettle)))
+	accuracy_score: 0.8952847075210475
+solution 407: imageContains some (Chair and (not (WN_Lamp)))
+	accuracy_score: 0.8952847075210475
+solution 408: imageContains some (Chair and (not (WN_Lounge)))
+	accuracy_score: 0.8952847075210475
+solution 409: imageContains some (Chair and (not (WN_Machine)))
+	accuracy_score: 0.8952847075210475
+solution 410: imageContains some (Chair and (not (WN_Mantle)))
+	accuracy_score: 0.8952847075210475
+solution 411: imageContains some (Chair and (not (WN_Microwave)))
+	accuracy_score: 0.8952847075210475
+solution 412: imageContains some (Chair and (not (WN_Microwaveoven)))
+	accuracy_score: 0.8952847075210475
+solution 413: imageContains some (Chair and (not (WN_Mortal)))
+	accuracy_score: 0.8952847075210475
+solution 414: imageContains some (Chair and (not (WN_Motorcar)))
+	accuracy_score: 0.8952847075210475
+solution 415: imageContains some (Chair and (not (WN_Mount)))
+	accuracy_score: 0.8952847075210475
+solution 416: imageContains some (Chair and (not (WN_Mountain)))
+	accuracy_score: 0.8952847075210475
+solution 417: imageContains some (Chair and (not (WN_Oven)))
+	accuracy_score: 0.8952847075210475
+solution 418: imageContains some (Chair and (not (WN_Painting)))
+	accuracy_score: 0.8952847075210475
+solution 419: imageContains some (Chair and (not (WN_Pall)))
+	accuracy_score: 0.8952847075210475
+solution 420: imageContains some (Chair and (not (WN_Papers)))
+	accuracy_score: 0.8952847075210475
+solution 421: imageContains some (Chair and (not (WN_Pendant)))
+	accuracy_score: 0.8952847075210475
+solution 422: imageContains some (Chair and (not (WN_Pendent)))
+	accuracy_score: 0.8952847075210475
+solution 423: imageContains some (Chair and (not (WN_Person)))
+	accuracy_score: 0.8952847075210475
+solution 424: imageContains some (Chair and (not (WN_Phone)))
+	accuracy_score: 0.8952847075210475
+solution 425: imageContains some (Chair and (not (WN_Picture)))
+	accuracy_score: 0.8952847075210475
+solution 426: imageContains some (Chair and (not (WN_Placemat)))
+	accuracy_score: 0.8952847075210475
+solution 427: imageContains some (Chair and (not (WN_Plank)))
+	accuracy_score: 0.8952847075210475
+solution 428: imageContains some (Chair and (not (WN_Plantlife)))
+	accuracy_score: 0.8952847075210475
+solution 429: imageContains some (Chair and (not (WN_Plate)))
+	accuracy_score: 0.8952847075210475
+solution 430: imageContains some (Chair and (not (WN_Radiator)))
+	accuracy_score: 0.8952847075210475
+solution 431: imageContains some (Chair and (not (WN_Road)))
+	accuracy_score: 0.8952847075210475
+solution 432: imageContains some (Chair and (not (WN_Route)))
+	accuracy_score: 0.8952847075210475
+solution 433: imageContains some (Chair and (not (WN_Rug)))
+	accuracy_score: 0.8952847075210475
+solution 434: imageContains some (Chair and (not (WN_Screen)))
+	accuracy_score: 0.8952847075210475
+solution 435: imageContains some (Chair and (not (WN_Shelf)))
+	accuracy_score: 0.8952847075210475
+solution 436: imageContains some (Chair and (not (WN_Shutter)))
+	accuracy_score: 0.8952847075210475
+solution 437: imageContains some (Chair and (not (WN_Sideboard)))
+	accuracy_score: 0.8952847075210475
+solution 438: imageContains some (Chair and (not (WN_Sign)))
+	accuracy_score: 0.8952847075210475
+solution 439: imageContains some (Chair and (not (WN_Signboard)))
+	accuracy_score: 0.8952847075210475
+solution 440: imageContains some (Chair and (not (WN_Silverscreen)))
+	accuracy_score: 0.8952847075210475
+solution 441: imageContains some (Chair and (not (WN_Sink)))
+	accuracy_score: 0.8952847075210475
+solution 442: imageContains some (Chair and (not (WN_Sky)))
+	accuracy_score: 0.8952847075210475
+solution 443: imageContains some (Chair and (not (WN_Snow)))
+	accuracy_score: 0.8952847075210475
+solution 444: imageContains some (Chair and (not (WN_Sofa)))
+	accuracy_score: 0.8952847075210475
+solution 445: imageContains some (Chair and (not (WN_Somebody)))
+	accuracy_score: 0.8952847075210475
+solution 446: imageContains some (Chair and (not (WN_Someone)))
+	accuracy_score: 0.8952847075210475
+solution 447: imageContains some (Chair and (not (WN_Soul)))
+	accuracy_score: 0.8952847075210475
+solution 448: imageContains some (Chair and (not (WN_Swivelchair)))
+	accuracy_score: 0.8952847075210475
+solution 449: imageContains some (Chair and (not (WN_Table)))
+	accuracy_score: 0.8952847075210475
+solution 450: imageContains some (Chair and (not (WN_Tapestry)))
+	accuracy_score: 0.8952847075210475
+solution 451: imageContains some (Chair and (not (WN_Tapis)))
+	accuracy_score: 0.8952847075210475
+solution 452: imageContains some (Chair and (not (WN_Teacup)))
+	accuracy_score: 0.8952847075210475
+solution 453: imageContains some (Chair and (not (WN_Telephoneset)))
+	accuracy_score: 0.8952847075210475
+solution 454: imageContains some (Chair and (not (WN_Trashbarrel)))
+	accuracy_score: 0.8952847075210475
+solution 455: imageContains some (Chair and (not (WN_Trashbin)))
+	accuracy_score: 0.8952847075210475
+solution 456: imageContains some (Chair and (not (WN_Trashcan)))
+	accuracy_score: 0.8952847075210475
+solution 457: imageContains some (Chair and (not (WN_Tray)))
+	accuracy_score: 0.8952847075210475
+solution 458: imageContains some (Chair and (not (WN_Tree)))
+	accuracy_score: 0.8952847075210475
+solution 459: imageContains some (Chair and (not (WN_Tub)))
+	accuracy_score: 0.8952847075210475
+solution 460: imageContains some (Chair and (not (WN_Wall)))
+	accuracy_score: 0.8952847075210475
+solution 461: imageContains some (Chair and (not (WN_Wastebin)))
+	accuracy_score: 0.8952847075210475
+solution 462: imageContains some (Chair and (not (WN_Window)))
+	accuracy_score: 0.8952847075210475
+solution 463: imageContains some (Chair and (not (WN_Windowpane)))
+	accuracy_score: 0.8952847075210475
+solution 464: imageContains some (Chair and (not (WN_Worksurface)))
+	accuracy_score: 0.8952847075210475
+solution 465: imageContains some (Chair and (not (WN_Writtendocument)))
+	accuracy_score: 0.8952847075210475
+solution 466: imageContains some (Chair and (not (Wall)))
+	accuracy_score: 0.8952847075210475
+solution 467: imageContains some (Chair and (not (Window)))
+	accuracy_score: 0.8952847075210475
+solution 468: imageContains some (Chair and (not (WindowCovering)))
+	accuracy_score: 0.8952847075210475
+solution 469: imageContains some (Chair and (not (Worksurface)))
+	accuracy_score: 0.8952847075210475
+solution 470: imageContains some (Artifact and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 471: imageContains some (Chair and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 472: imageContains some (DurableGood and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 473: imageContains some (Entity and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 474: imageContains some (Furniture and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 475: imageContains some (ManufacturedProduct and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 476: imageContains some (Object and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 477: imageContains some (Physical and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 478: imageContains some (Product and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 479: imageContains some (Seat and WN_Chair)
+	accuracy_score: 0.8952847075210475
+solution 480: imageContains some Chair
+	accuracy_score: 0.8952847075210475
+solution 481: imageContains some WN_Chair
+	accuracy_score: 0.8952847075210475
+solution 482: imageContains some Seat
+	accuracy_score: 0.8726779962499649
+solution 483: imageContains some Table
+	accuracy_score: 0.8535533905932737
+solution 484: imageContains some WN_Table
+	accuracy_score: 0.8535533905932737
+solution 485: imageContains some Furniture
+	accuracy_score: 0.837099931231621
+solution 486: imageContains some DurableGood
+	accuracy_score: 0.8227486121839513
+solution 487: imageContains some ManufacturedProduct
+	accuracy_score: 0.8227486121839513
+solution 488: imageContains some Product
+	accuracy_score: 0.8227486121839513
+solution 489: imageContains some Floor
+	accuracy_score: 0.8100868364730212
+solution 490: imageContains some WN_Floor
+	accuracy_score: 0.8100868364730212
+solution 491: imageContains some WN_Flooring
+	accuracy_score: 0.8100868364730212
+solution 492: imageContains some WN_Wall
+	accuracy_score: 0.7988071523335984
+solution 493: imageContains some Wall
+	accuracy_score: 0.7988071523335984
+solution 494: imageContains some Artifact
+	accuracy_score: 0.7711630722733203
+solution 495: imageContains some StationaryArtifact
+	accuracy_score: 0.7711630722733203
+solution 496: imageContains some Entity
+	accuracy_score: 0.7564945880212885
+solution 497: imageContains some Object
+	accuracy_score: 0.7564945880212885
+solution 498: imageContains some Physical
+	accuracy_score: 0.7564945880212885
+solution 499: imageContains some Region
+	accuracy_score: 0.7564945880212885
+solution 500: imageContains some Thing
+	accuracy_score: 0.7564945880212885
+
+Total solutions found: 500Program ends at: 06.08.2018  18.47.02 PMProgram duration: 626 sec

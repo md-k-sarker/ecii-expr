@@ -1,0 +1,1031 @@
+Algorithm started.................
+Algorithm starts at: 06.08.2018  18.05.31 PM
+
+PosExamples: 
+	highway_ADE_train_00008989
+	highway_ADE_train_00008988
+	highway_ADE_train_00008992
+	highway_ADE_train_00008990
+	highway_ADE_train_00008991
+
+NegExamples:
+	bedroom_ADE_train_00000192
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	dining_room_ADE_train_00006845
+	kitchen_ADE_train_00000594
+
+Algorithm ends at: 06.08.2018  18.15.48 PMAlgorithm duration: 616 sec
+
+####################Solutions####################:
+solution 1: (imageContains some Sky) and (imageContains min 3 (not (Armchair)))
+	accuracy_score: 1.0
+solution 2: (imageContains some Sky) and (imageContains min 3 (not (Ashtray)))
+	accuracy_score: 1.0
+solution 3: (imageContains some Sky) and (imageContains min 3 (not (Bathtub)))
+	accuracy_score: 1.0
+solution 4: (imageContains some Sky) and (imageContains min 3 (not (Board)))
+	accuracy_score: 1.0
+solution 5: (imageContains some Sky) and (imageContains min 3 (not (Bowl)))
+	accuracy_score: 1.0
+solution 6: (imageContains some Sky) and (imageContains min 3 (not (Cabinet)))
+	accuracy_score: 1.0
+solution 7: (imageContains some Sky) and (imageContains min 3 (not (Calendar)))
+	accuracy_score: 1.0
+solution 8: (imageContains some Sky) and (imageContains min 3 (not (Candleholder)))
+	accuracy_score: 1.0
+solution 9: (imageContains some Sky) and (imageContains min 3 (not (Car)))
+	accuracy_score: 1.0
+solution 10: (imageContains some Sky) and (imageContains min 3 (not (Ceilingfan)))
+	accuracy_score: 1.0
+solution 11: (imageContains some Sky) and (imageContains min 3 (not (Centralreservation)))
+	accuracy_score: 1.0
+solution 12: (imageContains some Sky) and (imageContains min 3 (not (Coffeetable)))
+	accuracy_score: 1.0
+solution 13: (imageContains some Sky) and (imageContains min 3 (not (Creamer)))
+	accuracy_score: 1.0
+solution 14: (imageContains some Sky) and (imageContains min 3 (not (Cushion)))
+	accuracy_score: 1.0
+solution 15: (imageContains some Sky) and (imageContains min 3 (not (Doubledoor)))
+	accuracy_score: 1.0
+solution 16: (imageContains some Sky) and (imageContains min 3 (not (Firstfloor)))
+	accuracy_score: 1.0
+solution 17: (imageContains some Sky) and (imageContains min 3 (not (Fountain)))
+	accuracy_score: 1.0
+solution 18: (imageContains some Sky) and (imageContains min 3 (not (Ground)))
+	accuracy_score: 1.0
+solution 19: (imageContains some Sky) and (imageContains min 3 (not (Kettle)))
+	accuracy_score: 1.0
+solution 20: (imageContains some Sky) and (imageContains min 3 (not (Microwave)))
+	accuracy_score: 1.0
+solution 21: (imageContains some Sky) and (imageContains min 3 (not (Papers)))
+	accuracy_score: 1.0
+solution 22: (imageContains some Sky) and (imageContains min 3 (not (Person)))
+	accuracy_score: 1.0
+solution 23: (imageContains some Sky) and (imageContains min 3 (not (Picture)))
+	accuracy_score: 1.0
+solution 24: (imageContains some Sky) and (imageContains min 3 (not (Placemat)))
+	accuracy_score: 1.0
+solution 25: (imageContains some Sky) and (imageContains min 3 (not (Plants)))
+	accuracy_score: 1.0
+solution 26: (imageContains some Sky) and (imageContains min 3 (not (Plate)))
+	accuracy_score: 1.0
+solution 27: (imageContains some Sky) and (imageContains min 3 (not (Projectionscreen)))
+	accuracy_score: 1.0
+solution 28: (imageContains some Sky) and (imageContains min 3 (not (Radiator)))
+	accuracy_score: 1.0
+solution 29: (imageContains some Sky) and (imageContains min 3 (not (Shelves)))
+	accuracy_score: 1.0
+solution 30: (imageContains some Sky) and (imageContains min 3 (not (Sign)))
+	accuracy_score: 1.0
+solution 31: (imageContains some Sky) and (imageContains min 3 (not (Sink)))
+	accuracy_score: 1.0
+solution 32: (imageContains some Sky) and (imageContains min 3 (not (Snow)))
+	accuracy_score: 1.0
+solution 33: (imageContains some Sky) and (imageContains min 3 (not (Swivelchair)))
+	accuracy_score: 1.0
+solution 34: (imageContains some Sky) and (imageContains min 3 (not (Tapestry)))
+	accuracy_score: 1.0
+solution 35: (imageContains some Sky) and (imageContains min 3 (not (Teacup)))
+	accuracy_score: 1.0
+solution 36: (imageContains some Sky) and (imageContains min 3 (not (Trashcan)))
+	accuracy_score: 1.0
+solution 37: (imageContains some Sky) and (imageContains min 3 (not (Trees)))
+	accuracy_score: 1.0
+solution 38: (imageContains some Sky) and (imageContains min 3 (not (WN_Armchair)))
+	accuracy_score: 1.0
+solution 39: (imageContains some Sky) and (imageContains min 3 (not (WN_Ash-bin)))
+	accuracy_score: 1.0
+solution 40: (imageContains some Sky) and (imageContains min 3 (not (WN_Ashbin)))
+	accuracy_score: 1.0
+solution 41: (imageContains some Sky) and (imageContains min 3 (not (WN_Ashcan)))
+	accuracy_score: 1.0
+solution 42: (imageContains some Sky) and (imageContains min 3 (not (WN_Ashtray)))
+	accuracy_score: 1.0
+solution 43: (imageContains some Sky) and (imageContains min 3 (not (WN_Auto)))
+	accuracy_score: 1.0
+solution 44: (imageContains some Sky) and (imageContains min 3 (not (WN_Bath)))
+	accuracy_score: 1.0
+solution 45: (imageContains some Sky) and (imageContains min 3 (not (WN_Bathingtub)))
+	accuracy_score: 1.0
+solution 46: (imageContains some Sky) and (imageContains min 3 (not (WN_Bathtub)))
+	accuracy_score: 1.0
+solution 47: (imageContains some Sky) and (imageContains min 3 (not (WN_Board)))
+	accuracy_score: 1.0
+solution 48: (imageContains some Sky) and (imageContains min 3 (not (WN_Boiler)))
+	accuracy_score: 1.0
+solution 49: (imageContains some Sky) and (imageContains min 3 (not (WN_Bowl)))
+	accuracy_score: 1.0
+solution 50: (imageContains some Sky) and (imageContains min 3 (not (WN_Cabinet)))
+	accuracy_score: 1.0
+solution 51: (imageContains some Sky) and (imageContains min 3 (not (WN_Calendar)))
+	accuracy_score: 1.0
+solution 52: (imageContains some Sky) and (imageContains min 3 (not (WN_Candleholder)))
+	accuracy_score: 1.0
+solution 53: (imageContains some Sky) and (imageContains min 3 (not (WN_Candlestick)))
+	accuracy_score: 1.0
+solution 54: (imageContains some Sky) and (imageContains min 3 (not (WN_Car)))
+	accuracy_score: 1.0
+solution 55: (imageContains some Sky) and (imageContains min 3 (not (WN_Carpet)))
+	accuracy_score: 1.0
+solution 56: (imageContains some Sky) and (imageContains min 3 (not (WN_Carpeting)))
+	accuracy_score: 1.0
+solution 57: (imageContains some Sky) and (imageContains min 3 (not (WN_Centralreservation)))
+	accuracy_score: 1.0
+solution 58: (imageContains some Sky) and (imageContains min 3 (not (WN_Chair)))
+	accuracy_score: 1.0
+solution 59: (imageContains some Sky) and (imageContains min 3 (not (WN_Cocktailtable)))
+	accuracy_score: 1.0
+solution 60: (imageContains some Sky) and (imageContains min 3 (not (WN_Coffeetable)))
+	accuracy_score: 1.0
+solution 61: (imageContains some Sky) and (imageContains min 3 (not (WN_Couch)))
+	accuracy_score: 1.0
+solution 62: (imageContains some Sky) and (imageContains min 3 (not (WN_Creamer)))
+	accuracy_score: 1.0
+solution 63: (imageContains some Sky) and (imageContains min 3 (not (WN_Cushion)))
+	accuracy_score: 1.0
+solution 64: (imageContains some Sky) and (imageContains min 3 (not (WN_Doubledoor)))
+	accuracy_score: 1.0
+solution 65: (imageContains some Sky) and (imageContains min 3 (not (WN_Drape)))
+	accuracy_score: 1.0
+solution 66: (imageContains some Sky) and (imageContains min 3 (not (WN_Drapery)))
+	accuracy_score: 1.0
+solution 67: (imageContains some Sky) and (imageContains min 3 (not (WN_Drinkingglass)))
+	accuracy_score: 1.0
+solution 68: (imageContains some Sky) and (imageContains min 3 (not (WN_Dustbin)))
+	accuracy_score: 1.0
+solution 69: (imageContains some Sky) and (imageContains min 3 (not (WN_Earth)))
+	accuracy_score: 1.0
+solution 70: (imageContains some Sky) and (imageContains min 3 (not (WN_Edifice)))
+	accuracy_score: 1.0
+solution 71: (imageContains some Sky) and (imageContains min 3 (not (WN_Fan)))
+	accuracy_score: 1.0
+solution 72: (imageContains some Sky) and (imageContains min 3 (not (WN_Fencing)))
+	accuracy_score: 1.0
+solution 73: (imageContains some Sky) and (imageContains min 3 (not (WN_Firstfloor)))
+	accuracy_score: 1.0
+solution 74: (imageContains some Sky) and (imageContains min 3 (not (WN_Floor)))
+	accuracy_score: 1.0
+solution 75: (imageContains some Sky) and (imageContains min 3 (not (WN_Flooring)))
+	accuracy_score: 1.0
+solution 76: (imageContains some Sky) and (imageContains min 3 (not (WN_Flora)))
+	accuracy_score: 1.0
+solution 77: (imageContains some Sky) and (imageContains min 3 (not (WN_Fountain)))
+	accuracy_score: 1.0
+solution 78: (imageContains some Sky) and (imageContains min 3 (not (WN_Garbagecan)))
+	accuracy_score: 1.0
+solution 79: (imageContains some Sky) and (imageContains min 3 (not (WN_Glass)))
+	accuracy_score: 1.0
+solution 80: (imageContains some Sky) and (imageContains min 3 (not (WN_Ground)))
+	accuracy_score: 1.0
+solution 81: (imageContains some Sky) and (imageContains min 3 (not (WN_Individual)))
+	accuracy_score: 1.0
+solution 82: (imageContains some Sky) and (imageContains min 3 (not (WN_Kettle)))
+	accuracy_score: 1.0
+solution 83: (imageContains some Sky) and (imageContains min 3 (not (WN_Lounge)))
+	accuracy_score: 1.0
+solution 84: (imageContains some Sky) and (imageContains min 3 (not (WN_Mantle)))
+	accuracy_score: 1.0
+solution 85: (imageContains some Sky) and (imageContains min 3 (not (WN_Microwave)))
+	accuracy_score: 1.0
+solution 86: (imageContains some Sky) and (imageContains min 3 (not (WN_Microwaveoven)))
+	accuracy_score: 1.0
+solution 87: (imageContains some Sky) and (imageContains min 3 (not (WN_Mortal)))
+	accuracy_score: 1.0
+solution 88: (imageContains some Sky) and (imageContains min 3 (not (WN_Motorcar)))
+	accuracy_score: 1.0
+solution 89: (imageContains some Sky) and (imageContains min 3 (not (WN_Mount)))
+	accuracy_score: 1.0
+solution 90: (imageContains some Sky) and (imageContains min 3 (not (WN_Pall)))
+	accuracy_score: 1.0
+solution 91: (imageContains some Sky) and (imageContains min 3 (not (WN_Papers)))
+	accuracy_score: 1.0
+solution 92: (imageContains some Sky) and (imageContains min 3 (not (WN_Person)))
+	accuracy_score: 1.0
+solution 93: (imageContains some Sky) and (imageContains min 3 (not (WN_Phone)))
+	accuracy_score: 1.0
+solution 94: (imageContains some Sky) and (imageContains min 3 (not (WN_Picture)))
+	accuracy_score: 1.0
+solution 95: (imageContains some Sky) and (imageContains min 3 (not (WN_Placemat)))
+	accuracy_score: 1.0
+solution 96: (imageContains some Sky) and (imageContains min 3 (not (WN_Plank)))
+	accuracy_score: 1.0
+solution 97: (imageContains some Sky) and (imageContains min 3 (not (WN_Plantlife)))
+	accuracy_score: 1.0
+solution 98: (imageContains some Sky) and (imageContains min 3 (not (WN_Plate)))
+	accuracy_score: 1.0
+solution 99: (imageContains some Sky) and (imageContains min 3 (not (WN_Radiator)))
+	accuracy_score: 1.0
+solution 100: (imageContains some Sky) and (imageContains min 3 (not (WN_Screen)))
+	accuracy_score: 1.0
+solution 101: (imageContains some Sky) and (imageContains min 3 (not (WN_Sign)))
+	accuracy_score: 1.0
+solution 102: (imageContains some Sky) and (imageContains min 3 (not (WN_Signboard)))
+	accuracy_score: 1.0
+solution 103: (imageContains some Sky) and (imageContains min 3 (not (WN_Silverscreen)))
+	accuracy_score: 1.0
+solution 104: (imageContains some Sky) and (imageContains min 3 (not (WN_Sink)))
+	accuracy_score: 1.0
+solution 105: (imageContains some Sky) and (imageContains min 3 (not (WN_Snow)))
+	accuracy_score: 1.0
+solution 106: (imageContains some Sky) and (imageContains min 3 (not (WN_Somebody)))
+	accuracy_score: 1.0
+solution 107: (imageContains some Sky) and (imageContains min 3 (not (WN_Someone)))
+	accuracy_score: 1.0
+solution 108: (imageContains some Sky) and (imageContains min 3 (not (WN_Soul)))
+	accuracy_score: 1.0
+solution 109: (imageContains some Sky) and (imageContains min 3 (not (WN_Swivelchair)))
+	accuracy_score: 1.0
+solution 110: (imageContains some Sky) and (imageContains min 3 (not (WN_Tapestry)))
+	accuracy_score: 1.0
+solution 111: (imageContains some Sky) and (imageContains min 3 (not (WN_Tapis)))
+	accuracy_score: 1.0
+solution 112: (imageContains some Sky) and (imageContains min 3 (not (WN_Teacup)))
+	accuracy_score: 1.0
+solution 113: (imageContains some Sky) and (imageContains min 3 (not (WN_Telephoneset)))
+	accuracy_score: 1.0
+solution 114: (imageContains some Sky) and (imageContains min 3 (not (WN_Trashbarrel)))
+	accuracy_score: 1.0
+solution 115: (imageContains some Sky) and (imageContains min 3 (not (WN_Trashbin)))
+	accuracy_score: 1.0
+solution 116: (imageContains some Sky) and (imageContains min 3 (not (WN_Trashcan)))
+	accuracy_score: 1.0
+solution 117: (imageContains some Sky) and (imageContains min 3 (not (WN_Tub)))
+	accuracy_score: 1.0
+solution 118: (imageContains some Sky) and (imageContains min 3 (not (WN_Wastebin)))
+	accuracy_score: 1.0
+solution 119: (imageContains some Sky) and (imageContains min 3 (not (WN_Windowpane)))
+	accuracy_score: 1.0
+solution 120: (imageContains some Sky) and (imageContains min 3 (not (WN_Worksurface)))
+	accuracy_score: 1.0
+solution 121: (imageContains some Sky) and (imageContains min 3 (not (WN_Writtendocument)))
+	accuracy_score: 1.0
+solution 122: (imageContains some Sky) and (imageContains min 3 (not (Worksurface)))
+	accuracy_score: 1.0
+solution 123: (imageContains some WN_Sky) and (imageContains min 3 (not (Armchair)))
+	accuracy_score: 1.0
+solution 124: (imageContains some WN_Sky) and (imageContains min 3 (not (Ashtray)))
+	accuracy_score: 1.0
+solution 125: (imageContains some WN_Sky) and (imageContains min 3 (not (Bathtub)))
+	accuracy_score: 1.0
+solution 126: (imageContains some WN_Sky) and (imageContains min 3 (not (Board)))
+	accuracy_score: 1.0
+solution 127: (imageContains some WN_Sky) and (imageContains min 3 (not (Bowl)))
+	accuracy_score: 1.0
+solution 128: (imageContains some WN_Sky) and (imageContains min 3 (not (Cabinet)))
+	accuracy_score: 1.0
+solution 129: (imageContains some WN_Sky) and (imageContains min 3 (not (Calendar)))
+	accuracy_score: 1.0
+solution 130: (imageContains some WN_Sky) and (imageContains min 3 (not (Candleholder)))
+	accuracy_score: 1.0
+solution 131: (imageContains some WN_Sky) and (imageContains min 3 (not (Car)))
+	accuracy_score: 1.0
+solution 132: (imageContains some WN_Sky) and (imageContains min 3 (not (Ceilingfan)))
+	accuracy_score: 1.0
+solution 133: (imageContains some WN_Sky) and (imageContains min 3 (not (Centralreservation)))
+	accuracy_score: 1.0
+solution 134: (imageContains some WN_Sky) and (imageContains min 3 (not (Coffeetable)))
+	accuracy_score: 1.0
+solution 135: (imageContains some WN_Sky) and (imageContains min 3 (not (Creamer)))
+	accuracy_score: 1.0
+solution 136: (imageContains some WN_Sky) and (imageContains min 3 (not (Cushion)))
+	accuracy_score: 1.0
+solution 137: (imageContains some WN_Sky) and (imageContains min 3 (not (Doubledoor)))
+	accuracy_score: 1.0
+solution 138: (imageContains some WN_Sky) and (imageContains min 3 (not (Firstfloor)))
+	accuracy_score: 1.0
+solution 139: (imageContains some WN_Sky) and (imageContains min 3 (not (Fountain)))
+	accuracy_score: 1.0
+solution 140: (imageContains some WN_Sky) and (imageContains min 3 (not (Ground)))
+	accuracy_score: 1.0
+solution 141: (imageContains some WN_Sky) and (imageContains min 3 (not (Kettle)))
+	accuracy_score: 1.0
+solution 142: (imageContains some WN_Sky) and (imageContains min 3 (not (Microwave)))
+	accuracy_score: 1.0
+solution 143: (imageContains some WN_Sky) and (imageContains min 3 (not (Papers)))
+	accuracy_score: 1.0
+solution 144: (imageContains some WN_Sky) and (imageContains min 3 (not (Person)))
+	accuracy_score: 1.0
+solution 145: (imageContains some WN_Sky) and (imageContains min 3 (not (Picture)))
+	accuracy_score: 1.0
+solution 146: (imageContains some WN_Sky) and (imageContains min 3 (not (Placemat)))
+	accuracy_score: 1.0
+solution 147: (imageContains some WN_Sky) and (imageContains min 3 (not (Plants)))
+	accuracy_score: 1.0
+solution 148: (imageContains some WN_Sky) and (imageContains min 3 (not (Plate)))
+	accuracy_score: 1.0
+solution 149: (imageContains some WN_Sky) and (imageContains min 3 (not (Projectionscreen)))
+	accuracy_score: 1.0
+solution 150: (imageContains some WN_Sky) and (imageContains min 3 (not (Radiator)))
+	accuracy_score: 1.0
+solution 151: (imageContains some WN_Sky) and (imageContains min 3 (not (Shelves)))
+	accuracy_score: 1.0
+solution 152: (imageContains some WN_Sky) and (imageContains min 3 (not (Sign)))
+	accuracy_score: 1.0
+solution 153: (imageContains some WN_Sky) and (imageContains min 3 (not (Sink)))
+	accuracy_score: 1.0
+solution 154: (imageContains some WN_Sky) and (imageContains min 3 (not (Snow)))
+	accuracy_score: 1.0
+solution 155: (imageContains some WN_Sky) and (imageContains min 3 (not (Swivelchair)))
+	accuracy_score: 1.0
+solution 156: (imageContains some WN_Sky) and (imageContains min 3 (not (Tapestry)))
+	accuracy_score: 1.0
+solution 157: (imageContains some WN_Sky) and (imageContains min 3 (not (Teacup)))
+	accuracy_score: 1.0
+solution 158: (imageContains some WN_Sky) and (imageContains min 3 (not (Trashcan)))
+	accuracy_score: 1.0
+solution 159: (imageContains some WN_Sky) and (imageContains min 3 (not (Trees)))
+	accuracy_score: 1.0
+solution 160: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Armchair)))
+	accuracy_score: 1.0
+solution 161: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Ash-bin)))
+	accuracy_score: 1.0
+solution 162: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Ashbin)))
+	accuracy_score: 1.0
+solution 163: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Ashcan)))
+	accuracy_score: 1.0
+solution 164: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Ashtray)))
+	accuracy_score: 1.0
+solution 165: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Auto)))
+	accuracy_score: 1.0
+solution 166: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Bath)))
+	accuracy_score: 1.0
+solution 167: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Bathingtub)))
+	accuracy_score: 1.0
+solution 168: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Bathtub)))
+	accuracy_score: 1.0
+solution 169: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Board)))
+	accuracy_score: 1.0
+solution 170: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Boiler)))
+	accuracy_score: 1.0
+solution 171: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Bowl)))
+	accuracy_score: 1.0
+solution 172: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Cabinet)))
+	accuracy_score: 1.0
+solution 173: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Calendar)))
+	accuracy_score: 1.0
+solution 174: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Candleholder)))
+	accuracy_score: 1.0
+solution 175: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Candlestick)))
+	accuracy_score: 1.0
+solution 176: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Car)))
+	accuracy_score: 1.0
+solution 177: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Carpet)))
+	accuracy_score: 1.0
+solution 178: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Carpeting)))
+	accuracy_score: 1.0
+solution 179: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Centralreservation)))
+	accuracy_score: 1.0
+solution 180: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Chair)))
+	accuracy_score: 1.0
+solution 181: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Cocktailtable)))
+	accuracy_score: 1.0
+solution 182: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Coffeetable)))
+	accuracy_score: 1.0
+solution 183: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Couch)))
+	accuracy_score: 1.0
+solution 184: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Creamer)))
+	accuracy_score: 1.0
+solution 185: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Cushion)))
+	accuracy_score: 1.0
+solution 186: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Doubledoor)))
+	accuracy_score: 1.0
+solution 187: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Drape)))
+	accuracy_score: 1.0
+solution 188: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Drapery)))
+	accuracy_score: 1.0
+solution 189: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Drinkingglass)))
+	accuracy_score: 1.0
+solution 190: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Dustbin)))
+	accuracy_score: 1.0
+solution 191: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Earth)))
+	accuracy_score: 1.0
+solution 192: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Edifice)))
+	accuracy_score: 1.0
+solution 193: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Fan)))
+	accuracy_score: 1.0
+solution 194: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Fencing)))
+	accuracy_score: 1.0
+solution 195: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Firstfloor)))
+	accuracy_score: 1.0
+solution 196: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Floor)))
+	accuracy_score: 1.0
+solution 197: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Flooring)))
+	accuracy_score: 1.0
+solution 198: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Flora)))
+	accuracy_score: 1.0
+solution 199: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Fountain)))
+	accuracy_score: 1.0
+solution 200: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Garbagecan)))
+	accuracy_score: 1.0
+solution 201: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Glass)))
+	accuracy_score: 1.0
+solution 202: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Ground)))
+	accuracy_score: 1.0
+solution 203: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Individual)))
+	accuracy_score: 1.0
+solution 204: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Kettle)))
+	accuracy_score: 1.0
+solution 205: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Lounge)))
+	accuracy_score: 1.0
+solution 206: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Mantle)))
+	accuracy_score: 1.0
+solution 207: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Microwave)))
+	accuracy_score: 1.0
+solution 208: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Microwaveoven)))
+	accuracy_score: 1.0
+solution 209: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Mortal)))
+	accuracy_score: 1.0
+solution 210: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Motorcar)))
+	accuracy_score: 1.0
+solution 211: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Mount)))
+	accuracy_score: 1.0
+solution 212: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Pall)))
+	accuracy_score: 1.0
+solution 213: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Papers)))
+	accuracy_score: 1.0
+solution 214: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Person)))
+	accuracy_score: 1.0
+solution 215: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Phone)))
+	accuracy_score: 1.0
+solution 216: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Picture)))
+	accuracy_score: 1.0
+solution 217: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Placemat)))
+	accuracy_score: 1.0
+solution 218: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Plank)))
+	accuracy_score: 1.0
+solution 219: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Plantlife)))
+	accuracy_score: 1.0
+solution 220: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Plate)))
+	accuracy_score: 1.0
+solution 221: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Radiator)))
+	accuracy_score: 1.0
+solution 222: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Screen)))
+	accuracy_score: 1.0
+solution 223: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Sign)))
+	accuracy_score: 1.0
+solution 224: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Signboard)))
+	accuracy_score: 1.0
+solution 225: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Silverscreen)))
+	accuracy_score: 1.0
+solution 226: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Sink)))
+	accuracy_score: 1.0
+solution 227: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Snow)))
+	accuracy_score: 1.0
+solution 228: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Somebody)))
+	accuracy_score: 1.0
+solution 229: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Someone)))
+	accuracy_score: 1.0
+solution 230: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Soul)))
+	accuracy_score: 1.0
+solution 231: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Swivelchair)))
+	accuracy_score: 1.0
+solution 232: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Tapestry)))
+	accuracy_score: 1.0
+solution 233: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Tapis)))
+	accuracy_score: 1.0
+solution 234: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Teacup)))
+	accuracy_score: 1.0
+solution 235: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Telephoneset)))
+	accuracy_score: 1.0
+solution 236: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Trashbarrel)))
+	accuracy_score: 1.0
+solution 237: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Trashbin)))
+	accuracy_score: 1.0
+solution 238: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Trashcan)))
+	accuracy_score: 1.0
+solution 239: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Tub)))
+	accuracy_score: 1.0
+solution 240: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Wastebin)))
+	accuracy_score: 1.0
+solution 241: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Windowpane)))
+	accuracy_score: 1.0
+solution 242: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Worksurface)))
+	accuracy_score: 1.0
+solution 243: (imageContains some WN_Sky) and (imageContains min 3 (not (WN_Writtendocument)))
+	accuracy_score: 1.0
+solution 244: (imageContains some WN_Sky) and (imageContains min 3 (not (Worksurface)))
+	accuracy_score: 1.0
+solution 245: (imageContains some Sky) and (imageContains min 2 GeographicArea)
+	accuracy_score: 1.0
+solution 246: (imageContains some Sky) and (imageContains min 2 Object)
+	accuracy_score: 1.0
+solution 247: (imageContains some Sky) and (imageContains min 2 Physical)
+	accuracy_score: 1.0
+solution 248: (imageContains some Sky) and (imageContains min 2 Region)
+	accuracy_score: 1.0
+solution 249: (imageContains some Sky) and (imageContains min 3 Thing)
+	accuracy_score: 1.0
+solution 250: (imageContains some WN_Sky) and (imageContains min 2 GeographicArea)
+	accuracy_score: 1.0
+solution 251: (imageContains some WN_Sky) and (imageContains min 2 Object)
+	accuracy_score: 1.0
+solution 252: (imageContains some WN_Sky) and (imageContains min 2 Physical)
+	accuracy_score: 1.0
+solution 253: (imageContains some WN_Sky) and (imageContains min 2 Region)
+	accuracy_score: 1.0
+solution 254: (imageContains some WN_Sky) and (imageContains min 3 Thing)
+	accuracy_score: 1.0
+solution 255: (imageContains some LandArea) and (imageContains some Sky)
+	accuracy_score: 1.0
+solution 256: (imageContains some LandArea) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 257: (imageContains some LandTransitway) and (imageContains some Sky)
+	accuracy_score: 1.0
+solution 258: (imageContains some LandTransitway) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 259: (imageContains some Road) and (imageContains some Sky)
+	accuracy_score: 1.0
+solution 260: (imageContains some Road) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 261: (imageContains some Roadway) and (imageContains some Sky)
+	accuracy_score: 1.0
+solution 262: (imageContains some Roadway) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 263: (imageContains some SelfConnectedObject) and (imageContains some Sky)
+	accuracy_score: 1.0
+solution 264: (imageContains some SelfConnectedObject) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 265: (imageContains some Sky) and (imageContains some Transitway)
+	accuracy_score: 1.0
+solution 266: (imageContains some Sky) and (imageContains some WN_Road)
+	accuracy_score: 1.0
+solution 267: (imageContains some Sky) and (imageContains some WN_Route)
+	accuracy_score: 1.0
+solution 268: (imageContains some Transitway) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 269: (imageContains some WN_Road) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 270: (imageContains some WN_Route) and (imageContains some WN_Sky)
+	accuracy_score: 1.0
+solution 271: imageContains some (WN_Sky and (not (Coffeetable)))
+	accuracy_score: 0.9225771273642582
+solution 272: imageContains some (WN_Sky and (not (CommunicationDevice)))
+	accuracy_score: 0.9225771273642582
+solution 273: imageContains some (WN_Sky and (not (ContactSite)))
+	accuracy_score: 0.9225771273642582
+solution 274: imageContains some (WN_Sky and (not (Container)))
+	accuracy_score: 0.9225771273642582
+solution 275: imageContains some (WN_Sky and (not (ContentBearingObject)))
+	accuracy_score: 0.9225771273642582
+solution 276: imageContains some (WN_Sky and (not (ContentBearingPhysical)))
+	accuracy_score: 0.9225771273642582
+solution 277: imageContains some (WN_Sky and (not (CorpuscularObject)))
+	accuracy_score: 0.9225771273642582
+solution 278: imageContains some (WN_Sky and (not (Covering)))
+	accuracy_score: 0.9225771273642582
+solution 279: imageContains some (WN_Sky and (not (Creamer)))
+	accuracy_score: 0.9225771273642582
+solution 280: imageContains some (WN_Sky and (not (Curtain)))
+	accuracy_score: 0.9225771273642582
+solution 281: imageContains some (WN_Sky and (not (Cushion)))
+	accuracy_score: 0.9225771273642582
+solution 282: imageContains some (WN_Sky and (not (Device)))
+	accuracy_score: 0.9225771273642582
+solution 283: imageContains some (WN_Sky and (not (Door)))
+	accuracy_score: 0.9225771273642582
+solution 284: imageContains some (WN_Sky and (not (Doubledoor)))
+	accuracy_score: 0.9225771273642582
+solution 285: imageContains some (WN_Sky and (not (DurableGood)))
+	accuracy_score: 0.9225771273642582
+solution 286: imageContains some (WN_Sky and (not (ElectricDevice)))
+	accuracy_score: 0.9225771273642582
+solution 287: imageContains some (WN_Sky and (not (EngineeringComponent)))
+	accuracy_score: 0.9225771273642582
+solution 288: imageContains some (WN_Sky and (not (Entity)))
+	accuracy_score: 0.9225771273642582
+solution 289: imageContains some (WN_Sky and (not (Fabric)))
+	accuracy_score: 0.9225771273642582
+solution 290: imageContains some (WN_Sky and (not (Fence)))
+	accuracy_score: 0.9225771273642582
+solution 291: imageContains some (WN_Sky and (not (Field)))
+	accuracy_score: 0.9225771273642582
+solution 292: imageContains some (WN_Sky and (not (Firstfloor)))
+	accuracy_score: 0.9225771273642582
+solution 293: imageContains some (WN_Sky and (not (Floor)))
+	accuracy_score: 0.9225771273642582
+solution 294: imageContains some (WN_Sky and (not (FloweringPlant)))
+	accuracy_score: 0.9225771273642582
+solution 295: imageContains some (WN_Sky and (not (Fountain)))
+	accuracy_score: 0.9225771273642582
+solution 296: imageContains some (WN_Sky and (not (Furniture)))
+	accuracy_score: 0.9225771273642582
+solution 297: imageContains some (WN_Sky and (not (GeographicArea)))
+	accuracy_score: 0.9225771273642582
+solution 298: imageContains some (WN_Sky and (not (Glass)))
+	accuracy_score: 0.9225771273642582
+solution 299: imageContains some (WN_Sky and (not (Graph)))
+	accuracy_score: 0.9225771273642582
+solution 300: imageContains some (WN_Sky and (not (Grass)))
+	accuracy_score: 0.9225771273642582
+solution 301: imageContains some (WN_Sky and (not (Ground)))
+	accuracy_score: 0.9225771273642582
+solution 302: imageContains some (WN_Sky and (not (HeatingDevice)))
+	accuracy_score: 0.9225771273642582
+solution 303: imageContains some (WN_Sky and (not (Holder)))
+	accuracy_score: 0.9225771273642582
+solution 304: imageContains some (WN_Sky and (not (IndustrialSupply)))
+	accuracy_score: 0.9225771273642582
+solution 305: imageContains some (WN_Sky and (not (Kettle)))
+	accuracy_score: 0.9225771273642582
+solution 306: imageContains some (WN_Sky and (not (LandArea)))
+	accuracy_score: 0.9225771273642582
+solution 307: imageContains some (WN_Sky and (not (LandForm)))
+	accuracy_score: 0.9225771273642582
+solution 308: imageContains some (WN_Sky and (not (LandTransitway)))
+	accuracy_score: 0.9225771273642582
+solution 309: imageContains some (WN_Sky and (not (LocalizablePlace)))
+	accuracy_score: 0.9225771273642582
+solution 310: imageContains some (WN_Sky and (not (Machinery)))
+	accuracy_score: 0.9225771273642582
+solution 311: imageContains some (WN_Sky and (not (ManufacturedProduct)))
+	accuracy_score: 0.9225771273642582
+solution 312: imageContains some (WN_Sky and (not (Microwave)))
+	accuracy_score: 0.9225771273642582
+solution 313: imageContains some (WN_Sky and (not (Mixture)))
+	accuracy_score: 0.9225771273642582
+solution 314: imageContains some (WN_Sky and (not (Motion)))
+	accuracy_score: 0.9225771273642582
+solution 315: imageContains some (WN_Sky and (not (Mountain)))
+	accuracy_score: 0.9225771273642582
+solution 316: imageContains some (WN_Sky and (not (Object)))
+	accuracy_score: 0.9225771273642582
+solution 317: imageContains some (WN_Sky and (not (OrganicObject)))
+	accuracy_score: 0.9225771273642582
+solution 318: imageContains some (WN_Sky and (not (OrganicThing)))
+	accuracy_score: 0.9225771273642582
+solution 319: imageContains some (WN_Sky and (not (Organism)))
+	accuracy_score: 0.9225771273642582
+solution 320: imageContains some (WN_Sky and (not (Oven)))
+	accuracy_score: 0.9225771273642582
+solution 321: imageContains some (WN_Sky and (not (Papers)))
+	accuracy_score: 0.9225771273642582
+solution 322: imageContains some (WN_Sky and (not (PassengerVehicle)))
+	accuracy_score: 0.9225771273642582
+solution 323: imageContains some (WN_Sky and (not (Person)))
+	accuracy_score: 0.9225771273642582
+solution 324: imageContains some (WN_Sky and (not (Physical)))
+	accuracy_score: 0.9225771273642582
+solution 325: imageContains some (WN_Sky and (not (Picture)))
+	accuracy_score: 0.9225771273642582
+solution 326: imageContains some (WN_Sky and (not (Placemat)))
+	accuracy_score: 0.9225771273642582
+solution 327: imageContains some (WN_Sky and (not (Plant)))
+	accuracy_score: 0.9225771273642582
+solution 328: imageContains some (WN_Sky and (not (Plants)))
+	accuracy_score: 0.9225771273642582
+solution 329: imageContains some (WN_Sky and (not (Plate)))
+	accuracy_score: 0.9225771273642582
+solution 330: imageContains some (WN_Sky and (not (Process)))
+	accuracy_score: 0.9225771273642582
+solution 331: imageContains some (WN_Sky and (not (Product)))
+	accuracy_score: 0.9225771273642582
+solution 332: imageContains some (WN_Sky and (not (Projectionscreen)))
+	accuracy_score: 0.9225771273642582
+solution 333: imageContains some (WN_Sky and (not (Putting)))
+	accuracy_score: 0.9225771273642582
+solution 334: imageContains some (WN_Sky and (not (Radiator)))
+	accuracy_score: 0.9225771273642582
+solution 335: imageContains some (WN_Sky and (not (Region)))
+	accuracy_score: 0.9225771273642582
+solution 336: imageContains some (WN_Sky and (not (Road)))
+	accuracy_score: 0.9225771273642582
+solution 337: imageContains some (WN_Sky and (not (Roadway)))
+	accuracy_score: 0.9225771273642582
+solution 338: imageContains some (WN_Sky and (not (Rug)))
+	accuracy_score: 0.9225771273642582
+solution 339: imageContains some (WN_Sky and (not (Seat)))
+	accuracy_score: 0.9225771273642582
+solution 340: imageContains some (WN_Sky and (not (SelfConnectedObject)))
+	accuracy_score: 0.9225771273642582
+solution 341: imageContains some (WN_Sky and (not (Shelves)))
+	accuracy_score: 0.9225771273642582
+solution 342: imageContains some (WN_Sky and (not (Sign)))
+	accuracy_score: 0.9225771273642582
+solution 343: imageContains some (WN_Sky and (not (Sink)))
+	accuracy_score: 0.9225771273642582
+solution 344: imageContains some (WN_Sky and (not (Snow)))
+	accuracy_score: 0.9225771273642582
+solution 345: imageContains some (WN_Sky and (not (Sofa)))
+	accuracy_score: 0.9225771273642582
+solution 346: imageContains some (WN_Sky and (not (StationaryArtifact)))
+	accuracy_score: 0.9225771273642582
+solution 347: imageContains some (WN_Sky and (not (Substance)))
+	accuracy_score: 0.9225771273642582
+solution 348: imageContains some (WN_Sky and (not (Swivelchair)))
+	accuracy_score: 0.9225771273642582
+solution 349: imageContains some (WN_Sky and (not (Table)))
+	accuracy_score: 0.9225771273642582
+solution 350: imageContains some (WN_Sky and (not (Tapestry)))
+	accuracy_score: 0.9225771273642582
+solution 351: imageContains some (WN_Sky and (not (Teacup)))
+	accuracy_score: 0.9225771273642582
+solution 352: imageContains some (WN_Sky and (not (TelephonyDevice)))
+	accuracy_score: 0.9225771273642582
+solution 353: imageContains some (WN_Sky and (not (Transfer)))
+	accuracy_score: 0.9225771273642582
+solution 354: imageContains some (WN_Sky and (not (Transitway)))
+	accuracy_score: 0.9225771273642582
+solution 355: imageContains some (WN_Sky and (not (TransitwayObstacle)))
+	accuracy_score: 0.9225771273642582
+solution 356: imageContains some (WN_Sky and (not (Translocation)))
+	accuracy_score: 0.9225771273642582
+solution 357: imageContains some (WN_Sky and (not (TransportationDevice)))
+	accuracy_score: 0.9225771273642582
+solution 358: imageContains some (WN_Sky and (not (TransportationEquipment)))
+	accuracy_score: 0.9225771273642582
+solution 359: imageContains some (WN_Sky and (not (Trashcan)))
+	accuracy_score: 0.9225771273642582
+solution 360: imageContains some (WN_Sky and (not (Tray)))
+	accuracy_score: 0.9225771273642582
+solution 361: imageContains some (WN_Sky and (not (Tree)))
+	accuracy_score: 0.9225771273642582
+solution 362: imageContains some (WN_Sky and (not (Trees)))
+	accuracy_score: 0.9225771273642582
+solution 363: imageContains some (WN_Sky and (not (UplandArea)))
+	accuracy_score: 0.9225771273642582
+solution 364: imageContains some (WN_Sky and (not (Vehicle)))
+	accuracy_score: 0.9225771273642582
+solution 365: imageContains some (WN_Sky and (not (WN_Armchair)))
+	accuracy_score: 0.9225771273642582
+solution 366: imageContains some (WN_Sky and (not (WN_Ash-bin)))
+	accuracy_score: 0.9225771273642582
+solution 367: imageContains some (WN_Sky and (not (WN_Ashbin)))
+	accuracy_score: 0.9225771273642582
+solution 368: imageContains some (WN_Sky and (not (WN_Ashcan)))
+	accuracy_score: 0.9225771273642582
+solution 369: imageContains some (WN_Sky and (not (WN_Ashtray)))
+	accuracy_score: 0.9225771273642582
+solution 370: imageContains some (WN_Sky and (not (WN_Auto)))
+	accuracy_score: 0.9225771273642582
+solution 371: imageContains some (WN_Sky and (not (WN_Automobile)))
+	accuracy_score: 0.9225771273642582
+solution 372: imageContains some (WN_Sky and (not (WN_Bag)))
+	accuracy_score: 0.9225771273642582
+solution 373: imageContains some (WN_Sky and (not (WN_Bath)))
+	accuracy_score: 0.9225771273642582
+solution 374: imageContains some (WN_Sky and (not (WN_Bathingtub)))
+	accuracy_score: 0.9225771273642582
+solution 375: imageContains some (WN_Sky and (not (WN_Bathtub)))
+	accuracy_score: 0.9225771273642582
+solution 376: imageContains some (WN_Sky and (not (WN_Bed)))
+	accuracy_score: 0.9225771273642582
+solution 377: imageContains some (WN_Sky and (not (WN_Board)))
+	accuracy_score: 0.9225771273642582
+solution 378: imageContains some (WN_Sky and (not (WN_Boiler)))
+	accuracy_score: 0.9225771273642582
+solution 379: imageContains some (WN_Sky and (not (WN_Bowl)))
+	accuracy_score: 0.9225771273642582
+solution 380: imageContains some (WN_Sky and (not (WN_Box)))
+	accuracy_score: 0.9225771273642582
+solution 381: imageContains some (WN_Sky and (not (WN_Bridge)))
+	accuracy_score: 0.9225771273642582
+solution 382: imageContains some (WN_Sky and (not (WN_Building)))
+	accuracy_score: 0.9225771273642582
+solution 383: imageContains some (WN_Sky and (not (WN_Cabinet)))
+	accuracy_score: 0.9225771273642582
+solution 384: imageContains some (WN_Sky and (not (WN_Calendar)))
+	accuracy_score: 0.9225771273642582
+solution 385: imageContains some (WN_Sky and (not (WN_Candleholder)))
+	accuracy_score: 0.9225771273642582
+solution 386: imageContains some (WN_Sky and (not (WN_Candlestick)))
+	accuracy_score: 0.9225771273642582
+solution 387: imageContains some (WN_Sky and (not (WN_Car)))
+	accuracy_score: 0.9225771273642582
+solution 388: imageContains some (WN_Sky and (not (WN_Carpet)))
+	accuracy_score: 0.9225771273642582
+solution 389: imageContains some (WN_Sky and (not (WN_Carpeting)))
+	accuracy_score: 0.9225771273642582
+solution 390: imageContains some (WN_Sky and (not (WN_Ceiling)))
+	accuracy_score: 0.9225771273642582
+solution 391: imageContains some (WN_Sky and (not (WN_Centralreservation)))
+	accuracy_score: 0.9225771273642582
+solution 392: imageContains some (WN_Sky and (not (WN_Chair)))
+	accuracy_score: 0.9225771273642582
+solution 393: imageContains some (WN_Sky and (not (WN_Cocktailtable)))
+	accuracy_score: 0.9225771273642582
+solution 394: imageContains some (WN_Sky and (not (WN_Coffeetable)))
+	accuracy_score: 0.9225771273642582
+solution 395: imageContains some (WN_Sky and (not (WN_Couch)))
+	accuracy_score: 0.9225771273642582
+solution 396: imageContains some (WN_Sky and (not (WN_Creamer)))
+	accuracy_score: 0.9225771273642582
+solution 397: imageContains some (WN_Sky and (not (WN_Curtain)))
+	accuracy_score: 0.9225771273642582
+solution 398: imageContains some (WN_Sky and (not (WN_Cushion)))
+	accuracy_score: 0.9225771273642582
+solution 399: imageContains some (WN_Sky and (not (WN_Document)))
+	accuracy_score: 0.9225771273642582
+solution 400: imageContains some (WN_Sky and (not (WN_Door)))
+	accuracy_score: 0.9225771273642582
+solution 401: imageContains some (WN_Sky and (not (WN_Doubledoor)))
+	accuracy_score: 0.9225771273642582
+solution 402: imageContains some (WN_Sky and (not (WN_Drape)))
+	accuracy_score: 0.9225771273642582
+solution 403: imageContains some (WN_Sky and (not (WN_Drapery)))
+	accuracy_score: 0.9225771273642582
+solution 404: imageContains some (WN_Sky and (not (WN_Drinkingglass)))
+	accuracy_score: 0.9225771273642582
+solution 405: imageContains some (WN_Sky and (not (WN_Dustbin)))
+	accuracy_score: 0.9225771273642582
+solution 406: imageContains some (WN_Sky and (not (WN_Earth)))
+	accuracy_score: 0.9225771273642582
+solution 407: imageContains some (WN_Sky and (not (WN_Edifice)))
+	accuracy_score: 0.9225771273642582
+solution 408: imageContains some (WN_Sky and (not (WN_Fan)))
+	accuracy_score: 0.9225771273642582
+solution 409: imageContains some (WN_Sky and (not (WN_Fence)))
+	accuracy_score: 0.9225771273642582
+solution 410: imageContains some (WN_Sky and (not (WN_Fencing)))
+	accuracy_score: 0.9225771273642582
+solution 411: imageContains some (WN_Sky and (not (WN_Field)))
+	accuracy_score: 0.9225771273642582
+solution 412: imageContains some (WN_Sky and (not (WN_Firstfloor)))
+	accuracy_score: 0.9225771273642582
+solution 413: imageContains some (WN_Sky and (not (WN_Floor)))
+	accuracy_score: 0.9225771273642582
+solution 414: imageContains some (WN_Sky and (not (WN_Flooring)))
+	accuracy_score: 0.9225771273642582
+solution 415: imageContains some (WN_Sky and (not (WN_Flora)))
+	accuracy_score: 0.9225771273642582
+solution 416: imageContains some (WN_Sky and (not (WN_Fountain)))
+	accuracy_score: 0.9225771273642582
+solution 417: imageContains some (WN_Sky and (not (WN_Garbagecan)))
+	accuracy_score: 0.9225771273642582
+solution 418: imageContains some (WN_Sky and (not (WN_Glass)))
+	accuracy_score: 0.9225771273642582
+solution 419: imageContains some (WN_Sky and (not (WN_Grass)))
+	accuracy_score: 0.9225771273642582
+solution 420: imageContains some (WN_Sky and (not (WN_Ground)))
+	accuracy_score: 0.9225771273642582
+solution 421: imageContains some (WN_Sky and (not (WN_Individual)))
+	accuracy_score: 0.9225771273642582
+solution 422: imageContains some (WN_Sky and (not (WN_Kettle)))
+	accuracy_score: 0.9225771273642582
+solution 423: imageContains some (WN_Sky and (not (WN_Lounge)))
+	accuracy_score: 0.9225771273642582
+solution 424: imageContains some (WN_Sky and (not (WN_Machine)))
+	accuracy_score: 0.9225771273642582
+solution 425: imageContains some (WN_Sky and (not (WN_Mantle)))
+	accuracy_score: 0.9225771273642582
+solution 426: imageContains some (WN_Sky and (not (WN_Microwave)))
+	accuracy_score: 0.9225771273642582
+solution 427: imageContains some (WN_Sky and (not (WN_Microwaveoven)))
+	accuracy_score: 0.9225771273642582
+solution 428: imageContains some (WN_Sky and (not (WN_Mortal)))
+	accuracy_score: 0.9225771273642582
+solution 429: imageContains some (WN_Sky and (not (WN_Motorcar)))
+	accuracy_score: 0.9225771273642582
+solution 430: imageContains some (WN_Sky and (not (WN_Mount)))
+	accuracy_score: 0.9225771273642582
+solution 431: imageContains some (WN_Sky and (not (WN_Mountain)))
+	accuracy_score: 0.9225771273642582
+solution 432: imageContains some (WN_Sky and (not (WN_Oven)))
+	accuracy_score: 0.9225771273642582
+solution 433: imageContains some (WN_Sky and (not (WN_Painting)))
+	accuracy_score: 0.9225771273642582
+solution 434: imageContains some (WN_Sky and (not (WN_Pall)))
+	accuracy_score: 0.9225771273642582
+solution 435: imageContains some (WN_Sky and (not (WN_Papers)))
+	accuracy_score: 0.9225771273642582
+solution 436: imageContains some (WN_Sky and (not (WN_Person)))
+	accuracy_score: 0.9225771273642582
+solution 437: imageContains some (WN_Sky and (not (WN_Phone)))
+	accuracy_score: 0.9225771273642582
+solution 438: imageContains some (WN_Sky and (not (WN_Picture)))
+	accuracy_score: 0.9225771273642582
+solution 439: imageContains some (WN_Sky and (not (WN_Placemat)))
+	accuracy_score: 0.9225771273642582
+solution 440: imageContains some (WN_Sky and (not (WN_Plank)))
+	accuracy_score: 0.9225771273642582
+solution 441: imageContains some (WN_Sky and (not (WN_Plant)))
+	accuracy_score: 0.9225771273642582
+solution 442: imageContains some (WN_Sky and (not (WN_Plantlife)))
+	accuracy_score: 0.9225771273642582
+solution 443: imageContains some (WN_Sky and (not (WN_Plate)))
+	accuracy_score: 0.9225771273642582
+solution 444: imageContains some (WN_Sky and (not (WN_Projectionscreen)))
+	accuracy_score: 0.9225771273642582
+solution 445: imageContains some (WN_Sky and (not (WN_Radiator)))
+	accuracy_score: 0.9225771273642582
+solution 446: imageContains some (WN_Sky and (not (WN_Road)))
+	accuracy_score: 0.9225771273642582
+solution 447: imageContains some (WN_Sky and (not (WN_Route)))
+	accuracy_score: 0.9225771273642582
+solution 448: imageContains some (WN_Sky and (not (WN_Rug)))
+	accuracy_score: 0.9225771273642582
+solution 449: imageContains some (WN_Sky and (not (WN_Screen)))
+	accuracy_score: 0.9225771273642582
+solution 450: imageContains some (WN_Sky and (not (WN_Shelf)))
+	accuracy_score: 0.9225771273642582
+solution 451: imageContains some (WN_Sky and (not (WN_Sign)))
+	accuracy_score: 0.9225771273642582
+solution 452: imageContains some (WN_Sky and (not (WN_Signboard)))
+	accuracy_score: 0.9225771273642582
+solution 453: imageContains some (WN_Sky and (not (WN_Silverscreen)))
+	accuracy_score: 0.9225771273642582
+solution 454: imageContains some (WN_Sky and (not (WN_Sink)))
+	accuracy_score: 0.9225771273642582
+solution 455: imageContains some (WN_Sky and (not (WN_Snow)))
+	accuracy_score: 0.9225771273642582
+solution 456: imageContains some (WN_Sky and (not (WN_Sofa)))
+	accuracy_score: 0.9225771273642582
+solution 457: imageContains some (WN_Sky and (not (WN_Somebody)))
+	accuracy_score: 0.9225771273642582
+solution 458: imageContains some (WN_Sky and (not (WN_Someone)))
+	accuracy_score: 0.9225771273642582
+solution 459: imageContains some (WN_Sky and (not (WN_Soul)))
+	accuracy_score: 0.9225771273642582
+solution 460: imageContains some (WN_Sky and (not (WN_Span)))
+	accuracy_score: 0.9225771273642582
+solution 461: imageContains some (WN_Sky and (not (WN_Swivelchair)))
+	accuracy_score: 0.9225771273642582
+solution 462: imageContains some (WN_Sky and (not (WN_Table)))
+	accuracy_score: 0.9225771273642582
+solution 463: imageContains some (WN_Sky and (not (WN_Tapestry)))
+	accuracy_score: 0.9225771273642582
+solution 464: imageContains some (WN_Sky and (not (WN_Tapis)))
+	accuracy_score: 0.9225771273642582
+solution 465: imageContains some (WN_Sky and (not (WN_Teacup)))
+	accuracy_score: 0.9225771273642582
+solution 466: imageContains some (WN_Sky and (not (WN_Telephone)))
+	accuracy_score: 0.9225771273642582
+solution 467: imageContains some (WN_Sky and (not (WN_Telephoneset)))
+	accuracy_score: 0.9225771273642582
+solution 468: imageContains some (WN_Sky and (not (WN_Trashbarrel)))
+	accuracy_score: 0.9225771273642582
+solution 469: imageContains some (WN_Sky and (not (WN_Trashbin)))
+	accuracy_score: 0.9225771273642582
+solution 470: imageContains some (WN_Sky and (not (WN_Trashcan)))
+	accuracy_score: 0.9225771273642582
+solution 471: imageContains some (WN_Sky and (not (WN_Tray)))
+	accuracy_score: 0.9225771273642582
+solution 472: imageContains some (WN_Sky and (not (WN_Tree)))
+	accuracy_score: 0.9225771273642582
+solution 473: imageContains some (WN_Sky and (not (WN_Tub)))
+	accuracy_score: 0.9225771273642582
+solution 474: imageContains some (WN_Sky and (not (WN_Wall)))
+	accuracy_score: 0.9225771273642582
+solution 475: imageContains some (WN_Sky and (not (WN_Wastebin)))
+	accuracy_score: 0.9225771273642582
+solution 476: imageContains some (WN_Sky and (not (WN_Window)))
+	accuracy_score: 0.9225771273642582
+solution 477: imageContains some (WN_Sky and (not (WN_Windowpane)))
+	accuracy_score: 0.9225771273642582
+solution 478: imageContains some (WN_Sky and (not (WN_Worksurface)))
+	accuracy_score: 0.9225771273642582
+solution 479: imageContains some (WN_Sky and (not (WN_Writtendocument)))
+	accuracy_score: 0.9225771273642582
+solution 480: imageContains some (WN_Sky and (not (Wall)))
+	accuracy_score: 0.9225771273642582
+solution 481: imageContains some (WN_Sky and (not (Window)))
+	accuracy_score: 0.9225771273642582
+solution 482: imageContains some (WN_Sky and (not (WindowCovering)))
+	accuracy_score: 0.9225771273642582
+solution 483: imageContains some (WN_Sky and (not (Worksurface)))
+	accuracy_score: 0.9225771273642582
+solution 484: imageContains some (WN_Sky and (not (telephone)))
+	accuracy_score: 0.9225771273642582
+solution 485: imageContains some (Entity and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 486: imageContains some (GeographicArea and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 487: imageContains some (LandArea and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 488: imageContains some (LandTransitway and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 489: imageContains some (Object and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 490: imageContains some (Physical and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 491: imageContains some (Region and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 492: imageContains some (Road and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 493: imageContains some (Roadway and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 494: imageContains some (SelfConnectedObject and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 495: imageContains some (Sky and WN_Sky)
+	accuracy_score: 0.9225771273642582
+solution 496: imageContains some (Transitway and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 497: imageContains some (WN_Road and WN_Route)
+	accuracy_score: 0.9225771273642582
+solution 498: imageContains some Sky
+	accuracy_score: 0.9225771273642582
+solution 499: imageContains some WN_Route
+	accuracy_score: 0.9225771273642582
+solution 500: imageContains some WN_Sky
+	accuracy_score: 0.9225771273642582
+
+Total solutions found: 500Program ends at: 06.08.2018  18.15.48 PMProgram duration: 618 sec

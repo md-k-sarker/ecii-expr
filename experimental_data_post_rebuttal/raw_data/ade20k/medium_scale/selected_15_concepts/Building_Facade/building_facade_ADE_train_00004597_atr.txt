@@ -1,0 +1,9 @@
+Prediction:
+1
+Label:
+3
+001 # 0 # 0 # sky # sky # "" # 0.313686313686
+002 # 0 # 0 # road, route # road # "" # 0.163015127804
+003 # 0 # 0 # building, edifice # building # "" # 0.622591759246
+005 # 0 # 1 # car, auto, automobile, machine, motorcar # car # "" # 0.571040899399
+007 # 0 # 0 # van # van # "" # 0.349269183922

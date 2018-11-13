@@ -1,0 +1,347 @@
+Program started.............
+Program starts at: 09.01.2018  13.20.11 PM
+Working with confFile: uncle_owl_small.config
+Algorithm starts at: 09.01.2018  13.20.11 PM
+
+User defined parameters:
+K1/negExprTypeLimit: 3
+K2/hornClauseLimit: 3
+K3/objPropsCombinationLimit: 3
+K5/hornClausesListMaxSize: 50
+K6/candidateClassesListMaxSize: 50
+ReasonerName: pellet
+posIndivs from conf:
+	david
+	eric
+	george
+	calvin
+	fred
+	carlos
+	art
+	frederick
+negIndivs from conf:
+	alice
+	christy
+	bob
+	carl
+	alfred
+	karl
+	angela
+
+Algorithm ends at: 09.01.2018  13.20.12 PM
+
+Algorithm duration: 0.085 sec
+
+####################Solutions####################:
+solution 1: (( ¬ female) ⊔ (male))
+	 coverage_score: 0.7333333333333333
+	 f_measure: 0.8333333333333333
+solution 2: (male)
+	 coverage_score: 0.5333333333333333
+	 f_measure: 0.7666666666666666
+solution 3: ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.5333333333333333
+	 f_measure: 0.5902777777777778
+solution 4: ∃married.(( ¬ male) ⊔ (female))
+	 coverage_score: 0.5333333333333333
+	 f_measure: 0.6477272727272727
+solution 5: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female))
+	 coverage_score: 0.5333333333333333
+	 f_measure: 0.6477272727272727
+solution 6: (( ¬ female) ⊔ (male)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.4666666666666667
+	 f_measure: 0.5625
+solution 7: ∃married.(female)
+	 coverage_score: 0.4
+	 f_measure: 0.6057692307692308
+solution 8: ∃parent.( ¬ female)
+	 coverage_score: 0.4
+	 f_measure: 0.0
+solution 9: ∃parent.( ¬ male)
+	 coverage_score: 0.4
+	 f_measure: 0.0
+solution 10: (male) ⊓ ∃married.(female)
+	 coverage_score: 0.4
+	 f_measure: 0.6057692307692308
+solution 11: ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.4
+	 f_measure: 0.0
+solution 12: (male) ⊓ ∃married.(( ¬ male) ⊔ (female))
+	 coverage_score: 0.4
+	 f_measure: 0.6057692307692308
+solution 13: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female)
+	 coverage_score: 0.4
+	 f_measure: 0.6057692307692308
+solution 14: ∃sibling.(female)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5208333333333334
+solution 15: (male) ⊓ ∃sibling.(female)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5208333333333334
+solution 16: (male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5208333333333334
+solution 17: (( ¬ female) ⊔ (male)) ⊓ ∃sibling.(female)
+	 coverage_score: 0.3333333333333333
+	 f_measure: 0.5208333333333334
+solution 18: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.26666666666666666
+	 f_measure: 0.35416666666666663
+solution 19: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.26666666666666666
+	 f_measure: 0.35416666666666663
+solution 20: ∃sibling.( ¬ male)
+	 coverage_score: 0.2
+	 f_measure: 0.0
+solution 21: ( ¬ female)
+	 coverage_score: 0.2
+	 f_measure: 0.0
+solution 22: ∃married.(female) ⊓ ∃sibling.(female)
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 23: (male) ⊓ ∃married.(female) ⊓ ∃sibling.(female)
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 24: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(female)
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 25: ∃married.(female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 26: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(female)
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 27: (male) ⊓ ∃married.(female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 28: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃sibling.(female)
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 29: (male) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 30: (( ¬ female) ⊔ (male)) ⊓ ∃married.(female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 31: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.(female)
+	 coverage_score: 0.2
+	 f_measure: 0.3375
+solution 32: ∃married.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 33: ( ¬ female) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 34: ( ¬ female) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 35: ∃parent.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 36: ∃parent.( ¬ female) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 37: ( ¬ female) ⊓ ∃married.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 38: ∃married.( ¬ male) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 39: ∃married.( ¬ male) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 40: ( ¬ female) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 41: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 42: ( ¬ female) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 43: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 44: ∃parent.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 45: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 46: (( ¬ female) ⊔ (male)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 47: ∃married.( ¬ male) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 48: ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 49: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 50: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 51: ∃parent.( ¬ female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 52: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 53: ( ¬ female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 54: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 55: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 56: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 57: ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 58: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 59: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 60: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 61: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 62: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 63: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 64: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 65: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 66: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 67: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ male)
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 68: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female))
+	 coverage_score: 0.13333333333333333
+	 f_measure: 0.0
+solution 69: ∃married.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 70: ( ¬ female) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 71: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 72: ∃married.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 73: ( ¬ female) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 74: ∃married.( ¬ male) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 75: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 76: ∃married.( ¬ male) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 77: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 78: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 79: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 80: ∃married.( ¬ male) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 81: ∃married.( ¬ male) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 82: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 83: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 84: ∃married.( ¬ male) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 85: ( ¬ female) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 86: ( ¬ female) ⊓ ∃married.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 87: ( ¬ female) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 88: ( ¬ female) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 89: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 90: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 91: ( ¬ female) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 92: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 93: (( ¬ female) ⊔ (male)) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 94: (( ¬ female) ⊔ (male)) ⊓ ∃married.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 95: ∃married.( ¬ male) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 96: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ male) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 97: (( ¬ female) ⊔ (male)) ⊓ ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 98: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.( ¬ female) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 99: ( ¬ female) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 100: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.( ¬ male)
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 101: (( ¬ female) ⊔ (male)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+solution 102: ∃married.(( ¬ male) ⊔ (female)) ⊓ ∃parent.(( ¬ male) ⊔ ( ¬ female)) ⊓ ∃sibling.((female) ⊔ ( ¬ male))
+	 coverage_score: 0.06666666666666667
+	 f_measure: 0.0
+
+Total solutions found: 102
+
+Program finished.
+Program ends at: 09.01.2018  13.20.12 PM
+Program duration: 0.109 sec

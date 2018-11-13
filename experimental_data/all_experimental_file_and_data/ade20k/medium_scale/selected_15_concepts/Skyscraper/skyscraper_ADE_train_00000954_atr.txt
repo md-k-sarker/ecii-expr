@@ -1,0 +1,7 @@
+Prediction:
+10
+Label:
+10
+001 # 0 # 0 # sky # sky # "" # 0.350367228716
+002 # 0 # 0 # building, edifice # building # "" # 0.796844683355
+008 # 0 # 0 # tree # tree # "" # 0.64101332693

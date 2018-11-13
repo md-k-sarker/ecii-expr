@@ -1,0 +1,13 @@
+Prediction:
+1
+Label:
+1
+001 # 0 # 0 # sky # sky # "" # 0.542916835935
+003 # 0 # 0 # road, route # road # "" # 0.568406466513
+004 # 0 # 0 # sidewalk, pavement # sidewalk # "" # 0.109277950311
+005 # 0 # 0 # wall # wall # "" # 0.208551554828
+007 # 0 # 0 # tree # tree # "" # 0.271621621622
+008 # 0 # 0 # building, edifice # building # "" # 0.301957397812
+026 # 0 # 1 # van # van # "" # 0.338734067833
+036 # 0 # 0 # double door # double door # "metal" # 0.266787112316
+041 # 0 # 0 # railing, rail # railing # "" # 0.173886138614

@@ -1,0 +1,46 @@
+➜  moral_reasoner dl_cli moral_43examples_complex_owl.conf
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 1ms. Status: OK
+Initializing component 'reasoner' of type closed world reasoner ...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/Applications/dllearner/dllearner-1.3.0/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OntologyID(OntologyIRI(<http://localhost/foo>) VersionIRI(<null>))
+Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+Materializing TBox...
+...TBox materialised in 167 ms.
+... initialized component 'reasoner' in 1s 479ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 1ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 11ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (53.49%) class expression found after 25ms: Thing
+more accurate (74.42%) class expression found after 75ms: severity_harm
+more accurate (79.07%) class expression found after 84ms: not (benefit_victim)
+more accurate (88.37%) class expression found after 168ms: responsible or vicarious
+more accurate (97.67%) class expression found after 194ms: vicarious or (responsible and severity_harm)
+more accurate (100.00%) class expression found after 896ms: severity_harm and (responsible or vicarious) and (not (benefit_victim))
+Algorithm terminated successfully (time: 897ms, 6876 descriptions tested, 1550 nodes in the search tree).
+
+number of retrievals: 7854
+retrieval reasoning time: 161ms ( 0ms per retrieval)
+(complex) subsumption checks: 212 (0 multiple)
+subsumption reasoning time: 37ms ( 0ms per subsumption check)
+overall reasoning time: 198ms
+
+solutions:
+1: severity_harm and (responsible or vicarious) and (not (benefit_victim)) (pred. acc.: 100.00%, F-measure: 100.00%)
+2: vicarious or (responsible and severity_harm) (pred. acc.: 97.67%, F-measure: 97.87%)
+3: severity_harm and (responsible or vicarious) (pred. acc.: 97.67%, F-measure: 97.87%)
+4: (responsible and severity_harm) or (severity_harm and vicarious) (pred. acc.: 97.67%, F-measure: 97.87%)
+5: (notaccident and vicarious) or (responsible and severity_harm) (pred. acc.: 97.67%, F-measure: 97.87%)
+6: vicarious or (negligent_c and responsible and severity_harm) (pred. acc.: 97.67%, F-measure: 97.87%)
+7: severity_harm and (vicarious or (responsible and severity_harm)) (pred. acc.: 97.67%, F-measure: 97.87%)
+8: severity_harm and (responsible or (severity_harm and vicarious)) (pred. acc.: 97.67%, F-measure: 97.87%)
+9: severity_harm and (responsible or (notaccident and vicarious)) (pred. acc.: 97.67%, F-measure: 97.87%)
+10: notaccident and (vicarious or (responsible and severity_harm)) (pred. acc.: 97.67%, F-measure: 97.87%)

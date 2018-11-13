@@ -1,0 +1,1031 @@
+Algorithm started.................
+Algorithm starts at: 06.08.2018  18.57.28 PM
+
+PosExamples: 
+	hotel_room_ADE_train_00009522
+	hotel_room_ADE_train_00009521
+	hotel_room_ADE_train_00009520
+	hotel_room_ADE_train_00009524
+	hotel_room_ADE_train_00009523
+
+NegExamples:
+	bedroom_ADE_train_00000192
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	dining_room_ADE_train_00006845
+	kitchen_ADE_train_00000594
+
+Algorithm ends at: 06.08.2018  19.07.50 PMAlgorithm duration: 621 sec
+
+####################Solutions####################:
+solution 1: imageContains min 3 Artifact
+	accuracy_score: 0.8100868364730212
+solution 2: imageContains some (WN_Wall and Wall)
+	accuracy_score: 0.7988071523335984
+solution 3: imageContains some WN_Wall
+	accuracy_score: 0.7988071523335984
+solution 4: imageContains some Wall
+	accuracy_score: 0.7988071523335984
+solution 5: imageContains min 2 Artifact
+	accuracy_score: 0.7886751345948129
+solution 6: imageContains min 3 Entity
+	accuracy_score: 0.7795084971874737
+solution 7: imageContains min 3 Object
+	accuracy_score: 0.7795084971874737
+solution 8: imageContains min 3 Physical
+	accuracy_score: 0.7795084971874737
+solution 9: imageContains some (Artifact and GeographicArea)
+	accuracy_score: 0.7711630722733203
+solution 10: imageContains some (Artifact and LocalizablePlace)
+	accuracy_score: 0.7711630722733203
+solution 11: imageContains some (Artifact and Region)
+	accuracy_score: 0.7711630722733203
+solution 12: imageContains min 2 Object
+	accuracy_score: 0.7711630722733203
+solution 13: imageContains min 2 Physical
+	accuracy_score: 0.7711630722733203
+solution 14: imageContains some Artifact
+	accuracy_score: 0.7711630722733203
+solution 15: imageContains some LocalizablePlace
+	accuracy_score: 0.7711630722733203
+solution 16: imageContains some StationaryArtifact
+	accuracy_score: 0.7711630722733203
+solution 17: imageContains min 2 Entity
+	accuracy_score: 0.763523138347365
+solution 18: imageContains some (not (Armchair))
+	accuracy_score: 0.7564945880212885
+solution 19: imageContains some (not (Ashtray))
+	accuracy_score: 0.7564945880212885
+solution 20: imageContains some (not (Backpack))
+	accuracy_score: 0.7564945880212885
+solution 21: imageContains some (not (Bag))
+	accuracy_score: 0.7564945880212885
+solution 22: imageContains some (not (Bathtub))
+	accuracy_score: 0.7564945880212885
+solution 23: imageContains some (not (Bed))
+	accuracy_score: 0.7564945880212885
+solution 24: imageContains some (not (Board))
+	accuracy_score: 0.7564945880212885
+solution 25: imageContains some (not (Bowl))
+	accuracy_score: 0.7564945880212885
+solution 26: imageContains some (not (Box))
+	accuracy_score: 0.7564945880212885
+solution 27: imageContains some (not (Building))
+	accuracy_score: 0.7564945880212885
+solution 28: imageContains some (not (Cabinet))
+	accuracy_score: 0.7564945880212885
+solution 29: imageContains some (not (Calendar))
+	accuracy_score: 0.7564945880212885
+solution 30: imageContains some (not (Candleholder))
+	accuracy_score: 0.7564945880212885
+solution 31: imageContains some (not (Car))
+	accuracy_score: 0.7564945880212885
+solution 32: imageContains some (not (Ceiling))
+	accuracy_score: 0.7564945880212885
+solution 33: imageContains some (not (Ceilingfan))
+	accuracy_score: 0.7564945880212885
+solution 34: imageContains some (not (Centralreservation))
+	accuracy_score: 0.7564945880212885
+solution 35: imageContains some (not (Chair))
+	accuracy_score: 0.7564945880212885
+solution 36: imageContains some (not (Closet))
+	accuracy_score: 0.7564945880212885
+solution 37: imageContains some (not (Clothes))
+	accuracy_score: 0.7564945880212885
+solution 38: imageContains some (not (Coffeetable))
+	accuracy_score: 0.7564945880212885
+solution 39: imageContains some (not (Computer))
+	accuracy_score: 0.7564945880212885
+solution 40: imageContains some (not (Creamer))
+	accuracy_score: 0.7564945880212885
+solution 41: imageContains some (not (Curtain))
+	accuracy_score: 0.7564945880212885
+solution 42: imageContains some (not (Cushion))
+	accuracy_score: 0.7564945880212885
+solution 43: imageContains some (not (Desk))
+	accuracy_score: 0.7564945880212885
+solution 44: imageContains some (not (Door))
+	accuracy_score: 0.7564945880212885
+solution 45: imageContains some (not (Doubledoor))
+	accuracy_score: 0.7564945880212885
+solution 46: imageContains some (not (Field))
+	accuracy_score: 0.7564945880212885
+solution 47: imageContains some (not (Firstfloor))
+	accuracy_score: 0.7564945880212885
+solution 48: imageContains some (not (Floor))
+	accuracy_score: 0.7564945880212885
+solution 49: imageContains some (not (Floorlamp))
+	accuracy_score: 0.7564945880212885
+solution 50: imageContains some (not (Fountain))
+	accuracy_score: 0.7564945880212885
+solution 51: imageContains some (not (Glass))
+	accuracy_score: 0.7564945880212885
+solution 52: imageContains some (not (Grass))
+	accuracy_score: 0.7564945880212885
+solution 53: imageContains some (not (Ground))
+	accuracy_score: 0.7564945880212885
+solution 54: imageContains some (not (Hotelsafe))
+	accuracy_score: 0.7564945880212885
+solution 55: imageContains some (not (Kettle))
+	accuracy_score: 0.7564945880212885
+solution 56: imageContains some (not (Laptop))
+	accuracy_score: 0.7564945880212885
+solution 57: imageContains some (not (Microwave))
+	accuracy_score: 0.7564945880212885
+solution 58: imageContains some (not (Mountain))
+	accuracy_score: 0.7564945880212885
+solution 59: imageContains some (not (Oven))
+	accuracy_score: 0.7564945880212885
+solution 60: imageContains some (not (Papers))
+	accuracy_score: 0.7564945880212885
+solution 61: imageContains some (not (Person))
+	accuracy_score: 0.7564945880212885
+solution 62: imageContains some (not (Picture))
+	accuracy_score: 0.7564945880212885
+solution 63: imageContains some (not (Placemat))
+	accuracy_score: 0.7564945880212885
+solution 64: imageContains some (not (Plants))
+	accuracy_score: 0.7564945880212885
+solution 65: imageContains some (not (Plate))
+	accuracy_score: 0.7564945880212885
+solution 66: imageContains some (not (Projectionscreen))
+	accuracy_score: 0.7564945880212885
+solution 67: imageContains some (not (Radiator))
+	accuracy_score: 0.7564945880212885
+solution 68: imageContains some (not (Refrigerator))
+	accuracy_score: 0.7564945880212885
+solution 69: imageContains some (not (Road))
+	accuracy_score: 0.7564945880212885
+solution 70: imageContains some (not (Rug))
+	accuracy_score: 0.7564945880212885
+solution 71: imageContains some (not (Sconce))
+	accuracy_score: 0.7564945880212885
+solution 72: imageContains some (not (Shelves))
+	accuracy_score: 0.7564945880212885
+solution 73: imageContains some (not (Shoes))
+	accuracy_score: 0.7564945880212885
+solution 74: imageContains some (not (Sign))
+	accuracy_score: 0.7564945880212885
+solution 75: imageContains some (not (Sink))
+	accuracy_score: 0.7564945880212885
+solution 76: imageContains some (not (Skirtingboard))
+	accuracy_score: 0.7564945880212885
+solution 77: imageContains some (not (Sky))
+	accuracy_score: 0.7564945880212885
+solution 78: imageContains some (not (Snow))
+	accuracy_score: 0.7564945880212885
+solution 79: imageContains some (not (Sofa))
+	accuracy_score: 0.7564945880212885
+solution 80: imageContains some (not (Swivelchair))
+	accuracy_score: 0.7564945880212885
+solution 81: imageContains some (not (Tablelamp))
+	accuracy_score: 0.7564945880212885
+solution 82: imageContains some (not (Tapestry))
+	accuracy_score: 0.7564945880212885
+solution 83: imageContains some (not (Teacup))
+	accuracy_score: 0.7564945880212885
+solution 84: imageContains some (not (Television))
+	accuracy_score: 0.7564945880212885
+solution 85: imageContains some (not (Trashcan))
+	accuracy_score: 0.7564945880212885
+solution 86: imageContains some (not (Tray))
+	accuracy_score: 0.7564945880212885
+solution 87: imageContains some (not (Tree))
+	accuracy_score: 0.7564945880212885
+solution 88: imageContains some (not (Trees))
+	accuracy_score: 0.7564945880212885
+solution 89: imageContains some (not (Trestle))
+	accuracy_score: 0.7564945880212885
+solution 90: imageContains some (not (WN_Apparel))
+	accuracy_score: 0.7564945880212885
+solution 91: imageContains some (not (WN_Armchair))
+	accuracy_score: 0.7564945880212885
+solution 92: imageContains some (not (WN_Ash-bin))
+	accuracy_score: 0.7564945880212885
+solution 93: imageContains some (not (WN_Ashbin))
+	accuracy_score: 0.7564945880212885
+solution 94: imageContains some (not (WN_Ashcan))
+	accuracy_score: 0.7564945880212885
+solution 95: imageContains some (not (WN_Ashtray))
+	accuracy_score: 0.7564945880212885
+solution 96: imageContains some (not (WN_Auto))
+	accuracy_score: 0.7564945880212885
+solution 97: imageContains some (not (WN_Automobile))
+	accuracy_score: 0.7564945880212885
+solution 98: imageContains some (not (WN_Backpack))
+	accuracy_score: 0.7564945880212885
+solution 99: imageContains some (not (WN_Bag))
+	accuracy_score: 0.7564945880212885
+solution 100: imageContains some (not (WN_Bath))
+	accuracy_score: 0.7564945880212885
+solution 101: imageContains some (not (WN_Bathingtub))
+	accuracy_score: 0.7564945880212885
+solution 102: imageContains some (not (WN_Bathtub))
+	accuracy_score: 0.7564945880212885
+solution 103: imageContains some (not (WN_Bed))
+	accuracy_score: 0.7564945880212885
+solution 104: imageContains some (not (WN_Board))
+	accuracy_score: 0.7564945880212885
+solution 105: imageContains some (not (WN_Boiler))
+	accuracy_score: 0.7564945880212885
+solution 106: imageContains some (not (WN_Boobtube))
+	accuracy_score: 0.7564945880212885
+solution 107: imageContains some (not (WN_Bowl))
+	accuracy_score: 0.7564945880212885
+solution 108: imageContains some (not (WN_Box))
+	accuracy_score: 0.7564945880212885
+solution 109: imageContains some (not (WN_Building))
+	accuracy_score: 0.7564945880212885
+solution 110: imageContains some (not (WN_Cabinet))
+	accuracy_score: 0.7564945880212885
+solution 111: imageContains some (not (WN_Calendar))
+	accuracy_score: 0.7564945880212885
+solution 112: imageContains some (not (WN_Candleholder))
+	accuracy_score: 0.7564945880212885
+solution 113: imageContains some (not (WN_Candlestick))
+	accuracy_score: 0.7564945880212885
+solution 114: imageContains some (not (WN_Car))
+	accuracy_score: 0.7564945880212885
+solution 115: imageContains some (not (WN_Carpet))
+	accuracy_score: 0.7564945880212885
+solution 116: imageContains some (not (WN_Carpeting))
+	accuracy_score: 0.7564945880212885
+solution 117: imageContains some (not (WN_Ceiling))
+	accuracy_score: 0.7564945880212885
+solution 118: imageContains some (not (WN_Centralreservation))
+	accuracy_score: 0.7564945880212885
+solution 119: imageContains some (not (WN_Chair))
+	accuracy_score: 0.7564945880212885
+solution 120: imageContains some (not (WN_Closet))
+	accuracy_score: 0.7564945880212885
+solution 121: imageContains some (not (WN_Clothes))
+	accuracy_score: 0.7564945880212885
+solution 122: imageContains some (not (WN_Cocktailtable))
+	accuracy_score: 0.7564945880212885
+solution 123: imageContains some (not (WN_Coffeetable))
+	accuracy_score: 0.7564945880212885
+solution 124: imageContains some (not (WN_Computer))
+	accuracy_score: 0.7564945880212885
+solution 125: imageContains some (not (WN_Computingdevice))
+	accuracy_score: 0.7564945880212885
+solution 126: imageContains some (not (WN_Computingmachine))
+	accuracy_score: 0.7564945880212885
+solution 127: imageContains some (not (WN_Couch))
+	accuracy_score: 0.7564945880212885
+solution 128: imageContains some (not (WN_Creamer))
+	accuracy_score: 0.7564945880212885
+solution 129: imageContains some (not (WN_Curtain))
+	accuracy_score: 0.7564945880212885
+solution 130: imageContains some (not (WN_Cushion))
+	accuracy_score: 0.7564945880212885
+solution 131: imageContains some (not (WN_Dataprocessor))
+	accuracy_score: 0.7564945880212885
+solution 132: imageContains some (not (WN_Desk))
+	accuracy_score: 0.7564945880212885
+solution 133: imageContains some (not (WN_Document))
+	accuracy_score: 0.7564945880212885
+solution 134: imageContains some (not (WN_Door))
+	accuracy_score: 0.7564945880212885
+solution 135: imageContains some (not (WN_Doubledoor))
+	accuracy_score: 0.7564945880212885
+solution 136: imageContains some (not (WN_Drape))
+	accuracy_score: 0.7564945880212885
+solution 137: imageContains some (not (WN_Drapery))
+	accuracy_score: 0.7564945880212885
+solution 138: imageContains some (not (WN_Dress))
+	accuracy_score: 0.7564945880212885
+solution 139: imageContains some (not (WN_Drinkingglass))
+	accuracy_score: 0.7564945880212885
+solution 140: imageContains some (not (WN_Dustbin))
+	accuracy_score: 0.7564945880212885
+solution 141: imageContains some (not (WN_Earth))
+	accuracy_score: 0.7564945880212885
+solution 142: imageContains some (not (WN_Edifice))
+	accuracy_score: 0.7564945880212885
+solution 143: imageContains some (not (WN_Electroniccomputer))
+	accuracy_score: 0.7564945880212885
+solution 144: imageContains some (not (WN_Fan))
+	accuracy_score: 0.7564945880212885
+solution 145: imageContains some (not (WN_Field))
+	accuracy_score: 0.7564945880212885
+solution 146: imageContains some (not (WN_Firstfloor))
+	accuracy_score: 0.7564945880212885
+solution 147: imageContains some (not (WN_Floor))
+	accuracy_score: 0.7564945880212885
+solution 148: imageContains some (not (WN_Flooring))
+	accuracy_score: 0.7564945880212885
+solution 149: imageContains some (not (WN_Flora))
+	accuracy_score: 0.7564945880212885
+solution 150: imageContains some (not (WN_Fountain))
+	accuracy_score: 0.7564945880212885
+solution 151: imageContains some (not (WN_Garbagecan))
+	accuracy_score: 0.7564945880212885
+solution 152: imageContains some (not (WN_Glass))
+	accuracy_score: 0.7564945880212885
+solution 153: imageContains some (not (WN_Gogglebox))
+	accuracy_score: 0.7564945880212885
+solution 154: imageContains some (not (WN_Grass))
+	accuracy_score: 0.7564945880212885
+solution 155: imageContains some (not (WN_Ground))
+	accuracy_score: 0.7564945880212885
+solution 156: imageContains some (not (WN_Haversack))
+	accuracy_score: 0.7564945880212885
+solution 157: imageContains some (not (WN_Hotelsafe))
+	accuracy_score: 0.7564945880212885
+solution 158: imageContains some (not (WN_Icebox))
+	accuracy_score: 0.7564945880212885
+solution 159: imageContains some (not (WN_Idiotbox))
+	accuracy_score: 0.7564945880212885
+solution 160: imageContains some (not (WN_Individual))
+	accuracy_score: 0.7564945880212885
+solution 161: imageContains some (not (WN_Informationprocessingsystem))
+	accuracy_score: 0.7564945880212885
+solution 162: imageContains some (not (WN_Kettle))
+	accuracy_score: 0.7564945880212885
+solution 163: imageContains some (not (WN_Knapsack))
+	accuracy_score: 0.7564945880212885
+solution 164: imageContains some (not (WN_Lamp))
+	accuracy_score: 0.7564945880212885
+solution 165: imageContains some (not (WN_Laptop))
+	accuracy_score: 0.7564945880212885
+solution 166: imageContains some (not (WN_Laptopcomputer))
+	accuracy_score: 0.7564945880212885
+solution 167: imageContains some (not (WN_Lounge))
+	accuracy_score: 0.7564945880212885
+solution 168: imageContains some (not (WN_Machine))
+	accuracy_score: 0.7564945880212885
+solution 169: imageContains some (not (WN_Mantle))
+	accuracy_score: 0.7564945880212885
+solution 170: imageContains some (not (WN_Microwave))
+	accuracy_score: 0.7564945880212885
+solution 171: imageContains some (not (WN_Microwaveoven))
+	accuracy_score: 0.7564945880212885
+solution 172: imageContains some (not (WN_Mortal))
+	accuracy_score: 0.7564945880212885
+solution 173: imageContains some (not (WN_Motorcar))
+	accuracy_score: 0.7564945880212885
+solution 174: imageContains some (not (WN_Mount))
+	accuracy_score: 0.7564945880212885
+solution 175: imageContains some (not (WN_Mountain))
+	accuracy_score: 0.7564945880212885
+solution 176: imageContains some (not (WN_Oven))
+	accuracy_score: 0.7564945880212885
+solution 177: imageContains some (not (WN_Packsack))
+	accuracy_score: 0.7564945880212885
+solution 178: imageContains some (not (WN_Painting))
+	accuracy_score: 0.7564945880212885
+solution 179: imageContains some (not (WN_Pall))
+	accuracy_score: 0.7564945880212885
+solution 180: imageContains some (not (WN_Papers))
+	accuracy_score: 0.7564945880212885
+solution 181: imageContains some (not (WN_Person))
+	accuracy_score: 0.7564945880212885
+solution 182: imageContains some (not (WN_Phone))
+	accuracy_score: 0.7564945880212885
+solution 183: imageContains some (not (WN_Picture))
+	accuracy_score: 0.7564945880212885
+solution 184: imageContains some (not (WN_Placemat))
+	accuracy_score: 0.7564945880212885
+solution 185: imageContains some (not (WN_Plank))
+	accuracy_score: 0.7564945880212885
+solution 186: imageContains some (not (WN_Plant))
+	accuracy_score: 0.7564945880212885
+solution 187: imageContains some (not (WN_Plantlife))
+	accuracy_score: 0.7564945880212885
+solution 188: imageContains some (not (WN_Plate))
+	accuracy_score: 0.7564945880212885
+solution 189: imageContains some (not (WN_Projectionscreen))
+	accuracy_score: 0.7564945880212885
+solution 190: imageContains some (not (WN_Radiator))
+	accuracy_score: 0.7564945880212885
+solution 191: imageContains some (not (WN_Refrigerator))
+	accuracy_score: 0.7564945880212885
+solution 192: imageContains some (not (WN_Road))
+	accuracy_score: 0.7564945880212885
+solution 193: imageContains some (not (WN_Route))
+	accuracy_score: 0.7564945880212885
+solution 194: imageContains some (not (WN_Rucksack))
+	accuracy_score: 0.7564945880212885
+solution 195: imageContains some (not (WN_Rug))
+	accuracy_score: 0.7564945880212885
+solution 196: imageContains some (not (WN_Sconce))
+	accuracy_score: 0.7564945880212885
+solution 197: imageContains some (not (WN_Screen))
+	accuracy_score: 0.7564945880212885
+solution 198: imageContains some (not (WN_Shelf))
+	accuracy_score: 0.7564945880212885
+solution 199: imageContains some (not (WN_Shoe))
+	accuracy_score: 0.7564945880212885
+solution 200: imageContains some (not (WN_Sign))
+	accuracy_score: 0.7564945880212885
+solution 201: imageContains some (not (WN_Signboard))
+	accuracy_score: 0.7564945880212885
+solution 202: imageContains some (not (WN_Silverscreen))
+	accuracy_score: 0.7564945880212885
+solution 203: imageContains some Entity
+	accuracy_score: 0.7564945880212885
+solution 204: imageContains some GeographicArea
+	accuracy_score: 0.7564945880212885
+solution 205: imageContains some Object
+	accuracy_score: 0.7564945880212885
+solution 206: imageContains some Physical
+	accuracy_score: 0.7564945880212885
+solution 207: imageContains some Region
+	accuracy_score: 0.7564945880212885
+solution 208: imageContains some Thing
+	accuracy_score: 0.7564945880212885
+solution 209: not (Entity)
+	accuracy_score: 0.6355815361366601
+solution 210: not (Physical)
+	accuracy_score: 0.6317615691736824
+solution 211: not (Object)
+	accuracy_score: 0.629968811227509
+solution 212: not (Artifact)
+	accuracy_score: 0.620560705542603
+solution 213: not (GeographicArea)
+	accuracy_score: 0.5996023841111995
+solution 214: not (Region)
+	accuracy_score: 0.5996023841111995
+solution 215: not (LocalizablePlace)
+	accuracy_score: 0.5973123680201904
+solution 216: not (StationaryArtifact)
+	accuracy_score: 0.5973123680201904
+solution 217: not (DurableGood)
+	accuracy_score: 0.5922138891954147
+solution 218: not (ManufacturedProduct)
+	accuracy_score: 0.5922138891954147
+solution 219: not (Product)
+	accuracy_score: 0.5922138891954147
+solution 220: not (Furniture)
+	accuracy_score: 0.591592913180914
+solution 221: not (Device)
+	accuracy_score: 0.5906845312637514
+solution 222: not (WN_Wall)
+	accuracy_score: 0.5903876907577734
+solution 223: not (Wall)
+	accuracy_score: 0.5903876907577734
+solution 224: not (Floor)
+	accuracy_score: 0.5898026510133875
+solution 225: not (WN_Floor)
+	accuracy_score: 0.5898026510133875
+solution 226: not (WN_Flooring)
+	accuracy_score: 0.5898026510133875
+solution 227: not (SelfConnectedObject)
+	accuracy_score: 0.5889460083706025
+solution 228: not (Seat)
+	accuracy_score: 0.5886658627664886
+solution 229: not (Table)
+	accuracy_score: 0.5886658627664886
+solution 230: not (Chair)
+	accuracy_score: 0.5881134221062801
+solution 231: not (WN_Chair)
+	accuracy_score: 0.5881134221062801
+solution 232: not (WN_Table)
+	accuracy_score: 0.5881134221062801
+solution 233: not (Agent)
+	accuracy_score: 0.5878410461157884
+solution 234: not (Ceiling)
+	accuracy_score: 0.5878410461157884
+solution 235: not (CorpuscularObject)
+	accuracy_score: 0.5878410461157884
+solution 236: not (ElectricDevice)
+	accuracy_score: 0.5878410461157884
+solution 237: not (Fabric)
+	accuracy_score: 0.5878410461157884
+solution 238: not (Holder)
+	accuracy_score: 0.5878410461157884
+solution 239: not (WN_Ceiling)
+	accuracy_score: 0.5878410461157884
+solution 240: not (WN_Window)
+	accuracy_score: 0.5878410461157884
+solution 241: not (WN_Windowpane)
+	accuracy_score: 0.5878410461157884
+solution 242: not (Window)
+	accuracy_score: 0.5878410461157884
+solution 243: not (Abstract)
+	accuracy_score: 0.5875711805130074
+solution 244: not (Cabinet)
+	accuracy_score: 0.5875711805130074
+solution 245: not (CommunicationDevice)
+	accuracy_score: 0.5875711805130074
+solution 246: not (Container)
+	accuracy_score: 0.5875711805130074
+solution 247: not (Curtain)
+	accuracy_score: 0.5875711805130074
+solution 248: not (Door)
+	accuracy_score: 0.5875711805130074
+solution 249: not (EngineeringComponent)
+	accuracy_score: 0.5875711805130074
+solution 250: not (Graph)
+	accuracy_score: 0.5875711805130074
+solution 251: not (LandArea)
+	accuracy_score: 0.5875711805130074
+solution 252: not (OrganicObject)
+	accuracy_score: 0.5875711805130074
+solution 253: not (OrganicThing)
+	accuracy_score: 0.5875711805130074
+solution 254: not (Organism)
+	accuracy_score: 0.5875711805130074
+solution 255: not (TransitwayObstacle)
+	accuracy_score: 0.5875711805130074
+solution 256: not (WN_Cabinet)
+	accuracy_score: 0.5875711805130074
+solution 257: not (WN_Curtain)
+	accuracy_score: 0.5875711805130074
+solution 258: not (WN_Door)
+	accuracy_score: 0.5875711805130074
+solution 259: not (WN_Drape)
+	accuracy_score: 0.5875711805130074
+solution 260: not (WN_Drapery)
+	accuracy_score: 0.5875711805130074
+solution 261: not (WN_Mantle)
+	accuracy_score: 0.5875711805130074
+solution 262: not (WN_Pall)
+	accuracy_score: 0.5875711805130074
+solution 263: not (WN_Tree)
+	accuracy_score: 0.5875711805130074
+solution 264: not (WindowCovering)
+	accuracy_score: 0.5875711805130074
+solution 265: not (Building)
+	accuracy_score: 0.5873037869711972
+solution 266: not (LandTransitway)
+	accuracy_score: 0.5873037869711972
+solution 267: not (Road)
+	accuracy_score: 0.5873037869711972
+solution 268: not (Roadway)
+	accuracy_score: 0.5873037869711972
+solution 269: not (Sky)
+	accuracy_score: 0.5873037869711972
+solution 270: not (Transitway)
+	accuracy_score: 0.5873037869711972
+solution 271: not (WN_Building)
+	accuracy_score: 0.5873037869711972
+solution 272: not (WN_Edifice)
+	accuracy_score: 0.5873037869711972
+solution 273: not (WN_Flora)
+	accuracy_score: 0.5873037869711972
+solution 274: not (WN_Lamp)
+	accuracy_score: 0.5873037869711972
+solution 275: not (WN_Plant)
+	accuracy_score: 0.5873037869711972
+solution 276: not (WN_Plantlife)
+	accuracy_score: 0.5873037869711972
+solution 277: not (WN_Road)
+	accuracy_score: 0.5873037869711972
+solution 278: not (WN_Route)
+	accuracy_score: 0.5873037869711972
+solution 279: not (WN_Sky)
+	accuracy_score: 0.5873037869711972
+solution 280: not (Bed)
+	accuracy_score: 0.5870388279778489
+solution 281: not (Clothing)
+	accuracy_score: 0.5870388279778489
+solution 282: not (ContactSite)
+	accuracy_score: 0.5870388279778489
+solution 283: not (Covering)
+	accuracy_score: 0.5870388279778489
+solution 284: not (Desk)
+	accuracy_score: 0.5870388279778489
+solution 285: not (Doubledoor)
+	accuracy_score: 0.5870388279778489
+solution 286: not (LandForm)
+	accuracy_score: 0.5870388279778489
+solution 287: not (Motion)
+	accuracy_score: 0.5870388279778489
+solution 288: not (Mountain)
+	accuracy_score: 0.5870388279778489
+solution 289: not (Picture)
+	accuracy_score: 0.5870388279778489
+solution 290: not (Plant)
+	accuracy_score: 0.5870388279778489
+solution 291: not (Plants)
+	accuracy_score: 0.5870388279778489
+solution 292: not (Process)
+	accuracy_score: 0.5870388279778489
+solution 293: not (Putting)
+	accuracy_score: 0.5870388279778489
+solution 294: not (Sofa)
+	accuracy_score: 0.5870388279778489
+solution 295: not (Swivelchair)
+	accuracy_score: 0.5870388279778489
+solution 296: not (Tablelamp)
+	accuracy_score: 0.5870388279778489
+solution 297: not (TelephonyDevice)
+	accuracy_score: 0.5870388279778489
+solution 298: not (Transfer)
+	accuracy_score: 0.5870388279778489
+solution 299: not (Translocation)
+	accuracy_score: 0.5870388279778489
+solution 300: not (Trashcan)
+	accuracy_score: 0.5870388279778489
+solution 301: not (Tree)
+	accuracy_score: 0.5870388279778489
+solution 302: not (Trees)
+	accuracy_score: 0.5870388279778489
+solution 303: not (UplandArea)
+	accuracy_score: 0.5870388279778489
+solution 304: not (WN_Ash-bin)
+	accuracy_score: 0.5870388279778489
+solution 305: not (WN_Ashbin)
+	accuracy_score: 0.5870388279778489
+solution 306: not (WN_Ashcan)
+	accuracy_score: 0.5870388279778489
+solution 307: not (WN_Bed)
+	accuracy_score: 0.5870388279778489
+solution 308: not (WN_Couch)
+	accuracy_score: 0.5870388279778489
+solution 309: not (WN_Desk)
+	accuracy_score: 0.5870388279778489
+solution 310: not (WN_Doubledoor)
+	accuracy_score: 0.5870388279778489
+solution 311: not (WN_Dustbin)
+	accuracy_score: 0.5870388279778489
+solution 312: not (WN_Garbagecan)
+	accuracy_score: 0.5870388279778489
+solution 313: not (WN_Lounge)
+	accuracy_score: 0.5870388279778489
+solution 314: not (WN_Mount)
+	accuracy_score: 0.5870388279778489
+solution 315: not (WN_Mountain)
+	accuracy_score: 0.5870388279778489
+solution 316: not (WN_Painting)
+	accuracy_score: 0.5870388279778489
+solution 317: not (WN_Phone)
+	accuracy_score: 0.5870388279778489
+solution 318: not (WN_Picture)
+	accuracy_score: 0.5870388279778489
+solution 319: not (WN_Sofa)
+	accuracy_score: 0.5870388279778489
+solution 320: not (WN_Swivelchair)
+	accuracy_score: 0.5870388279778489
+solution 321: not (WN_Telephone)
+	accuracy_score: 0.5870388279778489
+solution 322: not (WN_Telephoneset)
+	accuracy_score: 0.5870388279778489
+solution 323: not (WN_Trashbarrel)
+	accuracy_score: 0.5870388279778489
+solution 324: not (WN_Trashbin)
+	accuracy_score: 0.5870388279778489
+solution 325: not (WN_Trashcan)
+	accuracy_score: 0.5870388279778489
+solution 326: not (WN_Wastebin)
+	accuracy_score: 0.5870388279778489
+solution 327: not (WearableItem)
+	accuracy_score: 0.5870388279778489
+solution 328: not (telephone)
+	accuracy_score: 0.5870388279778489
+solution 329: not (Armchair)
+	accuracy_score: 0.5867762668125779
+solution 330: not (Ashtray)
+	accuracy_score: 0.5867762668125779
+solution 331: not (Backpack)
+	accuracy_score: 0.5867762668125779
+solution 332: not (Bag)
+	accuracy_score: 0.5867762668125779
+solution 333: not (Bathtub)
+	accuracy_score: 0.5867762668125779
+solution 334: not (Board)
+	accuracy_score: 0.5867762668125779
+solution 335: not (Bowl)
+	accuracy_score: 0.5867762668125779
+solution 336: not (Box)
+	accuracy_score: 0.5867762668125779
+solution 337: not (Calendar)
+	accuracy_score: 0.5867762668125779
+solution 338: not (Candleholder)
+	accuracy_score: 0.5867762668125779
+solution 339: not (CapitalGood)
+	accuracy_score: 0.5867762668125779
+solution 340: not (Car)
+	accuracy_score: 0.5867762668125779
+solution 341: not (Ceilingfan)
+	accuracy_score: 0.5867762668125779
+solution 342: not (Centralreservation)
+	accuracy_score: 0.5867762668125779
+solution 343: not (Closet)
+	accuracy_score: 0.5867762668125779
+solution 344: not (Clothes)
+	accuracy_score: 0.5867762668125779
+solution 345: not (Coffeetable)
+	accuracy_score: 0.5867762668125779
+solution 346: not (Computer)
+	accuracy_score: 0.5867762668125779
+solution 347: not (ContentBearingObject)
+	accuracy_score: 0.5867762668125779
+solution 348: not (ContentBearingPhysical)
+	accuracy_score: 0.5867762668125779
+solution 349: not (CoolingDevice)
+	accuracy_score: 0.5867762668125779
+solution 350: not (Creamer)
+	accuracy_score: 0.5867762668125779
+solution 351: not (Cushion)
+	accuracy_score: 0.5867762668125779
+solution 352: not (Field)
+	accuracy_score: 0.5867762668125779
+solution 353: not (Firstfloor)
+	accuracy_score: 0.5867762668125779
+solution 354: not (Floorlamp)
+	accuracy_score: 0.5867762668125779
+solution 355: not (FloweringPlant)
+	accuracy_score: 0.5867762668125779
+solution 356: not (Fountain)
+	accuracy_score: 0.5867762668125779
+solution 357: not (Glass)
+	accuracy_score: 0.5867762668125779
+solution 358: not (Grass)
+	accuracy_score: 0.5867762668125779
+solution 359: not (Ground)
+	accuracy_score: 0.5867762668125779
+solution 360: not (HeatingDevice)
+	accuracy_score: 0.5867762668125779
+solution 361: not (Hotelsafe)
+	accuracy_score: 0.5867762668125779
+solution 362: not (ITAgent)
+	accuracy_score: 0.5867762668125779
+solution 363: not (IndustrialSupply)
+	accuracy_score: 0.5867762668125779
+solution 364: not (Kettle)
+	accuracy_score: 0.5867762668125779
+solution 365: not (Laptop)
+	accuracy_score: 0.5867762668125779
+solution 366: not (Machinery)
+	accuracy_score: 0.5867762668125779
+solution 367: not (MajorAppliance)
+	accuracy_score: 0.5867762668125779
+solution 368: not (Microwave)
+	accuracy_score: 0.5867762668125779
+solution 369: not (Mixture)
+	accuracy_score: 0.5867762668125779
+solution 370: not (Oven)
+	accuracy_score: 0.5867762668125779
+solution 371: not (Papers)
+	accuracy_score: 0.5867762668125779
+solution 372: not (PassengerVehicle)
+	accuracy_score: 0.5867762668125779
+solution 373: not (Person)
+	accuracy_score: 0.5867762668125779
+solution 374: not (Placemat)
+	accuracy_score: 0.5867762668125779
+solution 375: not (Plate)
+	accuracy_score: 0.5867762668125779
+solution 376: not (Projectionscreen)
+	accuracy_score: 0.5867762668125779
+solution 377: not (Radiator)
+	accuracy_score: 0.5867762668125779
+solution 378: not (ReceiverDevice)
+	accuracy_score: 0.5867762668125779
+solution 379: not (Refrigerator)
+	accuracy_score: 0.5867762668125779
+solution 380: not (Room)
+	accuracy_score: 0.5867762668125779
+solution 381: not (Rug)
+	accuracy_score: 0.5867762668125779
+solution 382: not (Sconce)
+	accuracy_score: 0.5867762668125779
+solution 383: not (Shelves)
+	accuracy_score: 0.5867762668125779
+solution 384: not (Shoes)
+	accuracy_score: 0.5867762668125779
+solution 385: not (Sign)
+	accuracy_score: 0.5867762668125779
+solution 386: not (Sink)
+	accuracy_score: 0.5867762668125779
+solution 387: not (Skirtingboard)
+	accuracy_score: 0.5867762668125779
+solution 388: not (Snow)
+	accuracy_score: 0.5867762668125779
+solution 389: not (Substance)
+	accuracy_score: 0.5867762668125779
+solution 390: not (Tapestry)
+	accuracy_score: 0.5867762668125779
+solution 391: not (Teacup)
+	accuracy_score: 0.5867762668125779
+solution 392: not (Television)
+	accuracy_score: 0.5867762668125779
+solution 393: not (TransportationDevice)
+	accuracy_score: 0.5867762668125779
+solution 394: not (TransportationEquipment)
+	accuracy_score: 0.5867762668125779
+solution 395: not (Tray)
+	accuracy_score: 0.5867762668125779
+solution 396: not (Trestle)
+	accuracy_score: 0.5867762668125779
+solution 397: not (Vehicle)
+	accuracy_score: 0.5867762668125779
+solution 398: not (WN_Apparel)
+	accuracy_score: 0.5867762668125779
+solution 399: not (WN_Armchair)
+	accuracy_score: 0.5867762668125779
+solution 400: not (WN_Ashtray)
+	accuracy_score: 0.5867762668125779
+solution 401: not (WN_Auto)
+	accuracy_score: 0.5867762668125779
+solution 402: not (WN_Automobile)
+	accuracy_score: 0.5867762668125779
+solution 403: not (WN_Backpack)
+	accuracy_score: 0.5867762668125779
+solution 404: not (WN_Bag)
+	accuracy_score: 0.5867762668125779
+solution 405: not (WN_Bath)
+	accuracy_score: 0.5867762668125779
+solution 406: not (WN_Bathingtub)
+	accuracy_score: 0.5867762668125779
+solution 407: not (WN_Bathtub)
+	accuracy_score: 0.5867762668125779
+solution 408: not (WN_Board)
+	accuracy_score: 0.5867762668125779
+solution 409: not (WN_Boiler)
+	accuracy_score: 0.5867762668125779
+solution 410: not (WN_Boobtube)
+	accuracy_score: 0.5867762668125779
+solution 411: not (WN_Bowl)
+	accuracy_score: 0.5867762668125779
+solution 412: not (WN_Box)
+	accuracy_score: 0.5867762668125779
+solution 413: not (WN_Calendar)
+	accuracy_score: 0.5867762668125779
+solution 414: not (WN_Candleholder)
+	accuracy_score: 0.5867762668125779
+solution 415: not (WN_Candlestick)
+	accuracy_score: 0.5867762668125779
+solution 416: not (WN_Car)
+	accuracy_score: 0.5867762668125779
+solution 417: not (WN_Carpet)
+	accuracy_score: 0.5867762668125779
+solution 418: not (WN_Carpeting)
+	accuracy_score: 0.5867762668125779
+solution 419: not (WN_Centralreservation)
+	accuracy_score: 0.5867762668125779
+solution 420: not (WN_Closet)
+	accuracy_score: 0.5867762668125779
+solution 421: not (WN_Clothes)
+	accuracy_score: 0.5867762668125779
+solution 422: not (WN_Cocktailtable)
+	accuracy_score: 0.5867762668125779
+solution 423: not (WN_Coffeetable)
+	accuracy_score: 0.5867762668125779
+solution 424: not (WN_Computer)
+	accuracy_score: 0.5867762668125779
+solution 425: not (WN_Computingdevice)
+	accuracy_score: 0.5867762668125779
+solution 426: not (WN_Computingmachine)
+	accuracy_score: 0.5867762668125779
+solution 427: not (WN_Creamer)
+	accuracy_score: 0.5867762668125779
+solution 428: not (WN_Cushion)
+	accuracy_score: 0.5867762668125779
+solution 429: not (WN_Dataprocessor)
+	accuracy_score: 0.5867762668125779
+solution 430: not (WN_Document)
+	accuracy_score: 0.5867762668125779
+solution 431: not (WN_Dress)
+	accuracy_score: 0.5867762668125779
+solution 432: not (WN_Drinkingglass)
+	accuracy_score: 0.5867762668125779
+solution 433: not (WN_Earth)
+	accuracy_score: 0.5867762668125779
+solution 434: not (WN_Electroniccomputer)
+	accuracy_score: 0.5867762668125779
+solution 435: not (WN_Fan)
+	accuracy_score: 0.5867762668125779
+solution 436: not (WN_Field)
+	accuracy_score: 0.5867762668125779
+solution 437: not (WN_Firstfloor)
+	accuracy_score: 0.5867762668125779
+solution 438: not (WN_Fountain)
+	accuracy_score: 0.5867762668125779
+solution 439: not (WN_Glass)
+	accuracy_score: 0.5867762668125779
+solution 440: not (WN_Gogglebox)
+	accuracy_score: 0.5867762668125779
+solution 441: not (WN_Grass)
+	accuracy_score: 0.5867762668125779
+solution 442: not (WN_Ground)
+	accuracy_score: 0.5867762668125779
+solution 443: not (WN_Haversack)
+	accuracy_score: 0.5867762668125779
+solution 444: not (WN_Hotelsafe)
+	accuracy_score: 0.5867762668125779
+solution 445: not (WN_Icebox)
+	accuracy_score: 0.5867762668125779
+solution 446: not (WN_Idiotbox)
+	accuracy_score: 0.5867762668125779
+solution 447: not (WN_Individual)
+	accuracy_score: 0.5867762668125779
+solution 448: not (WN_Informationprocessingsystem)
+	accuracy_score: 0.5867762668125779
+solution 449: not (WN_Kettle)
+	accuracy_score: 0.5867762668125779
+solution 450: not (WN_Knapsack)
+	accuracy_score: 0.5867762668125779
+solution 451: not (WN_Laptop)
+	accuracy_score: 0.5867762668125779
+solution 452: not (WN_Laptopcomputer)
+	accuracy_score: 0.5867762668125779
+solution 453: not (WN_Machine)
+	accuracy_score: 0.5867762668125779
+solution 454: not (WN_Microwave)
+	accuracy_score: 0.5867762668125779
+solution 455: not (WN_Microwaveoven)
+	accuracy_score: 0.5867762668125779
+solution 456: not (WN_Mortal)
+	accuracy_score: 0.5867762668125779
+solution 457: not (WN_Motorcar)
+	accuracy_score: 0.5867762668125779
+solution 458: not (WN_Oven)
+	accuracy_score: 0.5867762668125779
+solution 459: not (WN_Packsack)
+	accuracy_score: 0.5867762668125779
+solution 460: not (WN_Papers)
+	accuracy_score: 0.5867762668125779
+solution 461: not (WN_Person)
+	accuracy_score: 0.5867762668125779
+solution 462: not (WN_Placemat)
+	accuracy_score: 0.5867762668125779
+solution 463: not (WN_Plank)
+	accuracy_score: 0.5867762668125779
+solution 464: not (WN_Plate)
+	accuracy_score: 0.5867762668125779
+solution 465: not (WN_Projectionscreen)
+	accuracy_score: 0.5867762668125779
+solution 466: not (WN_Radiator)
+	accuracy_score: 0.5867762668125779
+solution 467: not (WN_Refrigerator)
+	accuracy_score: 0.5867762668125779
+solution 468: not (WN_Rucksack)
+	accuracy_score: 0.5867762668125779
+solution 469: not (WN_Rug)
+	accuracy_score: 0.5867762668125779
+solution 470: not (WN_Sconce)
+	accuracy_score: 0.5867762668125779
+solution 471: not (WN_Screen)
+	accuracy_score: 0.5867762668125779
+solution 472: not (WN_Shelf)
+	accuracy_score: 0.5867762668125779
+solution 473: not (WN_Shoe)
+	accuracy_score: 0.5867762668125779
+solution 474: not (WN_Sign)
+	accuracy_score: 0.5867762668125779
+solution 475: not (WN_Signboard)
+	accuracy_score: 0.5867762668125779
+solution 476: not (WN_Silverscreen)
+	accuracy_score: 0.5867762668125779
+solution 477: not (WN_Sink)
+	accuracy_score: 0.5867762668125779
+solution 478: not (WN_Skirtingboard)
+	accuracy_score: 0.5867762668125779
+solution 479: not (WN_Snow)
+	accuracy_score: 0.5867762668125779
+solution 480: not (WN_Somebody)
+	accuracy_score: 0.5867762668125779
+solution 481: not (WN_Someone)
+	accuracy_score: 0.5867762668125779
+solution 482: not (WN_Soul)
+	accuracy_score: 0.5867762668125779
+solution 483: not (WN_Tapestry)
+	accuracy_score: 0.5867762668125779
+solution 484: not (WN_Tapis)
+	accuracy_score: 0.5867762668125779
+solution 485: not (WN_Teacup)
+	accuracy_score: 0.5867762668125779
+solution 486: not (WN_Television)
+	accuracy_score: 0.5867762668125779
+solution 487: not (WN_Televisionreceiver)
+	accuracy_score: 0.5867762668125779
+solution 488: not (WN_Televisionset)
+	accuracy_score: 0.5867762668125779
+solution 489: not (WN_Telly)
+	accuracy_score: 0.5867762668125779
+solution 490: not (WN_Tray)
+	accuracy_score: 0.5867762668125779
+solution 491: not (WN_Trestle)
+	accuracy_score: 0.5867762668125779
+solution 492: not (WN_Tub)
+	accuracy_score: 0.5867762668125779
+solution 493: not (WN_Tv)
+	accuracy_score: 0.5867762668125779
+solution 494: not (WN_Tvset)
+	accuracy_score: 0.5867762668125779
+solution 495: not (WN_Wearingapparel)
+	accuracy_score: 0.5867762668125779
+solution 496: not (WN_Worksurface)
+	accuracy_score: 0.5867762668125779
+solution 497: not (WN_Writtendocument)
+	accuracy_score: 0.5867762668125779
+solution 498: not (Worksurface)
+	accuracy_score: 0.5867762668125779
+solution 499: topObjectProperty some Thing
+	accuracy_score: 0.5865160675257478
+solution 500: Thing
+	accuracy_score: 0.5865160675257478
+
+Total solutions found: 500Program ends at: 06.08.2018  19.07.50 PMProgram duration: 622 sec

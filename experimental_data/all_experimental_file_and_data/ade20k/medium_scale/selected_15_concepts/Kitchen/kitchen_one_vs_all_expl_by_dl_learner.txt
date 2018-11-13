@@ -1,0 +1,1031 @@
+Algorithm started.................
+Algorithm starts at: 06.08.2018  19.28.31 PM
+
+PosExamples: 
+	kitchen_ADE_train_00000597
+	kitchen_ADE_train_00000598
+	kitchen_ADE_train_00000594
+	kitchen_ADE_train_00000595
+	kitchen_ADE_train_00000596
+
+NegExamples:
+	bedroom_ADE_train_00000192
+	highway_ADE_train_00008988
+	bathroom_ADE_train_00000006
+	conference_room_ADE_train_00000570
+	airport_terminal_ADE_train_00000001
+	building_facade_ADE_train_00004593
+	mountain_snowy_ADE_train_00000932
+	office_ADE_train_00000933
+	hotel_room_ADE_train_00009520
+	street_ADE_train_00016858
+	skyscraper_ADE_train_00000954
+	corridor_ADE_train_00000574
+	living_room_ADE_train_00000651
+	dining_room_ADE_train_00006845
+
+Algorithm ends at: 06.08.2018  19.38.53 PMAlgorithm duration: 621 sec
+
+####################Solutions####################:
+solution 1: (imageContains some Cabinet) and (imageContains some (Armchair or WN_Worksurface))
+	accuracy_score: 1.0
+solution 2: (imageContains some Cabinet) and (imageContains some (Armchair or Worksurface))
+	accuracy_score: 1.0
+solution 3: (imageContains some Cabinet) and (imageContains some (Ashtray or WN_Worksurface))
+	accuracy_score: 1.0
+solution 4: (imageContains some Cabinet) and (imageContains some (Ashtray or Worksurface))
+	accuracy_score: 1.0
+solution 5: (imageContains some Cabinet) and (imageContains some (Bathtub or WN_Worksurface))
+	accuracy_score: 1.0
+solution 6: (imageContains some Cabinet) and (imageContains some (Bathtub or Worksurface))
+	accuracy_score: 1.0
+solution 7: (imageContains some Cabinet) and (imageContains some (Bowl or WN_Worksurface))
+	accuracy_score: 1.0
+solution 8: (imageContains some Cabinet) and (imageContains some (Bowl or Worksurface))
+	accuracy_score: 1.0
+solution 9: (imageContains some Cabinet) and (imageContains some (Candleholder or WN_Worksurface))
+	accuracy_score: 1.0
+solution 10: (imageContains some Cabinet) and (imageContains some (Candleholder or Worksurface))
+	accuracy_score: 1.0
+solution 11: (imageContains some Cabinet) and (imageContains some (Car or WN_Worksurface))
+	accuracy_score: 1.0
+solution 12: (imageContains some Cabinet) and (imageContains some (Car or Worksurface))
+	accuracy_score: 1.0
+solution 13: (imageContains some Cabinet) and (imageContains some (Ceilingfan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 14: (imageContains some Cabinet) and (imageContains some (Ceilingfan or Worksurface))
+	accuracy_score: 1.0
+solution 15: (imageContains some Cabinet) and (imageContains some (Centralreservation or WN_Worksurface))
+	accuracy_score: 1.0
+solution 16: (imageContains some Cabinet) and (imageContains some (Centralreservation or Worksurface))
+	accuracy_score: 1.0
+solution 17: (imageContains some Cabinet) and (imageContains some (Chestofdrawers or WN_Worksurface))
+	accuracy_score: 1.0
+solution 18: (imageContains some Cabinet) and (imageContains some (Chestofdrawers or Worksurface))
+	accuracy_score: 1.0
+solution 19: (imageContains some Cabinet) and (imageContains some (Coffeetable or WN_Worksurface))
+	accuracy_score: 1.0
+solution 20: (imageContains some Cabinet) and (imageContains some (Coffeetable or Worksurface))
+	accuracy_score: 1.0
+solution 21: (imageContains some Cabinet) and (imageContains some (Countertop or WN_Worksurface))
+	accuracy_score: 1.0
+solution 22: (imageContains some Cabinet) and (imageContains some (Countertop or Worksurface))
+	accuracy_score: 1.0
+solution 23: (imageContains some Cabinet) and (imageContains some (Creamer or WN_Worksurface))
+	accuracy_score: 1.0
+solution 24: (imageContains some Cabinet) and (imageContains some (Creamer or Worksurface))
+	accuracy_score: 1.0
+solution 25: (imageContains some Cabinet) and (imageContains some (Cushion or WN_Worksurface))
+	accuracy_score: 1.0
+solution 26: (imageContains some Cabinet) and (imageContains some (Cushion or Worksurface))
+	accuracy_score: 1.0
+solution 27: (imageContains some Cabinet) and (imageContains some (Doubledoor or WN_Worksurface))
+	accuracy_score: 1.0
+solution 28: (imageContains some Cabinet) and (imageContains some (Doubledoor or Worksurface))
+	accuracy_score: 1.0
+solution 29: (imageContains some Cabinet) and (imageContains some (Firstfloor or WN_Worksurface))
+	accuracy_score: 1.0
+solution 30: (imageContains some Cabinet) and (imageContains some (Firstfloor or Worksurface))
+	accuracy_score: 1.0
+solution 31: (imageContains some Cabinet) and (imageContains some (Fountain or WN_Worksurface))
+	accuracy_score: 1.0
+solution 32: (imageContains some Cabinet) and (imageContains some (Fountain or Worksurface))
+	accuracy_score: 1.0
+solution 33: (imageContains some Cabinet) and (imageContains some (Ground or WN_Worksurface))
+	accuracy_score: 1.0
+solution 34: (imageContains some Cabinet) and (imageContains some (Ground or Worksurface))
+	accuracy_score: 1.0
+solution 35: (imageContains some Cabinet) and (imageContains some (Kettle or WN_Worksurface))
+	accuracy_score: 1.0
+solution 36: (imageContains some Cabinet) and (imageContains some (Kettle or Worksurface))
+	accuracy_score: 1.0
+solution 37: (imageContains some Cabinet) and (imageContains some (Microwave or Stool))
+	accuracy_score: 1.0
+solution 38: (imageContains some Cabinet) and (imageContains some (Microwave or WN_Cover))
+	accuracy_score: 1.0
+solution 39: (imageContains some Cabinet) and (imageContains some (Microwave or WN_Icebox))
+	accuracy_score: 1.0
+solution 40: (imageContains some Cabinet) and (imageContains some (Microwave or WN_Press))
+	accuracy_score: 1.0
+solution 41: (imageContains some Cabinet) and (imageContains some (Microwave or WN_Stool))
+	accuracy_score: 1.0
+solution 42: (imageContains some Cabinet) and (imageContains some (Microwave or WN_Wardrobe))
+	accuracy_score: 1.0
+solution 43: (imageContains some Cabinet) and (imageContains some (Microwave or WN_Worksurface))
+	accuracy_score: 1.0
+solution 44: (imageContains some Cabinet) and (imageContains some (Microwave or Wardrobe))
+	accuracy_score: 1.0
+solution 45: (imageContains some Cabinet) and (imageContains some (Microwave or Worksurface))
+	accuracy_score: 1.0
+solution 46: (imageContains some Cabinet) and (imageContains some (Placemat or WN_Worksurface))
+	accuracy_score: 1.0
+solution 47: (imageContains some Cabinet) and (imageContains some (Placemat or Worksurface))
+	accuracy_score: 1.0
+solution 48: (imageContains some Cabinet) and (imageContains some (Plants or WN_Worksurface))
+	accuracy_score: 1.0
+solution 49: (imageContains some Cabinet) and (imageContains some (Plants or Worksurface))
+	accuracy_score: 1.0
+solution 50: (imageContains some Cabinet) and (imageContains some (Plate or WN_Worksurface))
+	accuracy_score: 1.0
+solution 51: (imageContains some Cabinet) and (imageContains some (Plate or Worksurface))
+	accuracy_score: 1.0
+solution 52: (imageContains some Cabinet) and (imageContains some (Projectionscreen or WN_Worksurface))
+	accuracy_score: 1.0
+solution 53: (imageContains some Cabinet) and (imageContains some (Projectionscreen or Worksurface))
+	accuracy_score: 1.0
+solution 54: (imageContains some Cabinet) and (imageContains some (Radiator or WN_Worksurface))
+	accuracy_score: 1.0
+solution 55: (imageContains some Cabinet) and (imageContains some (Radiator or Worksurface))
+	accuracy_score: 1.0
+solution 56: (imageContains some Cabinet) and (imageContains some (Range or WN_Worksurface))
+	accuracy_score: 1.0
+solution 57: (imageContains some Cabinet) and (imageContains some (Range or Worksurface))
+	accuracy_score: 1.0
+solution 58: (imageContains some Cabinet) and (imageContains some (Sign or WN_Worksurface))
+	accuracy_score: 1.0
+solution 59: (imageContains some Cabinet) and (imageContains some (Sign or Worksurface))
+	accuracy_score: 1.0
+solution 60: (imageContains some Cabinet) and (imageContains some (Sink or WN_Worksurface))
+	accuracy_score: 1.0
+solution 61: (imageContains some Cabinet) and (imageContains some (Sink or Worksurface))
+	accuracy_score: 1.0
+solution 62: (imageContains some Cabinet) and (imageContains some (Sky or WN_Worksurface))
+	accuracy_score: 1.0
+solution 63: (imageContains some Cabinet) and (imageContains some (Sky or Worksurface))
+	accuracy_score: 1.0
+solution 64: (imageContains some Cabinet) and (imageContains some (Snow or WN_Worksurface))
+	accuracy_score: 1.0
+solution 65: (imageContains some Cabinet) and (imageContains some (Snow or Worksurface))
+	accuracy_score: 1.0
+solution 66: (imageContains some Cabinet) and (imageContains some (Stool or WN_Microwave))
+	accuracy_score: 1.0
+solution 67: (imageContains some Cabinet) and (imageContains some (Stool or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 68: (imageContains some Cabinet) and (imageContains some (Stool or WN_Worksurface))
+	accuracy_score: 1.0
+solution 69: (imageContains some Cabinet) and (imageContains some (Stool or Worksurface))
+	accuracy_score: 1.0
+solution 70: (imageContains some Cabinet) and (imageContains some (Tapestry or WN_Worksurface))
+	accuracy_score: 1.0
+solution 71: (imageContains some Cabinet) and (imageContains some (Tapestry or Worksurface))
+	accuracy_score: 1.0
+solution 72: (imageContains some Cabinet) and (imageContains some (Teacup or WN_Worksurface))
+	accuracy_score: 1.0
+solution 73: (imageContains some Cabinet) and (imageContains some (Teacup or Worksurface))
+	accuracy_score: 1.0
+solution 74: (imageContains some Cabinet) and (imageContains some (Trashcan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 75: (imageContains some Cabinet) and (imageContains some (Trashcan or Worksurface))
+	accuracy_score: 1.0
+solution 76: (imageContains some Cabinet) and (imageContains some (Trees or WN_Worksurface))
+	accuracy_score: 1.0
+solution 77: (imageContains some Cabinet) and (imageContains some (Trees or Worksurface))
+	accuracy_score: 1.0
+solution 78: (imageContains some Cabinet) and (imageContains some (WN_Armchair or WN_Worksurface))
+	accuracy_score: 1.0
+solution 79: (imageContains some Cabinet) and (imageContains some (WN_Armchair or Worksurface))
+	accuracy_score: 1.0
+solution 80: (imageContains some Cabinet) and (imageContains some (WN_Ash-bin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 81: (imageContains some Cabinet) and (imageContains some (WN_Ash-bin or Worksurface))
+	accuracy_score: 1.0
+solution 82: (imageContains some Cabinet) and (imageContains some (WN_Ashbin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 83: (imageContains some Cabinet) and (imageContains some (WN_Ashbin or Worksurface))
+	accuracy_score: 1.0
+solution 84: (imageContains some WN_Cabinet) and (imageContains some (Abstract or WN_Worksurface))
+	accuracy_score: 1.0
+solution 85: (imageContains some WN_Cabinet) and (imageContains some (Abstract or Worksurface))
+	accuracy_score: 1.0
+solution 86: (imageContains some WN_Cabinet) and (imageContains some (Agent or WN_Worksurface))
+	accuracy_score: 1.0
+solution 87: (imageContains some WN_Cabinet) and (imageContains some (Agent or Worksurface))
+	accuracy_score: 1.0
+solution 88: (imageContains some WN_Cabinet) and (imageContains some (Armchair or WN_Worksurface))
+	accuracy_score: 1.0
+solution 89: (imageContains some WN_Cabinet) and (imageContains some (Armchair or Worksurface))
+	accuracy_score: 1.0
+solution 90: (imageContains some WN_Cabinet) and (imageContains some (Ashtray or WN_Worksurface))
+	accuracy_score: 1.0
+solution 91: (imageContains some WN_Cabinet) and (imageContains some (Ashtray or Worksurface))
+	accuracy_score: 1.0
+solution 92: (imageContains some WN_Cabinet) and (imageContains some (Bathtub or WN_Worksurface))
+	accuracy_score: 1.0
+solution 93: (imageContains some WN_Cabinet) and (imageContains some (Bathtub or Worksurface))
+	accuracy_score: 1.0
+solution 94: (imageContains some WN_Cabinet) and (imageContains some (Blanket or Microwave))
+	accuracy_score: 1.0
+solution 95: (imageContains some WN_Cabinet) and (imageContains some (Blanket or WN_Microwave))
+	accuracy_score: 1.0
+solution 96: (imageContains some WN_Cabinet) and (imageContains some (Blanket or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 97: (imageContains some WN_Cabinet) and (imageContains some (Blanket or WN_Worksurface))
+	accuracy_score: 1.0
+solution 98: (imageContains some WN_Cabinet) and (imageContains some (Blanket or Worksurface))
+	accuracy_score: 1.0
+solution 99: (imageContains some WN_Cabinet) and (imageContains some (Bowl or WN_Worksurface))
+	accuracy_score: 1.0
+solution 100: (imageContains some WN_Cabinet) and (imageContains some (Bowl or Worksurface))
+	accuracy_score: 1.0
+solution 101: (imageContains some WN_Cabinet) and (imageContains some (Building or WN_Worksurface))
+	accuracy_score: 1.0
+solution 102: (imageContains some WN_Cabinet) and (imageContains some (Building or Worksurface))
+	accuracy_score: 1.0
+solution 103: (imageContains some WN_Cabinet) and (imageContains some (Candleholder or WN_Worksurface))
+	accuracy_score: 1.0
+solution 104: (imageContains some WN_Cabinet) and (imageContains some (Candleholder or Worksurface))
+	accuracy_score: 1.0
+solution 105: (imageContains some WN_Cabinet) and (imageContains some (CapitalGood or WN_Worksurface))
+	accuracy_score: 1.0
+solution 106: (imageContains some WN_Cabinet) and (imageContains some (CapitalGood or Worksurface))
+	accuracy_score: 1.0
+solution 107: (imageContains some WN_Cabinet) and (imageContains some (Car or WN_Worksurface))
+	accuracy_score: 1.0
+solution 108: (imageContains some WN_Cabinet) and (imageContains some (Car or Worksurface))
+	accuracy_score: 1.0
+solution 109: (imageContains some WN_Cabinet) and (imageContains some (Ceilingfan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 110: (imageContains some WN_Cabinet) and (imageContains some (Ceilingfan or Worksurface))
+	accuracy_score: 1.0
+solution 111: (imageContains some WN_Cabinet) and (imageContains some (Centralreservation or WN_Worksurface))
+	accuracy_score: 1.0
+solution 112: (imageContains some WN_Cabinet) and (imageContains some (Centralreservation or Worksurface))
+	accuracy_score: 1.0
+solution 113: (imageContains some WN_Cabinet) and (imageContains some (Chestofdrawers or WN_Worksurface))
+	accuracy_score: 1.0
+solution 114: (imageContains some WN_Cabinet) and (imageContains some (Chestofdrawers or Worksurface))
+	accuracy_score: 1.0
+solution 115: (imageContains some WN_Cabinet) and (imageContains some (Coffeetable or WN_Worksurface))
+	accuracy_score: 1.0
+solution 116: (imageContains some WN_Cabinet) and (imageContains some (Coffeetable or Worksurface))
+	accuracy_score: 1.0
+solution 117: (imageContains some WN_Cabinet) and (imageContains some (CommunicationDevice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 118: (imageContains some WN_Cabinet) and (imageContains some (CommunicationDevice or Worksurface))
+	accuracy_score: 1.0
+solution 119: (imageContains some WN_Cabinet) and (imageContains some (ContactSite or WN_Worksurface))
+	accuracy_score: 1.0
+solution 120: (imageContains some WN_Cabinet) and (imageContains some (ContactSite or Worksurface))
+	accuracy_score: 1.0
+solution 121: (imageContains some WN_Cabinet) and (imageContains some (CoolingDevice or Microwave))
+	accuracy_score: 1.0
+solution 122: (imageContains some WN_Cabinet) and (imageContains some (CoolingDevice or WN_Microwave))
+	accuracy_score: 1.0
+solution 123: (imageContains some WN_Cabinet) and (imageContains some (CoolingDevice or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 124: (imageContains some WN_Cabinet) and (imageContains some (CoolingDevice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 125: (imageContains some WN_Cabinet) and (imageContains some (CoolingDevice or Worksurface))
+	accuracy_score: 1.0
+solution 126: (imageContains some WN_Cabinet) and (imageContains some (Countertop or WN_Worksurface))
+	accuracy_score: 1.0
+solution 127: (imageContains some WN_Cabinet) and (imageContains some (Countertop or Worksurface))
+	accuracy_score: 1.0
+solution 128: (imageContains some WN_Cabinet) and (imageContains some (Creamer or WN_Worksurface))
+	accuracy_score: 1.0
+solution 129: (imageContains some WN_Cabinet) and (imageContains some (Creamer or Worksurface))
+	accuracy_score: 1.0
+solution 130: (imageContains some WN_Cabinet) and (imageContains some (Cushion or WN_Worksurface))
+	accuracy_score: 1.0
+solution 131: (imageContains some WN_Cabinet) and (imageContains some (Cushion or Worksurface))
+	accuracy_score: 1.0
+solution 132: (imageContains some WN_Cabinet) and (imageContains some (Door or WN_Worksurface))
+	accuracy_score: 1.0
+solution 133: (imageContains some WN_Cabinet) and (imageContains some (Door or Worksurface))
+	accuracy_score: 1.0
+solution 134: (imageContains some WN_Cabinet) and (imageContains some (Doubledoor or WN_Worksurface))
+	accuracy_score: 1.0
+solution 135: (imageContains some WN_Cabinet) and (imageContains some (Doubledoor or Worksurface))
+	accuracy_score: 1.0
+solution 136: (imageContains some WN_Cabinet) and (imageContains some (ElectricDevice or Microwave))
+	accuracy_score: 1.0
+solution 137: (imageContains some WN_Cabinet) and (imageContains some (ElectricDevice or WN_Microwave))
+	accuracy_score: 1.0
+solution 138: (imageContains some WN_Cabinet) and (imageContains some (ElectricDevice or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 139: (imageContains some WN_Cabinet) and (imageContains some (ElectricDevice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 140: (imageContains some WN_Cabinet) and (imageContains some (ElectricDevice or Worksurface))
+	accuracy_score: 1.0
+solution 141: (imageContains some WN_Cabinet) and (imageContains some (EngineeringComponent or WN_Worksurface))
+	accuracy_score: 1.0
+solution 142: (imageContains some WN_Cabinet) and (imageContains some (EngineeringComponent or Worksurface))
+	accuracy_score: 1.0
+solution 143: (imageContains some WN_Cabinet) and (imageContains some (Field or WN_Worksurface))
+	accuracy_score: 1.0
+solution 144: (imageContains some WN_Cabinet) and (imageContains some (Field or Worksurface))
+	accuracy_score: 1.0
+solution 145: (imageContains some WN_Cabinet) and (imageContains some (Firstfloor or WN_Worksurface))
+	accuracy_score: 1.0
+solution 146: (imageContains some WN_Cabinet) and (imageContains some (Firstfloor or Worksurface))
+	accuracy_score: 1.0
+solution 147: (imageContains some WN_Cabinet) and (imageContains some (FloweringPlant or WN_Worksurface))
+	accuracy_score: 1.0
+solution 148: (imageContains some WN_Cabinet) and (imageContains some (FloweringPlant or Worksurface))
+	accuracy_score: 1.0
+solution 149: (imageContains some WN_Cabinet) and (imageContains some (Fountain or WN_Worksurface))
+	accuracy_score: 1.0
+solution 150: (imageContains some WN_Cabinet) and (imageContains some (Fountain or Worksurface))
+	accuracy_score: 1.0
+solution 151: (imageContains some WN_Cabinet) and (imageContains some (Glass or WN_Worksurface))
+	accuracy_score: 1.0
+solution 152: (imageContains some WN_Cabinet) and (imageContains some (Glass or Worksurface))
+	accuracy_score: 1.0
+solution 153: (imageContains some WN_Cabinet) and (imageContains some (Graph or WN_Worksurface))
+	accuracy_score: 1.0
+solution 154: (imageContains some WN_Cabinet) and (imageContains some (Graph or Worksurface))
+	accuracy_score: 1.0
+solution 155: (imageContains some WN_Cabinet) and (imageContains some (Grass or WN_Worksurface))
+	accuracy_score: 1.0
+solution 156: (imageContains some WN_Cabinet) and (imageContains some (Grass or Worksurface))
+	accuracy_score: 1.0
+solution 157: (imageContains some WN_Cabinet) and (imageContains some (Ground or WN_Worksurface))
+	accuracy_score: 1.0
+solution 158: (imageContains some WN_Cabinet) and (imageContains some (Ground or Worksurface))
+	accuracy_score: 1.0
+solution 159: (imageContains some WN_Cabinet) and (imageContains some (HeatingDevice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 160: (imageContains some WN_Cabinet) and (imageContains some (HeatingDevice or Worksurface))
+	accuracy_score: 1.0
+solution 161: (imageContains some WN_Cabinet) and (imageContains some (IndustrialSupply or WN_Worksurface))
+	accuracy_score: 1.0
+solution 162: (imageContains some WN_Cabinet) and (imageContains some (IndustrialSupply or Worksurface))
+	accuracy_score: 1.0
+solution 163: (imageContains some WN_Cabinet) and (imageContains some (Kettle or WN_Worksurface))
+	accuracy_score: 1.0
+solution 164: (imageContains some WN_Cabinet) and (imageContains some (Kettle or Worksurface))
+	accuracy_score: 1.0
+solution 165: (imageContains some WN_Cabinet) and (imageContains some (LandArea or WN_Worksurface))
+	accuracy_score: 1.0
+solution 166: (imageContains some WN_Cabinet) and (imageContains some (LandArea or Worksurface))
+	accuracy_score: 1.0
+solution 167: (imageContains some WN_Cabinet) and (imageContains some (LandForm or WN_Worksurface))
+	accuracy_score: 1.0
+solution 168: (imageContains some WN_Cabinet) and (imageContains some (LandForm or Worksurface))
+	accuracy_score: 1.0
+solution 169: (imageContains some WN_Cabinet) and (imageContains some (LandTransitway or WN_Worksurface))
+	accuracy_score: 1.0
+solution 170: (imageContains some WN_Cabinet) and (imageContains some (LandTransitway or Worksurface))
+	accuracy_score: 1.0
+solution 171: (imageContains some WN_Cabinet) and (imageContains some (Machinery or WN_Worksurface))
+	accuracy_score: 1.0
+solution 172: (imageContains some WN_Cabinet) and (imageContains some (Machinery or Worksurface))
+	accuracy_score: 1.0
+solution 173: (imageContains some WN_Cabinet) and (imageContains some (MajorAppliance or Microwave))
+	accuracy_score: 1.0
+solution 174: (imageContains some WN_Cabinet) and (imageContains some (MajorAppliance or WN_Microwave))
+	accuracy_score: 1.0
+solution 175: (imageContains some WN_Cabinet) and (imageContains some (MajorAppliance or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 176: (imageContains some WN_Cabinet) and (imageContains some (MajorAppliance or WN_Worksurface))
+	accuracy_score: 1.0
+solution 177: (imageContains some WN_Cabinet) and (imageContains some (MajorAppliance or Worksurface))
+	accuracy_score: 1.0
+solution 178: (imageContains some WN_Cabinet) and (imageContains some (Microwave or Refrigerator))
+	accuracy_score: 1.0
+solution 179: (imageContains some WN_Cabinet) and (imageContains some (Microwave or Room))
+	accuracy_score: 1.0
+solution 180: (imageContains some WN_Cabinet) and (imageContains some (Microwave or Stool))
+	accuracy_score: 1.0
+solution 181: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Blanket))
+	accuracy_score: 1.0
+solution 182: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Closet))
+	accuracy_score: 1.0
+solution 183: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Cover))
+	accuracy_score: 1.0
+solution 184: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Icebox))
+	accuracy_score: 1.0
+solution 185: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Press))
+	accuracy_score: 1.0
+solution 186: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Refrigerator))
+	accuracy_score: 1.0
+solution 187: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Stool))
+	accuracy_score: 1.0
+solution 188: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Wardrobe))
+	accuracy_score: 1.0
+solution 189: (imageContains some WN_Cabinet) and (imageContains some (Microwave or WN_Worksurface))
+	accuracy_score: 1.0
+solution 190: (imageContains some WN_Cabinet) and (imageContains some (Microwave or Wardrobe))
+	accuracy_score: 1.0
+solution 191: (imageContains some WN_Cabinet) and (imageContains some (Microwave or Worksurface))
+	accuracy_score: 1.0
+solution 192: (imageContains some WN_Cabinet) and (imageContains some (Mixture or WN_Worksurface))
+	accuracy_score: 1.0
+solution 193: (imageContains some WN_Cabinet) and (imageContains some (Mixture or Worksurface))
+	accuracy_score: 1.0
+solution 194: (imageContains some WN_Cabinet) and (imageContains some (Mountain or WN_Worksurface))
+	accuracy_score: 1.0
+solution 195: (imageContains some WN_Cabinet) and (imageContains some (Mountain or Worksurface))
+	accuracy_score: 1.0
+solution 196: (imageContains some WN_Cabinet) and (imageContains some (OrganicObject or WN_Worksurface))
+	accuracy_score: 1.0
+solution 197: (imageContains some WN_Cabinet) and (imageContains some (OrganicObject or Worksurface))
+	accuracy_score: 1.0
+solution 198: (imageContains some WN_Cabinet) and (imageContains some (OrganicThing or WN_Worksurface))
+	accuracy_score: 1.0
+solution 199: (imageContains some WN_Cabinet) and (imageContains some (OrganicThing or Worksurface))
+	accuracy_score: 1.0
+solution 200: (imageContains some WN_Cabinet) and (imageContains some (Organism or WN_Worksurface))
+	accuracy_score: 1.0
+solution 201: (imageContains some WN_Cabinet) and (imageContains some (Organism or Worksurface))
+	accuracy_score: 1.0
+solution 202: (imageContains some WN_Cabinet) and (imageContains some (Oven or WN_Worksurface))
+	accuracy_score: 1.0
+solution 203: (imageContains some WN_Cabinet) and (imageContains some (Oven or Worksurface))
+	accuracy_score: 1.0
+solution 204: (imageContains some WN_Cabinet) and (imageContains some (PassengerVehicle or WN_Worksurface))
+	accuracy_score: 1.0
+solution 205: (imageContains some WN_Cabinet) and (imageContains some (PassengerVehicle or Worksurface))
+	accuracy_score: 1.0
+solution 206: (imageContains some WN_Cabinet) and (imageContains some (Placemat or WN_Worksurface))
+	accuracy_score: 1.0
+solution 207: (imageContains some WN_Cabinet) and (imageContains some (Placemat or Worksurface))
+	accuracy_score: 1.0
+solution 208: (imageContains some WN_Cabinet) and (imageContains some (Plant or WN_Worksurface))
+	accuracy_score: 1.0
+solution 209: (imageContains some WN_Cabinet) and (imageContains some (Plant or Worksurface))
+	accuracy_score: 1.0
+solution 210: (imageContains some WN_Cabinet) and (imageContains some (Plants or WN_Worksurface))
+	accuracy_score: 1.0
+solution 211: (imageContains some WN_Cabinet) and (imageContains some (Plants or Worksurface))
+	accuracy_score: 1.0
+solution 212: (imageContains some WN_Cabinet) and (imageContains some (Plate or WN_Worksurface))
+	accuracy_score: 1.0
+solution 213: (imageContains some WN_Cabinet) and (imageContains some (Plate or Worksurface))
+	accuracy_score: 1.0
+solution 214: (imageContains some WN_Cabinet) and (imageContains some (Projectionscreen or WN_Worksurface))
+	accuracy_score: 1.0
+solution 215: (imageContains some WN_Cabinet) and (imageContains some (Projectionscreen or Worksurface))
+	accuracy_score: 1.0
+solution 216: (imageContains some WN_Cabinet) and (imageContains some (Radiator or WN_Worksurface))
+	accuracy_score: 1.0
+solution 217: (imageContains some WN_Cabinet) and (imageContains some (Radiator or Worksurface))
+	accuracy_score: 1.0
+solution 218: (imageContains some WN_Cabinet) and (imageContains some (Range or WN_Worksurface))
+	accuracy_score: 1.0
+solution 219: (imageContains some WN_Cabinet) and (imageContains some (Range or Worksurface))
+	accuracy_score: 1.0
+solution 220: (imageContains some WN_Cabinet) and (imageContains some (Refrigerator or WN_Microwave))
+	accuracy_score: 1.0
+solution 221: (imageContains some WN_Cabinet) and (imageContains some (Refrigerator or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 222: (imageContains some WN_Cabinet) and (imageContains some (Refrigerator or WN_Worksurface))
+	accuracy_score: 1.0
+solution 223: (imageContains some WN_Cabinet) and (imageContains some (Refrigerator or Worksurface))
+	accuracy_score: 1.0
+solution 224: (imageContains some WN_Cabinet) and (imageContains some (Road or WN_Worksurface))
+	accuracy_score: 1.0
+solution 225: (imageContains some WN_Cabinet) and (imageContains some (Road or Worksurface))
+	accuracy_score: 1.0
+solution 226: (imageContains some WN_Cabinet) and (imageContains some (Roadway or WN_Worksurface))
+	accuracy_score: 1.0
+solution 227: (imageContains some WN_Cabinet) and (imageContains some (Roadway or Worksurface))
+	accuracy_score: 1.0
+solution 228: (imageContains some WN_Cabinet) and (imageContains some (Room or WN_Microwave))
+	accuracy_score: 1.0
+solution 229: (imageContains some WN_Cabinet) and (imageContains some (Room or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 230: (imageContains some WN_Cabinet) and (imageContains some (Room or WN_Worksurface))
+	accuracy_score: 1.0
+solution 231: (imageContains some WN_Cabinet) and (imageContains some (Room or Worksurface))
+	accuracy_score: 1.0
+solution 232: (imageContains some WN_Cabinet) and (imageContains some (Rug or WN_Worksurface))
+	accuracy_score: 1.0
+solution 233: (imageContains some WN_Cabinet) and (imageContains some (Rug or Worksurface))
+	accuracy_score: 1.0
+solution 234: (imageContains some WN_Cabinet) and (imageContains some (Sign or WN_Worksurface))
+	accuracy_score: 1.0
+solution 235: (imageContains some WN_Cabinet) and (imageContains some (Sign or Worksurface))
+	accuracy_score: 1.0
+solution 236: (imageContains some WN_Cabinet) and (imageContains some (Sink or WN_Worksurface))
+	accuracy_score: 1.0
+solution 237: (imageContains some WN_Cabinet) and (imageContains some (Sink or Worksurface))
+	accuracy_score: 1.0
+solution 238: (imageContains some WN_Cabinet) and (imageContains some (Sky or WN_Worksurface))
+	accuracy_score: 1.0
+solution 239: (imageContains some WN_Cabinet) and (imageContains some (Sky or Worksurface))
+	accuracy_score: 1.0
+solution 240: (imageContains some WN_Cabinet) and (imageContains some (Snow or WN_Worksurface))
+	accuracy_score: 1.0
+solution 241: (imageContains some WN_Cabinet) and (imageContains some (Snow or Worksurface))
+	accuracy_score: 1.0
+solution 242: (imageContains some WN_Cabinet) and (imageContains some (Sofa or WN_Worksurface))
+	accuracy_score: 1.0
+solution 243: (imageContains some WN_Cabinet) and (imageContains some (Sofa or Worksurface))
+	accuracy_score: 1.0
+solution 244: (imageContains some WN_Cabinet) and (imageContains some (Stool or WN_Microwave))
+	accuracy_score: 1.0
+solution 245: (imageContains some WN_Cabinet) and (imageContains some (Stool or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 246: (imageContains some WN_Cabinet) and (imageContains some (Stool or WN_Worksurface))
+	accuracy_score: 1.0
+solution 247: (imageContains some WN_Cabinet) and (imageContains some (Stool or Worksurface))
+	accuracy_score: 1.0
+solution 248: (imageContains some WN_Cabinet) and (imageContains some (Stove or WN_Worksurface))
+	accuracy_score: 1.0
+solution 249: (imageContains some WN_Cabinet) and (imageContains some (Stove or Worksurface))
+	accuracy_score: 1.0
+solution 250: (imageContains some WN_Cabinet) and (imageContains some (Substance or WN_Worksurface))
+	accuracy_score: 1.0
+solution 251: (imageContains some WN_Cabinet) and (imageContains some (Substance or Worksurface))
+	accuracy_score: 1.0
+solution 252: (imageContains some WN_Cabinet) and (imageContains some (Tapestry or WN_Worksurface))
+	accuracy_score: 1.0
+solution 253: (imageContains some WN_Cabinet) and (imageContains some (Tapestry or Worksurface))
+	accuracy_score: 1.0
+solution 254: (imageContains some WN_Cabinet) and (imageContains some (Teacup or WN_Worksurface))
+	accuracy_score: 1.0
+solution 255: (imageContains some WN_Cabinet) and (imageContains some (Teacup or Worksurface))
+	accuracy_score: 1.0
+solution 256: (imageContains some WN_Cabinet) and (imageContains some (TelephonyDevice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 257: (imageContains some WN_Cabinet) and (imageContains some (TelephonyDevice or Worksurface))
+	accuracy_score: 1.0
+solution 258: (imageContains some WN_Cabinet) and (imageContains some (Transitway or WN_Worksurface))
+	accuracy_score: 1.0
+solution 259: (imageContains some WN_Cabinet) and (imageContains some (Transitway or Worksurface))
+	accuracy_score: 1.0
+solution 260: (imageContains some WN_Cabinet) and (imageContains some (TransitwayObstacle or WN_Worksurface))
+	accuracy_score: 1.0
+solution 261: (imageContains some WN_Cabinet) and (imageContains some (TransitwayObstacle or Worksurface))
+	accuracy_score: 1.0
+solution 262: (imageContains some WN_Cabinet) and (imageContains some (TransportationDevice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 263: (imageContains some WN_Cabinet) and (imageContains some (TransportationDevice or Worksurface))
+	accuracy_score: 1.0
+solution 264: (imageContains some WN_Cabinet) and (imageContains some (TransportationEquipment or WN_Worksurface))
+	accuracy_score: 1.0
+solution 265: (imageContains some WN_Cabinet) and (imageContains some (TransportationEquipment or Worksurface))
+	accuracy_score: 1.0
+solution 266: (imageContains some WN_Cabinet) and (imageContains some (Trashcan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 267: (imageContains some WN_Cabinet) and (imageContains some (Trashcan or Worksurface))
+	accuracy_score: 1.0
+solution 268: (imageContains some WN_Cabinet) and (imageContains some (Tray or WN_Worksurface))
+	accuracy_score: 1.0
+solution 269: (imageContains some WN_Cabinet) and (imageContains some (Tray or Worksurface))
+	accuracy_score: 1.0
+solution 270: (imageContains some WN_Cabinet) and (imageContains some (Tree or WN_Worksurface))
+	accuracy_score: 1.0
+solution 271: (imageContains some WN_Cabinet) and (imageContains some (Tree or Worksurface))
+	accuracy_score: 1.0
+solution 272: (imageContains some WN_Cabinet) and (imageContains some (Trees or WN_Worksurface))
+	accuracy_score: 1.0
+solution 273: (imageContains some WN_Cabinet) and (imageContains some (Trees or Worksurface))
+	accuracy_score: 1.0
+solution 274: (imageContains some WN_Cabinet) and (imageContains some (UplandArea or WN_Worksurface))
+	accuracy_score: 1.0
+solution 275: (imageContains some WN_Cabinet) and (imageContains some (UplandArea or Worksurface))
+	accuracy_score: 1.0
+solution 276: (imageContains some WN_Cabinet) and (imageContains some (Vehicle or WN_Worksurface))
+	accuracy_score: 1.0
+solution 277: (imageContains some WN_Cabinet) and (imageContains some (Vehicle or Worksurface))
+	accuracy_score: 1.0
+solution 278: (imageContains some WN_Cabinet) and (imageContains some (WN_Armchair or WN_Worksurface))
+	accuracy_score: 1.0
+solution 279: (imageContains some WN_Cabinet) and (imageContains some (WN_Armchair or Worksurface))
+	accuracy_score: 1.0
+solution 280: (imageContains some WN_Cabinet) and (imageContains some (WN_Ash-bin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 281: (imageContains some WN_Cabinet) and (imageContains some (WN_Ash-bin or Worksurface))
+	accuracy_score: 1.0
+solution 282: (imageContains some WN_Cabinet) and (imageContains some (WN_Ashbin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 283: (imageContains some WN_Cabinet) and (imageContains some (WN_Ashbin or Worksurface))
+	accuracy_score: 1.0
+solution 284: (imageContains some WN_Cabinet) and (imageContains some (WN_Ashcan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 285: (imageContains some WN_Cabinet) and (imageContains some (WN_Ashcan or Worksurface))
+	accuracy_score: 1.0
+solution 286: (imageContains some WN_Cabinet) and (imageContains some (WN_Ashtray or WN_Worksurface))
+	accuracy_score: 1.0
+solution 287: (imageContains some WN_Cabinet) and (imageContains some (WN_Ashtray or Worksurface))
+	accuracy_score: 1.0
+solution 288: (imageContains some WN_Cabinet) and (imageContains some (WN_Auto or WN_Worksurface))
+	accuracy_score: 1.0
+solution 289: (imageContains some WN_Cabinet) and (imageContains some (WN_Auto or Worksurface))
+	accuracy_score: 1.0
+solution 290: (imageContains some WN_Cabinet) and (imageContains some (WN_Automobile or WN_Worksurface))
+	accuracy_score: 1.0
+solution 291: (imageContains some WN_Cabinet) and (imageContains some (WN_Automobile or Worksurface))
+	accuracy_score: 1.0
+solution 292: (imageContains some WN_Cabinet) and (imageContains some (WN_Bath or WN_Worksurface))
+	accuracy_score: 1.0
+solution 293: (imageContains some WN_Cabinet) and (imageContains some (WN_Bath or Worksurface))
+	accuracy_score: 1.0
+solution 294: (imageContains some WN_Cabinet) and (imageContains some (WN_Bathingtub or WN_Worksurface))
+	accuracy_score: 1.0
+solution 295: (imageContains some WN_Cabinet) and (imageContains some (WN_Bathingtub or Worksurface))
+	accuracy_score: 1.0
+solution 296: (imageContains some WN_Cabinet) and (imageContains some (WN_Bathtub or WN_Worksurface))
+	accuracy_score: 1.0
+solution 297: (imageContains some WN_Cabinet) and (imageContains some (WN_Bathtub or Worksurface))
+	accuracy_score: 1.0
+solution 298: (imageContains some WN_Cabinet) and (imageContains some (WN_Blanket or WN_Microwave))
+	accuracy_score: 1.0
+solution 299: (imageContains some WN_Cabinet) and (imageContains some (WN_Blanket or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 300: (imageContains some WN_Cabinet) and (imageContains some (WN_Blanket or WN_Worksurface))
+	accuracy_score: 1.0
+solution 301: (imageContains some WN_Cabinet) and (imageContains some (WN_Blanket or Worksurface))
+	accuracy_score: 1.0
+solution 302: (imageContains some WN_Cabinet) and (imageContains some (WN_Boiler or WN_Worksurface))
+	accuracy_score: 1.0
+solution 303: (imageContains some WN_Cabinet) and (imageContains some (WN_Boiler or Worksurface))
+	accuracy_score: 1.0
+solution 304: (imageContains some WN_Cabinet) and (imageContains some (WN_Bowl or WN_Worksurface))
+	accuracy_score: 1.0
+solution 305: (imageContains some WN_Cabinet) and (imageContains some (WN_Bowl or Worksurface))
+	accuracy_score: 1.0
+solution 306: (imageContains some WN_Cabinet) and (imageContains some (WN_Building or WN_Worksurface))
+	accuracy_score: 1.0
+solution 307: (imageContains some WN_Cabinet) and (imageContains some (WN_Building or Worksurface))
+	accuracy_score: 1.0
+solution 308: (imageContains some WN_Cabinet) and (imageContains some (WN_Bureau or WN_Worksurface))
+	accuracy_score: 1.0
+solution 309: (imageContains some WN_Cabinet) and (imageContains some (WN_Bureau or Worksurface))
+	accuracy_score: 1.0
+solution 310: (imageContains some WN_Cabinet) and (imageContains some (WN_Candleholder or WN_Worksurface))
+	accuracy_score: 1.0
+solution 311: (imageContains some WN_Cabinet) and (imageContains some (WN_Candleholder or Worksurface))
+	accuracy_score: 1.0
+solution 312: (imageContains some WN_Cabinet) and (imageContains some (WN_Candlestick or WN_Worksurface))
+	accuracy_score: 1.0
+solution 313: (imageContains some WN_Cabinet) and (imageContains some (WN_Candlestick or Worksurface))
+	accuracy_score: 1.0
+solution 314: (imageContains some WN_Cabinet) and (imageContains some (WN_Car or WN_Worksurface))
+	accuracy_score: 1.0
+solution 315: (imageContains some WN_Cabinet) and (imageContains some (WN_Car or Worksurface))
+	accuracy_score: 1.0
+solution 316: (imageContains some WN_Cabinet) and (imageContains some (WN_Carpet or WN_Worksurface))
+	accuracy_score: 1.0
+solution 317: (imageContains some WN_Cabinet) and (imageContains some (WN_Carpet or Worksurface))
+	accuracy_score: 1.0
+solution 318: (imageContains some WN_Cabinet) and (imageContains some (WN_Carpeting or WN_Worksurface))
+	accuracy_score: 1.0
+solution 319: (imageContains some WN_Cabinet) and (imageContains some (WN_Carpeting or Worksurface))
+	accuracy_score: 1.0
+solution 320: (imageContains some WN_Cabinet) and (imageContains some (WN_Centralreservation or WN_Worksurface))
+	accuracy_score: 1.0
+solution 321: (imageContains some WN_Cabinet) and (imageContains some (WN_Centralreservation or Worksurface))
+	accuracy_score: 1.0
+solution 322: (imageContains some WN_Cabinet) and (imageContains some (WN_Chest or WN_Worksurface))
+	accuracy_score: 1.0
+solution 323: (imageContains some WN_Cabinet) and (imageContains some (WN_Chest or Worksurface))
+	accuracy_score: 1.0
+solution 324: (imageContains some WN_Cabinet) and (imageContains some (WN_Chestofdrawers or WN_Worksurface))
+	accuracy_score: 1.0
+solution 325: (imageContains some WN_Cabinet) and (imageContains some (WN_Chestofdrawers or Worksurface))
+	accuracy_score: 1.0
+solution 326: (imageContains some WN_Cabinet) and (imageContains some (WN_Closet or WN_Microwave))
+	accuracy_score: 1.0
+solution 327: (imageContains some WN_Cabinet) and (imageContains some (WN_Closet or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 328: (imageContains some WN_Cabinet) and (imageContains some (WN_Closet or WN_Worksurface))
+	accuracy_score: 1.0
+solution 329: (imageContains some WN_Cabinet) and (imageContains some (WN_Closet or Worksurface))
+	accuracy_score: 1.0
+solution 330: (imageContains some WN_Cabinet) and (imageContains some (WN_Cocktailtable or WN_Worksurface))
+	accuracy_score: 1.0
+solution 331: (imageContains some WN_Cabinet) and (imageContains some (WN_Cocktailtable or Worksurface))
+	accuracy_score: 1.0
+solution 332: (imageContains some WN_Cabinet) and (imageContains some (WN_Coffeetable or WN_Worksurface))
+	accuracy_score: 1.0
+solution 333: (imageContains some WN_Cabinet) and (imageContains some (WN_Coffeetable or Worksurface))
+	accuracy_score: 1.0
+solution 334: (imageContains some WN_Cabinet) and (imageContains some (WN_Cookingstove or WN_Worksurface))
+	accuracy_score: 1.0
+solution 335: (imageContains some WN_Cabinet) and (imageContains some (WN_Cookingstove or Worksurface))
+	accuracy_score: 1.0
+solution 336: (imageContains some WN_Cabinet) and (imageContains some (WN_Couch or WN_Worksurface))
+	accuracy_score: 1.0
+solution 337: (imageContains some WN_Cabinet) and (imageContains some (WN_Couch or Worksurface))
+	accuracy_score: 1.0
+solution 338: (imageContains some WN_Cabinet) and (imageContains some (WN_Countertop or WN_Worksurface))
+	accuracy_score: 1.0
+solution 339: (imageContains some WN_Cabinet) and (imageContains some (WN_Countertop or Worksurface))
+	accuracy_score: 1.0
+solution 340: (imageContains some WN_Cabinet) and (imageContains some (WN_Cover or WN_Microwave))
+	accuracy_score: 1.0
+solution 341: (imageContains some WN_Cabinet) and (imageContains some (WN_Cover or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 342: (imageContains some WN_Cabinet) and (imageContains some (WN_Cover or WN_Worksurface))
+	accuracy_score: 1.0
+solution 343: (imageContains some WN_Cabinet) and (imageContains some (WN_Cover or Worksurface))
+	accuracy_score: 1.0
+solution 344: (imageContains some WN_Cabinet) and (imageContains some (WN_Creamer or WN_Worksurface))
+	accuracy_score: 1.0
+solution 345: (imageContains some WN_Cabinet) and (imageContains some (WN_Creamer or Worksurface))
+	accuracy_score: 1.0
+solution 346: (imageContains some WN_Cabinet) and (imageContains some (WN_Cushion or WN_Worksurface))
+	accuracy_score: 1.0
+solution 347: (imageContains some WN_Cabinet) and (imageContains some (WN_Cushion or Worksurface))
+	accuracy_score: 1.0
+solution 348: (imageContains some WN_Cabinet) and (imageContains some (WN_Door or WN_Worksurface))
+	accuracy_score: 1.0
+solution 349: (imageContains some WN_Cabinet) and (imageContains some (WN_Door or Worksurface))
+	accuracy_score: 1.0
+solution 350: (imageContains some WN_Cabinet) and (imageContains some (WN_Doubledoor or WN_Worksurface))
+	accuracy_score: 1.0
+solution 351: (imageContains some WN_Cabinet) and (imageContains some (WN_Doubledoor or Worksurface))
+	accuracy_score: 1.0
+solution 352: (imageContains some WN_Cabinet) and (imageContains some (WN_Dresser or WN_Worksurface))
+	accuracy_score: 1.0
+solution 353: (imageContains some WN_Cabinet) and (imageContains some (WN_Dresser or Worksurface))
+	accuracy_score: 1.0
+solution 354: (imageContains some WN_Cabinet) and (imageContains some (WN_Drinkingglass or WN_Worksurface))
+	accuracy_score: 1.0
+solution 355: (imageContains some WN_Cabinet) and (imageContains some (WN_Drinkingglass or Worksurface))
+	accuracy_score: 1.0
+solution 356: (imageContains some WN_Cabinet) and (imageContains some (WN_Dustbin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 357: (imageContains some WN_Cabinet) and (imageContains some (WN_Dustbin or Worksurface))
+	accuracy_score: 1.0
+solution 358: (imageContains some WN_Cabinet) and (imageContains some (WN_Earth or WN_Worksurface))
+	accuracy_score: 1.0
+solution 359: (imageContains some WN_Cabinet) and (imageContains some (WN_Earth or Worksurface))
+	accuracy_score: 1.0
+solution 360: (imageContains some WN_Cabinet) and (imageContains some (WN_Edifice or WN_Worksurface))
+	accuracy_score: 1.0
+solution 361: (imageContains some WN_Cabinet) and (imageContains some (WN_Edifice or Worksurface))
+	accuracy_score: 1.0
+solution 362: (imageContains some WN_Cabinet) and (imageContains some (WN_Fan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 363: (imageContains some WN_Cabinet) and (imageContains some (WN_Fan or Worksurface))
+	accuracy_score: 1.0
+solution 364: (imageContains some WN_Cabinet) and (imageContains some (WN_Field or WN_Worksurface))
+	accuracy_score: 1.0
+solution 365: (imageContains some WN_Cabinet) and (imageContains some (WN_Field or Worksurface))
+	accuracy_score: 1.0
+solution 366: (imageContains some WN_Cabinet) and (imageContains some (WN_Firstfloor or WN_Worksurface))
+	accuracy_score: 1.0
+solution 367: (imageContains some WN_Cabinet) and (imageContains some (WN_Firstfloor or Worksurface))
+	accuracy_score: 1.0
+solution 368: (imageContains some WN_Cabinet) and (imageContains some (WN_Flora or WN_Worksurface))
+	accuracy_score: 1.0
+solution 369: (imageContains some WN_Cabinet) and (imageContains some (WN_Flora or Worksurface))
+	accuracy_score: 1.0
+solution 370: (imageContains some WN_Cabinet) and (imageContains some (WN_Fountain or WN_Worksurface))
+	accuracy_score: 1.0
+solution 371: (imageContains some WN_Cabinet) and (imageContains some (WN_Fountain or Worksurface))
+	accuracy_score: 1.0
+solution 372: (imageContains some WN_Cabinet) and (imageContains some (WN_Garbagecan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 373: (imageContains some WN_Cabinet) and (imageContains some (WN_Garbagecan or Worksurface))
+	accuracy_score: 1.0
+solution 374: (imageContains some WN_Cabinet) and (imageContains some (WN_Glass or WN_Worksurface))
+	accuracy_score: 1.0
+solution 375: (imageContains some WN_Cabinet) and (imageContains some (WN_Glass or Worksurface))
+	accuracy_score: 1.0
+solution 376: (imageContains some WN_Cabinet) and (imageContains some (WN_Grass or WN_Worksurface))
+	accuracy_score: 1.0
+solution 377: (imageContains some WN_Cabinet) and (imageContains some (WN_Grass or Worksurface))
+	accuracy_score: 1.0
+solution 378: (imageContains some WN_Cabinet) and (imageContains some (WN_Ground or WN_Worksurface))
+	accuracy_score: 1.0
+solution 379: (imageContains some WN_Cabinet) and (imageContains some (WN_Ground or Worksurface))
+	accuracy_score: 1.0
+solution 380: (imageContains some WN_Cabinet) and (imageContains some (WN_Icebox or WN_Microwave))
+	accuracy_score: 1.0
+solution 381: (imageContains some WN_Cabinet) and (imageContains some (WN_Icebox or WN_Microwaveoven))
+	accuracy_score: 1.0
+solution 382: (imageContains some WN_Cabinet) and (imageContains some (WN_Icebox or WN_Worksurface))
+	accuracy_score: 1.0
+solution 383: (imageContains some WN_Cabinet) and (imageContains some (WN_Icebox or Worksurface))
+	accuracy_score: 1.0
+solution 384: (imageContains some WN_Cabinet) and (imageContains some (WN_Kettle or WN_Worksurface))
+	accuracy_score: 1.0
+solution 385: (imageContains some WN_Cabinet) and (imageContains some (WN_Kettle or Worksurface))
+	accuracy_score: 1.0
+solution 386: (imageContains some WN_Cabinet) and (imageContains some (WN_Kitchenrange or WN_Worksurface))
+	accuracy_score: 1.0
+solution 387: (imageContains some WN_Cabinet) and (imageContains some (WN_Kitchenrange or Worksurface))
+	accuracy_score: 1.0
+solution 388: (imageContains some WN_Cabinet) and (imageContains some (WN_Kitchenstove or WN_Worksurface))
+	accuracy_score: 1.0
+solution 389: (imageContains some WN_Cabinet) and (imageContains some (WN_Kitchenstove or Worksurface))
+	accuracy_score: 1.0
+solution 390: (imageContains some WN_Cabinet) and (imageContains some (WN_Lounge or WN_Worksurface))
+	accuracy_score: 1.0
+solution 391: (imageContains some WN_Cabinet) and (imageContains some (WN_Lounge or Worksurface))
+	accuracy_score: 1.0
+solution 392: (imageContains some WN_Cabinet) and (imageContains some (WN_Machine or WN_Worksurface))
+	accuracy_score: 1.0
+solution 393: (imageContains some WN_Cabinet) and (imageContains some (WN_Machine or Worksurface))
+	accuracy_score: 1.0
+solution 394: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or WN_Press))
+	accuracy_score: 1.0
+solution 395: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or WN_Refrigerator))
+	accuracy_score: 1.0
+solution 396: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or WN_Stool))
+	accuracy_score: 1.0
+solution 397: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or WN_Wardrobe))
+	accuracy_score: 1.0
+solution 398: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or WN_Worksurface))
+	accuracy_score: 1.0
+solution 399: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or Wardrobe))
+	accuracy_score: 1.0
+solution 400: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwave or Worksurface))
+	accuracy_score: 1.0
+solution 401: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or WN_Press))
+	accuracy_score: 1.0
+solution 402: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or WN_Refrigerator))
+	accuracy_score: 1.0
+solution 403: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or WN_Stool))
+	accuracy_score: 1.0
+solution 404: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or WN_Wardrobe))
+	accuracy_score: 1.0
+solution 405: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or WN_Worksurface))
+	accuracy_score: 1.0
+solution 406: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or Wardrobe))
+	accuracy_score: 1.0
+solution 407: (imageContains some WN_Cabinet) and (imageContains some (WN_Microwaveoven or Worksurface))
+	accuracy_score: 1.0
+solution 408: (imageContains some WN_Cabinet) and (imageContains some (WN_Motorcar or WN_Worksurface))
+	accuracy_score: 1.0
+solution 409: (imageContains some WN_Cabinet) and (imageContains some (WN_Motorcar or Worksurface))
+	accuracy_score: 1.0
+solution 410: (imageContains some WN_Cabinet) and (imageContains some (WN_Mount or WN_Worksurface))
+	accuracy_score: 1.0
+solution 411: (imageContains some WN_Cabinet) and (imageContains some (WN_Mount or Worksurface))
+	accuracy_score: 1.0
+solution 412: (imageContains some WN_Cabinet) and (imageContains some (WN_Mountain or WN_Worksurface))
+	accuracy_score: 1.0
+solution 413: (imageContains some WN_Cabinet) and (imageContains some (WN_Mountain or Worksurface))
+	accuracy_score: 1.0
+solution 414: (imageContains some WN_Cabinet) and (imageContains some (WN_Oven or WN_Worksurface))
+	accuracy_score: 1.0
+solution 415: (imageContains some WN_Cabinet) and (imageContains some (WN_Oven or Worksurface))
+	accuracy_score: 1.0
+solution 416: (imageContains some WN_Cabinet) and (imageContains some (WN_Phone or WN_Worksurface))
+	accuracy_score: 1.0
+solution 417: (imageContains some WN_Cabinet) and (imageContains some (WN_Phone or Worksurface))
+	accuracy_score: 1.0
+solution 418: (imageContains some WN_Cabinet) and (imageContains some (WN_Placemat or WN_Worksurface))
+	accuracy_score: 1.0
+solution 419: (imageContains some WN_Cabinet) and (imageContains some (WN_Placemat or Worksurface))
+	accuracy_score: 1.0
+solution 420: (imageContains some WN_Cabinet) and (imageContains some (WN_Plant or WN_Worksurface))
+	accuracy_score: 1.0
+solution 421: (imageContains some WN_Cabinet) and (imageContains some (WN_Plant or Worksurface))
+	accuracy_score: 1.0
+solution 422: (imageContains some WN_Cabinet) and (imageContains some (WN_Plantlife or WN_Worksurface))
+	accuracy_score: 1.0
+solution 423: (imageContains some WN_Cabinet) and (imageContains some (WN_Plantlife or Worksurface))
+	accuracy_score: 1.0
+solution 424: (imageContains some WN_Cabinet) and (imageContains some (WN_Plate or WN_Worksurface))
+	accuracy_score: 1.0
+solution 425: (imageContains some WN_Cabinet) and (imageContains some (WN_Plate or Worksurface))
+	accuracy_score: 1.0
+solution 426: (imageContains some WN_Cabinet) and (imageContains some (WN_Press or WN_Worksurface))
+	accuracy_score: 1.0
+solution 427: (imageContains some WN_Cabinet) and (imageContains some (WN_Press or Worksurface))
+	accuracy_score: 1.0
+solution 428: (imageContains some WN_Cabinet) and (imageContains some (WN_Projectionscreen or WN_Worksurface))
+	accuracy_score: 1.0
+solution 429: (imageContains some WN_Cabinet) and (imageContains some (WN_Projectionscreen or Worksurface))
+	accuracy_score: 1.0
+solution 430: (imageContains some WN_Cabinet) and (imageContains some (WN_Radiator or WN_Worksurface))
+	accuracy_score: 1.0
+solution 431: (imageContains some WN_Cabinet) and (imageContains some (WN_Radiator or Worksurface))
+	accuracy_score: 1.0
+solution 432: (imageContains some WN_Cabinet) and (imageContains some (WN_Range or WN_Worksurface))
+	accuracy_score: 1.0
+solution 433: (imageContains some WN_Cabinet) and (imageContains some (WN_Range or Worksurface))
+	accuracy_score: 1.0
+solution 434: (imageContains some WN_Cabinet) and (imageContains some (WN_Refrigerator or WN_Worksurface))
+	accuracy_score: 1.0
+solution 435: (imageContains some WN_Cabinet) and (imageContains some (WN_Refrigerator or Worksurface))
+	accuracy_score: 1.0
+solution 436: (imageContains some WN_Cabinet) and (imageContains some (WN_Road or WN_Worksurface))
+	accuracy_score: 1.0
+solution 437: (imageContains some WN_Cabinet) and (imageContains some (WN_Road or Worksurface))
+	accuracy_score: 1.0
+solution 438: (imageContains some WN_Cabinet) and (imageContains some (WN_Route or WN_Worksurface))
+	accuracy_score: 1.0
+solution 439: (imageContains some WN_Cabinet) and (imageContains some (WN_Route or Worksurface))
+	accuracy_score: 1.0
+solution 440: (imageContains some WN_Cabinet) and (imageContains some (WN_Rug or WN_Worksurface))
+	accuracy_score: 1.0
+solution 441: (imageContains some WN_Cabinet) and (imageContains some (WN_Rug or Worksurface))
+	accuracy_score: 1.0
+solution 442: (imageContains some WN_Cabinet) and (imageContains some (WN_Screen or WN_Worksurface))
+	accuracy_score: 1.0
+solution 443: (imageContains some WN_Cabinet) and (imageContains some (WN_Screen or Worksurface))
+	accuracy_score: 1.0
+solution 444: (imageContains some WN_Cabinet) and (imageContains some (WN_Sign or WN_Worksurface))
+	accuracy_score: 1.0
+solution 445: (imageContains some WN_Cabinet) and (imageContains some (WN_Sign or Worksurface))
+	accuracy_score: 1.0
+solution 446: (imageContains some WN_Cabinet) and (imageContains some (WN_Signboard or WN_Worksurface))
+	accuracy_score: 1.0
+solution 447: (imageContains some WN_Cabinet) and (imageContains some (WN_Signboard or Worksurface))
+	accuracy_score: 1.0
+solution 448: (imageContains some WN_Cabinet) and (imageContains some (WN_Silverscreen or WN_Worksurface))
+	accuracy_score: 1.0
+solution 449: (imageContains some WN_Cabinet) and (imageContains some (WN_Silverscreen or Worksurface))
+	accuracy_score: 1.0
+solution 450: (imageContains some WN_Cabinet) and (imageContains some (WN_Sink or WN_Worksurface))
+	accuracy_score: 1.0
+solution 451: (imageContains some WN_Cabinet) and (imageContains some (WN_Sink or Worksurface))
+	accuracy_score: 1.0
+solution 452: (imageContains some WN_Cabinet) and (imageContains some (WN_Sky or WN_Worksurface))
+	accuracy_score: 1.0
+solution 453: (imageContains some WN_Cabinet) and (imageContains some (WN_Sky or Worksurface))
+	accuracy_score: 1.0
+solution 454: (imageContains some WN_Cabinet) and (imageContains some (WN_Snow or WN_Worksurface))
+	accuracy_score: 1.0
+solution 455: (imageContains some WN_Cabinet) and (imageContains some (WN_Snow or Worksurface))
+	accuracy_score: 1.0
+solution 456: (imageContains some WN_Cabinet) and (imageContains some (WN_Sofa or WN_Worksurface))
+	accuracy_score: 1.0
+solution 457: (imageContains some WN_Cabinet) and (imageContains some (WN_Sofa or Worksurface))
+	accuracy_score: 1.0
+solution 458: (imageContains some WN_Cabinet) and (imageContains some (WN_Stool or WN_Worksurface))
+	accuracy_score: 1.0
+solution 459: (imageContains some WN_Cabinet) and (imageContains some (WN_Stool or Worksurface))
+	accuracy_score: 1.0
+solution 460: (imageContains some WN_Cabinet) and (imageContains some (WN_Stove or WN_Worksurface))
+	accuracy_score: 1.0
+solution 461: (imageContains some WN_Cabinet) and (imageContains some (WN_Stove or Worksurface))
+	accuracy_score: 1.0
+solution 462: (imageContains some WN_Cabinet) and (imageContains some (WN_Tapestry or WN_Worksurface))
+	accuracy_score: 1.0
+solution 463: (imageContains some WN_Cabinet) and (imageContains some (WN_Tapestry or Worksurface))
+	accuracy_score: 1.0
+solution 464: (imageContains some WN_Cabinet) and (imageContains some (WN_Tapis or WN_Worksurface))
+	accuracy_score: 1.0
+solution 465: (imageContains some WN_Cabinet) and (imageContains some (WN_Tapis or Worksurface))
+	accuracy_score: 1.0
+solution 466: (imageContains some WN_Cabinet) and (imageContains some (WN_Teacup or WN_Worksurface))
+	accuracy_score: 1.0
+solution 467: (imageContains some WN_Cabinet) and (imageContains some (WN_Teacup or Worksurface))
+	accuracy_score: 1.0
+solution 468: (imageContains some WN_Cabinet) and (imageContains some (WN_Telephone or WN_Worksurface))
+	accuracy_score: 1.0
+solution 469: (imageContains some WN_Cabinet) and (imageContains some (WN_Telephone or Worksurface))
+	accuracy_score: 1.0
+solution 470: (imageContains some WN_Cabinet) and (imageContains some (WN_Telephoneset or WN_Worksurface))
+	accuracy_score: 1.0
+solution 471: (imageContains some WN_Cabinet) and (imageContains some (WN_Telephoneset or Worksurface))
+	accuracy_score: 1.0
+solution 472: (imageContains some WN_Cabinet) and (imageContains some (WN_Trashbarrel or WN_Worksurface))
+	accuracy_score: 1.0
+solution 473: (imageContains some WN_Cabinet) and (imageContains some (WN_Trashbarrel or Worksurface))
+	accuracy_score: 1.0
+solution 474: (imageContains some WN_Cabinet) and (imageContains some (WN_Trashbin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 475: (imageContains some WN_Cabinet) and (imageContains some (WN_Trashbin or Worksurface))
+	accuracy_score: 1.0
+solution 476: (imageContains some WN_Cabinet) and (imageContains some (WN_Trashcan or WN_Worksurface))
+	accuracy_score: 1.0
+solution 477: (imageContains some WN_Cabinet) and (imageContains some (WN_Trashcan or Worksurface))
+	accuracy_score: 1.0
+solution 478: (imageContains some WN_Cabinet) and (imageContains some (WN_Tray or WN_Worksurface))
+	accuracy_score: 1.0
+solution 479: (imageContains some WN_Cabinet) and (imageContains some (WN_Tray or Worksurface))
+	accuracy_score: 1.0
+solution 480: (imageContains some WN_Cabinet) and (imageContains some (WN_Tree or WN_Worksurface))
+	accuracy_score: 1.0
+solution 481: (imageContains some WN_Cabinet) and (imageContains some (WN_Tree or Worksurface))
+	accuracy_score: 1.0
+solution 482: (imageContains some WN_Cabinet) and (imageContains some (WN_Tub or WN_Worksurface))
+	accuracy_score: 1.0
+solution 483: (imageContains some WN_Cabinet) and (imageContains some (WN_Tub or Worksurface))
+	accuracy_score: 1.0
+solution 484: (imageContains some WN_Cabinet) and (imageContains some (WN_Wardrobe or WN_Worksurface))
+	accuracy_score: 1.0
+solution 485: (imageContains some WN_Cabinet) and (imageContains some (WN_Wardrobe or Worksurface))
+	accuracy_score: 1.0
+solution 486: (imageContains some WN_Cabinet) and (imageContains some (WN_Wastebin or WN_Worksurface))
+	accuracy_score: 1.0
+solution 487: (imageContains some WN_Cabinet) and (imageContains some (WN_Wastebin or Worksurface))
+	accuracy_score: 1.0
+solution 488: (imageContains some WN_Cabinet) and (imageContains some (WN_Worksurface or Wardrobe))
+	accuracy_score: 1.0
+solution 489: (imageContains some WN_Cabinet) and (imageContains some (WN_Worksurface or Worksurface))
+	accuracy_score: 1.0
+solution 490: (imageContains some WN_Cabinet) and (imageContains some (WN_Worksurface or telephone))
+	accuracy_score: 1.0
+solution 491: (imageContains some WN_Cabinet) and (imageContains some (Wardrobe or Worksurface))
+	accuracy_score: 1.0
+solution 492: (imageContains some WN_Cabinet) and (imageContains some (Worksurface or telephone))
+	accuracy_score: 1.0
+solution 493: (imageContains some WN_Worksurface) and (imageContains some (Cabinet and WN_Cabinet))
+	accuracy_score: 1.0
+solution 494: (imageContains some Worksurface) and (imageContains some (Cabinet and WN_Cabinet))
+	accuracy_score: 1.0
+solution 495: (imageContains some Cabinet) and (imageContains some WN_Worksurface)
+	accuracy_score: 1.0
+solution 496: (imageContains some Cabinet) and (imageContains some Worksurface)
+	accuracy_score: 1.0
+solution 497: (imageContains some WN_Cabinet) and (imageContains some WN_Worksurface)
+	accuracy_score: 1.0
+solution 498: (imageContains some WN_Cabinet) and (imageContains some Worksurface)
+	accuracy_score: 1.0
+solution 499: imageContains some WN_Worksurface
+	accuracy_score: 1.0
+solution 500: imageContains some Worksurface
+	accuracy_score: 1.0
+
+Total solutions found: 500Program ends at: 06.08.2018  19.38.53 PMProgram duration: 622 sec

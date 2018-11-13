@@ -1,0 +1,57 @@
+// declare some prefixes to use as abbreviations
+prefixes = [ ("ex","http://www.daselab.org/ontologies/ADE20K/hcbdwsu#") ]
+
+// knowledge source definition
+ks.type = "OWL File"
+ks.fileName = "sumo_aligned_without_score_minimal.owl"
+ks.reasoningString = "rule"
+
+// object properties
+objectProperties={":imageContains"}
+
+// reasoner
+//reasoner.type = "closed world reasoner"
+//reasoner.sources = { ks }
+
+// modified owlapi reasoner
+reasoner.type = "oar"
+reasoner.sources = { ks }
+reasoner.reasonerImplementation = "hermit"
+
+// learning problem
+lp.type = "posNegStandard"
+//lp.type = "posonlylp"
+lp.positiveExamples = {"ex:hotel_room_ADE_train_00009520","ex:hotel_room_ADE_train_00009521","ex:hotel_room_ADE_train_00009522","ex:hotel_room_ADE_train_00009523","ex:hotel_room_ADE_train_00009524" }
+
+lp.negativeExamples = { "ex:airport_terminal_ADE_train_00000001","ex:bathroom_ADE_train_00000006","ex:bedroom_ADE_train_00000192","ex:building_facade_ADE_train_00004593","ex:conference_room_ADE_train_00000570","ex:corridor_ADE_train_00000574","ex:dining_room_ADE_train_00006845","ex:highway_ADE_train_00008988","ex:kitchen_ADE_train_00000594","ex:living_room_ADE_train_00000651","ex:mountain_snowy_ADE_train_00000932","ex:office_ADE_train_00000933","ex:street_ADE_train_00016858", "ex:skyscraper_ADE_train_00000954"}
+
+
+// learning algorithm
+// create learning algorithm to run
+la.type = "celoe"
+la.maxNrOfResults = 1000
+la.maxExecutionTimeInSeconds = 300
+
+DL-Learner command line interface
+Initializing component 'ks' of type OWL File ...
+... initialized component 'ks' in 0ms. Status: OK
+Initializing component 'reasoner' of type OWL API Reasoner ...
+OntologyID(OntologyIRI(<http://www.daselab.org/ontologies/ADE20K/hcbdwsu#>) VersionIRI(<null>))
+Loaded reasoner: null (org.semanticweb.HermiT.Reasoner)
+... initialized component 'reasoner' in 8s 812ms. Status: OK
+Initializing component 'lp' of type PosNegLPStandard ...
+... initialized component 'lp' in 0ms. Status: OK
+Initializing component 'la' of type CELOE ...
+... initialized component 'la' in 70s 505ms. Status: OK
+Running algorithm instance "la" (CELOE)
+start class:Thing
+more accurate (26.32%) class expression found after 28ms: Thing
+Algorithm terminated successfully (time: 368s 806ms, 318 descriptions tested, 1 nodes in the search tree).
+
+number of retrievals: 319
+retrieval reasoning time: 368s 705ms ( 1s 155ms per retrieval)
+overall reasoning time: 369s 877ms
+
+solutions:
+1: Thing (pred. acc.: 26.32%, F-measure: 41.67%)
+
